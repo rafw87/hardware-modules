@@ -23,6 +23,8 @@ F 0 "U6" H 4900 4950 50  0000 C CNN
 F 1 "CP2102N-A01-GQFN28" H 5900 2350 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 5800 2500 50  0001 L CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 5400 2950 50  0001 C CNN
+F 4 "tme.eu" H 5350 3700 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/cp2102-gm/uklady-scalone-interfejs-usb/silicon-labs/cp2102-gmr/" H 5350 3700 50  0001 C CNN "VendorLink"
 	1    5350 3700
 	1    0    0    -1  
 $EndComp
@@ -332,6 +334,8 @@ F 0 "U5" H 2700 3550 50  0000 C CNN
 F 1 "USBLC6-2SC6" H 2150 2800 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2450 2700 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 2650 3550 50  0001 C CNN
+F 4 "tme.eu" H 2450 3200 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/usblc6-2sc6/diody-zabezpieczajace-drabinki/stmicroelectronics/" H 2450 3200 50  0001 C CNN "VendorLink"
 	1    2450 3200
 	-1   0    0    -1  
 $EndComp
