@@ -285,8 +285,6 @@ Wire Wire Line
 	1800 4000 1800 3850
 Wire Wire Line
 	4150 2200 3900 2200
-Text HLabel 3050 2450 2    50   Output ~ 0
-VBUS
 Text Label 2850 2450 2    50   ~ 0
 VBUS
 Text Label 3900 2200 0    50   ~ 0
@@ -317,7 +315,7 @@ Wire Wire Line
 	2450 2800 2450 2450
 Connection ~ 2450 2450
 Wire Wire Line
-	2450 2450 3050 2450
+	2450 2450 2850 2450
 Wire Wire Line
 	1550 3850 1800 3850
 Connection ~ 1550 3850
@@ -365,4 +363,27 @@ Wire Wire Line
 	4150 1850 5350 1850
 Wire Wire Line
 	5350 1850 5350 2300
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FB2216A
+P 3000 5850
+AR Path="/5FB2216A" Ref="D?"  Part="1" 
+AR Path="/5FF6344B/5FB2216A" Ref="D?"  Part="1" 
+F 0 "D?" H 3000 5600 50  0000 C CNN
+F 1 "STPS0520Z" H 3000 5700 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3000 5850 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stps0520z.pdf" H 3000 5850 50  0001 C CNN
+F 4 "tme.eu" H 3000 5850 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/stps0520z/diody-schottky-smd/stmicroelectronics/" H 3000 5850 50  0001 C CNN "VendorLink"
+	1    3000 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 5850 3650 5850
+Wire Wire Line
+	2200 5850 2850 5850
+Text HLabel 3650 5850 2    50   UnSpc ~ 0
++5V
+Text Label 2200 5850 0    50   ~ 0
+VBUS
 $EndSCHEMATC
