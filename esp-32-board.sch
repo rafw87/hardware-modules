@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RF_Module:ESP32-WROOM-32 U3
+L RF_Module:ESP32-WROOM-32 U1
 U 1 1 5FAC1593
 P 2500 2400
-F 0 "U3" H 2000 3800 50  0000 C CNN
+F 0 "U1" H 2000 3800 50  0000 C CNN
 F 1 "ESP32-WROOM-32" H 3100 3800 50  0000 C CNN
 F 2 "RF_Module:ESP32-WROOM-32" H 2500 900 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 2200 2450 50  0001 C CNN
@@ -25,54 +25,62 @@ F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L Device:C C1
 U 1 1 5FAC9814
 P 1050 4850
-F 0 "C3" H 900 4950 50  0000 L CNN
-F 1 "C" H 900 4750 50  0000 L CNN
+F 0 "C1" H 900 4950 50  0000 L CNN
+F 1 "4.7uF" H 800 4750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1088 4700 50  0001 C CNN
 F 3 "~" H 1050 4850 50  0001 C CNN
+F 4 "avt.pl" H 1050 4850 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 1050 4850 50  0001 C CNN "VendorLink"
 	1    1050 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L Device:C C3
 U 1 1 5FAC9D96
 P 2350 5000
-F 0 "C5" V 2500 5000 50  0000 L CNN
-F 1 "C" V 2200 5050 50  0000 L CNN
+F 0 "C3" V 2200 5050 50  0000 L CNN
+F 1 "100nF" V 2200 4700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2388 4850 50  0001 C CNN
 F 3 "~" H 2350 5000 50  0001 C CNN
+F 4 "avt.pl" H 2350 5000 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 2350 5000 50  0001 C CNN "VendorLink"
 	1    2350 5000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C6
+L Device:C C4
 U 1 1 5FACA76A
 P 3500 5050
-F 0 "C6" V 3650 5050 50  0000 L CNN
-F 1 "C" V 3350 5100 50  0000 L CNN
+F 0 "C4" V 3350 5100 50  0000 L CNN
+F 1 "100nF" V 3350 4750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3538 4900 50  0001 C CNN
 F 3 "~" H 3500 5050 50  0001 C CNN
+F 4 "avt.pl" H 3500 5050 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 3500 5050 50  0001 C CNN "VendorLink"
 	1    3500 5050
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C4
+L Device:C C2
 U 1 1 5FACAC23
 P 1350 4850
-F 0 "C4" H 1400 4950 50  0000 L CNN
-F 1 "C" H 1450 4750 50  0000 L CNN
+F 0 "C2" H 1400 4950 50  0000 L CNN
+F 1 "100nF" H 1450 4750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1388 4700 50  0001 C CNN
 F 3 "~" H 1350 4850 50  0001 C CNN
+F 4 "avt.pl" H 1350 4850 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 1350 4850 50  0001 C CNN "VendorLink"
 	1    1350 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW1
+L Switch:SW_Push SW2
 U 1 1 5FB57488
 P 2350 4650
-F 0 "SW1" H 2350 4900 50  0000 C CNN
+F 0 "SW2" H 2350 4900 50  0000 C CNN
 F 1 "SW_Push" H 2350 4800 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 2350 4850 50  0001 C CNN
 F 3 "~" H 2350 4850 50  0001 C CNN
@@ -80,10 +88,10 @@ F 3 "~" H 2350 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW2
+L Switch:SW_Push SW1
 U 1 1 5FB585EB
 P 3500 4700
-F 0 "SW2" H 3500 5000 50  0000 C CNN
+F 0 "SW1" H 3500 5000 50  0000 C CNN
 F 1 "SW_Push" H 3500 4900 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 3500 4900 50  0001 C CNN
 F 3 "~" H 3500 4900 50  0001 C CNN
@@ -127,10 +135,10 @@ Wire Wire Line
 	2600 4650 3000 4650
 Connection ~ 2600 4650
 $Comp
-L power:GND #PWR0109
+L power:GND #PWR03
 U 1 1 5FB79B18
 P 2100 5100
-F 0 "#PWR0109" H 2100 4850 50  0001 C CNN
+F 0 "#PWR03" H 2100 4850 50  0001 C CNN
 F 1 "GND" H 2150 4900 50  0000 C CNN
 F 2 "" H 2100 5100 50  0001 C CNN
 F 3 "" H 2100 5100 50  0001 C CNN
@@ -138,10 +146,10 @@ F 3 "" H 2100 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0110
+L power:GND #PWR07
 U 1 1 5FB79E8F
 P 3250 5150
-F 0 "#PWR0110" H 3250 4900 50  0001 C CNN
+F 0 "#PWR07" H 3250 4900 50  0001 C CNN
 F 1 "GND" H 3300 4950 50  0000 C CNN
 F 2 "" H 3250 5150 50  0001 C CNN
 F 3 "" H 3250 5150 50  0001 C CNN
@@ -153,10 +161,10 @@ IO0
 Text Label 4150 4700 2    50   ~ 0
 EN
 $Comp
-L power:+3.3V #PWR0112
+L power:+3.3V #PWR01
 U 1 1 5FB89A47
 P 1200 4500
-F 0 "#PWR0112" H 1200 4350 50  0001 C CNN
+F 0 "#PWR01" H 1200 4350 50  0001 C CNN
 F 1 "+3.3V" H 1250 4700 50  0000 C CNN
 F 2 "" H 1200 4500 50  0001 C CNN
 F 3 "" H 1200 4500 50  0001 C CNN
@@ -164,10 +172,10 @@ F 3 "" H 1200 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L power:GND #PWR02
 U 1 1 5FB89EEC
 P 1200 5200
-F 0 "#PWR0113" H 1200 4950 50  0001 C CNN
+F 0 "#PWR02" H 1200 4950 50  0001 C CNN
 F 1 "GND" H 1250 5000 50  0000 C CNN
 F 2 "" H 1200 5200 50  0001 C CNN
 F 3 "" H 1200 5200 50  0001 C CNN
@@ -227,10 +235,10 @@ Wire Wire Line
 Wire Wire Line
 	8150 2500 7600 2500
 $Comp
-L power:+3.3V #PWR0114
+L power:+3.3V #PWR017
 U 1 1 5FBA8DE3
 P 8300 2600
-F 0 "#PWR0114" H 8300 2450 50  0001 C CNN
+F 0 "#PWR017" H 8300 2450 50  0001 C CNN
 F 1 "+3.3V" H 8350 2800 50  0000 C CNN
 F 2 "" H 8300 2600 50  0001 C CNN
 F 3 "" H 8300 2600 50  0001 C CNN
@@ -260,10 +268,10 @@ SD3
 Text Label 9400 1800 0    50   ~ 0
 CMD
 $Comp
-L power:GND #PWR0116
+L power:GND #PWR016
 U 1 1 5FBE8B3A
 P 8300 1600
-F 0 "#PWR0116" H 8300 1350 50  0001 C CNN
+F 0 "#PWR016" H 8300 1350 50  0001 C CNN
 F 1 "GND" H 8350 1400 50  0000 C CNN
 F 2 "" H 8300 1600 50  0001 C CNN
 F 3 "" H 8300 1600 50  0001 C CNN
@@ -271,10 +279,10 @@ F 3 "" H 8300 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0117
+L power:GND #PWR012
 U 1 1 5FC02DF9
 P 6150 2900
-F 0 "#PWR0117" H 6150 2650 50  0001 C CNN
+F 0 "#PWR012" H 6150 2650 50  0001 C CNN
 F 1 "GND" H 6200 2700 50  0000 C CNN
 F 2 "" H 6150 2900 50  0001 C CNN
 F 3 "" H 6150 2900 50  0001 C CNN
@@ -476,10 +484,10 @@ IO34
 Text Label 3450 3500 2    50   ~ 0
 IO35
 $Comp
-L power:+3.3V #PWR0118
+L power:+3.3V #PWR04
 U 1 1 5FD02317
 P 2500 900
-F 0 "#PWR0118" H 2500 750 50  0001 C CNN
+F 0 "#PWR04" H 2500 750 50  0001 C CNN
 F 1 "+3.3V" H 2550 1100 50  0000 C CNN
 F 2 "" H 2500 900 50  0001 C CNN
 F 3 "" H 2500 900 50  0001 C CNN
@@ -489,10 +497,10 @@ $EndComp
 Wire Wire Line
 	2500 900  2500 1000
 $Comp
-L power:GND #PWR0119
+L power:GND #PWR05
 U 1 1 5FD0A5C7
 P 2500 3900
-F 0 "#PWR0119" H 2500 3650 50  0001 C CNN
+F 0 "#PWR05" H 2500 3650 50  0001 C CNN
 F 1 "GND" H 2550 3700 50  0000 C CNN
 F 2 "" H 2500 3900 50  0001 C CNN
 F 3 "" H 2500 3900 50  0001 C CNN
@@ -510,10 +518,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 1800 6250 1800
 $Comp
-L Connector:ESP-PROG-Program J4
+L Connector:ESP-PROG-Program J3
 U 1 1 5FECB5F0
 P 6350 4750
-F 0 "J4" H 5950 5250 50  0000 L CNN
+F 0 "J3" H 5950 5250 50  0000 L CNN
 F 1 "ESP-PROG-Program" H 6500 5250 50  0000 L CNN
 F 2 "Connector_IDC:IDC-Header_2x03_P1.27mm_Vertical_SMD" V 6100 4800 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 5075 4200 50  0001 C CNN
@@ -521,10 +529,10 @@ F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluat
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0121
+L power:+3.3V #PWR013
 U 1 1 5FECE446
 P 6250 4150
-F 0 "#PWR0121" H 6250 4000 50  0001 C CNN
+F 0 "#PWR013" H 6250 4000 50  0001 C CNN
 F 1 "+3.3V" H 6300 4350 50  0000 C CNN
 F 2 "" H 6250 4150 50  0001 C CNN
 F 3 "" H 6250 4150 50  0001 C CNN
@@ -532,10 +540,10 @@ F 3 "" H 6250 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0122
+L power:GND #PWR014
 U 1 1 5FECEB79
 P 6250 5300
-F 0 "#PWR0122" H 6250 5050 50  0001 C CNN
+F 0 "#PWR014" H 6250 5050 50  0001 C CNN
 F 1 "GND" H 6300 5100 50  0000 C CNN
 F 2 "" H 6250 5300 50  0001 C CNN
 F 3 "" H 6250 5300 50  0001 C CNN
@@ -563,10 +571,10 @@ Wire Wire Line
 Wire Wire Line
 	6250 5150 6250 5300
 $Comp
-L Connector:ESP-PROG-Debug J5
+L Connector:ESP-PROG-Debug J4
 U 1 1 5FF13734
 P 8900 4750
-F 0 "J5" H 8550 5250 50  0000 R CNN
+F 0 "J4" H 8550 5250 50  0000 R CNN
 F 1 "ESP-PROG-Debug" H 9650 5250 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P1.27mm_Vertical_SMD" V 8650 4800 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 7625 4200 50  0001 C CNN
@@ -574,10 +582,10 @@ F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluat
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0123
+L power:+3.3V #PWR018
 U 1 1 5FF28296
 P 8800 4150
-F 0 "#PWR0123" H 8800 4000 50  0001 C CNN
+F 0 "#PWR018" H 8800 4000 50  0001 C CNN
 F 1 "+3.3V" H 8850 4350 50  0000 C CNN
 F 2 "" H 8800 4150 50  0001 C CNN
 F 3 "" H 8800 4150 50  0001 C CNN
@@ -589,10 +597,10 @@ Wire Wire Line
 Wire Wire Line
 	8800 5150 8800 5300
 $Comp
-L power:GND #PWR0124
+L power:GND #PWR019
 U 1 1 5FF3AAA7
 P 8800 5300
-F 0 "#PWR0124" H 8800 5050 50  0001 C CNN
+F 0 "#PWR019" H 8800 5050 50  0001 C CNN
 F 1 "GND" H 8850 5100 50  0000 C CNN
 F 2 "" H 8800 5300 50  0001 C CNN
 F 3 "" H 8800 5300 50  0001 C CNN
@@ -640,13 +648,14 @@ Wire Wire Line
 Wire Wire Line
 	9300 4650 9550 4650
 $Comp
-L Connector:Conn_Arduino_UNO_R3 J2
+L Connector:Conn_Arduino_UNO_R3 J1
 U 1 1 600797C7
 P 7200 1900
-F 0 "J2" H 7200 3050 50  0000 C CNN
+F 0 "J1" H 7200 3050 50  0000 C CNN
 F 1 "Conn_Arduino_UNO_R3" H 7200 2950 50  0000 C CNN
 F 2 "Module:Arduino_UNO_R3_WithMountingHoles" H 7000 1400 50  0001 C CNN
 F 3 "~" H 7000 1400 50  0001 C CNN
+F 4 "N/A" H 7200 1900 50  0001 C CNN "Vendor"
 	1    7200 1900
 	1    0    0    -1  
 $EndComp
@@ -665,10 +674,10 @@ Wire Wire Line
 Wire Wire Line
 	8150 1100 7600 1100
 $Comp
-L power:+3.3V #PWR01
+L power:+3.3V #PWR011
 U 1 1 6028A651
 P 6150 1200
-F 0 "#PWR01" H 6150 1050 50  0001 C CNN
+F 0 "#PWR011" H 6150 1050 50  0001 C CNN
 F 1 "+3.3V" H 6200 1400 50  0000 C CNN
 F 2 "" H 6150 1200 50  0001 C CNN
 F 3 "" H 6150 1200 50  0001 C CNN
@@ -680,13 +689,14 @@ Wire Wire Line
 Wire Wire Line
 	6150 1400 6800 1400
 $Comp
-L Connector_Generic:Conn_01x06 J3
+L Connector_Generic:Conn_01x06 J2
 U 1 1 602A25F3
 P 9950 1800
-F 0 "J3" H 9950 2150 50  0000 C CNN
+F 0 "J2" H 9950 2150 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 9950 1350 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Left" H 9950 1800 50  0001 C CNN
 F 3 "~" H 9950 1800 50  0001 C CNN
+F 4 "N/A" H 9950 1800 50  0001 C CNN "Vendor"
 	1    9950 1800
 	1    0    0    -1  
 $EndComp
@@ -729,6 +739,8 @@ F 0 "RN1" V 9650 4500 50  0000 C CNN
 F 1 "100 Ohm" V 9650 5050 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 9620 4750 50  0001 C CNN
 F 3 "~" H 9700 4750 50  0001 C CNN
+F 4 "tme.eu" H 9700 4750 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/en/details/dr0804-100r-4_8/smd-resistor-networks/royal-ohm/4d02wgj0101t/" H 9700 4750 50  0001 C CNN "VendorLink"
 	1    9700 4750
 	0    1    1    0   
 $EndComp
@@ -740,6 +752,8 @@ F 0 "RN1" V 9650 4400 50  0000 C CNN
 F 1 "100 Ohm" V 9650 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 9620 4650 50  0001 C CNN
 F 3 "~" H 9700 4650 50  0001 C CNN
+F 4 "tme.eu" H 9700 4650 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/en/details/dr0804-100r-4_8/smd-resistor-networks/royal-ohm/4d02wgj0101t/" H 9700 4650 50  0001 C CNN "VendorLink"
 	2    9700 4650
 	0    1    1    0   
 $EndComp
@@ -751,6 +765,8 @@ F 0 "RN1" V 9650 4300 50  0000 C CNN
 F 1 "100 Ohm" V 9650 4850 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 9620 4550 50  0001 C CNN
 F 3 "~" H 9700 4550 50  0001 C CNN
+F 4 "tme.eu" H 9700 4550 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/en/details/dr0804-100r-4_8/smd-resistor-networks/royal-ohm/4d02wgj0101t/" H 9700 4550 50  0001 C CNN "VendorLink"
 	3    9700 4550
 	0    1    1    0   
 $EndComp
@@ -762,6 +778,8 @@ F 0 "RN1" V 9650 4600 50  0000 C CNN
 F 1 "100 Ohm" V 9650 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 9620 4850 50  0001 C CNN
 F 3 "~" H 9700 4850 50  0001 C CNN
+F 4 "tme.eu" H 9700 4850 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/en/details/dr0804-100r-4_8/smd-resistor-networks/royal-ohm/4d02wgj0101t/" H 9700 4850 50  0001 C CNN "VendorLink"
 	4    9700 4850
 	0    1    1    0   
 $EndComp
@@ -784,10 +802,10 @@ Wire Wire Line
 Wire Wire Line
 	4400 6550 4400 6250
 $Comp
-L power:+5V #PWR0105
+L power:+5V #PWR09
 U 1 1 5FC49320
 P 4650 6250
-F 0 "#PWR0105" H 4650 6100 50  0001 C CNN
+F 0 "#PWR09" H 4650 6100 50  0001 C CNN
 F 1 "+5V" H 4700 6450 50  0000 C CNN
 F 2 "" H 4650 6250 50  0001 C CNN
 F 3 "" H 4650 6250 50  0001 C CNN
@@ -795,10 +813,10 @@ F 3 "" H 4650 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDC #PWR0106
+L power:VDC #PWR08
 U 1 1 5FC5193D
 P 4400 6250
-F 0 "#PWR0106" H 4400 6150 50  0001 C CNN
+F 0 "#PWR08" H 4400 6150 50  0001 C CNN
 F 1 "VDC" H 4450 6450 50  0000 C CNN
 F 2 "" H 4400 6250 50  0001 C CNN
 F 3 "" H 4400 6250 50  0001 C CNN
@@ -806,10 +824,10 @@ F 3 "" H 4400 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VBUS #PWR0107
+L power:VBUS #PWR06
 U 1 1 5FC51FB0
 P 2800 6250
-F 0 "#PWR0107" H 2800 6100 50  0001 C CNN
+F 0 "#PWR06" H 2800 6100 50  0001 C CNN
 F 1 "VBUS" H 2850 6450 50  0000 C CNN
 F 2 "" H 2800 6250 50  0001 C CNN
 F 3 "" H 2800 6250 50  0001 C CNN
@@ -817,10 +835,10 @@ F 3 "" H 2800 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDC #PWR0108
+L power:VDC #PWR015
 U 1 1 5FD163B8
 P 8250 850
-F 0 "#PWR0108" H 8250 750 50  0001 C CNN
+F 0 "#PWR015" H 8250 750 50  0001 C CNN
 F 1 "VDC" H 8300 1050 50  0000 C CNN
 F 2 "" H 8250 850 50  0001 C CNN
 F 3 "" H 8250 850 50  0001 C CNN
@@ -836,10 +854,10 @@ Wire Wire Line
 Wire Wire Line
 	4900 6850 4900 6250
 $Comp
-L power:+3.3V #PWR0101
+L power:+3.3V #PWR010
 U 1 1 5FD54472
 P 4900 6250
-F 0 "#PWR0101" H 4900 6100 50  0001 C CNN
+F 0 "#PWR010" H 4900 6100 50  0001 C CNN
 F 1 "+3.3V" H 4950 6450 50  0000 C CNN
 F 2 "" H 4900 6250 50  0001 C CNN
 F 3 "" H 4900 6250 50  0001 C CNN

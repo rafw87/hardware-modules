@@ -18,8 +18,8 @@ L Connector:Barrel_Jack J?
 U 1 1 5FB78030
 P 1600 1400
 AR Path="/5FB78030" Ref="J?"  Part="1" 
-AR Path="/5FF6344B/5FB78030" Ref="J6"  Part="1" 
-F 0 "J6" H 1350 1150 50  0000 C CNN
+AR Path="/5FF6344B/5FB78030" Ref="J5"  Part="1" 
+F 0 "J5" H 1350 1150 50  0000 C CNN
 F 1 "Barrel_Jack_MountingPin" H 1550 1650 50  0000 C CNN
 F 2 "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal" H 1650 1360 50  0001 C CNN
 F 3 "~" H 1650 1360 50  0001 C CNN
@@ -46,9 +46,11 @@ P 2300 1300
 AR Path="/5FB7803E" Ref="D?"  Part="1" 
 AR Path="/5FF6344B/5FB7803E" Ref="D1"  Part="1" 
 F 0 "D1" H 2300 1050 50  0000 C CNN
-F 1 "D" H 2300 1150 50  0000 C CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2300 1300 50  0001 C CNN
-F 3 "~" H 2300 1300 50  0001 C CNN
+F 1 "M7" H 2300 1150 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 2300 1300 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/4a413fd76a83438d5e8f54eb6b2d20d6/m1.pdf" H 2300 1300 50  0001 C CNN
+F 4 "tme.eu" H 2300 1300 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/m7-dio/diody-uniwersalne-smd/diotec-semiconductor/m7/" H 2300 1300 50  0001 C CNN "VendorLink"
 	1    2300 1300
 	-1   0    0    1   
 $EndComp
@@ -62,10 +64,12 @@ U 1 1 5FB78047
 P 5850 1650
 AR Path="/5FB78047" Ref="C?"  Part="1" 
 AR Path="/5FF6344B/5FB78047" Ref="C7"  Part="1" 
-F 0 "C7" H 6000 1700 50  0000 L CNN
-F 1 "CP" H 6000 1650 50  0000 L CNN
+F 0 "C7" H 5600 1750 50  0000 L CNN
+F 1 "47uF" H 5550 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_5x5.9" H 5888 1500 50  0001 C CNN
 F 3 "~" H 5850 1650 50  0001 C CNN
+F 4 "tme.eu" H 5850 1650 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/ck1c476m05005vr/kondensatory-elektrolityczne-smd-105degc/samwha/" H 5850 1650 50  0001 C CNN "VendorLink"
 	1    5850 1650
 	1    0    0    -1  
 $EndComp
@@ -75,10 +79,12 @@ U 1 1 5FB7804D
 P 6650 1650
 AR Path="/5FB7804D" Ref="C?"  Part="1" 
 AR Path="/5FF6344B/5FB7804D" Ref="C8"  Part="1" 
-F 0 "C8" H 6800 1700 50  0000 L CNN
-F 1 "CP" H 6800 1650 50  0000 L CNN
+F 0 "C8" H 6750 1750 50  0000 L CNN
+F 1 "47uF" H 6750 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_5x5.9" H 6688 1500 50  0001 C CNN
 F 3 "~" H 6650 1650 50  0001 C CNN
+F 4 "tme.eu" H 6650 1650 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/ck1c476m05005vr/kondensatory-elektrolityczne-smd-105degc/samwha/" H 6650 1650 50  0001 C CNN "VendorLink"
 	1    6650 1650
 	1    0    0    -1  
 $EndComp
@@ -111,10 +117,12 @@ U 1 1 5FB78060
 P 7150 1650
 AR Path="/5FB78060" Ref="C?"  Part="1" 
 AR Path="/5FF6344B/5FB78060" Ref="C9"  Part="1" 
-F 0 "C9" H 7300 1700 50  0000 L CNN
-F 1 "C" H 7300 1650 50  0000 L CNN
+F 0 "C9" H 7250 1750 50  0000 L CNN
+F 1 "100nF" H 7250 1600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7188 1500 50  0001 C CNN
 F 3 "~" H 7150 1650 50  0001 C CNN
+F 4 "avt.pl" H 7150 1650 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 7150 1650 50  0001 C CNN "VendorLink"
 	1    7150 1650
 	1    0    0    -1  
 $EndComp
@@ -131,8 +139,8 @@ L power:GND #PWR?
 U 1 1 5FB78076
 P 2100 1850
 AR Path="/5FB78076" Ref="#PWR?"  Part="1" 
-AR Path="/5FF6344B/5FB78076" Ref="#PWR0111"  Part="1" 
-F 0 "#PWR0111" H 2100 1600 50  0001 C CNN
+AR Path="/5FF6344B/5FB78076" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 2100 1600 50  0001 C CNN
 F 1 "GND" H 2150 1650 50  0000 C CNN
 F 2 "" H 2100 1850 50  0001 C CNN
 F 3 "" H 2100 1850 50  0001 C CNN
@@ -144,8 +152,8 @@ L power:GND #PWR?
 U 1 1 5FB7807C
 P 6250 1950
 AR Path="/5FB7807C" Ref="#PWR?"  Part="1" 
-AR Path="/5FF6344B/5FB7807C" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 6250 1700 50  0001 C CNN
+AR Path="/5FF6344B/5FB7807C" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 6250 1700 50  0001 C CNN
 F 1 "GND" H 6300 1750 50  0000 C CNN
 F 2 "" H 6250 1950 50  0001 C CNN
 F 3 "" H 6250 1950 50  0001 C CNN
@@ -159,11 +167,13 @@ L Device:D_Schottky D?
 U 1 1 5FBD81C3
 P 2900 3700
 AR Path="/5FBD81C3" Ref="D?"  Part="1" 
-AR Path="/5FF6344B/5FBD81C3" Ref="D2"  Part="1" 
-F 0 "D2" H 2900 3450 50  0000 C CNN
-F 1 "D_Schottky" H 2900 3550 50  0000 C CNN
+AR Path="/5FF6344B/5FBD81C3" Ref="D3"  Part="1" 
+F 0 "D3" H 2900 3450 50  0000 C CNN
+F 1 "STPS0520Z" H 2900 3550 50  0000 C CNN
 F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 3700 50  0001 C CNN
-F 3 "~" H 2900 3700 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stps0520z.pdf" H 2900 3700 50  0001 C CNN
+F 4 "tme.eu" H 2900 3700 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/stps0520z/diody-schottky-smd/stmicroelectronics/" H 2900 3700 50  0001 C CNN "VendorLink"
 	1    2900 3700
 	-1   0    0    1   
 $EndComp
@@ -172,9 +182,9 @@ L Transistor_FET:AO3401A Q?
 U 1 1 5FBD81D8
 P 3350 3600
 AR Path="/5FBD81D8" Ref="Q?"  Part="1" 
-AR Path="/5FF6344B/5FBD81D8" Ref="Q3"  Part="1" 
-F 0 "Q3" V 3650 3600 50  0000 C CNN
-F 1 "AO3401A" V 3750 3600 50  0000 C CNN
+AR Path="/5FF6344B/5FBD81D8" Ref="Q1"  Part="1" 
+F 0 "Q1" V 3650 3600 50  0000 C CNN
+F 1 "?" V 3750 3600 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3550 3525 50  0001 L CIN
 F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 3350 3600 50  0001 L CNN
 	1    3350 3600
@@ -193,8 +203,8 @@ L Amplifier_Operational:LM358 U?
 U 1 1 5FBD81E2
 P 2900 3050
 AR Path="/5FBD81E2" Ref="U?"  Part="1" 
-AR Path="/5FF6344B/5FBD81E2" Ref="U5"  Part="1" 
-F 0 "U5" H 2900 3450 50  0000 C CNN
+AR Path="/5FF6344B/5FBD81E2" Ref="U2"  Part="1" 
+F 0 "U2" H 2900 3450 50  0000 C CNN
 F 1 "LM358" H 2900 3350 50  0000 C CNN
 F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 2900 3050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2900 3050 50  0001 C CNN
@@ -212,11 +222,13 @@ L Device:R R?
 U 1 1 5FBD81F1
 P 2250 2750
 AR Path="/5FBD81F1" Ref="R?"  Part="1" 
-AR Path="/5FF6344B/5FBD81F1" Ref="R5"  Part="1" 
-F 0 "R5" H 2050 2850 50  0000 L CNN
+AR Path="/5FF6344B/5FBD81F1" Ref="R1"  Part="1" 
+F 0 "R1" H 2050 2850 50  0000 L CNN
 F 1 "10k Ohm" H 1850 2750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2180 2750 50  0001 C CNN
 F 3 "~" H 2250 2750 50  0001 C CNN
+F 4 "avt.pl" H 2250 2750 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 2250 2750 50  0001 C CNN "VendorLink"
 	1    2250 2750
 	1    0    0    -1  
 $EndComp
@@ -225,11 +237,13 @@ L Device:R R?
 U 1 1 5FBD81F7
 P 2250 3150
 AR Path="/5FBD81F7" Ref="R?"  Part="1" 
-AR Path="/5FF6344B/5FBD81F7" Ref="R8"  Part="1" 
-F 0 "R8" H 2050 3200 50  0000 L CNN
+AR Path="/5FF6344B/5FBD81F7" Ref="R2"  Part="1" 
+F 0 "R2" H 2050 3200 50  0000 L CNN
 F 1 "10k Ohm" H 1850 3100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2180 3150 50  0001 C CNN
 F 3 "~" H 2250 3150 50  0001 C CNN
+F 4 "avt.pl" H 2250 3150 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 2250 3150 50  0001 C CNN "VendorLink"
 	1    2250 3150
 	1    0    0    -1  
 $EndComp
@@ -247,8 +261,8 @@ L power:GND #PWR?
 U 1 1 5FBD8203
 P 2250 3950
 AR Path="/5FBD8203" Ref="#PWR?"  Part="1" 
-AR Path="/5FF6344B/5FBD8203" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 2250 3700 50  0001 C CNN
+AR Path="/5FF6344B/5FBD8203" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 2250 3700 50  0001 C CNN
 F 1 "GND" H 2300 3750 50  0000 C CNN
 F 2 "" H 2250 3950 50  0001 C CNN
 F 3 "" H 2250 3950 50  0001 C CNN
@@ -262,8 +276,8 @@ L Amplifier_Operational:LM358 U?
 U 3 1 5FBD820A
 P 5050 3250
 AR Path="/5FBD820A" Ref="U?"  Part="3" 
-AR Path="/5FF6344B/5FBD820A" Ref="U5"  Part="3" 
-F 0 "U5" H 5050 3300 50  0000 L CNN
+AR Path="/5FF6344B/5FBD820A" Ref="U2"  Part="3" 
+F 0 "U2" H 5050 3300 50  0000 L CNN
 F 1 "LM358" H 5050 3250 50  0000 L CNN
 F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 5050 3250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5050 3250 50  0001 C CNN
@@ -275,8 +289,8 @@ L power:GND #PWR?
 U 1 1 5FBD8216
 P 4950 3950
 AR Path="/5FBD8216" Ref="#PWR?"  Part="1" 
-AR Path="/5FF6344B/5FBD8216" Ref="#PWR011"  Part="1" 
-F 0 "#PWR011" H 4950 3700 50  0001 C CNN
+AR Path="/5FF6344B/5FBD8216" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 4950 3700 50  0001 C CNN
 F 1 "GND" H 5000 3750 50  0000 C CNN
 F 2 "" H 4950 3950 50  0001 C CNN
 F 3 "" H 4950 3950 50  0001 C CNN
@@ -318,8 +332,8 @@ L Regulator_Linear:AMS1117-3.3 U?
 U 1 1 5FD3645F
 P 3550 5550
 AR Path="/5FD3645F" Ref="U?"  Part="1" 
-AR Path="/5FF6344B/5FD3645F" Ref="U1"  Part="1" 
-F 0 "U1" H 3550 5850 50  0000 C CNN
+AR Path="/5FF6344B/5FD3645F" Ref="U3"  Part="1" 
+F 0 "U3" H 3550 5850 50  0000 C CNN
 F 1 "AMS1117-3.3" H 3550 5750 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3550 5750 50  0001 C CNN
 F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3650 5300 50  0001 C CNN
@@ -331,11 +345,13 @@ L Device:LED D?
 U 1 1 5FD36465
 P 2800 6100
 AR Path="/5FD36465" Ref="D?"  Part="1" 
-AR Path="/5FF6344B/5FD36465" Ref="D3"  Part="1" 
-F 0 "D3" V 2800 6250 50  0000 C CNN
-F 1 "LED" V 2900 6250 50  0000 C CNN
+AR Path="/5FF6344B/5FD36465" Ref="D2"  Part="1" 
+F 0 "D2" V 2800 6250 50  0000 C CNN
+F 1 "RF-GSS150TS-BC" V 2900 6250 50  0000 C CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2800 6100 50  0001 C CNN
-F 3 "~" H 2800 6100 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/297bac1c849d293b517ecf72110c4a89/catalouge-REFOND.pdf" H 2800 6100 50  0001 C CNN
+F 4 "tme.eu" H 2800 6100 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/rf-gss150ts-bc/diody-led-smd-kolorowe/refond/" H 2800 6100 50  0001 C CNN "VendorLink"
 	1    2800 6100
 	0    -1   -1   0   
 $EndComp
@@ -344,11 +360,13 @@ L Device:C C?
 U 1 1 5FD3646B
 P 4250 5900
 AR Path="/5FD3646B" Ref="C?"  Part="1" 
-AR Path="/5FF6344B/5FD3646B" Ref="C2"  Part="1" 
-F 0 "C2" H 4450 5950 50  0000 L CNN
-F 1 "C" H 4450 5900 50  0000 L CNN
+AR Path="/5FF6344B/5FD3646B" Ref="C6"  Part="1" 
+F 0 "C6" H 4350 6000 50  0000 L CNN
+F 1 "22uF" H 4350 5800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4288 5750 50  0001 C CNN
 F 3 "~" H 4250 5900 50  0001 C CNN
+F 4 "tme.eu" H 4250 5900 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/cl21a226mqqnnng/kondensatory-mlcc-smd-0805/samsung/" H 4250 5900 50  0001 C CNN "VendorLink"
 	1    4250 5900
 	1    0    0    -1  
 $EndComp
@@ -357,11 +375,13 @@ L Device:C C?
 U 1 1 5FD36471
 P 3150 5900
 AR Path="/5FD36471" Ref="C?"  Part="1" 
-AR Path="/5FF6344B/5FD36471" Ref="C1"  Part="1" 
-F 0 "C1" H 3300 5950 50  0000 L CNN
-F 1 "C" H 3300 5900 50  0000 L CNN
+AR Path="/5FF6344B/5FD36471" Ref="C5"  Part="1" 
+F 0 "C5" H 3200 6000 50  0000 L CNN
+F 1 "22uF" H 3200 5800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3188 5750 50  0001 C CNN
 F 3 "~" H 3150 5900 50  0001 C CNN
+F 4 "tme.eu" H 3150 5900 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/cl21a226mqqnnng/kondensatory-mlcc-smd-0805/samsung/" H 3150 5900 50  0001 C CNN "VendorLink"
 	1    3150 5900
 	1    0    0    -1  
 $EndComp
@@ -370,8 +390,8 @@ L power:GND #PWR?
 U 1 1 5FD36483
 P 3550 6350
 AR Path="/5FD36483" Ref="#PWR?"  Part="1" 
-AR Path="/5FF6344B/5FD36483" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 3550 6100 50  0001 C CNN
+AR Path="/5FF6344B/5FD36483" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 3550 6100 50  0001 C CNN
 F 1 "GND" H 3600 6150 50  0000 C CNN
 F 2 "" H 3550 6350 50  0001 C CNN
 F 3 "" H 3550 6350 50  0001 C CNN
@@ -389,9 +409,11 @@ P 2800 5750
 AR Path="/5FD3648C" Ref="R?"  Part="1" 
 AR Path="/5FF6344B/5FD3648C" Ref="R3"  Part="1" 
 F 0 "R3" H 2650 5850 50  0000 L CNN
-F 1 "? Ohm" H 2500 5700 50  0000 L CNN
+F 1 "220 Ohm" H 2500 5700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2730 5750 50  0001 C CNN
 F 3 "~" H 2800 5750 50  0001 C CNN
+F 4 "avt.pl" H 2800 5750 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 2800 5750 50  0001 C CNN "VendorLink"
 	1    2800 5750
 	1    0    0    -1  
 $EndComp
