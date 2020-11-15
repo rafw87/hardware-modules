@@ -707,8 +707,8 @@ F0 "Power" 50
 F1 "power.sch" 50
 F2 "VIN" U R 4300 6550 50 
 F3 "+5V" U R 4300 6700 50 
-F5 "+3.3V" U R 4300 6850 50 
-F6 "Internal_3V3" U R 4300 7050 50 
+F4 "+3.3V" U R 4300 6850 50 
+F5 "Internal_3V3" U R 4300 7050 50 
 $EndSheet
 $Sheet
 S 1150 6400 1050 750 

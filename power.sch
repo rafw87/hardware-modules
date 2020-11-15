@@ -27,15 +27,17 @@ F 3 "~" H 1650 1360 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Regulator_Linear:MC33269DT−5.0 U?
+L Regulator_Linear:NCP1117-5.0_SOT223 U?
 U 1 1 5FB78036
 P 6250 1400
 AR Path="/5FB78036" Ref="U?"  Part="1" 
 AR Path="/5FF6344B/5FB78036" Ref="U4"  Part="1" 
 F 0 "U4" H 6250 1700 50  0000 C CNN
-F 1 "MC33269DT−5.0" H 6250 1600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 6250 1625 50  0001 C CIN
-F 3 "https://www.onsemi.com/pub/Collateral/MC33269-D.PDF" H 6250 1350 50  0001 C CNN
+F 1 "NCP1117ST50T3G" H 6250 1600 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6250 1625 50  0001 C CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF" H 6250 1350 50  0001 C CNN
+F 4 "tme.eu" H 6250 1400 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/ncp1117st50t3g/stabilizatory-napiecia-nieregulowane-ldo/on-semiconductor/" H 6250 1400 50  0001 C CNN "VendorLink"
 	1    6250 1400
 	1    0    0    -1  
 $EndComp
@@ -312,15 +314,17 @@ F 5 "https://www.tme.eu/pl/details/rf-gss150ts-bc/diody-led-smd-kolorowe/refond/
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Regulator_Linear:AMS1117-3.3 U?
+L Regulator_Linear:NCP1117-3.3_SOT223 U?
 U 1 1 5FD3645F
 P 3550 5550
 AR Path="/5FD3645F" Ref="U?"  Part="1" 
 AR Path="/5FF6344B/5FD3645F" Ref="U3"  Part="1" 
 F 0 "U3" H 3550 5850 50  0000 C CNN
-F 1 "AMS1117-3.3" H 3550 5750 50  0000 C CNN
+F 1 "NCP1117-3.3" H 3550 5750 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3550 5750 50  0001 C CNN
 F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3650 5300 50  0001 C CNN
+F 4 "tme.eu" H 3550 5550 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/ncp1117st33t3g/stabilizatory-napiecia-nieregulowane-ldo/on-semiconductor/" H 3550 5550 50  0001 C CNN "VendorLink"
 	1    3550 5550
 	1    0    0    -1  
 $EndComp
