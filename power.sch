@@ -176,47 +176,94 @@ Wire Wire Line
 	2100 1500 2100 1850
 Text HLabel 5350 1400 0    50   UnSpc ~ 0
 VIN
+Wire Wire Line
+	7800 5600 7900 5600
+Wire Wire Line
+	7300 5600 7400 5600
+Text HLabel 7300 5600 0    50   UnSpc ~ 0
+Internal_3V3
+Text HLabel 7900 5600 2    50   UnSpc ~ 0
++3.3V
 $Comp
-L Regulator_Linear:AMS1117-3.3 U?
-U 1 1 5FD3645F
-P 3550 5550
-AR Path="/5FD3645F" Ref="U?"  Part="1" 
-AR Path="/5FF6344B/5FD3645F" Ref="U3"  Part="1" 
-F 0 "U3" H 3550 5850 50  0000 C CNN
-F 1 "AMS1117-3.3" H 3550 5750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3550 5750 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3650 5300 50  0001 C CNN
-	1    3550 5550
+L Switch:SW_SPST SW3
+U 1 1 5FE84590
+P 7600 5600
+F 0 "SW3" H 7600 5850 50  0000 C CNN
+F 1 "SW_SPST" H 7600 5750 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin" H 7600 5600 50  0001 C CNN
+F 3 "~" H 7600 5600 50  0001 C CNN
+	1    7600 5600
 	1    0    0    -1  
 $EndComp
+Connection ~ 4250 5550
+Wire Wire Line
+	4250 5550 4800 5550
+Text HLabel 4800 5550 2    50   UnSpc ~ 0
+Internal_3V3
+Connection ~ 2800 5550
+Wire Wire Line
+	2300 5550 2800 5550
+Text HLabel 2300 5550 0    50   UnSpc ~ 0
++5V
+Wire Wire Line
+	3150 6300 3550 6300
+Connection ~ 3150 6300
+Wire Wire Line
+	3150 6050 3150 6300
+Wire Wire Line
+	3150 5550 3250 5550
+Connection ~ 3150 5550
+Wire Wire Line
+	3150 5750 3150 5550
+Wire Wire Line
+	4250 5750 4250 5550
+Wire Wire Line
+	4250 6300 4250 6050
+Wire Wire Line
+	3550 6300 4250 6300
+Wire Wire Line
+	3550 6300 3550 6350
+Connection ~ 3550 6300
+Wire Wire Line
+	2800 6300 3150 6300
+Wire Wire Line
+	2800 6250 2800 6300
+Wire Wire Line
+	2800 5900 2800 5950
+Wire Wire Line
+	2800 5550 2800 5600
+Wire Wire Line
+	3550 5850 3550 6300
 $Comp
-L Device:LED D?
-U 1 1 5FD36465
-P 2800 6100
-AR Path="/5FD36465" Ref="D?"  Part="1" 
-AR Path="/5FF6344B/5FD36465" Ref="D2"  Part="1" 
-F 0 "D2" V 2800 6250 50  0000 C CNN
-F 1 "RF-GSS150TS-BC" V 2900 6250 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2800 6100 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/297bac1c849d293b517ecf72110c4a89/catalouge-REFOND.pdf" H 2800 6100 50  0001 C CNN
-F 4 "tme.eu" H 2800 6100 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/rf-gss150ts-bc/diody-led-smd-kolorowe/refond/" H 2800 6100 50  0001 C CNN "VendorLink"
-	1    2800 6100
-	0    -1   -1   0   
+L Device:R R?
+U 1 1 5FD3648C
+P 2800 5750
+AR Path="/5FD3648C" Ref="R?"  Part="1" 
+AR Path="/5FF6344B/5FD3648C" Ref="R3"  Part="1" 
+F 0 "R3" H 2650 5850 50  0000 L CNN
+F 1 "220 Ohm" H 2500 5700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2730 5750 50  0001 C CNN
+F 3 "~" H 2800 5750 50  0001 C CNN
+F 4 "avt.pl" H 2800 5750 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 2800 5750 50  0001 C CNN "VendorLink"
+	1    2800 5750
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3850 5550 4250 5550
+Wire Wire Line
+	2800 5550 3150 5550
 $Comp
-L Device:C C?
-U 1 1 5FD3646B
-P 4250 5900
-AR Path="/5FD3646B" Ref="C?"  Part="1" 
-AR Path="/5FF6344B/5FD3646B" Ref="C6"  Part="1" 
-F 0 "C6" H 4350 6000 50  0000 L CNN
-F 1 "22uF" H 4350 5800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4288 5750 50  0001 C CNN
-F 3 "~" H 4250 5900 50  0001 C CNN
-F 4 "tme.eu" H 4250 5900 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/cl21a226mqqnnng/kondensatory-mlcc-smd-0805/samsung/" H 4250 5900 50  0001 C CNN "VendorLink"
-	1    4250 5900
+L power:GND #PWR?
+U 1 1 5FD36483
+P 3550 6350
+AR Path="/5FD36483" Ref="#PWR?"  Part="1" 
+AR Path="/5FF6344B/5FD36483" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 3550 6100 50  0001 C CNN
+F 1 "GND" H 3600 6150 50  0000 C CNN
+F 2 "" H 3550 6350 50  0001 C CNN
+F 3 "" H 3550 6350 50  0001 C CNN
+	1    3550 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -235,93 +282,46 @@ F 5 "https://www.tme.eu/pl/details/cl21a226mqqnnng/kondensatory-mlcc-smd-0805/sa
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5FD36483
-P 3550 6350
-AR Path="/5FD36483" Ref="#PWR?"  Part="1" 
-AR Path="/5FF6344B/5FD36483" Ref="#PWR022"  Part="1" 
-F 0 "#PWR022" H 3550 6100 50  0001 C CNN
-F 1 "GND" H 3600 6150 50  0000 C CNN
-F 2 "" H 3550 6350 50  0001 C CNN
-F 3 "" H 3550 6350 50  0001 C CNN
-	1    3550 6350
+L Device:C C?
+U 1 1 5FD3646B
+P 4250 5900
+AR Path="/5FD3646B" Ref="C?"  Part="1" 
+AR Path="/5FF6344B/5FD3646B" Ref="C6"  Part="1" 
+F 0 "C6" H 4350 6000 50  0000 L CNN
+F 1 "22uF" H 4350 5800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4288 5750 50  0001 C CNN
+F 3 "~" H 4250 5900 50  0001 C CNN
+F 4 "tme.eu" H 4250 5900 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/cl21a226mqqnnng/kondensatory-mlcc-smd-0805/samsung/" H 4250 5900 50  0001 C CNN "VendorLink"
+	1    4250 5900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 5550 3150 5550
-Wire Wire Line
-	3850 5550 4250 5550
 $Comp
-L Device:R R?
-U 1 1 5FD3648C
-P 2800 5750
-AR Path="/5FD3648C" Ref="R?"  Part="1" 
-AR Path="/5FF6344B/5FD3648C" Ref="R3"  Part="1" 
-F 0 "R3" H 2650 5850 50  0000 L CNN
-F 1 "220 Ohm" H 2500 5700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2730 5750 50  0001 C CNN
-F 3 "~" H 2800 5750 50  0001 C CNN
-F 4 "avt.pl" H 2800 5750 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 2800 5750 50  0001 C CNN "VendorLink"
-	1    2800 5750
-	1    0    0    -1  
+L Device:LED D?
+U 1 1 5FD36465
+P 2800 6100
+AR Path="/5FD36465" Ref="D?"  Part="1" 
+AR Path="/5FF6344B/5FD36465" Ref="D2"  Part="1" 
+F 0 "D2" V 2800 6250 50  0000 C CNN
+F 1 "RF-GSS150TS-BC" V 2900 6250 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2800 6100 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/297bac1c849d293b517ecf72110c4a89/catalouge-REFOND.pdf" H 2800 6100 50  0001 C CNN
+F 4 "tme.eu" H 2800 6100 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/rf-gss150ts-bc/diody-led-smd-kolorowe/refond/" H 2800 6100 50  0001 C CNN "VendorLink"
+	1    2800 6100
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3550 5850 3550 6300
-Wire Wire Line
-	2800 5550 2800 5600
-Wire Wire Line
-	2800 5900 2800 5950
-Wire Wire Line
-	2800 6250 2800 6300
-Wire Wire Line
-	2800 6300 3150 6300
-Connection ~ 3550 6300
-Wire Wire Line
-	3550 6300 3550 6350
-Wire Wire Line
-	3550 6300 4250 6300
-Wire Wire Line
-	4250 6300 4250 6050
-Wire Wire Line
-	4250 5750 4250 5550
-Wire Wire Line
-	3150 5750 3150 5550
-Connection ~ 3150 5550
-Wire Wire Line
-	3150 5550 3250 5550
-Wire Wire Line
-	3150 6050 3150 6300
-Connection ~ 3150 6300
-Wire Wire Line
-	3150 6300 3550 6300
-Text HLabel 2300 5550 0    50   UnSpc ~ 0
-+5V
-Wire Wire Line
-	2300 5550 2800 5550
-Connection ~ 2800 5550
-Text HLabel 4800 5550 2    50   UnSpc ~ 0
-Internal_3V3
-Wire Wire Line
-	4250 5550 4800 5550
-Connection ~ 4250 5550
 $Comp
-L Switch:SW_SPST SW3
-U 1 1 5FE84590
-P 7600 5600
-F 0 "SW3" H 7600 5850 50  0000 C CNN
-F 1 "SW_SPST" H 7600 5750 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin" H 7600 5600 50  0001 C CNN
-F 3 "~" H 7600 5600 50  0001 C CNN
-	1    7600 5600
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 5FD3645F
+P 3550 5550
+AR Path="/5FD3645F" Ref="U?"  Part="1" 
+AR Path="/5FF6344B/5FD3645F" Ref="U3"  Part="1" 
+F 0 "U3" H 3550 5850 50  0000 C CNN
+F 1 "AMS1117-3.3" H 3550 5750 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3550 5750 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3650 5300 50  0001 C CNN
+	1    3550 5550
 	1    0    0    -1  
 $EndComp
-Text HLabel 7900 5600 2    50   UnSpc ~ 0
-+3.3V
-Text HLabel 7300 5600 0    50   UnSpc ~ 0
-Internal_3V3
-Wire Wire Line
-	7300 5600 7400 5600
-Wire Wire Line
-	7800 5600 7900 5600
 $EndSCHEMATC

@@ -369,9 +369,10 @@ U 1 1 5FB2216A
 P 3000 5850
 AR Path="/5FB2216A" Ref="D?"  Part="1" 
 AR Path="/5FF6344B/5FB2216A" Ref="D?"  Part="1" 
-F 0 "D?" H 3000 5600 50  0000 C CNN
+AR Path="/5FF73D59/5FB2216A" Ref="D3"  Part="1" 
+F 0 "D3" H 3000 5600 50  0000 C CNN
 F 1 "STPS0520Z" H 3000 5700 50  0000 C CNN
-F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3000 5850 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3000 5850 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stps0520z.pdf" H 3000 5850 50  0001 C CNN
 F 4 "tme.eu" H 3000 5850 50  0001 C CNN "Vendor"
 F 5 "https://www.tme.eu/pl/details/stps0520z/diody-schottky-smd/stmicroelectronics/" H 3000 5850 50  0001 C CNN "VendorLink"
