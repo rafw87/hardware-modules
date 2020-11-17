@@ -181,7 +181,7 @@ DTR
 Text Label 7550 3250 0    50   ~ 0
 RTS
 $Comp
-L Transistor_BJT:BC807 Q?
+L Transistor_BJT:BC817 Q?
 U 1 1 5FFD7260
 P 8600 2700
 AR Path="/5FFD7260" Ref="Q?"  Part="1" 
@@ -194,7 +194,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/BC808-D.pdf" H 8600 2700 50  0001 L C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC807 Q?
+L Transistor_BJT:BC817 Q?
 U 1 1 5FFD7266
 P 8600 3250
 AR Path="/5FFD7266" Ref="Q?"  Part="1" 
@@ -204,7 +204,7 @@ F 1 "?" H 8850 3250 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8800 3175 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC808-D.pdf" H 8600 3250 50  0001 L CNN
 	1    8600 3250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R?
