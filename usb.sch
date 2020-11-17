@@ -180,77 +180,17 @@ Text Label 7550 2700 0    50   ~ 0
 DTR
 Text Label 7550 3250 0    50   ~ 0
 RTS
-$Comp
-L Transistor_BJT:BC817 Q?
-U 1 1 5FFD7260
-P 8600 2700
-AR Path="/5FFD7260" Ref="Q?"  Part="1" 
-AR Path="/5FF73D59/5FFD7260" Ref="Q2"  Part="1" 
-F 0 "Q2" H 8800 2750 50  0000 L CNN
-F 1 "?" H 8800 2700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8800 2625 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BC808-D.pdf" H 8600 2700 50  0001 L CNN
-	1    8600 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC817 Q?
-U 1 1 5FFD7266
-P 8600 3250
-AR Path="/5FFD7266" Ref="Q?"  Part="1" 
-AR Path="/5FF73D59/5FFD7266" Ref="Q3"  Part="1" 
-F 0 "Q3" H 8850 3300 50  0000 L CNN
-F 1 "?" H 8850 3250 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8800 3175 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BC808-D.pdf" H 8600 3250 50  0001 L CNN
-	1    8600 3250
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FFD726C
-P 8100 2700
-AR Path="/5FFD726C" Ref="R?"  Part="1" 
-AR Path="/5FF73D59/5FFD726C" Ref="R7"  Part="1" 
-F 0 "R7" V 7850 2700 50  0000 C CNN
-F 1 "10k Ohm" V 7950 2700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8030 2700 50  0001 C CNN
-F 3 "~" H 8100 2700 50  0001 C CNN
-F 4 "avt.pl" H 8100 2700 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 8100 2700 50  0001 C CNN "VendorLink"
-	1    8100 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FFD7272
-P 8100 3250
-AR Path="/5FFD7272" Ref="R?"  Part="1" 
-AR Path="/5FF73D59/5FFD7272" Ref="R8"  Part="1" 
-F 0 "R8" V 7850 3250 50  0000 C CNN
-F 1 "10k Ohm" V 7950 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8030 3250 50  0001 C CNN
-F 3 "~" H 8100 3250 50  0001 C CNN
-F 4 "avt.pl" H 8100 3250 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 8100 3250 50  0001 C CNN "VendorLink"
-	1    8100 3250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7550 2700 7850 2700
 Wire Wire Line
-	8250 2700 8400 2700
-Wire Wire Line
 	7550 3250 7900 3250
-Wire Wire Line
-	8250 3250 8400 3250
 Wire Wire Line
 	7900 3250 7900 2950
 Wire Wire Line
 	7900 2950 8700 2950
 Connection ~ 7900 3250
 Wire Wire Line
-	7900 3250 7950 3250
+	7900 3250 8300 3250
 Wire Wire Line
 	8700 2900 8700 2950
 Wire Wire Line
@@ -261,7 +201,7 @@ Wire Wire Line
 	7850 3000 7850 2700
 Connection ~ 7850 2700
 Wire Wire Line
-	7850 2700 7950 2700
+	7850 2700 8300 2700
 Wire Wire Line
 	8700 3450 8700 3500
 Wire Wire Line
@@ -391,4 +331,30 @@ Text HLabel 3650 5850 2    50   UnSpc ~ 0
 +5V
 Text Label 2200 5850 0    50   ~ 0
 VBUS
+$Comp
+L Transistor_BJT:BCR129S Q1
+U 1 1 5FB53DE1
+P 8650 2700
+F 0 "Q1" H 8800 2750 50  0000 L CNN
+F 1 "BCR129S" H 8800 2700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8655 2260 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-BCR129SERIES-DS-v01_01-en.pdf?fileId=db3a30431428a37301143f7ab7820287" H 8650 2700 50  0001 C CNN
+F 4 "tme.eu" H 8650 2700 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/bcr129sh6327/tranzystory-npn-smd/infineon-technologies/" H 8650 2700 50  0001 C CNN "VendorLink"
+	1    8650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BCR129S Q1
+U 2 1 5FB59A80
+P 8650 3250
+F 0 "Q1" H 8800 3300 50  0000 L CNN
+F 1 "BCR129S" H 8800 3250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 8655 2810 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-BCR129SERIES-DS-v01_01-en.pdf?fileId=db3a30431428a37301143f7ab7820287" H 8650 3250 50  0001 C CNN
+F 4 "tme.eu" H 8650 3250 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/bcr129sh6327/tranzystory-npn-smd/infineon-technologies/" H 8650 3250 50  0001 C CNN "VendorLink"
+	2    8650 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
