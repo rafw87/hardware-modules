@@ -14,17 +14,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Barrel_Jack J?
+L Connector:Barrel_Jack_Switch J?
 U 1 1 5FB78030
 P 1600 1400
 AR Path="/5FB78030" Ref="J?"  Part="1" 
 AR Path="/5FF6344B/5FB78030" Ref="J5"  Part="1" 
 F 0 "J5" H 1350 1150 50  0000 C CNN
 F 1 "Barrel_Jack_MountingPin" H 1550 1650 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal" H 1650 1360 50  0001 C CNN
-F 3 "~" H 1650 1360 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Lumberg_1613-21_Horizontal" H 1650 1360 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/3d585bc2823a1d150d9d924b483e2fef/1613-21.pdf" H 1650 1360 50  0001 C CNN
+F 4 "tme.eu" H 1600 1400 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/1613-21/zlacza-dc/lumberg/1613-21/" H 1600 1400 50  0001 C CNN "VendorLink"
 	1    1600 1400
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Regulator_Linear:NCP1117-5.0_SOT223 U?
@@ -139,14 +141,14 @@ Connection ~ 7150 1400
 $Comp
 L power:GND #PWR?
 U 1 1 5FB78076
-P 2100 1850
+P 2100 1750
 AR Path="/5FB78076" Ref="#PWR?"  Part="1" 
 AR Path="/5FF6344B/5FB78076" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 2100 1600 50  0001 C CNN
-F 1 "GND" H 2150 1650 50  0000 C CNN
-F 2 "" H 2100 1850 50  0001 C CNN
-F 3 "" H 2100 1850 50  0001 C CNN
-	1    2100 1850
+F 0 "#PWR020" H 2100 1500 50  0001 C CNN
+F 1 "GND" H 2150 1550 50  0000 C CNN
+F 2 "" H 2100 1750 50  0001 C CNN
+F 3 "" H 2100 1750 50  0001 C CNN
+	1    2100 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -173,9 +175,9 @@ Wire Wire Line
 Wire Wire Line
 	2450 1300 2850 1300
 Wire Wire Line
-	1900 1500 2100 1500
+	1900 1400 2100 1400
 Wire Wire Line
-	2100 1500 2100 1850
+	2100 1400 2100 1500
 Text HLabel 5350 1400 0    50   UnSpc ~ 0
 VIN
 Wire Wire Line
@@ -328,4 +330,9 @@ F 5 "https://www.tme.eu/pl/details/ncp1117st33t3g/stabilizatory-napiecia-nieregu
 	1    3550 5550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1900 1500 2100 1500
+Connection ~ 2100 1500
+Wire Wire Line
+	2100 1500 2100 1750
 $EndSCHEMATC
