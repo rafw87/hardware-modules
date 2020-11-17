@@ -181,23 +181,25 @@ Wire Wire Line
 Text HLabel 5350 1400 0    50   UnSpc ~ 0
 VIN
 Wire Wire Line
-	7800 5600 7900 5600
+	7800 5500 7900 5500
 Wire Wire Line
-	7300 5600 7400 5600
-Text HLabel 7300 5600 0    50   UnSpc ~ 0
+	7300 5400 7400 5400
+Text HLabel 7300 5400 0    50   UnSpc ~ 0
 Internal_3V3
-Text HLabel 7900 5600 2    50   UnSpc ~ 0
+Text HLabel 7900 5500 2    50   UnSpc ~ 0
 +3.3V
 $Comp
-L Switch:SW_SPST SW3
+L Switch:SW_DPDT_x2 SW3
 U 1 1 5FE84590
-P 7600 5600
-F 0 "SW3" H 7600 5850 50  0000 C CNN
-F 1 "SW_SPST" H 7600 5750 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin" H 7600 5600 50  0001 C CNN
-F 3 "~" H 7600 5600 50  0001 C CNN
-	1    7600 5600
-	1    0    0    -1  
+P 7600 5500
+F 0 "SW3" H 7600 5750 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 7600 5650 50  0000 C CNN
+F 2 "Button_Switch_SMD:Nidec_CL-SB-22B-0X" H 7600 5250 50  0000 C CNN
+F 3 "https://www.tme.eu/Document/3439bdb81b005bcee4b59ba949df073a/seriaCL-SB.pdf" H 7600 5500 50  0001 C CNN
+F 4 "tme.eu" H 7600 5500 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/cl-sb-22b-01/przelaczniki-suwakowe/nidec-copal-electronics/" H 7600 5500 50  0001 C CNN "VendorLink"
+	1    7600 5500
+	-1   0    0    -1  
 $EndComp
 Connection ~ 4250 5550
 Wire Wire Line

@@ -82,8 +82,10 @@ U 1 1 5FB57488
 P 2350 4650
 F 0 "SW2" H 2350 4900 50  0000 C CNN
 F 1 "SW_Push" H 2350 4800 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 2350 4850 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H4.3mm" H 2350 4850 50  0001 C CNN
 F 3 "~" H 2350 4850 50  0001 C CNN
+F 4 "tme.eu" H 2350 4650 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/tactm-64n-f/mikroprzelaczniki-tact/ninigi/" H 2350 4650 50  0001 C CNN "VendorLink"
 	1    2350 4650
 	1    0    0    -1  
 $EndComp
@@ -93,8 +95,10 @@ U 1 1 5FB585EB
 P 3500 4700
 F 0 "SW1" H 3500 5000 50  0000 C CNN
 F 1 "SW_Push" H 3500 4900 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 3500 4900 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H4.3mm" H 3500 4900 50  0001 C CNN
 F 3 "~" H 3500 4900 50  0001 C CNN
+F 4 "tme.eu" H 3500 4700 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/tactm-64n-f/mikroprzelaczniki-tact/ninigi/" H 3500 4700 50  0001 C CNN "VendorLink"
 	1    3500 4700
 	1    0    0    -1  
 $EndComp
