@@ -248,7 +248,7 @@ Wire Wire Line
 Text Label 3350 2400 2    50   ~ 0
 USB_DP
 Wire Wire Line
-	1850 2500 1950 2500
+	1850 2500 2900 2500
 Wire Wire Line
 	2450 2550 2450 2200
 Wire Wire Line
@@ -273,27 +273,9 @@ F 5 "https://www.tme.eu/pl/details/usblc6-2sc6/diody-zabezpieczajace-drabinki/st
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 3050 2000 3050
+	1850 2400 1950 2400
 Wire Wire Line
-	2050 2850 1950 2850
-Wire Wire Line
-	2000 2500 3350 2500
-Wire Wire Line
-	1850 2400 2900 2400
-Wire Wire Line
-	2900 2400 2900 2850
-Wire Wire Line
-	2900 2850 2850 2850
-Wire Wire Line
-	2850 3050 2950 3050
-Wire Wire Line
-	2950 3050 2950 2400
-Wire Wire Line
-	2950 2400 3350 2400
-Wire Wire Line
-	1950 2500 1950 2850
-Wire Wire Line
-	2000 2500 2000 3050
+	2000 2400 3350 2400
 Text HLabel 5500 1850 0    50   UnSpc ~ 0
 Internal_3V3
 Wire Wire Line
@@ -318,8 +300,6 @@ F 5 "https://www.tme.eu/pl/details/stps0520z/diody-schottky-smd/stmicroelectroni
 $EndComp
 Wire Wire Line
 	3750 2200 3900 2200
-Wire Wire Line
-	2450 2200 3450 2200
 Text HLabel 3900 2200 2    50   UnSpc ~ 0
 +5V
 Text Label 3350 2200 2    50   ~ 0
@@ -374,4 +354,24 @@ F 3 "~" H 2200 2200 50  0001 C CNN
 	1    2200 2200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2450 2200 3450 2200
+Wire Wire Line
+	2950 2500 3350 2500
+Wire Wire Line
+	2950 3050 2850 3050
+Wire Wire Line
+	2900 2500 2900 2850
+Wire Wire Line
+	2900 2850 2850 2850
+Wire Wire Line
+	2950 2500 2950 3050
+Wire Wire Line
+	2000 2400 2000 3050
+Wire Wire Line
+	2000 3050 2050 3050
+Wire Wire Line
+	1950 2400 1950 2850
+Wire Wire Line
+	1950 2850 2050 2850
 $EndSCHEMATC
