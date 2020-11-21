@@ -19,7 +19,7 @@ U 1 1 5FAC1593
 P 2100 3000
 F 0 "U1" H 1600 4400 50  0000 C CNN
 F 1 "ESP32-WROOM-32" H 2700 4400 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 2100 1500 50  0001 C CNN
+F 2 "RF_Module:ESP32-WROOM-32-ThermalVias" H 2100 1500 50  0000 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 1800 3050 50  0001 C CNN
 	1    2100 3000
 	1    0    0    -1  
