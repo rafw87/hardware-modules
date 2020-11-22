@@ -156,20 +156,20 @@ $EndComp
 Wire Wire Line
 	5500 3450 5500 3650
 $Comp
-L Connector:USB_A J?
+L Connector:USB_B_Micro J?
 U 1 1 5FFC9948
 P 1550 2400
 AR Path="/5FFC9948" Ref="J?"  Part="1" 
 AR Path="/5FF73D59/5FFC9948" Ref="J5"  Part="1" 
 F 0 "J5" H 1650 2900 50  0000 C CNN
 F 1 "USB_B_Micro" H 1650 2800 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1700 2350 50  0001 C CNN
-F 3 " ~" H 1700 2350 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 1700 2350 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/b7989e722b05f5084c507fb3ad8f02cb/MX-105017-0001.pdf" H 1700 2350 50  0001 C CNN
+F 4 "tme.eu" H 1550 2400 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/mx-105017-0001/zlacza-usb-i-ieee1394/molex/105017-0001/" H 1550 2400 50  0001 C CNN "VendorLink"
 	1    1550 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1450 2800 1450 3600
 Wire Wire Line
 	1450 3600 1550 3600
 Wire Wire Line
@@ -254,8 +254,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 3600 1800 3600
 Connection ~ 1550 3600
-Wire Wire Line
-	1800 3600 2450 3600
 Wire Wire Line
 	2450 3600 2450 3350
 Connection ~ 1800 3600
@@ -374,4 +372,33 @@ Wire Wire Line
 	1950 2400 1950 2850
 Wire Wire Line
 	1950 2850 2050 2850
+Wire Wire Line
+	1850 2600 1900 2600
+Wire Wire Line
+	1900 2600 1900 3600
+Wire Wire Line
+	1800 3600 1900 3600
+Connection ~ 1900 3600
+Wire Wire Line
+	1900 3600 2450 3600
+$Comp
+L Device:C C?
+U 1 1 5FBBB3E1
+P 1450 3100
+AR Path="/5FBBB3E1" Ref="C?"  Part="1" 
+AR Path="/5FF6344B/5FBBB3E1" Ref="C?"  Part="1" 
+AR Path="/5FF73D59/5FBBB3E1" Ref="C10"  Part="1" 
+F 0 "C10" H 1500 3200 50  0000 L CNN
+F 1 "22uF" H 1500 3000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1488 2950 50  0001 C CNN
+F 3 "~" H 1450 3100 50  0001 C CNN
+F 4 "tme.eu" H 1450 3100 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/cl21a226mqqnnng/kondensatory-mlcc-smd-0805/samsung/" H 1450 3100 50  0001 C CNN "VendorLink"
+	1    1450 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2800 1450 2950
+Wire Wire Line
+	1450 3250 1450 3600
 $EndSCHEMATC
