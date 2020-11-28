@@ -692,7 +692,7 @@ U 1 1 602A25F3
 P 10000 2450
 F 0 "J2" H 10000 2800 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 10000 2000 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Left" H 10000 2450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10000 2450 50  0001 C CNN
 F 3 "~" H 10000 2450 50  0001 C CNN
 F 4 "N/A" H 10000 2450 50  0001 C CNN "Vendor"
 	1    10000 2450
