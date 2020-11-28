@@ -293,7 +293,7 @@ F 3 "https://www.infineon.com/dgdl/Infineon-BCR129SERIES-DS-v01_01-en.pdf?fileId
 F 4 "tme.eu" H 9900 2650 50  0001 C CNN "Vendor"
 F 5 "https://www.tme.eu/pl/details/bcr129sh6327/tranzystory-npn-smd/infineon-technologies/" H 9900 2650 50  0001 C CNN "VendorLink"
 	2    9900 2650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text Notes 1300 1650 0    100  ~ 20
 USB port with ESD protection
