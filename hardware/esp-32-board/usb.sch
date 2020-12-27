@@ -14,147 +14,41 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_USB:CP2102N-A01-GQFN28 U?
-U 1 1 5FFBA0ED
-P 6700 3700
-AR Path="/5FFBA0ED" Ref="U?"  Part="1" 
-AR Path="/5FF73D59/5FFBA0ED" Ref="U3"  Part="1" 
-F 0 "U3" H 6250 4950 50  0000 C CNN
-F 1 "CP2102N-A01-GQFN28" H 7250 2350 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 7150 2500 50  0001 L CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 6750 2950 50  0001 C CNN
-F 4 "tme.eu" H 6700 3700 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/cp2102-gm/uklady-scalone-interfejs-usb/silicon-labs/cp2102-gmr/" H 6700 3700 50  0001 C CNN "VendorLink"
-	1    6700 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5FFBA0F3
-P 6700 5350
+P 5950 4450
 AR Path="/5FFBA0F3" Ref="#PWR?"  Part="1" 
 AR Path="/5FF73D59/5FFBA0F3" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 6700 5100 50  0001 C CNN
-F 1 "GND" H 6750 5150 50  0000 C CNN
-F 2 "" H 6700 5350 50  0001 C CNN
-F 3 "" H 6700 5350 50  0001 C CNN
-	1    6700 5350
+F 0 "#PWR025" H 5950 4200 50  0001 C CNN
+F 1 "GND" H 6000 4250 50  0000 C CNN
+F 2 "" H 5950 4450 50  0001 C CNN
+F 3 "" H 5950 4450 50  0001 C CNN
+	1    5950 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 3100 7650 3100
-Wire Wire Line
-	7200 2700 7650 2700
-Text Label 7650 2700 2    50   ~ 0
+	6850 3000 7300 3000
+Text Label 7300 2800 2    50   ~ 0
 RTS
 $Comp
 L Device:R R?
 U 1 1 5FFBA107
-P 6100 2550
+P 5050 3300
 AR Path="/5FFBA107" Ref="R?"  Part="1" 
 AR Path="/5FF73D59/5FFBA107" Ref="R3"  Part="1" 
-F 0 "R3" H 6250 2500 50  0000 R CNN
-F 1 "2.2k Ohm" H 6450 2600 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6030 2550 50  0001 C CNN
-F 3 "~" H 6100 2550 50  0001 C CNN
-F 4 "avt.pl" H 6100 2550 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 6100 2550 50  0001 C CNN "VendorLink"
-	1    6100 2550
-	-1   0    0    1   
+F 0 "R3" V 5150 3350 50  0000 R CNN
+F 1 "2.2k Ohm" V 5250 3450 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4980 3300 50  0001 C CNN
+F 3 "~" H 5050 3300 50  0001 C CNN
+F 4 "avt.pl" H 5050 3300 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 5050 3300 50  0001 C CNN "VendorLink"
+	1    5050 3300
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6700 2400 6700 2300
-Wire Wire Line
-	6700 2300 6600 2300
-Connection ~ 6600 2300
-Wire Wire Line
-	6600 2300 6100 2300
-Wire Wire Line
-	6600 2300 6600 2400
-Connection ~ 6700 2300
-Wire Wire Line
-	6100 2800 6200 2800
-$Comp
-L Device:R R?
-U 1 1 5FFBA115
-P 5500 3300
-AR Path="/5FFBA115" Ref="R?"  Part="1" 
-AR Path="/5FF73D59/5FFBA115" Ref="R2"  Part="1" 
-F 0 "R2" H 5700 3250 50  0000 R CNN
-F 1 "47k Ohm" H 5950 3350 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5430 3300 50  0001 C CNN
-F 3 "~" H 5500 3300 50  0001 C CNN
-F 4 "avt.pl" H 5500 3300 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 5500 3300 50  0001 C CNN "VendorLink"
-	1    5500 3300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6200 3000 5500 3000
-Wire Wire Line
-	5500 3000 5500 3150
-$Comp
-L Device:R R?
-U 1 1 5FFBA123
-P 5500 2750
-AR Path="/5FFBA123" Ref="R?"  Part="1" 
-AR Path="/5FF73D59/5FFBA123" Ref="R1"  Part="1" 
-F 0 "R1" H 5650 2700 50  0000 R CNN
-F 1 "22k Ohm" H 5950 2800 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5430 2750 50  0001 C CNN
-F 3 "~" H 5500 2750 50  0001 C CNN
-F 4 "avt.pl" H 5500 2750 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 5500 2750 50  0001 C CNN "VendorLink"
-	1    5500 2750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5500 3000 5500 2900
-Connection ~ 5500 3000
-Wire Wire Line
-	5500 2600 5500 2200
-Wire Wire Line
-	6100 2300 6100 2400
-Wire Wire Line
-	6100 2700 6100 2800
-Text Label 5750 3100 0    50   ~ 0
+Text Label 4650 2900 0    50   ~ 0
 USB_DP
-Text Label 5750 3200 0    50   ~ 0
+Text Label 4650 3000 0    50   ~ 0
 USB_DN
-Wire Wire Line
-	5750 3100 6200 3100
-Wire Wire Line
-	6200 3200 5750 3200
-NoConn ~ 7200 3200
-NoConn ~ 7200 3300
-NoConn ~ 7200 3600
-NoConn ~ 7200 3800
-NoConn ~ 7200 3900
-NoConn ~ 7200 4000
-NoConn ~ 7200 4500
-NoConn ~ 7200 4400
-NoConn ~ 7200 4300
-NoConn ~ 7200 4200
-NoConn ~ 7200 4800
-NoConn ~ 7200 4700
-NoConn ~ 7200 4600
-NoConn ~ 7200 2600
-NoConn ~ 7200 3000
-$Comp
-L power:GND #PWR?
-U 1 1 5FFBA14D
-P 5500 3650
-AR Path="/5FFBA14D" Ref="#PWR?"  Part="1" 
-AR Path="/5FF73D59/5FFBA14D" Ref="#PWR024"  Part="1" 
-F 0 "#PWR024" H 5500 3400 50  0001 C CNN
-F 1 "GND" H 5550 3450 50  0000 C CNN
-F 2 "" H 5500 3650 50  0001 C CNN
-F 3 "" H 5500 3650 50  0001 C CNN
-	1    5500 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 3450 5500 3650
 $Comp
 L Connector:USB_B_Micro J?
 U 1 1 5FFC9948
@@ -221,34 +115,20 @@ F 3 "" H 2600 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2600 3800 2600 3650
-Wire Wire Line
-	5500 2200 5250 2200
-Text Label 5250 2200 0    50   ~ 0
+Text Label 5550 1950 0    50   ~ 0
 VBUS
 Text HLabel 10600 1850 2    50   Output ~ 0
 EN
 Text HLabel 10600 2900 2    50   Output ~ 0
 IO0
-Text HLabel 7850 2900 2    50   Input ~ 0
+Text HLabel 7350 2600 2    50   Input ~ 0
 TXD0
-Text HLabel 7850 2800 2    50   Output ~ 0
+Text HLabel 7350 2700 2    50   Output ~ 0
 RXD0
-Wire Wire Line
-	7200 2800 7850 2800
-Wire Wire Line
-	7850 2900 7200 2900
-Text Label 7650 3100 2    50   ~ 0
+Text Label 7300 3000 2    50   ~ 0
 DTR
-Wire Wire Line
-	6700 5000 6700 5350
 Text Label 3950 2700 2    50   ~ 0
 USB_DP
-Text HLabel 5500 1850 0    50   UnSpc ~ 0
-Internal_3V3
-Wire Wire Line
-	5500 1850 6700 1850
-Wire Wire Line
-	6700 1850 6700 2300
 $Comp
 L Device:D_Schottky D?
 U 1 1 5FB2216A
@@ -301,7 +181,6 @@ Text Notes 4950 1650 0    100  ~ 20
 USB to UART
 Text Notes 8850 1650 0    100  ~ 20
 Auto-reset circuit
-NoConn ~ 7200 3500
 Wire Wire Line
 	1850 2550 1950 2550
 $Comp
@@ -451,4 +330,102 @@ Wire Wire Line
 	3200 3250 3350 3250
 Wire Wire Line
 	2800 3250 2900 3250
+Wire Wire Line
+	5550 1950 6150 1950
+Text Label 4650 3300 0    50   ~ 0
+VBUS
+Wire Wire Line
+	4650 3300 4900 3300
+Wire Wire Line
+	5200 3300 5250 3300
+Wire Wire Line
+	4650 3000 5250 3000
+Wire Wire Line
+	5950 2150 5950 2300
+Wire Wire Line
+	6150 1950 6150 2300
+$Comp
+L Interface_USB:FT232RL U3
+U 1 1 5FE99968
+P 6050 3300
+F 0 "U3" H 6050 4500 50  0000 C CNN
+F 1 "FT232RL" H 6050 4400 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 7150 2400 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 6050 3300 50  0001 C CNN
+	1    6050 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2900 5250 2900
+Wire Wire Line
+	6850 2800 7300 2800
+Wire Wire Line
+	6850 2600 7350 2600
+Wire Wire Line
+	6850 2700 7350 2700
+Wire Wire Line
+	5850 4300 5850 4350
+Wire Wire Line
+	5850 4350 5950 4350
+Wire Wire Line
+	5950 4350 5950 4450
+Wire Wire Line
+	5950 4350 6050 4350
+Wire Wire Line
+	6050 4350 6050 4300
+Connection ~ 5950 4350
+Wire Wire Line
+	6050 4350 6150 4350
+Wire Wire Line
+	6150 4350 6150 4300
+Connection ~ 6050 4350
+Wire Wire Line
+	6150 4350 6250 4350
+Wire Wire Line
+	6250 4350 6250 4300
+Connection ~ 6150 4350
+Wire Wire Line
+	5250 4000 5150 4000
+Wire Wire Line
+	5150 4000 5150 4350
+Wire Wire Line
+	5150 4350 5850 4350
+Connection ~ 5850 4350
+$Comp
+L Device:C C11
+U 1 1 5FEE7EEB
+P 4350 2800
+F 0 "C11" H 4150 2900 50  0000 L CNN
+F 1 "100nF" H 4400 2900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4388 2650 50  0001 C CNN
+F 3 "~" H 4350 2800 50  0001 C CNN
+	1    4350 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2600 5150 2600
+Wire Wire Line
+	4350 2600 4350 2650
+Wire Wire Line
+	4350 2950 4350 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5FEFF60F
+P 4350 3050
+AR Path="/5FEFF60F" Ref="#PWR?"  Part="1" 
+AR Path="/5FF73D59/5FEFF60F" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 4350 2800 50  0001 C CNN
+F 1 "GND" H 4400 2850 50  0000 C CNN
+F 2 "" H 4350 3050 50  0001 C CNN
+F 3 "" H 4350 3050 50  0001 C CNN
+	1    4350 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2600 5150 2150
+Wire Wire Line
+	5150 2150 5950 2150
+Connection ~ 5150 2600
+Wire Wire Line
+	5150 2600 4350 2600
 $EndSCHEMATC
