@@ -352,6 +352,8 @@ F 0 "U3" H 6050 4500 50  0000 C CNN
 F 1 "FT232RL" H 6050 4400 50  0000 C CNN
 F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 7150 2400 50  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 6050 3300 50  0001 C CNN
+F 4 "tme.eu" H 6050 3300 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/ft232rl/uklady-scalone-interfejs-usb/ftdi/ft232rl-reel/" H 6050 3300 50  0001 C CNN "VendorLink"
 	1    6050 3300
 	1    0    0    -1  
 $EndComp
@@ -399,6 +401,8 @@ F 0 "C11" H 4150 2900 50  0000 L CNN
 F 1 "100nF" H 4400 2900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4388 2650 50  0001 C CNN
 F 3 "~" H 4350 2800 50  0001 C CNN
+F 4 "avt.pl" H 4350 2800 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 4350 2800 50  0001 C CNN "VendorLink"
 	1    4350 2800
 	1    0    0    -1  
 $EndComp
