@@ -222,15 +222,15 @@ Text Label 8750 2850 2    50   ~ 0
 IO32
 Text Label 8750 2750 2    50   ~ 0
 IO33
-Text Label 8750 2550 2    50   ~ 0
+Text Label 8750 2650 2    50   ~ 0
 IO25
-Text Label 8750 2450 2    50   ~ 0
+Text Label 8750 2550 2    50   ~ 0
 IO26
-Text Label 8750 2350 2    50   ~ 0
+Text Label 8750 2450 2    50   ~ 0
 IO27
-Text Label 8750 2250 2    50   ~ 0
+Text Label 8750 2350 2    50   ~ 0
 IO14
-Text Label 8750 2150 2    50   ~ 0
+Text Label 8750 2250 2    50   ~ 0
 IO12
 Wire Wire Line
 	8750 3350 8200 3350
@@ -256,14 +256,14 @@ Wire Wire Line
 Wire Wire Line
 	8200 2750 8750 2750
 Wire Wire Line
-	8750 2550 8200 2550
+	8750 2650 8200 2650
 Wire Wire Line
-	8200 2450 8750 2450
+	8200 2550 8750 2550
 Wire Wire Line
-	8200 2250 8750 2250
+	8200 2350 8750 2350
 Wire Wire Line
-	8750 2150 8200 2150
-Text Label 8750 1950 2    50   ~ 0
+	8750 2250 8200 2250
+Text Label 8750 2150 2    50   ~ 0
 IO13
 Text Label 9450 2250 0    50   ~ 0
 SD2
@@ -274,12 +274,12 @@ CMD
 $Comp
 L power:GND #PWR016
 U 1 1 5FBE8B3A
-P 8900 2250
-F 0 "#PWR016" H 8900 2000 50  0001 C CNN
-F 1 "GND" H 8950 2050 50  0000 C CNN
-F 2 "" H 8900 2250 50  0001 C CNN
-F 3 "" H 8900 2250 50  0001 C CNN
-	1    8900 2250
+P 8900 2050
+F 0 "#PWR016" H 8900 1800 50  0001 C CNN
+F 1 "GND" H 8950 1850 50  0000 C CNN
+F 2 "" H 8900 2050 50  0001 C CNN
+F 3 "" H 8900 2050 50  0001 C CNN
+	1    8900 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -303,23 +303,23 @@ Text Label 6850 3050 0    50   ~ 0
 RXD0
 Text Label 6850 2950 0    50   ~ 0
 IO21
-Text Label 6850 2750 0    50   ~ 0
+Text Label 6850 2850 0    50   ~ 0
 IO19
-Text Label 6850 2650 0    50   ~ 0
+Text Label 6850 2750 0    50   ~ 0
 IO18
-Text Label 6850 2550 0    50   ~ 0
+Text Label 6850 2650 0    50   ~ 0
 IO5
-Text Label 6850 2450 0    50   ~ 0
+Text Label 6850 2550 0    50   ~ 0
 IO17
-Text Label 6850 2350 0    50   ~ 0
+Text Label 6850 2450 0    50   ~ 0
 IO16
-Text Label 6850 2250 0    50   ~ 0
+Text Label 6850 2350 0    50   ~ 0
 IO4
-Text Label 6850 2150 0    50   ~ 0
+Text Label 6850 2250 0    50   ~ 0
 IO0
-Text Label 8750 1750 2    50   ~ 0
+Text Label 8750 1950 2    50   ~ 0
 IO2
-Text Label 8750 1850 2    50   ~ 0
+Text Label 8750 2050 2    50   ~ 0
 IO15
 Text Label 9450 2750 0    50   ~ 0
 SD1
@@ -336,19 +336,19 @@ Wire Wire Line
 Wire Wire Line
 	7400 3050 6850 3050
 Wire Wire Line
+	7400 2850 6850 2850
+Wire Wire Line
 	7400 2750 6850 2750
 Wire Wire Line
 	7400 2650 6850 2650
 Wire Wire Line
-	7400 2550 6850 2550
+	7400 2450 6850 2450
 Wire Wire Line
-	7400 2350 6850 2350
+	6850 2350 7400 2350
 Wire Wire Line
-	6850 2250 7400 2250
+	7400 2250 6850 2250
 Wire Wire Line
-	7400 2150 6850 2150
-Wire Wire Line
-	8200 1850 8750 1850
+	8200 2050 8750 2050
 Wire Wire Line
 	9450 2750 9800 2750
 Wire Wire Line
@@ -382,7 +382,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 3500 950  3500
 Wire Wire Line
-	8750 1950 8200 1950
+	8750 2150 8200 2150
 Wire Wire Line
 	9800 2250 9450 2250
 Wire Wire Line
@@ -510,13 +510,13 @@ F 3 "" H 2100 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 2350 8200 2350
+	8750 2450 8200 2450
 Wire Wire Line
 	8750 2850 8200 2850
 Wire Wire Line
 	7400 2950 6850 2950
 Wire Wire Line
-	7400 2450 6850 2450
+	7400 2550 6850 2550
 $Comp
 L Connector:ESP-PROG-Program J3
 U 1 1 5FECB5F0
@@ -648,12 +648,12 @@ Wire Wire Line
 Wire Wire Line
 	9500 5500 9800 5500
 $Comp
-L Connector:Conn_Arduino_UNO_R3 J1
+L project_components:MainConnector J1
 U 1 1 600797C7
 P 7800 2550
 F 0 "J1" H 7800 3700 50  0000 C CNN
-F 1 "Conn_Arduino_UNO_R3" H 7800 3600 50  0000 C CNN
-F 2 "Module:Arduino_UNO_R3_WithMountingHoles" H 7600 2050 50  0001 C CNN
+F 1 "MainConnector" H 7800 3600 50  0000 C CNN
+F 2 "project_components:MainConnector" H 7600 2050 50  0001 C CNN
 F 3 "~" H 7600 2050 50  0001 C CNN
 F 4 "N/A" H 7800 2550 50  0001 C CNN "Vendor"
 	1    7800 2550
@@ -666,11 +666,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 3450 8900 3250
 Wire Wire Line
-	8200 2050 8900 2050
+	8200 1850 8900 1850
 Wire Wire Line
-	8900 2050 8900 2250
+	8900 1850 8900 2050
 Wire Wire Line
-	8750 1750 8200 1750
+	8750 1950 8200 1950
 $Comp
 L power:+3.3V #PWR011
 U 1 1 6028A651
@@ -788,7 +788,7 @@ Wire Wire Line
 	900  6450 1250 6450
 Wire Wire Line
 	900  6600 1250 6600
-Text Label 8750 1650 2    50   ~ 0
+Text Label 8750 1750 2    50   ~ 0
 VIN
 Wire Wire Line
 	4400 6550 4750 6550
@@ -823,18 +823,18 @@ $EndComp
 $Comp
 L power:VDC #PWR015
 U 1 1 5FD163B8
-P 8900 1500
-F 0 "#PWR015" H 8900 1400 50  0001 C CNN
-F 1 "VDC" H 8950 1700 50  0000 C CNN
-F 2 "" H 8900 1500 50  0001 C CNN
-F 3 "" H 8900 1500 50  0001 C CNN
-	1    8900 1500
+P 8900 1600
+F 0 "#PWR015" H 8900 1500 50  0001 C CNN
+F 1 "VDC" H 8950 1800 50  0000 C CNN
+F 2 "" H 8900 1600 50  0001 C CNN
+F 3 "" H 8900 1600 50  0001 C CNN
+	1    8900 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8900 1500 8900 1650
+	8900 1600 8900 1750
 Wire Wire Line
-	8200 1650 8900 1650
+	8200 1750 8900 1750
 Wire Wire Line
 	4400 6700 5000 6700
 $Comp
@@ -899,16 +899,16 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5FD02A12
-P 9050 1650
-F 0 "#FLG0102" H 9050 1725 50  0001 C CNN
-F 1 "PWR_FLAG" V 9150 1900 50  0000 C CNN
-F 2 "" H 9050 1650 50  0001 C CNN
-F 3 "~" H 9050 1650 50  0001 C CNN
-	1    9050 1650
+P 9050 1750
+F 0 "#FLG0102" H 9050 1825 50  0001 C CNN
+F 1 "PWR_FLAG" V 9150 2000 50  0000 C CNN
+F 2 "" H 9050 1750 50  0001 C CNN
+F 3 "~" H 9050 1750 50  0001 C CNN
+	1    9050 1750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8900 1650 9050 1650
+	8900 1750 9050 1750
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5FD0B643
@@ -927,8 +927,23 @@ Wire Wire Line
 	2100 4400 2100 4500
 Wire Wire Line
 	6700 3450 7400 3450
-Connection ~ 8900 1650
+Connection ~ 8900 1750
 Wire Wire Line
 	6700 3450 6600 3450
 Connection ~ 6700 3450
+$Comp
+L power:GND #PWR0101
+U 1 1 5FF57139
+P 6700 2250
+F 0 "#PWR0101" H 6700 2000 50  0001 C CNN
+F 1 "GND" H 6750 2050 50  0000 C CNN
+F 2 "" H 6700 2250 50  0001 C CNN
+F 3 "" H 6700 2250 50  0001 C CNN
+	1    6700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2150 6700 2150
+Wire Wire Line
+	6700 2150 6700 2250
 $EndSCHEMATC
