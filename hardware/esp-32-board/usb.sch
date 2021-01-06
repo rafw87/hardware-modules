@@ -183,17 +183,6 @@ Text Notes 8850 1650 0    100  ~ 20
 Auto-reset circuit
 Wire Wire Line
 	1850 2550 1950 2550
-$Comp
-L power:PWR_FLAG #FLG0104
-U 1 1 5FCE0047
-P 1950 2200
-F 0 "#FLG0104" H 1950 2275 50  0001 C CNN
-F 1 "PWR_FLAG" H 1950 2400 50  0000 C CNN
-F 2 "" H 1950 2200 50  0001 C CNN
-F 3 "~" H 1950 2200 50  0001 C CNN
-	1    1950 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 2950 1900 2950
 Wire Wire Line
@@ -233,7 +222,6 @@ F 5 "https://www.tme.eu/pl/details/usblc6-2sc6/diody-zabezpieczajace-drabinki/st
 $EndComp
 Wire Wire Line
 	1950 2200 1950 2550
-Connection ~ 1950 2200
 Wire Wire Line
 	1850 2750 2050 2750
 Wire Wire Line
@@ -432,4 +420,15 @@ Wire Wire Line
 Connection ~ 5150 2600
 Wire Wire Line
 	5150 2600 4350 2600
+NoConn ~ 6850 2900
+NoConn ~ 6850 3100
+NoConn ~ 6850 3200
+NoConn ~ 6850 3300
+NoConn ~ 6850 3600
+NoConn ~ 6850 3700
+NoConn ~ 6850 3800
+NoConn ~ 6850 3900
+NoConn ~ 6850 4000
+NoConn ~ 5250 3500
+NoConn ~ 5250 3700
 $EndSCHEMATC

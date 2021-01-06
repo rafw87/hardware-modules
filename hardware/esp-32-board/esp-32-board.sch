@@ -282,17 +282,6 @@ F 3 "" H 8900 2050 50  0001 C CNN
 	1    8900 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 5FC02DF9
-P 6700 3550
-F 0 "#PWR012" H 6700 3300 50  0001 C CNN
-F 1 "GND" H 6750 3350 50  0000 C CNN
-F 2 "" H 6700 3550 50  0001 C CNN
-F 3 "" H 6700 3550 50  0001 C CNN
-	1    6700 3550
-	1    0    0    -1  
-$EndComp
 Text Label 6850 3350 0    50   ~ 0
 IO23
 Text Label 6850 3250 0    50   ~ 0
@@ -660,8 +649,6 @@ F 4 "N/A" H 7800 2550 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 3450 6700 3550
-Wire Wire Line
 	8200 3450 8900 3450
 Wire Wire Line
 	8900 3450 8900 3250
@@ -706,7 +693,6 @@ F1 "power.sch" 50
 F2 "VIN" U R 4400 6400 50 
 F3 "+5V" U R 4400 6550 50 
 F4 "+3.3V" U R 4400 6700 50 
-F5 "Internal_3V3" U R 4400 6900 50 
 $EndSheet
 $Sheet
 S 1250 6250 1050 750 
@@ -717,7 +703,6 @@ F2 "EN" O R 2300 6650 50
 F3 "IO0" O R 2300 6800 50 
 F4 "TXD0" I L 1250 6450 50 
 F5 "RXD0" O L 1250 6600 50 
-F6 "Internal_3V3" U L 1250 6900 50 
 F7 "+5V" U R 2300 6400 50 
 $EndSheet
 Text Label 2600 6800 2    50   ~ 0
@@ -848,16 +833,6 @@ F 3 "" H 5000 6100 50  0001 C CNN
 	1    5000 6100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4400 6900 4550 6900
-Wire Wire Line
-	4550 6900 4550 7250
-Wire Wire Line
-	4550 7250 1150 7250
-Wire Wire Line
-	1150 7250 1150 6900
-Wire Wire Line
-	1150 6900 1250 6900
 $Comp
 L power:+5V #PWR03
 U 1 1 5FB38759
@@ -881,17 +856,6 @@ Text Notes 6600 1050 0    100  ~ 20
 Board interface
 Text Notes 1300 1050 0    100  ~ 20
 ESP-32
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5FCD3A56
-P 6600 3450
-F 0 "#FLG0101" H 6600 3525 50  0001 C CNN
-F 1 "PWR_FLAG" V 6600 3600 50  0000 L CNN
-F 2 "" H 6600 3450 50  0001 C CNN
-F 3 "~" H 6600 3450 50  0001 C CNN
-	1    6600 3450
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2100 1500 2100 1600
 Wire Wire Line
@@ -925,12 +889,7 @@ Wire Wire Line
 Connection ~ 6700 2050
 Wire Wire Line
 	2100 4400 2100 4500
-Wire Wire Line
-	6700 3450 7400 3450
 Connection ~ 8900 1750
-Wire Wire Line
-	6700 3450 6600 3450
-Connection ~ 6700 3450
 $Comp
 L power:GND #PWR0101
 U 1 1 5FF57139
@@ -946,4 +905,19 @@ Wire Wire Line
 	7400 2150 6700 2150
 Wire Wire Line
 	6700 2150 6700 2250
+Wire Wire Line
+	6700 3450 7400 3450
+Wire Wire Line
+	6700 3450 6700 3550
+$Comp
+L power:GND #PWR012
+U 1 1 5FC02DF9
+P 6700 3550
+F 0 "#PWR012" H 6700 3300 50  0001 C CNN
+F 1 "GND" H 6750 3350 50  0000 C CNN
+F 2 "" H 6700 3550 50  0001 C CNN
+F 3 "" H 6700 3550 50  0001 C CNN
+	1    6700 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

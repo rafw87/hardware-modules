@@ -178,8 +178,6 @@ Wire Wire Line
 	6250 3400 6350 3400
 Wire Wire Line
 	5750 3300 5850 3300
-Text HLabel 5750 3300 0    50   UnSpc ~ 0
-Internal_3V3
 Text HLabel 6350 3400 2    50   UnSpc ~ 0
 +3.3V
 $Comp
@@ -198,8 +196,6 @@ $EndComp
 Connection ~ 3400 3250
 Wire Wire Line
 	3400 3250 3950 3250
-Text HLabel 3950 3250 2    50   UnSpc ~ 0
-Internal_3V3
 Connection ~ 1950 3250
 Wire Wire Line
 	1450 3250 1950 3250
@@ -352,4 +348,8 @@ Wire Wire Line
 Wire Wire Line
 	2400 1550 2800 1550
 NoConn ~ 5850 3500
+Text Label 3950 3250 0    50   ~ 0
+Internal_3V3
+Text Label 5750 3300 2    50   ~ 0
+Internal_3V3
 $EndSCHEMATC
