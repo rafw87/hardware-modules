@@ -773,8 +773,6 @@ Wire Wire Line
 	900  6450 1250 6450
 Wire Wire Line
 	900  6600 1250 6600
-Text Label 8750 1750 2    50   ~ 0
-VIN
 Wire Wire Line
 	4400 6550 4750 6550
 Wire Wire Line
@@ -805,21 +803,6 @@ F 3 "" H 4500 6100 50  0001 C CNN
 	1    4500 6100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VDC #PWR015
-U 1 1 5FD163B8
-P 8900 1600
-F 0 "#PWR015" H 8900 1500 50  0001 C CNN
-F 1 "VDC" H 8950 1800 50  0000 C CNN
-F 2 "" H 8900 1600 50  0001 C CNN
-F 3 "" H 8900 1600 50  0001 C CNN
-	1    8900 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 1600 8900 1750
-Wire Wire Line
-	8200 1750 8900 1750
 Wire Wire Line
 	4400 6700 5000 6700
 $Comp
@@ -861,19 +844,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 6100 5000 6700
 $Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 5FD02A12
-P 9050 1750
-F 0 "#FLG0102" H 9050 1825 50  0001 C CNN
-F 1 "PWR_FLAG" V 9150 2000 50  0000 C CNN
-F 2 "" H 9050 1750 50  0001 C CNN
-F 3 "~" H 9050 1750 50  0001 C CNN
-	1    9050 1750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8900 1750 9050 1750
-$Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5FD0B643
 P 6600 2050
@@ -889,7 +859,6 @@ Wire Wire Line
 Connection ~ 6700 2050
 Wire Wire Line
 	2100 4400 2100 4500
-Connection ~ 8900 1750
 $Comp
 L power:GND #PWR0101
 U 1 1 5FF57139
@@ -920,4 +889,19 @@ F 3 "" H 6700 3550 50  0001 C CNN
 	1    6700 3550
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5FFB2CC9
+P 8900 1600
+F 0 "#PWR0102" H 8900 1450 50  0001 C CNN
+F 1 "+5V" H 8950 1800 50  0000 C CNN
+F 2 "" H 8900 1600 50  0001 C CNN
+F 3 "" H 8900 1600 50  0001 C CNN
+	1    8900 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1750 8900 1750
+Wire Wire Line
+	8900 1600 8900 1750
 $EndSCHEMATC
