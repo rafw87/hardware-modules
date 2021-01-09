@@ -175,23 +175,23 @@ Wire Wire Line
 Text HLabel 5400 1550 0    50   UnSpc ~ 0
 VIN
 Wire Wire Line
-	6250 3400 6350 3400
+	5850 3500 5750 3500
 Wire Wire Line
-	5750 3300 5850 3300
-Text HLabel 6350 3400 2    50   UnSpc ~ 0
+	5750 3400 5850 3400
+Text HLabel 5750 3500 0    50   UnSpc ~ 0
 +3.3V
 $Comp
-L Switch:SW_DPDT_x2 SW3
+L Connector_Generic:Conn_01x02 J7
 U 1 1 5FE84590
 P 6050 3400
-F 0 "SW3" H 6050 3650 50  0000 C CNN
-F 1 "SW_DPDT_x2" H 6050 3550 50  0000 C CNN
-F 2 "Button_Switch_SMD:Nidec_CL-SB-22B-0X" H 6050 3050 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/3439bdb81b005bcee4b59ba949df073a/seriaCL-SB.pdf" H 6050 3400 50  0001 C CNN
-F 4 "tme.eu" H 6050 3400 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/cl-sb-22b-01/przelaczniki-suwakowe/nidec-copal-electronics/" H 6050 3400 50  0001 C CNN "VendorLink"
+F 0 "J7" H 6050 3650 50  0000 C CNN
+F 1 "Conn_01x02" H 6050 3550 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6050 3050 50  0001 C CNN
+F 3 "~" H 6050 3400 50  0001 C CNN
+F 4 "" H 6050 3400 50  0001 C CNN "Vendor"
+F 5 "" H 6050 3400 50  0001 C CNN "VendorLink"
 	1    6050 3400
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Connection ~ 3400 3250
 Wire Wire Line
@@ -324,7 +324,7 @@ Text Notes 3850 3500 0    50   ~ 0
 Internal 3.3V powers\nUSB-UART converter
 Text Notes 5200 2850 0    100  ~ 20
 Power switch for ESP-32
-Text Notes 5250 3950 0    50   ~ 0
+Text Notes 5250 4350 0    50   ~ 0
 Allows to disconnect ESP-32's 3.3V from regulators.\nUseful when board is powered externally by 3.3V port, preventing\ncurrent from "leaking" in unused USB and power circuit.
 $Comp
 L Regulator_Linear:NCP1117-3.3_SOT223 U?
@@ -347,10 +347,9 @@ Wire Wire Line
 	1850 1550 2100 1550
 Wire Wire Line
 	2400 1550 2650 1550
-NoConn ~ 5850 3500
 Text Label 3950 3250 0    50   ~ 0
 Internal_3V3
-Text Label 5750 3300 2    50   ~ 0
+Text Label 5750 3400 2    50   ~ 0
 Internal_3V3
 $Comp
 L power:PWR_FLAG #FLG0101

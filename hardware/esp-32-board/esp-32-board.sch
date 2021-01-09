@@ -514,6 +514,7 @@ F 0 "J3" H 6700 6100 50  0000 L CNN
 F 1 "ESP-PROG-Program" H 7250 6100 50  0000 L CNN
 F 2 "Connector_IDC:IDC-Header_2x03_P1.27mm_Vertical_SMD" V 6850 5650 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 5825 5050 50  0001 C CNN
+F 4 "https://www.ebay.com/itm/10Pcs-1-27mm-Pitch-2x3-Pin-6-Pin-SMT-SMD-Male-Shrouded-Box-Header-IDC-Connector/183523538792?hash=item2abadaf768:g:-H4AAOSwm-Fb4s52" H 7100 5600 50  0001 C CNN "VendorLink"
 	1    7100 5600
 	1    0    0    -1  
 $EndComp
@@ -567,6 +568,7 @@ F 0 "J4" H 8750 6100 50  0000 R CNN
 F 1 "ESP-PROG-Debug" H 9850 6100 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P1.27mm_Vertical_SMD" V 8850 5650 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 7825 5050 50  0001 C CNN
+F 4 "https://www.ebay.com/itm/5Pcs-1-27mm-Pitch-2x5-Pin-10-Pin-SMT-SMD-Male-Shrouded-Box-Header-IDC-Connector/172311876086?hash=item281e9691f6:g:eHIAAOSwu6taWHc7" H 9100 5600 50  0001 C CNN "VendorLink"
 	1    9100 5600
 	1    0    0    -1  
 $EndComp
@@ -682,6 +684,7 @@ F 1 "Conn_01x06" H 10000 2000 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10000 2450 50  0001 C CNN
 F 3 "~" H 10000 2450 50  0001 C CNN
 F 4 "N/A" H 10000 2450 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/zl262-6sg/listwy-i-gniazda-kolkowe/connfly/ds1023-1-6s21/" H 10000 2450 50  0001 C CNN "VendorLink"
 	1    10000 2450
 	1    0    0    -1  
 $EndComp
