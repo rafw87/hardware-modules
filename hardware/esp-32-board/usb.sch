@@ -190,19 +190,6 @@ F 5 "https://www.tme.eu/pl/details/cl21a226mqqnnng/kondensatory-mlcc-smd-0805/sa
 $EndComp
 Wire Wire Line
 	1450 3150 1450 3250
-$Comp
-L Power_Protection:USBLC6-2SC6 U4
-U 1 1 601988F8
-P 2700 2800
-F 0 "U4" V 3050 3050 50  0000 C CNN
-F 1 "USBLC6-2SC6" V 2350 2400 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2700 2300 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 2900 3150 50  0001 C CNN
-F 4 "tme.eu" H 2700 2800 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/usblc6-2sc6/diody-zabezpieczajace-drabinki/stmicroelectronics/" H 2700 2800 50  0001 C CNN "VendorLink"
-	1    2700 2800
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1950 2200 1950 2550
 Wire Wire Line
@@ -247,48 +234,10 @@ Wire Wire Line
 Connection ~ 1900 3250
 Wire Wire Line
 	2850 2200 3700 2200
-$Comp
-L Device:R R?
-U 1 1 5FC3959C
-P 3050 2350
-AR Path="/5FC3959C" Ref="R?"  Part="1" 
-AR Path="/5FF73D59/5FC3959C" Ref="R2"  Part="1" 
-F 0 "R2" V 3150 2500 50  0000 R CNN
-F 1 "22 Ohm" V 3150 2350 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2980 2350 50  0001 C CNN
-F 3 "~" H 3050 2350 50  0001 C CNN
-F 4 "avt.pl" H 3050 2350 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 3050 2350 50  0001 C CNN "VendorLink"
-	1    3050 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FC43B6A
-P 3050 3250
-AR Path="/5FC43B6A" Ref="R?"  Part="1" 
-AR Path="/5FF73D59/5FC43B6A" Ref="R3"  Part="1" 
-F 0 "R3" V 2950 3400 50  0000 R CNN
-F 1 "22 Ohm" V 2950 3250 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2980 3250 50  0001 C CNN
-F 3 "~" H 3050 3250 50  0001 C CNN
-F 4 "avt.pl" H 3050 3250 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 3050 3250 50  0001 C CNN "VendorLink"
-	1    3050 3250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2050 2350 2600 2350
 Wire Wire Line
 	2050 3250 2600 3250
-Wire Wire Line
-	2800 2350 2900 2350
-Wire Wire Line
-	3200 2350 3350 2350
-Wire Wire Line
-	3200 3250 3350 3250
-Wire Wire Line
-	2800 3250 2900 3250
 Wire Wire Line
 	5550 1950 6150 1950
 Text Label 4650 3300 0    50   ~ 0
@@ -521,5 +470,56 @@ F 2 "" H 2600 3800 50  0001 C CNN
 F 3 "" H 2600 3800 50  0001 C CNN
 	1    2600 3800
 	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:USBLC6-2SC6 U4
+U 1 1 601988F8
+P 2700 2800
+F 0 "U4" V 3050 3050 50  0000 C CNN
+F 1 "USBLC6-2SC6" V 2350 2400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2700 2300 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 2900 3150 50  0001 C CNN
+F 4 "tme.eu" H 2700 2800 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/usblc6-2sc6/diody-zabezpieczajace-drabinki/stmicroelectronics/" H 2700 2800 50  0001 C CNN "VendorLink"
+	1    2700 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 2350 2900 2350
+Wire Wire Line
+	3200 2350 3350 2350
+Wire Wire Line
+	2800 3250 2900 3250
+Wire Wire Line
+	3200 3250 3350 3250
+$Comp
+L Device:R R?
+U 1 1 5FC43B6A
+P 3050 3250
+AR Path="/5FC43B6A" Ref="R?"  Part="1" 
+AR Path="/5FF73D59/5FC43B6A" Ref="R3"  Part="1" 
+F 0 "R3" V 2950 3400 50  0000 R CNN
+F 1 "22 Ohm" V 2950 3250 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2980 3250 50  0001 C CNN
+F 3 "~" H 3050 3250 50  0001 C CNN
+F 4 "avt.pl" H 3050 3250 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 3050 3250 50  0001 C CNN "VendorLink"
+	1    3050 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FC3959C
+P 3050 2350
+AR Path="/5FC3959C" Ref="R?"  Part="1" 
+AR Path="/5FF73D59/5FC3959C" Ref="R2"  Part="1" 
+F 0 "R2" V 3150 2500 50  0000 R CNN
+F 1 "22 Ohm" V 3150 2350 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2980 2350 50  0001 C CNN
+F 3 "~" H 3050 2350 50  0001 C CNN
+F 4 "avt.pl" H 3050 2350 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 3050 2350 50  0001 C CNN "VendorLink"
+	1    3050 2350
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
