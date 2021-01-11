@@ -233,16 +233,16 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 5FD3648C
-P 1950 3450
+P 1950 3800
 AR Path="/5FD3648C" Ref="R?"  Part="1" 
 AR Path="/5FF6344B/5FD3648C" Ref="R4"  Part="1" 
-F 0 "R4" H 1800 3550 50  0000 L CNN
-F 1 "220 Ohm" H 1650 3400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1880 3450 50  0001 C CNN
-F 3 "~" H 1950 3450 50  0001 C CNN
-F 4 "avt.pl" H 1950 3450 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 1950 3450 50  0001 C CNN "VendorLink"
-	1    1950 3450
+F 0 "R4" H 1800 3900 50  0000 L CNN
+F 1 "220 Ohm" H 1650 3750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1880 3800 50  0001 C CNN
+F 3 "~" H 1950 3800 50  0001 C CNN
+F 4 "avt.pl" H 1950 3800 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 1950 3800 50  0001 C CNN "VendorLink"
+	1    1950 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -295,16 +295,16 @@ $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5FD36465
-P 1950 3800
+P 1950 3450
 AR Path="/5FD36465" Ref="D?"  Part="1" 
 AR Path="/5FF6344B/5FD36465" Ref="D3"  Part="1" 
-F 0 "D3" V 1950 3950 50  0000 C CNN
-F 1 "RF-GSS150TS-BC" V 2050 3950 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1950 3800 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/297bac1c849d293b517ecf72110c4a89/catalouge-REFOND.pdf" H 1950 3800 50  0001 C CNN
-F 4 "tme.eu" H 1950 3800 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/rf-gss150ts-bc/diody-led-smd-kolorowe/refond/" H 1950 3800 50  0001 C CNN "VendorLink"
-	1    1950 3800
+F 0 "D3" V 1950 3600 50  0000 C CNN
+F 1 "RF-GSS150TS-BC" V 2050 3600 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1950 3450 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/297bac1c849d293b517ecf72110c4a89/catalouge-REFOND.pdf" H 1950 3450 50  0001 C CNN
+F 4 "tme.eu" H 1950 3450 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/rf-gss150ts-bc/diody-led-smd-kolorowe/refond/" H 1950 3450 50  0001 C CNN "VendorLink"
+	1    1950 3450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line

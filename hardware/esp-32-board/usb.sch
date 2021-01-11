@@ -411,27 +411,27 @@ Wire Wire Line
 $Comp
 L Device:LED D4
 U 1 1 5FFCB60F
-P 9100 4350
-F 0 "D4" V 9000 4450 50  0000 L CNN
-F 1 "RF-YUS150TS-AE" V 9100 4450 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9100 4350 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE.pdf" H 9100 4350 50  0001 C CNN
-F 4 "tme.eu" H 9100 4350 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/" H 9100 4350 50  0001 C CNN "VendorLink"
-	1    9100 4350
+P 9100 3950
+F 0 "D4" V 9000 4050 50  0000 L CNN
+F 1 "RF-YUS150TS-AE" V 9100 4050 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9100 3950 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE.pdf" H 9100 3950 50  0001 C CNN
+F 4 "tme.eu" H 9100 3950 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/" H 9100 3950 50  0001 C CNN "VendorLink"
+	1    9100 3950
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED D5
 U 1 1 5FFCC087
-P 9600 4350
-F 0 "D5" V 9500 4450 50  0000 L CNN
-F 1 "RF-YUS150TS-AE" V 9600 4450 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9600 4350 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE.pdf" H 9600 4350 50  0001 C CNN
-F 4 "tme.eu" H 9600 4350 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/" H 9600 4350 50  0001 C CNN "VendorLink"
-	1    9600 4350
+P 9600 3950
+F 0 "D5" V 9500 4050 50  0000 L CNN
+F 1 "RF-YUS150TS-AE" V 9600 4050 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9600 3950 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE.pdf" H 9600 3950 50  0001 C CNN
+F 4 "tme.eu" H 9600 3950 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/" H 9600 3950 50  0001 C CNN "VendorLink"
+	1    9600 3950
 	0    1    1    0   
 $EndComp
 Text Label 9000 4650 2    50   ~ 0
@@ -460,27 +460,27 @@ Wire Wire Line
 $Comp
 L Device:R R1
 U 1 1 5FFD83B8
-P 9100 3950
-F 0 "R1" H 9200 4000 50  0000 L CNN
-F 1 "220 Ohm" H 9200 3950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9030 3950 50  0001 C CNN
-F 3 "~" H 9100 3950 50  0001 C CNN
-F 4 "avt.pl" H 9100 3950 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 9100 3950 50  0001 C CNN "VendorLink"
-	1    9100 3950
+P 9100 4350
+F 0 "R1" H 9200 4400 50  0000 L CNN
+F 1 "220 Ohm" H 9200 4350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9030 4350 50  0001 C CNN
+F 3 "~" H 9100 4350 50  0001 C CNN
+F 4 "avt.pl" H 9100 4350 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 9100 4350 50  0001 C CNN "VendorLink"
+	1    9100 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5FFDD2E6
-P 9600 3950
-F 0 "R2" H 9700 4000 50  0000 L CNN
-F 1 "220 Ohm" H 9700 3950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9530 3950 50  0001 C CNN
-F 3 "~" H 9600 3950 50  0001 C CNN
-F 4 "avt.pl" H 9600 3950 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 9600 3950 50  0001 C CNN "VendorLink"
-	1    9600 3950
+P 9600 4350
+F 0 "R2" H 9700 4400 50  0000 L CNN
+F 1 "220 Ohm" H 9700 4350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9530 4350 50  0001 C CNN
+F 3 "~" H 9600 4350 50  0001 C CNN
+F 4 "avt.pl" H 9600 4350 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 9600 4350 50  0001 C CNN "VendorLink"
+	1    9600 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
