@@ -38,10 +38,10 @@ F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 4700 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L Device:C C2
 U 1 1 5FAC9D96
 P 4850 2950
-F 0 "C3" V 4700 3000 50  0000 L CNN
+F 0 "C2" V 4700 3000 50  0000 L CNN
 F 1 "100nF" V 4700 2650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4888 2800 50  0001 C CNN
 F 3 "~" H 4850 2950 50  0001 C CNN
@@ -51,10 +51,10 @@ F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 4850 2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C4
+L Device:C C3
 U 1 1 5FACA76A
 P 4850 4250
-F 0 "C4" V 4700 4300 50  0000 L CNN
+F 0 "C3" V 4700 4300 50  0000 L CNN
 F 1 "100nF" V 4700 3950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4888 4100 50  0001 C CNN
 F 3 "~" H 4850 4250 50  0001 C CNN
@@ -64,10 +64,10 @@ F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 4850 4
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C2
+L Device:C C4
 U 1 1 5FACAC23
 P 5000 1550
-F 0 "C2" H 5050 1650 50  0000 L CNN
+F 0 "C4" H 5050 1650 50  0000 L CNN
 F 1 "100nF" H 5100 1450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5038 1400 50  0001 C CNN
 F 3 "~" H 5000 1550 50  0001 C CNN
@@ -507,10 +507,10 @@ Wire Wire Line
 Wire Wire Line
 	7400 2400 6850 2400
 $Comp
-L Connector:ESP-PROG-Program J3
+L Connector:ESP-PROG-Program J1
 U 1 1 5FECB5F0
 P 7100 5600
-F 0 "J3" H 6700 6100 50  0000 L CNN
+F 0 "J1" H 6700 6100 50  0000 L CNN
 F 1 "ESP-PROG-Program" H 7250 6100 50  0000 L CNN
 F 2 "Connector_IDC:IDC-Header_2x03_P1.27mm_Vertical_SMD" V 6850 5650 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 5825 5050 50  0001 C CNN
@@ -561,10 +561,10 @@ Wire Wire Line
 Wire Wire Line
 	7000 6000 7000 6150
 $Comp
-L Connector:ESP-PROG-Debug J4
+L Connector:ESP-PROG-Debug J3
 U 1 1 5FF13734
 P 9100 5600
-F 0 "J4" H 8750 6100 50  0000 R CNN
+F 0 "J3" H 8750 6100 50  0000 R CNN
 F 1 "ESP-PROG-Debug" H 9850 6100 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P1.27mm_Vertical_SMD" V 8850 5650 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 7825 5050 50  0001 C CNN
@@ -639,10 +639,10 @@ Wire Wire Line
 Wire Wire Line
 	9500 5500 9800 5500
 $Comp
-L project_components:MainConnector J1
+L project_components:MainConnector J2
 U 1 1 600797C7
 P 7800 2550
-F 0 "J1" H 7800 3700 50  0000 C CNN
+F 0 "J2" H 7800 3700 50  0000 C CNN
 F 1 "MainConnector" H 7800 3600 50  0000 C CNN
 F 2 "project_components:MainConnector" H 7600 2050 50  0001 C CNN
 F 3 "~" H 7600 2050 50  0001 C CNN
@@ -676,10 +676,10 @@ Wire Wire Line
 Wire Wire Line
 	6700 2000 7400 2000
 $Comp
-L Connector_Generic:Conn_01x06 J2
+L Connector_Generic:Conn_01x06 J4
 U 1 1 602A25F3
 P 10000 2450
-F 0 "J2" H 10000 2800 50  0000 C CNN
+F 0 "J4" H 10000 2800 50  0000 C CNN
 F 1 "Conn_01x06" H 10000 2000 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10000 2450 50  0001 C CNN
 F 3 "~" H 10000 2450 50  0001 C CNN
@@ -847,10 +847,10 @@ Wire Wire Line
 Wire Wire Line
 	5000 6100 5000 6700
 $Comp
-L power:PWR_FLAG #FLG0103
+L power:PWR_FLAG #FLG01
 U 1 1 5FD0B643
 P 6600 2000
-F 0 "#FLG0103" H 6600 2075 50  0001 C CNN
+F 0 "#FLG01" H 6600 2075 50  0001 C CNN
 F 1 "PWR_FLAG" V 6600 2150 50  0000 L CNN
 F 2 "" H 6600 2000 50  0001 C CNN
 F 3 "~" H 6600 2000 50  0001 C CNN
@@ -878,10 +878,10 @@ F 3 "" H 6700 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0102
+L power:+5V #PWR015
 U 1 1 5FFB2CC9
 P 8900 1600
-F 0 "#PWR0102" H 8900 1450 50  0001 C CNN
+F 0 "#PWR015" H 8900 1450 50  0001 C CNN
 F 1 "+5V" H 8950 1800 50  0000 C CNN
 F 2 "" H 8900 1600 50  0001 C CNN
 F 3 "" H 8900 1600 50  0001 C CNN
