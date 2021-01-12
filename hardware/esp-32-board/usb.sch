@@ -57,10 +57,10 @@ AR Path="/5FFC9948" Ref="J?"  Part="1"
 AR Path="/5FF73D59/5FFC9948" Ref="J7"  Part="1" 
 F 0 "J7" H 1650 3250 50  0000 C CNN
 F 1 "USB_B_Micro" H 1650 3150 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 1700 2700 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/b7989e722b05f5084c507fb3ad8f02cb/MX-105017-0001.pdf" H 1700 2700 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal" H 1700 2700 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/224991b12752feb77f9b8261a1cec430/10118194-0001LF.pdf" H 1700 2700 50  0001 C CNN
 F 4 "tme.eu" H 1550 2750 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/mx-105017-0001/zlacza-usb-i-ieee1394/molex/105017-0001/" H 1550 2750 50  0001 C CNN "VendorLink"
+F 5 "https://www.tme.eu/pl/details/10118194-0001lf_c/zlacza-usb-i-ieee1394/amphenol/10118194-0001lf/" H 1550 2750 50  0001 C CNN "VendorLink"
 	1    1550 2750
 	1    0    0    -1  
 $EndComp
@@ -306,7 +306,7 @@ L Device:C C11
 U 1 1 5FEE7EEB
 P 4350 2800
 F 0 "C11" H 4150 2900 50  0000 L CNN
-F 1 "100nF" H 4400 2900 50  0000 L CNN
+F 1 "0.1uF" H 4400 2900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4388 2650 50  0001 C CNN
 F 3 "~" H 4350 2800 50  0001 C CNN
 F 4 "avt.pl" H 4350 2800 50  0001 C CNN "Vendor"
@@ -350,9 +350,9 @@ NoConn ~ 6850 4000
 NoConn ~ 5250 3500
 NoConn ~ 5250 3700
 Text Label 7300 3700 2    50   ~ 0
-RXLED
+~RXLED
 Text Label 7300 3600 2    50   ~ 0
-TXLED
+~TXLED
 Wire Wire Line
 	6850 3600 7300 3600
 Wire Wire Line
@@ -361,8 +361,8 @@ $Comp
 L Device:LED D4
 U 1 1 5FFCB60F
 P 9100 3950
-F 0 "D4" V 9000 4050 50  0000 L CNN
-F 1 "RF-YUS150TS-AE" V 9100 4050 50  0000 L CNN
+F 0 "D4" V 9200 3800 50  0000 L CNN
+F 1 "RF-YUS150TS-AE" V 9100 3200 50  0000 L CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9100 3950 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE.pdf" H 9100 3950 50  0001 C CNN
 F 4 "tme.eu" H 9100 3950 50  0001 C CNN "Vendor"
@@ -374,7 +374,7 @@ $Comp
 L Device:LED D5
 U 1 1 5FFCC087
 P 9600 3950
-F 0 "D5" V 9500 4050 50  0000 L CNN
+F 0 "D5" V 9700 4050 50  0000 L CNN
 F 1 "RF-YUS150TS-AE" V 9600 4050 50  0000 L CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9600 3950 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE.pdf" H 9600 3950 50  0001 C CNN
@@ -384,13 +384,13 @@ F 5 "https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/
 	0    1    -1   0   
 $EndComp
 Text Label 9000 4650 2    50   ~ 0
-TXLED
+~TXLED
 Wire Wire Line
 	9000 4650 9100 4650
 Wire Wire Line
 	9100 4650 9100 4500
 Text Label 9700 4650 0    50   ~ 0
-RXLED
+~RXLED
 Wire Wire Line
 	9600 4500 9600 4650
 Wire Wire Line
@@ -410,8 +410,8 @@ $Comp
 L Device:R R3
 U 1 1 5FFD83B8
 P 9100 4350
-F 0 "R3" H 9200 4400 50  0000 L CNN
-F 1 "220 Ohm" H 9200 4350 50  0000 L CNN
+F 0 "R3" H 8950 4400 50  0000 L CNN
+F 1 "220 Ohm" H 8700 4300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9030 4350 50  0001 C CNN
 F 3 "~" H 9100 4350 50  0001 C CNN
 F 4 "avt.pl" H 9100 4350 50  0001 C CNN "Vendor"
@@ -424,7 +424,7 @@ L Device:R R4
 U 1 1 5FFDD2E6
 P 9600 4350
 F 0 "R4" H 9700 4400 50  0000 L CNN
-F 1 "220 Ohm" H 9700 4350 50  0000 L CNN
+F 1 "220 Ohm" H 9700 4300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9530 4350 50  0001 C CNN
 F 3 "~" H 9600 4350 50  0001 C CNN
 F 4 "avt.pl" H 9600 4350 50  0001 C CNN "Vendor"

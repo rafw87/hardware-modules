@@ -42,7 +42,7 @@ L Device:C C2
 U 1 1 5FAC9D96
 P 4850 2950
 F 0 "C2" V 4700 3000 50  0000 L CNN
-F 1 "100nF" V 4700 2650 50  0000 L CNN
+F 1 "0.1uF" V 4700 2650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4888 2800 50  0001 C CNN
 F 3 "~" H 4850 2950 50  0001 C CNN
 F 4 "avt.pl" H 4850 2950 50  0001 C CNN "Vendor"
@@ -55,7 +55,7 @@ L Device:C C3
 U 1 1 5FACA76A
 P 4850 4650
 F 0 "C3" V 4700 4700 50  0000 L CNN
-F 1 "100nF" V 4700 4350 50  0000 L CNN
+F 1 "0.1uF" V 4700 4350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4888 4500 50  0001 C CNN
 F 3 "~" H 4850 4650 50  0001 C CNN
 F 4 "avt.pl" H 4850 4650 50  0001 C CNN "Vendor"
@@ -68,7 +68,7 @@ L Device:C C4
 U 1 1 5FACAC23
 P 5000 1550
 F 0 "C4" H 5050 1650 50  0000 L CNN
-F 1 "100nF" H 5100 1450 50  0000 L CNN
+F 1 "0.1uF" H 5100 1450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5038 1400 50  0001 C CNN
 F 3 "~" H 5000 1550 50  0001 C CNN
 F 4 "avt.pl" H 5000 1550 50  0001 C CNN "Vendor"
@@ -83,9 +83,9 @@ P 4850 2600
 F 0 "SW1" H 4850 2850 50  0000 C CNN
 F 1 "SW_Push" H 4850 2750 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H4.3mm" H 4850 2800 50  0001 C CNN
-F 3 "~" H 4850 2800 50  0001 C CNN
+F 3 "" H 4850 2800 50  0001 C CNN
 F 4 "tme.eu" H 4850 2600 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/tactm-64n-f/mikroprzelaczniki-tact/ninigi/" H 4850 2600 50  0001 C CNN "VendorLink"
+F 5 "https://www.tme.eu/pl/details/b3s-1000/mikroprzelaczniki-tact/omron-ocb/" H 4850 2600 50  0001 C CNN "VendorLink"
 	1    4850 2600
 	1    0    0    -1  
 $EndComp
@@ -96,9 +96,9 @@ P 4850 4300
 F 0 "SW2" H 4850 4600 50  0000 C CNN
 F 1 "SW_Push" H 4850 4500 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H4.3mm" H 4850 4500 50  0001 C CNN
-F 3 "~" H 4850 4500 50  0001 C CNN
+F 3 "" H 4850 4500 50  0001 C CNN
 F 4 "tme.eu" H 4850 4300 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/tactm-64n-f/mikroprzelaczniki-tact/ninigi/" H 4850 4300 50  0001 C CNN "VendorLink"
+F 5 "https://www.tme.eu/pl/details/b3s-1000/mikroprzelaczniki-tact/omron-ocb/" H 4850 4300 50  0001 C CNN "VendorLink"
 	1    4850 4300
 	1    0    0    -1  
 $EndComp

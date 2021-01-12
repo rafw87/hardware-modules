@@ -122,7 +122,7 @@ P 7200 1800
 AR Path="/5FB78060" Ref="C?"  Part="1" 
 AR Path="/5FF6344B/5FB78060" Ref="C9"  Part="1" 
 F 0 "C9" H 7300 1900 50  0000 L CNN
-F 1 "100nF" H 7300 1750 50  0000 L CNN
+F 1 "0.1uF" H 7300 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7238 1650 50  0001 C CNN
 F 3 "~" H 7200 1800 50  0001 C CNN
 F 4 "avt.pl" H 7200 1800 50  0001 C CNN "Vendor"
@@ -320,8 +320,6 @@ Text Notes 900  2850 0    100  ~ 20
 5V to 3.3V regulator
 Text Notes 900  3650 0    50   ~ 0
 5V may come\nfrom DC-5V\nregulator or\nfrom USB
-Text Notes 3850 3500 0    50   ~ 0
-Internal 3.3V powers\nUSB-UART converter
 Text Notes 5200 2850 0    100  ~ 20
 Power switch for ESP-32
 Text Notes 5250 4350 0    50   ~ 0
