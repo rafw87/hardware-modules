@@ -368,7 +368,7 @@ F 3 "https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE
 F 4 "tme.eu" H 9100 3950 50  0001 C CNN "Vendor"
 F 5 "https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/" H 9100 3950 50  0001 C CNN "VendorLink"
 	1    9100 3950
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:LED D5
@@ -381,7 +381,7 @@ F 3 "https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE
 F 4 "tme.eu" H 9600 3950 50  0001 C CNN "Vendor"
 F 5 "https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/" H 9600 3950 50  0001 C CNN "VendorLink"
 	1    9600 3950
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 Text Label 9000 4650 2    50   ~ 0
 TXLED
