@@ -53,14 +53,14 @@ $EndComp
 $Comp
 L Device:C C3
 U 1 1 5FACA76A
-P 4850 4250
-F 0 "C3" V 4700 4300 50  0000 L CNN
-F 1 "100nF" V 4700 3950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4888 4100 50  0001 C CNN
-F 3 "~" H 4850 4250 50  0001 C CNN
-F 4 "avt.pl" H 4850 4250 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 4850 4250 50  0001 C CNN "VendorLink"
-	1    4850 4250
+P 4850 4650
+F 0 "C3" V 4700 4700 50  0000 L CNN
+F 1 "100nF" V 4700 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4888 4500 50  0001 C CNN
+F 3 "~" H 4850 4650 50  0001 C CNN
+F 4 "avt.pl" H 4850 4650 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 4850 4650 50  0001 C CNN "VendorLink"
+	1    4850 4650
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -92,34 +92,32 @@ $EndComp
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5FB585EB
-P 4850 3900
-F 0 "SW2" H 4850 4200 50  0000 C CNN
-F 1 "SW_Push" H 4850 4100 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H4.3mm" H 4850 4100 50  0001 C CNN
-F 3 "~" H 4850 4100 50  0001 C CNN
-F 4 "tme.eu" H 4850 3900 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/tactm-64n-f/mikroprzelaczniki-tact/ninigi/" H 4850 3900 50  0001 C CNN "VendorLink"
-	1    4850 3900
+P 4850 4300
+F 0 "SW2" H 4850 4600 50  0000 C CNN
+F 1 "SW_Push" H 4850 4500 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H4.3mm" H 4850 4500 50  0001 C CNN
+F 3 "~" H 4850 4500 50  0001 C CNN
+F 4 "tme.eu" H 4850 4300 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/tactm-64n-f/mikroprzelaczniki-tact/ninigi/" H 4850 4300 50  0001 C CNN "VendorLink"
+	1    4850 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 3900 4600 3900
+	4650 4300 4600 4300
 Wire Wire Line
-	4600 3900 4600 4250
+	4600 4300 4600 4650
 Wire Wire Line
-	4700 4250 4600 4250
-Connection ~ 4600 4250
+	4700 4650 4600 4650
+Connection ~ 4600 4650
 Wire Wire Line
-	4600 4250 4600 4350
+	4600 4650 4600 4750
 Wire Wire Line
-	5000 4250 5100 4250
+	5000 4650 5100 4650
 Wire Wire Line
-	5100 4250 5100 3900
+	5100 4650 5100 4300
 Wire Wire Line
-	5100 3900 5050 3900
-Wire Wire Line
-	5100 3900 5500 3900
-Connection ~ 5100 3900
+	5100 4300 5050 4300
+Connection ~ 5100 4300
 Wire Wire Line
 	4650 2600 4600 2600
 Wire Wire Line
@@ -152,17 +150,17 @@ $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5FB79E8F
-P 4600 4350
-F 0 "#PWR06" H 4600 4100 50  0001 C CNN
-F 1 "GND" H 4650 4150 50  0000 C CNN
-F 2 "" H 4600 4350 50  0001 C CNN
-F 3 "" H 4600 4350 50  0001 C CNN
-	1    4600 4350
+P 4600 4750
+F 0 "#PWR06" H 4600 4500 50  0001 C CNN
+F 1 "GND" H 4650 4550 50  0000 C CNN
+F 2 "" H 4600 4750 50  0001 C CNN
+F 3 "" H 4600 4750 50  0001 C CNN
+	1    4600 4750
 	1    0    0    -1  
 $EndComp
 Text Label 5500 2600 2    50   ~ 0
 IO0
-Text Label 5500 3900 2    50   ~ 0
+Text Label 5500 4300 2    50   ~ 0
 EN
 $Comp
 L power:+3.3V #PWR08
@@ -892,4 +890,37 @@ Wire Wire Line
 	8200 1750 8900 1750
 Wire Wire Line
 	8900 1600 8900 1750
+Wire Wire Line
+	5100 4300 5150 4300
+Wire Wire Line
+	5150 4250 5150 4300
+Wire Wire Line
+	5150 3900 5150 3950
+$Comp
+L Device:R R5
+U 1 1 60021C37
+P 5150 4100
+F 0 "R5" H 5200 4150 50  0000 L CNN
+F 1 "10k Ohm" H 5200 4050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5080 4100 50  0001 C CNN
+F 3 "~" H 5150 4100 50  0001 C CNN
+F 4 "avt.pl" H 5150 4100 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 5150 4100 50  0001 C CNN "VendorLink"
+	1    5150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR026
+U 1 1 60020BE9
+P 5150 3900
+F 0 "#PWR026" H 5150 3750 50  0001 C CNN
+F 1 "+3.3V" H 5200 4100 50  0000 C CNN
+F 2 "" H 5150 3900 50  0001 C CNN
+F 3 "" H 5150 3900 50  0001 C CNN
+	1    5150 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 4300
+Wire Wire Line
+	5150 4300 5500 4300
 $EndSCHEMATC
