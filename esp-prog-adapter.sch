@@ -4,255 +4,231 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "ESP-PROG breadboard adapter"
+Date "2021-01-27"
+Rev "1"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "When self-powered, ensure that voltage is properly set on ESP-PROG"
+Comment2 "Avoid connecting to different ESP-PROG boards (risk of shorting 3.3V and 5V)"
 Comment3 ""
-Comment4 ""
+Comment4 "ESP-PROG documentation: https://git.io/JLj8g"
 $EndDescr
 $Comp
 L Connector:ESP-PROG-Program J1
 U 1 1 5FF64B1B
-P 2800 3400
-F 0 "J1" H 2450 3500 50  0000 R CNN
-F 1 "ESP-PROG-Program" H 2450 3450 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x03_P1.27mm_Vertical_SMD" V 2550 3450 50  0001 C CNN
-F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 1525 2850 50  0001 C CNN
-	1    2800 3400
-	1    0    0    -1  
+P 5100 2500
+F 0 "J1" H 5250 2950 50  0000 R CNN
+F 1 "ESP-PROG-Program" H 5950 2100 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P1.27mm_Vertical_SMD" V 4850 2550 50  0001 C CNN
+F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 3825 1950 50  0001 C CNN
+	1    5100 2500
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:ESP-PROG-Debug J2
 U 1 1 5FF64F81
-P 5150 3400
-F 0 "J2" H 4800 3500 50  0000 R CNN
-F 1 "ESP-PROG-Debug" H 4800 3450 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P1.27mm_Vertical_SMD" V 4900 3450 50  0001 C CNN
-F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 3875 2850 50  0001 C CNN
-	1    5150 3400
+P 6000 2500
+F 0 "J2" H 6150 2950 50  0000 R CNN
+F 1 "ESP-PROG-Debug" H 6800 2100 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P1.27mm_Vertical_SMD" V 5750 2550 50  0001 C CNN
+F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 4725 1950 50  0001 C CNN
+	1    6000 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x05_Male J3
 U 1 1 5FF658C1
-P 8000 3450
-F 0 "J3" H 8150 3800 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 8450 3200 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8000 3450 50  0001 C CNN
-F 3 "~" H 8000 3450 50  0001 C CNN
-	1    8000 3450
+P 5300 5250
+F 0 "J3" H 5450 5600 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 6550 5250 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5300 5250 50  0001 C CNN
+F 3 "~" H 5300 5250 50  0001 C CNN
+	1    5300 5250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x05_Male J4
 U 1 1 5FF6600E
-P 8500 3450
-F 0 "J4" H 8600 3800 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 8650 3200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8500 3450 50  0001 C CNN
-F 3 "~" H 8500 3450 50  0001 C CNN
-	1    8500 3450
+P 5800 5250
+F 0 "J4" H 5900 5600 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 6950 5250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5800 5250 50  0001 C CNN
+F 3 "~" H 5800 5250 50  0001 C CNN
+	1    5800 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR01
 U 1 1 5FF6AE0A
-P 2700 2800
-F 0 "#PWR01" H 2700 2650 50  0001 C CNN
-F 1 "VCC" H 2750 3000 50  0000 C CNN
-F 2 "" H 2700 2800 50  0001 C CNN
-F 3 "" H 2700 2800 50  0001 C CNN
-	1    2700 2800
+P 5550 1700
+F 0 "#PWR01" H 5550 1550 50  0001 C CNN
+F 1 "VCC" H 5550 1900 50  0000 C CNN
+F 2 "" H 5550 1700 50  0001 C CNN
+F 3 "" H 5550 1700 50  0001 C CNN
+	1    5550 1700
+	-1   0    0    -1  
+$EndComp
+Text Label 4350 2300 0    50   ~ 0
+EN
+Text Label 4350 2400 0    50   ~ 0
+TXD
+Text Label 4350 2500 0    50   ~ 0
+RXD
+Text Label 4350 2600 0    50   ~ 0
+IO0
+Wire Wire Line
+	4700 2300 4350 2300
+Wire Wire Line
+	4350 2400 4700 2400
+Wire Wire Line
+	4700 2500 4350 2500
+Wire Wire Line
+	4350 2600 4700 2600
+Text Label 6700 2300 2    50   ~ 0
+TMS
+Text Label 6700 2400 2    50   ~ 0
+TCK
+Text Label 6700 2500 2    50   ~ 0
+TDO
+Text Label 6700 2600 2    50   ~ 0
+TDI
+Wire Wire Line
+	6400 2300 6700 2300
+Wire Wire Line
+	6700 2400 6400 2400
+Wire Wire Line
+	6400 2500 6700 2500
+Wire Wire Line
+	6700 2600 6400 2600
+$Comp
+L power:VCC #PWR05
+U 1 1 5FF6DDAA
+P 4550 4900
+F 0 "#PWR05" H 4550 4750 50  0001 C CNN
+F 1 "VCC" H 4600 5100 50  0000 C CNN
+F 2 "" H 4550 4900 50  0001 C CNN
+F 3 "" H 4550 4900 50  0001 C CNN
+	1    4550 4900
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5FF6F350
+P 6500 5650
+F 0 "#PWR06" H 6500 5400 50  0001 C CNN
+F 1 "GND" H 6550 5450 50  0000 C CNN
+F 2 "" H 6500 5650 50  0001 C CNN
+F 3 "" H 6500 5650 50  0001 C CNN
+	1    6500 5650
+	1    0    0    -1  
+$EndComp
+Text Label 4800 5250 0    50   ~ 0
+TMS
+Text Label 4800 5150 0    50   ~ 0
+TCK
+Text Label 4800 5350 0    50   ~ 0
+TDO
+Text Label 4800 5450 0    50   ~ 0
+TDI
+Wire Wire Line
+	5100 5150 4800 5150
+Wire Wire Line
+	4800 5250 5100 5250
+Wire Wire Line
+	5100 5350 4800 5350
+Wire Wire Line
+	4800 5450 5100 5450
+Wire Wire Line
+	4550 5050 5100 5050
+Wire Wire Line
+	6350 5450 6000 5450
+Wire Wire Line
+	6000 5350 6350 5350
+Wire Wire Line
+	6350 5250 6000 5250
+Wire Wire Line
+	6000 5150 6350 5150
+Text Label 6350 5150 2    50   ~ 0
+IO0
+Text Label 6350 5450 2    50   ~ 0
+RXD
+Text Label 6350 5350 2    50   ~ 0
+TXD
+Text Label 6350 5250 2    50   ~ 0
+EN
+Wire Wire Line
+	6000 5050 6500 5050
+Wire Wire Line
+	5200 2900 5200 3000
+Wire Wire Line
+	4550 4900 4550 5050
+Wire Wire Line
+	6500 5050 6500 5650
+Wire Wire Line
+	5200 3000 5550 3000
+Wire Wire Line
+	5900 2900 5900 3000
+Wire Wire Line
+	5900 3000 5550 3000
+Connection ~ 5550 3000
+Wire Wire Line
+	5200 2000 5200 1900
+Wire Wire Line
+	5200 1900 5550 1900
+Wire Wire Line
+	5900 1900 5900 2000
+Wire Wire Line
+	5900 1900 5550 1900
+Connection ~ 5550 1900
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6014692F
+P 5500 1750
+F 0 "#FLG0101" H 5500 1825 50  0001 C CNN
+F 1 "PWR_FLAG" V 5500 1900 50  0000 L CNN
+F 2 "" H 5500 1750 50  0001 C CNN
+F 3 "~" H 5500 1750 50  0001 C CNN
+	1    5500 1750
+	0    -1   1    0   
+$EndComp
+Text Notes 4900 1350 0    100  ~ 0
+ESP-PROG connectors
+Text Notes 4950 4550 0    100  ~ 0
+Breadboard headers
+Wire Wire Line
+	5550 1700 5550 1750
+Wire Wire Line
+	5550 1750 5500 1750
+Connection ~ 5550 1750
+Wire Wire Line
+	5550 1750 5550 1900
+Wire Wire Line
+	5550 3150 5550 3200
+Connection ~ 5550 3150
+Wire Wire Line
+	5500 3150 5550 3150
+Wire Wire Line
+	5550 3000 5550 3150
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60147B4E
+P 5500 3150
+F 0 "#FLG0102" H 5500 3225 50  0001 C CNN
+F 1 "PWR_FLAG" V 5500 3300 50  0000 L CNN
+F 2 "" H 5500 3150 50  0001 C CNN
+F 3 "~" H 5500 3150 50  0001 C CNN
+	1    5500 3150
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5FF6B234
-P 2700 3900
-F 0 "#PWR02" H 2700 3650 50  0001 C CNN
-F 1 "GND" H 2750 3700 50  0000 C CNN
-F 2 "" H 2700 3900 50  0001 C CNN
-F 3 "" H 2700 3900 50  0001 C CNN
-	1    2700 3900
-	1    0    0    -1  
+P 5550 3200
+F 0 "#PWR02" H 5550 2950 50  0001 C CNN
+F 1 "GND" H 5550 3000 50  0000 C CNN
+F 2 "" H 5550 3200 50  0001 C CNN
+F 3 "" H 5550 3200 50  0001 C CNN
+	1    5550 3200
+	-1   0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5FF6B6D2
-P 5050 3900
-F 0 "#PWR04" H 5050 3650 50  0001 C CNN
-F 1 "GND" H 5100 3700 50  0000 C CNN
-F 2 "" H 5050 3900 50  0001 C CNN
-F 3 "" H 5050 3900 50  0001 C CNN
-	1    5050 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR03
-U 1 1 5FF6BF1D
-P 5050 2800
-F 0 "#PWR03" H 5050 2650 50  0001 C CNN
-F 1 "VCC" H 5100 3000 50  0000 C CNN
-F 2 "" H 5050 2800 50  0001 C CNN
-F 3 "" H 5050 2800 50  0001 C CNN
-	1    5050 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 2800 2700 2900
-Wire Wire Line
-	2700 3800 2700 3900
-Wire Wire Line
-	5050 2800 5050 2900
-Wire Wire Line
-	5050 3800 5050 3900
-Text Label 3550 3200 2    50   ~ 0
-EN
-Text Label 3550 3300 2    50   ~ 0
-TXD
-Text Label 3550 3400 2    50   ~ 0
-RXD
-Text Label 3550 3500 2    50   ~ 0
-IO0
-Wire Wire Line
-	3200 3200 3550 3200
-Wire Wire Line
-	3550 3300 3200 3300
-Wire Wire Line
-	3200 3400 3550 3400
-Wire Wire Line
-	3550 3500 3200 3500
-Text Label 5850 3200 2    50   ~ 0
-TMS
-Text Label 5850 3300 2    50   ~ 0
-TCK
-Text Label 5850 3400 2    50   ~ 0
-TDO
-Text Label 5850 3500 2    50   ~ 0
-TDI
-Wire Wire Line
-	5550 3200 5850 3200
-Wire Wire Line
-	5850 3300 5550 3300
-Wire Wire Line
-	5550 3400 5850 3400
-Wire Wire Line
-	5850 3500 5550 3500
-$Comp
-L power:VCC #PWR05
-U 1 1 5FF6DDAA
-P 7250 3100
-F 0 "#PWR05" H 7250 2950 50  0001 C CNN
-F 1 "VCC" H 7300 3300 50  0000 C CNN
-F 2 "" H 7250 3100 50  0001 C CNN
-F 3 "" H 7250 3100 50  0001 C CNN
-	1    7250 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7250 3100 7250 3250
-Wire Wire Line
-	9200 3250 9200 3850
-$Comp
-L power:GND #PWR06
-U 1 1 5FF6F350
-P 9200 3850
-F 0 "#PWR06" H 9200 3600 50  0001 C CNN
-F 1 "GND" H 9250 3650 50  0000 C CNN
-F 2 "" H 9200 3850 50  0001 C CNN
-F 3 "" H 9200 3850 50  0001 C CNN
-	1    9200 3850
-	1    0    0    -1  
-$EndComp
-Text Label 7500 3450 0    50   ~ 0
-TMS
-Text Label 7500 3350 0    50   ~ 0
-TCK
-Text Label 7500 3550 0    50   ~ 0
-TDO
-Text Label 7500 3650 0    50   ~ 0
-TDI
-Wire Wire Line
-	7800 3350 7500 3350
-Wire Wire Line
-	7500 3450 7800 3450
-Wire Wire Line
-	7800 3550 7500 3550
-Wire Wire Line
-	7500 3650 7800 3650
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5FF7CEA9
-P 7800 5500
-F 0 "#FLG0101" H 7800 5575 50  0001 C CNN
-F 1 "PWR_FLAG" H 7800 5700 50  0000 C CNN
-F 2 "" H 7800 5500 50  0001 C CNN
-F 3 "~" H 7800 5500 50  0001 C CNN
-	1    7800 5500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7250 3250 7800 3250
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 5FF8094D
-P 8500 5500
-F 0 "#FLG0102" H 8500 5575 50  0001 C CNN
-F 1 "PWR_FLAG" V 8500 5650 50  0000 L CNN
-F 2 "" H 8500 5500 50  0001 C CNN
-F 3 "~" H 8500 5500 50  0001 C CNN
-	1    8500 5500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5FF80AD6
-P 8450 5650
-F 0 "#PWR0101" H 8450 5400 50  0001 C CNN
-F 1 "GND" H 8500 5450 50  0000 C CNN
-F 2 "" H 8450 5650 50  0001 C CNN
-F 3 "" H 8450 5650 50  0001 C CNN
-	1    8450 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0102
-U 1 1 5FF80F55
-P 7850 5350
-F 0 "#PWR0102" H 7850 5200 50  0001 C CNN
-F 1 "VCC" H 7900 5550 50  0000 C CNN
-F 2 "" H 7850 5350 50  0001 C CNN
-F 3 "" H 7850 5350 50  0001 C CNN
-	1    7850 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7800 5500 7850 5500
-Wire Wire Line
-	7850 5500 7850 5350
-Wire Wire Line
-	8500 5500 8450 5500
-Wire Wire Line
-	8450 5500 8450 5650
-Wire Wire Line
-	9050 3650 8700 3650
-Wire Wire Line
-	8700 3550 9050 3550
-Wire Wire Line
-	9050 3450 8700 3450
-Wire Wire Line
-	8700 3350 9050 3350
-Text Label 9050 3350 2    50   ~ 0
-IO0
-Text Label 9050 3650 2    50   ~ 0
-RXD
-Text Label 9050 3550 2    50   ~ 0
-TXD
-Text Label 9050 3450 2    50   ~ 0
-EN
-Wire Wire Line
-	8700 3250 9200 3250
 $EndSCHEMATC
