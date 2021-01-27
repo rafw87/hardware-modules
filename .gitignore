@@ -1,10 +1,15 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
+# Environment
+.idea
+venv
+
 # Temporary files
 *.000
 *.bak
 *.bck
+*.pro-bak
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *.kicad_prl
@@ -15,6 +20,11 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+
+# Generated files
+*.erc
+gerbers
+output
 
 # Netlist files (exported from Eeschema)
 *.net
