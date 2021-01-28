@@ -9,6 +9,29 @@ preflight:
   ignore_unconnected: false
 
 outputs:
+
+  - name: pcb_2d_top
+    comment: 2D model of PCB
+    type: pcbdraw
+    dir: output/docs/render
+    options:
+      bottom: false
+      show_components: all
+      libs:
+        - default
+        - pcbdraw
+
+  - name: pcb_2d_bottom
+    comment: 2D model of PCB
+    type: pcbdraw
+    dir: output/docs/render
+    options:
+      bottom: true
+      show_components: all
+      libs:
+        - default
+        - pcbdraw
+
   - name: gerbers_pcbway
     comment: Gerbers with names compatible with KiCad
     type: gerber
@@ -89,22 +112,6 @@ outputs:
     type: svg
     dir: output/docs/svg/pcb
     layers: all
-
-  - name: pcb_2d_top
-    comment: 2D model of PCB
-    type: pcbdraw
-    dir: output/docs/render
-    options:
-      bottom: false
-      show_components: all
-
-  - name: pcb_2d_bottom
-    comment: 2D model of PCB
-    type: pcbdraw
-    dir: output/docs/render
-    options:
-      bottom: true
-      show_components: all
 
   - name: pcb_3d
     comment: 3D model of PCB
