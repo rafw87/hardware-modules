@@ -37,3 +37,6 @@ output
 *.xml
 *.csv
 *.html
+
+# Do not exclude anything from docs
+!/docs/*
