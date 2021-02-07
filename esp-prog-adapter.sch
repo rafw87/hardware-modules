@@ -18,7 +18,7 @@ L Connector:ESP-PROG-Program J1
 U 1 1 5FF64B1B
 P 5100 2500
 F 0 "J1" H 5250 2950 50  0000 R CNN
-F 1 "ESP-PROG-Program" H 5950 2100 50  0000 R CNN
+F 1 "Male IDC connector, 2x03, 1.27mm, SMD" H 6750 2100 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x03_P1.27mm_Vertical_SMD" V 4850 2550 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 3825 1950 50  0001 C CNN
 	1    5100 2500
@@ -29,7 +29,7 @@ L Connector:ESP-PROG-Debug J2
 U 1 1 5FF64F81
 P 6000 2500
 F 0 "J2" H 6150 2950 50  0000 R CNN
-F 1 "ESP-PROG-Debug" H 6800 2100 50  0000 R CNN
+F 1 "Male IDC connector 2x05, 1.27mm, SMD" H 7600 2100 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P1.27mm_Vertical_SMD" V 5750 2550 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 4725 1950 50  0001 C CNN
 	1    6000 2500
@@ -40,7 +40,7 @@ L Connector:Conn_01x05_Male J3
 U 1 1 5FF658C1
 P 5300 5250
 F 0 "J3" H 5450 5600 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 6550 5250 50  0000 R CNN
+F 1 "Pin header 1x05, 2.54mm" H 6800 5250 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5300 5250 50  0001 C CNN
 F 3 "~" H 5300 5250 50  0001 C CNN
 	1    5300 5250
@@ -51,7 +51,7 @@ L Connector:Conn_01x05_Male J4
 U 1 1 5FF6600E
 P 5800 5250
 F 0 "J4" H 5900 5600 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 6950 5250 50  0000 C CNN
+F 1 "Pin header 1x05, 2.54mm" H 7050 5250 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5800 5250 50  0001 C CNN
 F 3 "~" H 5800 5250 50  0001 C CNN
 	1    5800 5250
