@@ -508,8 +508,8 @@ $Comp
 L Connector:ESP-PROG-Program J1
 U 1 1 5FECB5F0
 P 7100 5600
-F 0 "J1" H 6700 6100 50  0000 L CNN
-F 1 "ESP-PROG-Program" H 7250 6100 50  0000 L CNN
+F 0 "J1" H 6750 6150 50  0000 L CNN
+F 1 "ESP-PROG-Program" H 7250 6150 50  0000 L CNN
 F 2 "Connector_IDC:IDC-Header_2x03_P1.27mm_Vertical_SMD" V 6850 5650 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 5825 5050 50  0001 C CNN
 F 4 "https://www.ebay.com/itm/10Pcs-1-27mm-Pitch-2x3-Pin-6-Pin-SMT-SMD-Male-Shrouded-Box-Header-IDC-Connector/183523538792?hash=item2abadaf768:g:-H4AAOSwm-Fb4s52" H 7100 5600 50  0001 C CNN "VendorLink"
@@ -519,23 +519,23 @@ $EndComp
 $Comp
 L power:+3.3V #PWR013
 U 1 1 5FECE446
-P 7000 5000
-F 0 "#PWR013" H 7000 4850 50  0001 C CNN
-F 1 "+3.3V" H 7050 5200 50  0000 C CNN
-F 2 "" H 7000 5000 50  0001 C CNN
-F 3 "" H 7000 5000 50  0001 C CNN
-	1    7000 5000
+P 7100 4900
+F 0 "#PWR013" H 7100 4750 50  0001 C CNN
+F 1 "+3.3V" H 7150 5050 50  0000 C CNN
+F 2 "" H 7100 4900 50  0001 C CNN
+F 3 "" H 7100 4900 50  0001 C CNN
+	1    7100 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR014
 U 1 1 5FECEB79
-P 7000 6150
-F 0 "#PWR014" H 7000 5900 50  0001 C CNN
-F 1 "GND" H 7050 5950 50  0000 C CNN
-F 2 "" H 7000 6150 50  0001 C CNN
-F 3 "" H 7000 6150 50  0001 C CNN
-	1    7000 6150
+P 7100 6300
+F 0 "#PWR014" H 7100 6050 50  0001 C CNN
+F 1 "GND" H 7150 6150 50  0000 C CNN
+F 2 "" H 7100 6300 50  0001 C CNN
+F 3 "" H 7100 6300 50  0001 C CNN
+	1    7100 6300
 	1    0    0    -1  
 $EndComp
 Text Label 8100 5400 2    50   ~ 0
@@ -555,15 +555,15 @@ Wire Wire Line
 Wire Wire Line
 	8100 5700 7500 5700
 Wire Wire Line
-	7000 5000 7000 5100
+	7100 4900 7100 5000
 Wire Wire Line
-	7000 6000 7000 6150
+	7100 6200 7100 6300
 $Comp
 L Connector:ESP-PROG-Debug J3
 U 1 1 5FF13734
 P 9100 5600
-F 0 "J3" H 8750 6100 50  0000 R CNN
-F 1 "ESP-PROG-Debug" H 9850 6100 50  0000 R CNN
+F 0 "J3" H 8800 6150 50  0000 R CNN
+F 1 "ESP-PROG-Debug" H 9850 6150 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P1.27mm_Vertical_SMD" V 8850 5650 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 7825 5050 50  0001 C CNN
 F 4 "https://www.ebay.com/itm/5Pcs-1-27mm-Pitch-2x5-Pin-10-Pin-SMT-SMD-Male-Shrouded-Box-Header-IDC-Connector/172311876086?hash=item281e9691f6:g:eHIAAOSwu6taWHc7" H 9100 5600 50  0001 C CNN "VendorLink"
@@ -573,29 +573,18 @@ $EndComp
 $Comp
 L power:+3.3V #PWR018
 U 1 1 5FF28296
-P 9000 5000
-F 0 "#PWR018" H 9000 4850 50  0001 C CNN
-F 1 "+3.3V" H 9050 5200 50  0000 C CNN
-F 2 "" H 9000 5000 50  0001 C CNN
-F 3 "" H 9000 5000 50  0001 C CNN
-	1    9000 5000
+P 9100 4900
+F 0 "#PWR018" H 9100 4750 50  0001 C CNN
+F 1 "+3.3V" H 9150 5050 50  0000 C CNN
+F 2 "" H 9100 4900 50  0001 C CNN
+F 3 "" H 9100 4900 50  0001 C CNN
+	1    9100 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 5000 9000 5100
+	9100 4900 9100 5000
 Wire Wire Line
-	9000 6000 9000 6150
-$Comp
-L power:GND #PWR019
-U 1 1 5FF3AAA7
-P 9000 6150
-F 0 "#PWR019" H 9000 5900 50  0001 C CNN
-F 1 "GND" H 9050 5950 50  0000 C CNN
-F 2 "" H 9000 6150 50  0001 C CNN
-F 3 "" H 9000 6150 50  0001 C CNN
-	1    9000 6150
-	1    0    0    -1  
-$EndComp
+	9100 6200 9100 6300
 Text Label 10700 5400 2    50   ~ 0
 TMS
 Text Label 10700 5500 2    50   ~ 0
@@ -923,4 +912,15 @@ $EndComp
 Connection ~ 5150 4300
 Wire Wire Line
 	5150 4300 5500 4300
+$Comp
+L power:GND #PWR019
+U 1 1 5FF3AAA7
+P 9100 6300
+F 0 "#PWR019" H 9100 6050 50  0001 C CNN
+F 1 "GND" H 9150 6150 50  0000 C CNN
+F 2 "" H 9100 6300 50  0001 C CNN
+F 3 "" H 9100 6300 50  0001 C CNN
+	1    9100 6300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
