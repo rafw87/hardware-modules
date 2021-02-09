@@ -119,6 +119,7 @@
     (add_net /TMS)
     (add_net /TXD)
     (add_net GND)
+    (add_net "Net-(J2-Pad10)")
     (add_net VCC)
   )
 
@@ -130,7 +131,7 @@
     (fp_text reference J4 (at 1.905 -6.35 180) (layer B.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)) (justify right mirror))
     )
-    (fp_text value Conn_01x05_Male (at 11.43 -6.35 270) (layer B.Fab)
+    (fp_text value "Pin header 1x05, 2.54mm" (at 11.43 -6.35 270) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -5.08 -90) (layer B.Fab)
@@ -176,7 +177,7 @@
     (fp_text reference J3 (at -1.905 -6.35) (layer B.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)) (justify left mirror))
     )
-    (fp_text value Conn_01x05_Male (at -11.43 -6.35 270) (layer B.Fab)
+    (fp_text value "Pin header 1x05, 2.54mm" (at -11.43 -6.35 270) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -5.08 -90) (layer B.Fab)
@@ -223,7 +224,7 @@
     (fp_text reference J2 (at -2.54 -1.905 180) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)) (justify left))
     )
-    (fp_text value ESP-PROG-Debug (at -4.445 3.81 180) (layer F.Fab)
+    (fp_text value "Male IDC connector 2x05, 1.27mm, SMD" (at -4.445 3.81 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.635 2.54) (layer F.Fab)
@@ -287,7 +288,7 @@
     (fp_text reference J1 (at -2.54 4.445 180) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)) (justify right))
     )
-    (fp_text value ESP-PROG-Program (at -4.445 -1.905 180) (layer F.Fab)
+    (fp_text value "Male IDC connector, 2x03, 1.27mm, SMD" (at -4.445 -1.905 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.635 1.27) (layer F.Fab)

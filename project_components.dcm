@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP-PROG-Debug
+D ESP-PROG debug connector
+K ESP PROG Connector
+F https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md
+$ENDCMP
+#
+$CMP ESP-PROG-Program
+D ESP-PROG program connector
+K ESP PROG Connector
+F https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md
+$ENDCMP
+#
+#End Doc Library

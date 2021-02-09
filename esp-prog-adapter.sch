@@ -14,26 +14,15 @@ Comment3 ""
 Comment4 "ESP-PROG documentation: https://git.io/JLj8g"
 $EndDescr
 $Comp
-L Connector:ESP-PROG-Program J1
+L project_components:ESP-PROG-Program J1
 U 1 1 5FF64B1B
 P 5100 2500
-F 0 "J1" H 5250 2950 50  0000 R CNN
-F 1 "Male IDC connector, 2x03, 1.27mm, SMD" H 6750 2100 50  0000 R CNN
+F 0 "J1" H 5300 3050 50  0000 R CNN
+F 1 "Male IDC connector, 2x03, 1.27mm, SMD" H 6750 1950 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x03_P1.27mm_Vertical_SMD" V 4850 2550 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 3825 1950 50  0001 C CNN
 	1    5100 2500
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:ESP-PROG-Debug J2
-U 1 1 5FF64F81
-P 6000 2500
-F 0 "J2" H 6150 2950 50  0000 R CNN
-F 1 "Male IDC connector 2x05, 1.27mm, SMD" H 7600 2100 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P1.27mm_Vertical_SMD" V 5750 2550 50  0001 C CNN
-F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 4725 1950 50  0001 C CNN
-	1    6000 2500
-	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x05_Male J3
@@ -60,12 +49,12 @@ $EndComp
 $Comp
 L power:VCC #PWR01
 U 1 1 5FF6AE0A
-P 5550 1700
-F 0 "#PWR01" H 5550 1550 50  0001 C CNN
-F 1 "VCC" H 5550 1900 50  0000 C CNN
-F 2 "" H 5550 1700 50  0001 C CNN
-F 3 "" H 5550 1700 50  0001 C CNN
-	1    5550 1700
+P 5550 1600
+F 0 "#PWR01" H 5550 1450 50  0001 C CNN
+F 1 "VCC" H 5550 1800 50  0000 C CNN
+F 2 "" H 5550 1600 50  0001 C CNN
+F 3 "" H 5550 1600 50  0001 C CNN
+	1    5550 1600
 	-1   0    0    -1  
 $EndComp
 Text Label 4350 2300 0    50   ~ 0
@@ -159,36 +148,28 @@ EN
 Wire Wire Line
 	6000 5050 6500 5050
 Wire Wire Line
-	5200 2900 5200 3000
-Wire Wire Line
 	4550 4900 4550 5050
 Wire Wire Line
 	6500 5050 6500 5650
 Wire Wire Line
-	5200 3000 5550 3000
+	5100 3200 5550 3200
 Wire Wire Line
-	5900 2900 5900 3000
+	6000 3200 5550 3200
+Connection ~ 5550 3200
 Wire Wire Line
-	5900 3000 5550 3000
-Connection ~ 5550 3000
+	5100 1800 5550 1800
 Wire Wire Line
-	5200 2000 5200 1900
-Wire Wire Line
-	5200 1900 5550 1900
-Wire Wire Line
-	5900 1900 5900 2000
-Wire Wire Line
-	5900 1900 5550 1900
-Connection ~ 5550 1900
+	6000 1800 5550 1800
+Connection ~ 5550 1800
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 6014692F
-P 5500 1750
-F 0 "#FLG0101" H 5500 1825 50  0001 C CNN
-F 1 "PWR_FLAG" V 5500 1900 50  0000 L CNN
-F 2 "" H 5500 1750 50  0001 C CNN
-F 3 "~" H 5500 1750 50  0001 C CNN
-	1    5500 1750
+P 5500 1650
+F 0 "#FLG0101" H 5500 1725 50  0001 C CNN
+F 1 "PWR_FLAG" V 5500 1800 50  0000 L CNN
+F 2 "" H 5500 1650 50  0001 C CNN
+F 3 "~" H 5500 1650 50  0001 C CNN
+	1    5500 1650
 	0    -1   1    0   
 $EndComp
 Text Notes 4900 1350 0    100  ~ 0
@@ -196,39 +177,58 @@ ESP-PROG connectors
 Text Notes 4950 4550 0    100  ~ 0
 Breadboard headers
 Wire Wire Line
-	5550 1700 5550 1750
+	5550 1600 5550 1650
 Wire Wire Line
-	5550 1750 5500 1750
-Connection ~ 5550 1750
+	5550 1650 5500 1650
+Connection ~ 5550 1650
 Wire Wire Line
-	5550 1750 5550 1900
+	5550 1650 5550 1800
 Wire Wire Line
-	5550 3150 5550 3200
-Connection ~ 5550 3150
+	5550 3350 5550 3400
+Connection ~ 5550 3350
 Wire Wire Line
-	5500 3150 5550 3150
+	5500 3350 5550 3350
 Wire Wire Line
-	5550 3000 5550 3150
+	5550 3200 5550 3350
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 60147B4E
-P 5500 3150
-F 0 "#FLG0102" H 5500 3225 50  0001 C CNN
-F 1 "PWR_FLAG" V 5500 3300 50  0000 L CNN
-F 2 "" H 5500 3150 50  0001 C CNN
-F 3 "~" H 5500 3150 50  0001 C CNN
-	1    5500 3150
+P 5500 3350
+F 0 "#FLG0102" H 5500 3425 50  0001 C CNN
+F 1 "PWR_FLAG" V 5500 3500 50  0000 L CNN
+F 2 "" H 5500 3350 50  0001 C CNN
+F 3 "~" H 5500 3350 50  0001 C CNN
+	1    5500 3350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5FF6B234
-P 5550 3200
-F 0 "#PWR02" H 5550 2950 50  0001 C CNN
-F 1 "GND" H 5550 3000 50  0000 C CNN
-F 2 "" H 5550 3200 50  0001 C CNN
-F 3 "" H 5550 3200 50  0001 C CNN
-	1    5550 3200
+P 5550 3400
+F 0 "#PWR02" H 5550 3150 50  0001 C CNN
+F 1 "GND" H 5550 3200 50  0000 C CNN
+F 2 "" H 5550 3400 50  0001 C CNN
+F 3 "" H 5550 3400 50  0001 C CNN
+	1    5550 3400
 	-1   0    0    -1  
 $EndComp
+$Comp
+L project_components:ESP-PROG-Debug J2
+U 1 1 5FF64F81
+P 6000 2500
+F 0 "J2" H 6150 3050 50  0000 R CNN
+F 1 "Male IDC connector 2x05, 1.27mm, SMD" H 7600 1950 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P1.27mm_Vertical_SMD" V 5750 2550 50  0001 C CNN
+F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 4725 1950 50  0001 C CNN
+	1    6000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1800 6000 1900
+Wire Wire Line
+	5100 1800 5100 1900
+Wire Wire Line
+	5100 3100 5100 3200
+Wire Wire Line
+	6000 3100 6000 3200
 $EndSCHEMATC
