@@ -106,10 +106,6 @@ Text HLabel 10600 1850 2    50   Output ~ 0
 EN
 Text HLabel 10600 2900 2    50   Output ~ 0
 IO0
-Text HLabel 7350 2600 2    50   Input ~ 0
-TXD0
-Text HLabel 7350 2700 2    50   Output ~ 0
-RXD0
 Text Label 7300 3000 2    50   ~ 0
 DTR
 Text Label 3950 2700 2    50   ~ 0
@@ -269,10 +265,6 @@ Wire Wire Line
 	4650 2900 5250 2900
 Wire Wire Line
 	6850 2800 7300 2800
-Wire Wire Line
-	6850 2600 7350 2600
-Wire Wire Line
-	6850 2700 7350 2700
 Wire Wire Line
 	5850 4300 5850 4350
 Wire Wire Line
@@ -488,4 +480,12 @@ Wire Wire Line
 	2800 2350 3350 2350
 Wire Wire Line
 	2800 3250 3350 3250
+Wire Wire Line
+	6850 2700 7350 2700
+Text HLabel 7350 2700 2    50   Input ~ 0
+RXD
+Wire Wire Line
+	6850 2600 7350 2600
+Text HLabel 7350 2600 2    50   Output ~ 0
+TXD
 $EndSCHEMATC
