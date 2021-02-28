@@ -174,25 +174,8 @@ Wire Wire Line
 	2050 1650 2050 1750
 Text HLabel 5400 1550 0    50   UnSpc ~ 0
 VIN
-Wire Wire Line
-	5850 3500 5750 3500
-Wire Wire Line
-	5750 3400 5850 3400
-Text HLabel 5750 3500 0    50   UnSpc ~ 0
+Text HLabel 3950 3250 2    50   UnSpc ~ 0
 +3.3V
-$Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 5FE84590
-P 6050 3400
-F 0 "J6" H 6050 3650 50  0000 C CNN
-F 1 "Conn_01x02" H 6050 3550 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6050 3050 50  0001 C CNN
-F 3 "~" H 6050 3400 50  0001 C CNN
-F 4 "" H 6050 3400 50  0001 C CNN "Vendor"
-F 5 "" H 6050 3400 50  0001 C CNN "VendorLink"
-	1    6050 3400
-	1    0    0    -1  
-$EndComp
 Connection ~ 3400 3250
 Wire Wire Line
 	3400 3250 3950 3250
@@ -320,10 +303,6 @@ Text Notes 900  2850 0    100  ~ 20
 5V to 3.3V regulator
 Text Notes 900  3650 0    50   ~ 0
 5V may come\nfrom DC-5V\nregulator or\nfrom USB
-Text Notes 5200 2850 0    100  ~ 20
-Power switch for ESP-32
-Text Notes 5250 4350 0    50   ~ 0
-Allows to disconnect ESP-32's 3.3V from regulators.\nUseful when board is powered externally by 3.3V port, preventing\ncurrent from "leaking" in unused USB and power circuit.
 $Comp
 L Regulator_Linear:NCP1117-3.3_SOT223 U?
 U 1 1 5FD3645F
@@ -345,10 +324,6 @@ Wire Wire Line
 	1850 1550 2100 1550
 Wire Wire Line
 	2400 1550 2650 1550
-Text Label 3950 3250 0    50   ~ 0
-Internal_3V3
-Text Label 5750 3400 2    50   ~ 0
-Internal_3V3
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5FFE3888
