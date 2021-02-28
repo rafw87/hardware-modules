@@ -21,7 +21,7 @@ AR Path="/5FB78030" Ref="J?"  Part="1"
 AR Path="/5FF6344B/5FB78030" Ref="J5"  Part="1" 
 F 0 "J5" H 1300 1400 50  0000 C CNN
 F 1 "Barrel_Jack_MountingPin" H 1500 1900 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Lumberg_1613-21_Horizontal" H 1600 1610 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CLIFF_FC68148_Horizontal" H 1600 1610 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/3d585bc2823a1d150d9d924b483e2fef/1613-21.pdf" H 1600 1610 50  0001 C CNN
 F 4 "tme.eu" H 1550 1650 50  0001 C CNN "Vendor"
 F 5 "https://www.tme.eu/pl/details/1613-21/zlacza-dc/lumberg/1613-21/" H 1550 1650 50  0001 C CNN "VendorLink"
