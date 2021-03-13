@@ -209,9 +209,9 @@ Wire Wire Line
 Text Label 8750 3350 2    50   ~ 0
 EN
 Text Label 8750 3250 2    50   ~ 0
-SENSOR_VP
+IO36
 Text Label 8750 3150 2    50   ~ 0
-SENSOR_VN
+IO39
 Text Label 8750 3050 2    50   ~ 0
 IO34
 Text Label 8750 2950 2    50   ~ 0
@@ -345,9 +345,9 @@ Wire Wire Line
 Text Label 950  1800 0    50   ~ 0
 EN
 Text Label 950  2000 0    50   ~ 0
-SENSOR_VP
+IO36
 Text Label 950  2100 0    50   ~ 0
-SENSOR_VN
+IO39
 Text Label 950  3000 0    50   ~ 0
 SD0
 Wire Wire Line
@@ -706,45 +706,6 @@ Wire Wire Line
 $Comp
 L Device:R_Pack04_Split RN1
 U 1 1 6008D4E8
-P 9950 5600
-F 0 "RN1" V 9900 5350 50  0000 C CNN
-F 1 "100 Ohm" V 9900 5900 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0612" V 9870 5600 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/06db5b489d2b0c3473dd3a4d90f1faf2/ROYALOHM-xDx.pdf" H 9950 5600 50  0001 C CNN
-F 4 "tme.eu" H 9950 5600 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/en/details/dr0804-100r-4_8/smd-resistor-networks/royal-ohm/4d02wgj0101t/" H 9950 5600 50  0001 C CNN "VendorLink"
-	1    9950 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split RN1
-U 2 1 6008EB1A
-P 9950 5500
-F 0 "RN1" V 9900 5250 50  0000 C CNN
-F 1 "100 Ohm" V 9900 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0612" V 9870 5500 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/06db5b489d2b0c3473dd3a4d90f1faf2/ROYALOHM-xDx.pdf" H 9950 5500 50  0001 C CNN
-F 4 "tme.eu" H 9950 5500 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/en/details/dr0804-100r-4_8/smd-resistor-networks/royal-ohm/4d02wgj0101t/" H 9950 5500 50  0001 C CNN "VendorLink"
-	2    9950 5500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split RN1
-U 3 1 6008F771
-P 9950 5400
-F 0 "RN1" V 9900 5150 50  0000 C CNN
-F 1 "100 Ohm" V 9900 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0612" V 9870 5400 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/06db5b489d2b0c3473dd3a4d90f1faf2/ROYALOHM-xDx.pdf" H 9950 5400 50  0001 C CNN
-F 4 "tme.eu" H 9950 5400 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/dr1206-100r-4_8/drabinki-rezystorowe-smd/royal-ohm/4d03wgj0101t5e/" H 9950 5400 50  0001 C CNN "VendorLink"
-	3    9950 5400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split RN1
-U 4 1 600907AD
 P 9950 5700
 F 0 "RN1" V 9900 5450 50  0000 C CNN
 F 1 "100 Ohm" V 9900 6000 50  0000 C CNN
@@ -752,7 +713,46 @@ F 2 "Resistor_SMD:R_Array_Convex_4x0612" V 9870 5700 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/06db5b489d2b0c3473dd3a4d90f1faf2/ROYALOHM-xDx.pdf" H 9950 5700 50  0001 C CNN
 F 4 "tme.eu" H 9950 5700 50  0001 C CNN "Vendor"
 F 5 "https://www.tme.eu/pl/en/details/dr0804-100r-4_8/smd-resistor-networks/royal-ohm/4d02wgj0101t/" H 9950 5700 50  0001 C CNN "VendorLink"
-	4    9950 5700
+	1    9950 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1
+U 2 1 6008EB1A
+P 9950 5600
+F 0 "RN1" V 9900 5350 50  0000 C CNN
+F 1 "100 Ohm" V 9900 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0612" V 9870 5600 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/06db5b489d2b0c3473dd3a4d90f1faf2/ROYALOHM-xDx.pdf" H 9950 5600 50  0001 C CNN
+F 4 "tme.eu" H 9950 5600 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/en/details/dr0804-100r-4_8/smd-resistor-networks/royal-ohm/4d02wgj0101t/" H 9950 5600 50  0001 C CNN "VendorLink"
+	2    9950 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1
+U 3 1 6008F771
+P 9950 5500
+F 0 "RN1" V 9900 5250 50  0000 C CNN
+F 1 "100 Ohm" V 9900 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0612" V 9870 5500 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/06db5b489d2b0c3473dd3a4d90f1faf2/ROYALOHM-xDx.pdf" H 9950 5500 50  0001 C CNN
+F 4 "tme.eu" H 9950 5500 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/dr1206-100r-4_8/drabinki-rezystorowe-smd/royal-ohm/4d03wgj0101t5e/" H 9950 5500 50  0001 C CNN "VendorLink"
+	3    9950 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1
+U 4 1 600907AD
+P 9950 5400
+F 0 "RN1" V 9900 5150 50  0000 C CNN
+F 1 "100 Ohm" V 9900 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0612" V 9870 5400 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/06db5b489d2b0c3473dd3a4d90f1faf2/ROYALOHM-xDx.pdf" H 9950 5400 50  0001 C CNN
+F 4 "tme.eu" H 9950 5400 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/en/details/dr0804-100r-4_8/smd-resistor-networks/royal-ohm/4d02wgj0101t/" H 9950 5400 50  0001 C CNN "VendorLink"
+	4    9950 5400
 	0    1    1    0   
 $EndComp
 Text Label 900  6450 0    50   ~ 0
