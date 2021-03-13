@@ -40,14 +40,14 @@ $EndComp
 $Comp
 L Device:C C2
 U 1 1 5FAC9D96
-P 4850 2950
-F 0 "C2" V 4700 3000 50  0000 L CNN
-F 1 "0.1uF" V 4700 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4888 2800 50  0001 C CNN
-F 3 "~" H 4850 2950 50  0001 C CNN
-F 4 "avt.pl" H 4850 2950 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 4850 2950 50  0001 C CNN "VendorLink"
-	1    4850 2950
+P 4850 3350
+F 0 "C2" V 4700 3400 50  0000 L CNN
+F 1 "0.1uF" V 4700 3050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4888 3200 50  0001 C CNN
+F 3 "~" H 4850 3350 50  0001 C CNN
+F 4 "avt.pl" H 4850 3350 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 4850 3350 50  0001 C CNN "VendorLink"
+	1    4850 3350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -79,14 +79,14 @@ $EndComp
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5FB57488
-P 4850 2600
-F 0 "SW1" H 4850 2850 50  0000 C CNN
-F 1 "SW_Push" H 4850 2750 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H4.3mm" H 4850 2800 50  0001 C CNN
-F 3 "" H 4850 2800 50  0001 C CNN
-F 4 "tme.eu" H 4850 2600 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/b3s-1000/mikroprzelaczniki-tact/omron-ocb/" H 4850 2600 50  0001 C CNN "VendorLink"
-	1    4850 2600
+P 4850 3000
+F 0 "SW1" H 4850 3250 50  0000 C CNN
+F 1 "SW_Push" H 4850 3150 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H4.3mm" H 4850 3200 50  0001 C CNN
+F 3 "" H 4850 3200 50  0001 C CNN
+F 4 "tme.eu" H 4850 3000 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/b3s-1000/mikroprzelaczniki-tact/omron-ocb/" H 4850 3000 50  0001 C CNN "VendorLink"
+	1    4850 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -119,32 +119,32 @@ Wire Wire Line
 	5100 4300 5050 4300
 Connection ~ 5100 4300
 Wire Wire Line
-	4650 2600 4600 2600
+	4650 3000 4600 3000
 Wire Wire Line
-	4600 2600 4600 2950
+	4600 3000 4600 3350
 Wire Wire Line
-	4700 2950 4600 2950
-Connection ~ 4600 2950
+	4700 3350 4600 3350
+Connection ~ 4600 3350
 Wire Wire Line
-	4600 2950 4600 3050
+	4600 3350 4600 3450
 Wire Wire Line
-	5050 2600 5100 2600
+	5050 3000 5100 3000
 Wire Wire Line
-	5100 2600 5100 2950
+	5100 3000 5100 3350
 Wire Wire Line
-	5100 2950 5000 2950
+	5100 3350 5000 3350
 Wire Wire Line
-	5100 2600 5500 2600
-Connection ~ 5100 2600
+	5100 3000 5150 3000
+Connection ~ 5100 3000
 $Comp
 L power:GND #PWR05
 U 1 1 5FB79B18
-P 4600 3050
-F 0 "#PWR05" H 4600 2800 50  0001 C CNN
-F 1 "GND" H 4650 2850 50  0000 C CNN
-F 2 "" H 4600 3050 50  0001 C CNN
-F 3 "" H 4600 3050 50  0001 C CNN
-	1    4600 3050
+P 4600 3450
+F 0 "#PWR05" H 4600 3200 50  0001 C CNN
+F 1 "GND" H 4650 3250 50  0000 C CNN
+F 2 "" H 4600 3450 50  0001 C CNN
+F 3 "" H 4600 3450 50  0001 C CNN
+	1    4600 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -158,7 +158,7 @@ F 3 "" H 4600 4750 50  0001 C CNN
 	1    4600 4750
 	1    0    0    -1  
 $EndComp
-Text Label 5500 2600 2    50   ~ 0
+Text Label 5500 3000 2    50   ~ 0
 IO0
 Text Label 5500 4300 2    50   ~ 0
 EN
@@ -923,4 +923,35 @@ F 3 "" H 9100 6300 50  0001 C CNN
 	1    9100 6300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 2600 5150 2650
+$Comp
+L Device:R R6
+U 1 1 604EEDDB
+P 5150 2800
+F 0 "R6" H 5200 2850 50  0000 L CNN
+F 1 "10k Ohm" H 5200 2750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5080 2800 50  0001 C CNN
+F 3 "~" H 5150 2800 50  0001 C CNN
+F 4 "avt.pl" H 5150 2800 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 5150 2800 50  0001 C CNN "VendorLink"
+	1    5150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR027
+U 1 1 604EEDE1
+P 5150 2600
+F 0 "#PWR027" H 5150 2450 50  0001 C CNN
+F 1 "+3.3V" H 5200 2800 50  0000 C CNN
+F 2 "" H 5150 2600 50  0001 C CNN
+F 3 "" H 5150 2600 50  0001 C CNN
+	1    5150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2950 5150 3000
+Connection ~ 5150 3000
+Wire Wire Line
+	5150 3000 5500 3000
 $EndSCHEMATC
