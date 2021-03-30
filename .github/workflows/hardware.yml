@@ -1,6 +1,12 @@
 name: hardware
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   esp-32-board:

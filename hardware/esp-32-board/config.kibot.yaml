@@ -49,8 +49,8 @@ outputs:
       metric_units: false
       minimal_header: true
       zeros_format: SUPPRESS_LEADING
-      left_digits: 3
-      right_digits: 3
+      left_digits: 2
+      right_digits: 4
       pth_and_npth_single_file: false
       pth_id: ''
       npth_id: '-NPTH'
