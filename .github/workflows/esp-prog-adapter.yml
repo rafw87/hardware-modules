@@ -1,0 +1,37 @@
+name: esp-prog-adapter
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+    - 'esp-prog-adapter/**'
+  pull_request:
+    branches:
+      - master
+    paths:
+    - 'esp-prog-adapter/**'
+
+jobs:
+  kibot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: INTI-CMNB/KiBot@v0.9.0
+      with:
+        config: esp-prog-adapter/config.kibot.yaml
+        dir: esp-prog-adapter
+        schema: 'esp-prog-adapter/esp-prog-adapter.sch'
+        board: 'esp-prog-adapter/esp-prog-adapter.kicad_pcb'
+
+    - name: upload docs
+      uses: actions/upload-artifact@v2
+      with:
+        name: esp-prog-adapter-docs
+        path: esp-prog-adapter/output/docs/
+
+    - name: upload PCBWay gerbers
+      uses: actions/upload-artifact@v2
+      with:
+        name: esp-prog-adapter-pcbway
+        path: esp-prog-adapter/output/gerbers/pcbway
