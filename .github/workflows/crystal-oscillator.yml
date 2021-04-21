@@ -21,8 +21,8 @@ jobs:
       with:
         config: crystal-oscillator/config.kibot.yaml
         dir: crystal-oscillator
-        schema: 'crystal-oscillator/esp-prog-adapter.sch'
-        board: 'crystal-oscillator/esp-prog-adapter.kicad_pcb'
+        schema: 'crystal-oscillator/crystal-oscillator.sch'
+        board: 'crystal-oscillator/crystal-oscillator.kicad_pcb'
 
     - name: upload docs
       uses: actions/upload-artifact@v2
