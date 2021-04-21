@@ -28,10 +28,10 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: esp-prog-adapter-docs
-        path: output/docs/
+        path: esp-prog-adapter/output/docs/
 
     - name: upload PCBWay gerbers
       uses: actions/upload-artifact@v2
       with:
         name: esp-prog-adapter-pcbway
-        path: output/gerbers/pcbway
+        path: esp-prog-adapter/output/gerbers/pcbway
