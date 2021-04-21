@@ -1,0 +1,37 @@
+name: crystal-oscillator
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+    - 'crystal-oscillator/**'
+  pull_request:
+    branches:
+      - master
+    paths:
+    - 'crystal-oscillator/**'
+
+jobs:
+  kibot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: INTI-CMNB/KiBot@v0.9.0
+      with:
+        config: crystal-oscillator/config.kibot.yaml
+        dir: crystal-oscillator
+        schema: 'crystal-oscillator/esp-prog-adapter.sch'
+        board: 'crystal-oscillator/esp-prog-adapter.kicad_pcb'
+
+    - name: upload docs
+      uses: actions/upload-artifact@v2
+      with:
+        name: crystal-oscillator-docs
+        path: crystal-oscillator/output/docs/
+
+    - name: upload PCBWay gerbers
+      uses: actions/upload-artifact@v2
+      with:
+        name: crystal-oscillator-pcbway
+        path: crystal-oscillator/output/gerbers/pcbway
