@@ -1,0 +1,40 @@
+kibot:
+  version: 1
+
+outputs:
+  - name: sch_svg
+    comment: Schematic SVG print
+    type: svg_sch_print
+    dir: output/docs
+
+  - name: sch_pdf
+    comment: Schematic PDF print
+    type: pdf_sch_print
+    dir: output/docs
+
+  - name: bom
+    comment: Bill of Materials
+    type: bom
+    dir: output/docs
+    options:
+      format: HTML
+      html:
+        title: Bill of Materials
+        col_colors: false
+        logo: false
+
+#  - name: interactive_bom
+#    comment: IBoM (Interactive HTML BoM)
+#    type: ibom
+#    dir: output/docs
+
+#  - name: boardview
+#    comment: Board view
+#    type: boardview
+#    dir: output/docs
+
+#  - name: kicost
+#    comment: KiCost (KiCad Cost calculator)
+#    type: kicost
+#    dir: output/docs
+
