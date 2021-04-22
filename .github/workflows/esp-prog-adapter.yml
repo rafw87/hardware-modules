@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: INTI-CMNB/KiBot@v0.9.0
+    - uses: INTI-CMNB/KiBot@v0.10.1
       with:
         config: esp-prog-adapter/config.kibot.yaml
         dir: esp-prog-adapter
@@ -30,8 +30,14 @@ jobs:
         name: esp-prog-adapter-docs
         path: esp-prog-adapter/output/docs/
 
-    - name: upload PCBWay gerbers
+    - name: upload renders
       uses: actions/upload-artifact@v2
       with:
-        name: esp-prog-adapter-pcbway
-        path: esp-prog-adapter/output/gerbers/pcbway
+        name: esp-prog-adapter-renders
+        path: esp-prog-adapter/output/renders/
+
+    - name: upload gerbers
+      uses: actions/upload-artifact@v2
+      with:
+        name: esp-prog-adapter-gerbers
+        path: esp-prog-adapter/output/gerbers/*.zip
