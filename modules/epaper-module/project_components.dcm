@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Si1308EDL
+D 1.4A Id, 30V Vds, N-Channel MOSFET, SOT-323
+K N-Channel MOSFET
+F https://pl.mouser.com/datasheet/2/427/si1308edl-1764588.pdf
+$ENDCMP
+#
+$CMP WSH-12561
+F https://www.tme.eu/Document/0ca57a8ffbcd57b5bca53252eb9d6ec3/WSH-12561.pdf
+$ENDCMP
+#
+#End Doc Library
