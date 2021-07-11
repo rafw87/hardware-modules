@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: INTI-CMNB/KiBot@v0.10.1
+    - uses: INTI-CMNB/KiBot@v1
       with:
         config: modules/esp-32-board/config.kibot.yaml
         dir: modules/esp-32-board
