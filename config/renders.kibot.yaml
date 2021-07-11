@@ -11,7 +11,7 @@ outputs:
       show_components: all
       libs:
         - ./pcbdraw/custom
-        - ./pcbdraw/PcbDraw-Lib
+        - ./pcbdraw/PcbDraw-Lib/KiCAD-base
         - default
 
   - name: pcb_2d_bottom
@@ -23,7 +23,7 @@ outputs:
       show_components: all
       libs:
         - ./pcbdraw/custom
-        - ./pcbdraw/PcbDraw-Lib
+        - ./pcbdraw/PcbDraw-Lib/KiCAD-base
         - default
 
   - name: pcb_3d
