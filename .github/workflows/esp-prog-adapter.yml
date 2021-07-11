@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: recursive
     - uses: INTI-CMNB/KiBot@v0.10.1
       with:
         config: esp-prog-adapter/config.kibot.yaml
