@@ -1,0 +1,30 @@
+kibot:
+  version: 1
+
+outputs:
+  - name: pcb_2d_top
+    comment: 2D model of PCB
+    type: pcbdraw
+    dir: output/renders
+    options:
+      bottom: false
+      show_components: all
+      libs:
+        - ../pcbdraw
+        - default
+
+  - name: pcb_2d_bottom
+    comment: 2D model of PCB
+    type: pcbdraw
+    dir: output/renders
+    options:
+      bottom: true
+      show_components: all
+      libs:
+        - ../pcbdraw
+        - default
+
+  - name: pcb_3d
+    comment: 3D model of PCB
+    type: step
+    dir: output/renders

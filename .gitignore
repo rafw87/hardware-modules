@@ -23,7 +23,7 @@ fp-info-cache
 
 # Generated files
 *.erc
-gerber
+gerbers
 output
 
 # Netlist files (exported from Eeschema)
@@ -37,3 +37,6 @@ output
 *.xml
 *.csv
 *.html
+
+# Do not exclude anything from docs
+!*/docs/*
