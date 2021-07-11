@@ -1,0 +1,43 @@
+name: esp-32-board
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+    - 'modules/esp-32-board/**'
+  pull_request:
+    branches:
+      - master
+    paths:
+    - 'modules/esp-32-board/**'
+
+jobs:
+  kibot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: INTI-CMNB/KiBot@v0.10.1
+      with:
+        config: modules/esp-32-board/config.kibot.yaml
+        dir: modules/esp-32-board
+        schema: 'modules/esp-32-board/esp-32-board.sch'
+        board: 'modules/esp-32-board/esp-32-board.kicad_pcb'
+
+    - name: upload docs
+      uses: actions/upload-artifact@v2
+      with:
+        name: esp-32-board-docs
+        path: modules/esp-32-board/output/docs/
+
+    - name: upload renders
+      uses: actions/upload-artifact@v2
+      with:
+        name: esp-32-board-renders
+        path: modules/esp-32-board/output/renders/
+
+    - name: upload gerbers
+      uses: actions/upload-artifact@v2
+      with:
+        name: esp-32-board-gerbers
+        path: modules/esp-32-board/output/gerbers/*.zip
