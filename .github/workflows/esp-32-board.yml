@@ -25,6 +25,7 @@ jobs:
         dir: modules/esp-32-board
         schema: 'modules/esp-32-board/esp-32-board.sch'
         board: 'modules/esp-32-board/esp-32-board.kicad_pcb'
+        verbose: 1
 
     - name: upload docs
       uses: actions/upload-artifact@v2
