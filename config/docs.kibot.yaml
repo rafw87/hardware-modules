@@ -23,6 +23,12 @@ outputs:
         col_colors: false
         logo: false
 
+  - name: pcb_svg
+    comment: PCB SVG print
+    type: svg
+    dir: output/docs/pcb
+    layers: all
+
 #  - name: interactive_bom
 #    comment: IBoM (Interactive HTML BoM)
 #    type: ibom
