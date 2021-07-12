@@ -131,11 +131,11 @@ Text HLabel 3700 2200 2    50   UnSpc ~ 0
 Text Label 2550 2200 2    50   ~ 0
 VBUS
 $Comp
-L Transistor_BJT:BCR129S Q1
+L project_components:BCR129S Q1
 U 1 1 5FB53DE1
 P 9900 2100
 F 0 "Q1" H 10050 2150 50  0000 L CNN
-F 1 "BCR129S" H 10050 2100 50  0000 L CNN
+F 1 "BCR129S" H 10050 2050 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 9905 1660 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BCR129SERIES-DS-v01_01-en.pdf?fileId=db3a30431428a37301143f7ab7820287" H 9900 2100 50  0001 C CNN
 F 4 "tme.eu" H 9900 2100 50  0001 C CNN "Vendor"
@@ -144,11 +144,11 @@ F 5 "https://www.tme.eu/pl/details/bcr129sh6327/tranzystory-npn-smd/infineon-tec
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BCR129S Q1
+L project_components:BCR129S Q1
 U 2 1 5FB59A80
 P 9900 2650
-F 0 "Q1" H 10050 2700 50  0000 L CNN
-F 1 "BCR129S" H 10050 2650 50  0000 L CNN
+F 0 "Q1" H 10050 2600 50  0000 L CNN
+F 1 "BCR129S" H 10050 2700 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 9905 2210 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BCR129SERIES-DS-v01_01-en.pdf?fileId=db3a30431428a37301143f7ab7820287" H 9900 2650 50  0001 C CNN
 F 4 "tme.eu" H 9900 2650 50  0001 C CNN "Vendor"

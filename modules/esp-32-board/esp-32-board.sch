@@ -19,7 +19,7 @@ U 1 1 5FAC1593
 P 2100 3000
 F 0 "U1" H 1600 4400 50  0000 C CNN
 F 1 "ESP32-WROOM-32" H 2700 4400 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32-ThermalVias" H 2100 1500 50  0000 C CNN
+F 2 "project_components:ESP32-WROOM-32-ThermalVias" H 2100 1500 50  0000 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 1800 3050 50  0001 C CNN
 	1    2100 3000
 	1    0    0    -1  
@@ -82,7 +82,7 @@ U 1 1 5FB57488
 P 4850 3000
 F 0 "SW1" H 4850 3250 50  0000 C CNN
 F 1 "SW_Push" H 4850 3150 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H4.3mm" H 4850 3200 50  0001 C CNN
+F 2 "project_components:SW_Push_1P1T_NO_6x6mm_H4.3mm" H 4850 3200 50  0001 C CNN
 F 3 "" H 4850 3200 50  0001 C CNN
 F 4 "tme.eu" H 4850 3000 50  0001 C CNN "Vendor"
 F 5 "https://www.tme.eu/pl/details/b3s-1000/mikroprzelaczniki-tact/omron-ocb/" H 4850 3000 50  0001 C CNN "VendorLink"
@@ -95,7 +95,7 @@ U 1 1 5FB585EB
 P 4850 4300
 F 0 "SW2" H 4850 4600 50  0000 C CNN
 F 1 "SW_Push" H 4850 4500 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H4.3mm" H 4850 4500 50  0001 C CNN
+F 2 "project_components:SW_Push_1P1T_NO_6x6mm_H4.3mm" H 4850 4500 50  0001 C CNN
 F 3 "" H 4850 4500 50  0001 C CNN
 F 4 "tme.eu" H 4850 4300 50  0001 C CNN "Vendor"
 F 5 "https://www.tme.eu/pl/details/b3s-1000/mikroprzelaczniki-tact/omron-ocb/" H 4850 4300 50  0001 C CNN "VendorLink"
@@ -505,12 +505,12 @@ Wire Wire Line
 Wire Wire Line
 	7400 2400 6850 2400
 $Comp
-L Connector:ESP-PROG-Program J6
+L project_components:ESP-PROG-Program J6
 U 1 1 5FECB5F0
 P 7100 5600
 F 0 "J6" H 6750 6150 50  0000 L CNN
 F 1 "ESP-PROG-Program" H 7250 6150 50  0000 L CNN
-F 2 "Connector_IDC:IDC-Header_2x03_P1.27mm_Vertical_SMD" V 6850 5650 50  0001 C CNN
+F 2 "project_components:IDC-Header_2x03_P1.27mm_Vertical_SMD" V 6850 5650 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 5825 5050 50  0001 C CNN
 F 4 "https://www.ebay.com/itm/10Pcs-1-27mm-Pitch-2x3-Pin-6-Pin-SMT-SMD-Male-Shrouded-Box-Header-IDC-Connector/183523538792?hash=item2abadaf768:g:-H4AAOSwm-Fb4s52" H 7100 5600 50  0001 C CNN "VendorLink"
 	1    7100 5600
@@ -559,12 +559,12 @@ Wire Wire Line
 Wire Wire Line
 	7100 6200 7100 6300
 $Comp
-L Connector:ESP-PROG-Debug J7
+L project_components:ESP-PROG-Debug J7
 U 1 1 5FF13734
 P 9100 5600
 F 0 "J7" H 8800 6150 50  0000 R CNN
 F 1 "ESP-PROG-Debug" H 9850 6150 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P1.27mm_Vertical_SMD" V 8850 5650 50  0001 C CNN
+F 2 "project_components:IDC-Header_2x05_P1.27mm_Vertical_SMD" V 8850 5650 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 7825 5050 50  0001 C CNN
 F 4 "https://www.ebay.com/itm/5Pcs-1-27mm-Pitch-2x5-Pin-10-Pin-SMT-SMD-Male-Shrouded-Box-Header-IDC-Connector/172311876086?hash=item281e9691f6:g:eHIAAOSwu6taWHc7" H 9100 5600 50  0001 C CNN "VendorLink"
 	1    9100 5600
@@ -630,8 +630,8 @@ L Mechanical:Housing N1
 U 1 1 600797C7
 P 6400 7400
 F 0 "N1" H 6400 7750 50  0000 C CNN
-F 1 "MainConnector" H 6400 7650 50  0000 C CNN
-F 2 "project_components:MainConnector" H 6200 6900 50  0001 C CNN
+F 1 "Arduino Footprint" H 6400 7650 50  0000 C CNN
+F 2 "project_components:ArduinoFootprint" H 6200 6900 50  0001 C CNN
 F 3 "~" H 6200 6900 50  0001 C CNN
 F 4 "N/A" H 6400 7400 50  0001 C CNN "Vendor"
 	1    6400 7400
