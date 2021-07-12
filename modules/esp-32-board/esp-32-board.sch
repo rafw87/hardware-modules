@@ -505,10 +505,10 @@ Wire Wire Line
 Wire Wire Line
 	7400 2400 6850 2400
 $Comp
-L Connector:ESP-PROG-Program J1
+L Connector:ESP-PROG-Program J6
 U 1 1 5FECB5F0
 P 7100 5600
-F 0 "J1" H 6750 6150 50  0000 L CNN
+F 0 "J6" H 6750 6150 50  0000 L CNN
 F 1 "ESP-PROG-Program" H 7250 6150 50  0000 L CNN
 F 2 "Connector_IDC:IDC-Header_2x03_P1.27mm_Vertical_SMD" V 6850 5650 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 5825 5050 50  0001 C CNN
@@ -559,10 +559,10 @@ Wire Wire Line
 Wire Wire Line
 	7100 6200 7100 6300
 $Comp
-L Connector:ESP-PROG-Debug J3
+L Connector:ESP-PROG-Debug J7
 U 1 1 5FF13734
 P 9100 5600
-F 0 "J3" H 8800 6150 50  0000 R CNN
+F 0 "J7" H 8800 6150 50  0000 R CNN
 F 1 "ESP-PROG-Debug" H 9850 6150 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P1.27mm_Vertical_SMD" V 8850 5650 50  0001 C CNN
 F 3 "https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md" H 7825 5050 50  0001 C CNN
@@ -626,15 +626,15 @@ Wire Wire Line
 Wire Wire Line
 	9500 5500 9800 5500
 $Comp
-L project_components:MainConnector J2
+L Mechanical:Housing N1
 U 1 1 600797C7
-P 7800 2550
-F 0 "J2" H 7800 3700 50  0000 C CNN
-F 1 "MainConnector" H 7800 3600 50  0000 C CNN
-F 2 "project_components:MainConnector" H 7600 2050 50  0001 C CNN
-F 3 "~" H 7600 2050 50  0001 C CNN
-F 4 "N/A" H 7800 2550 50  0001 C CNN "Vendor"
-	1    7800 2550
+P 6400 7400
+F 0 "N1" H 6400 7750 50  0000 C CNN
+F 1 "MainConnector" H 6400 7650 50  0000 C CNN
+F 2 "project_components:MainConnector" H 6200 6900 50  0001 C CNN
+F 3 "~" H 6200 6900 50  0001 C CNN
+F 4 "N/A" H 6400 7400 50  0001 C CNN "Vendor"
+	1    6400 7400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -663,10 +663,10 @@ Wire Wire Line
 Wire Wire Line
 	6700 2000 7400 2000
 $Comp
-L Connector_Generic:Conn_01x06 J4
+L Connector_Generic:Conn_01x06 J3
 U 1 1 602A25F3
 P 10000 2450
-F 0 "J4" H 10000 2800 50  0000 C CNN
+F 0 "J3" H 10000 2800 50  0000 C CNN
 F 1 "Conn_01x06" H 10000 2000 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10000 2450 50  0001 C CNN
 F 3 "~" H 10000 2450 50  0001 C CNN
@@ -940,4 +940,26 @@ Wire Wire Line
 Connection ~ 5150 3000
 Wire Wire Line
 	5150 3000 5500 3000
+$Comp
+L Connector:Conn_01x14_Female J1
+U 1 1 60EBE89E
+P 7600 2600
+F 0 "J1" H 7250 3650 50  0000 C CNN
+F 1 "Conn_01x14_Female" H 7300 3550 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 7600 2600 50  0001 C CNN
+F 3 "~" H 7600 2600 50  0001 C CNN
+	1    7600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x18_Female J2
+U 1 1 60ECF59A
+P 8000 2550
+F 0 "J2" H 7850 3550 50  0000 C CNN
+F 1 "Conn_01x18_Female" H 7850 3450 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical" H 8000 2550 50  0001 C CNN
+F 3 "~" H 8000 2550 50  0001 C CNN
+	1    8000 2550
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

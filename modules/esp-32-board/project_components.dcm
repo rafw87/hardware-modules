@@ -1,9 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP MainConnector
-D Connector like Arduino UNO R3
-K connector Arduino UNO R3
-F ~
-$ENDCMP
-#
 #End Doc Library

@@ -54,8 +54,8 @@ L Connector:USB_B_Micro J?
 U 1 1 5FFC9948
 P 1550 2750
 AR Path="/5FFC9948" Ref="J?"  Part="1" 
-AR Path="/5FF73D59/5FFC9948" Ref="J7"  Part="1" 
-F 0 "J7" H 1650 3250 50  0000 C CNN
+AR Path="/5FF73D59/5FFC9948" Ref="J4"  Part="1" 
+F 0 "J4" H 1650 3250 50  0000 C CNN
 F 1 "USB_B_Micro" H 1650 3150 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal" H 1700 2700 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/224991b12752feb77f9b8261a1cec430/10118194-0001LF.pdf" H 1700 2700 50  0001 C CNN
