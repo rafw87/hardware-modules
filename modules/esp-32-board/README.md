@@ -13,11 +13,9 @@ allows to use stands and (partially) enclosures from original Arduino.
 
 <a target="_blank" rel="noopener noreferrer" href="docs/esp-32-board-F_Fab.svg" class="rich-diff-level-one"><img src="docs/esp-32-board-F_Fab.svg" alt="FAB Layer" width="100%"></a>
 
-![Picture 2](docs/esp-32-board-F_Fab.svg)
-
 ### Resources
 - [Schematic](docs/esp-32-board-schematic.pdf?raw=true)
-- [BOM](docs/esp-32-board-bom.html?raw=true)
+- [BOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/rafw87/hardware-modules/master/modules/esp-32-board/docs/esp-32-board-bom.html)
 - Gerbers
   - [PCBWay](docs/gerbers/esp-32-board-PCBWay.zip?raw=true)
 
