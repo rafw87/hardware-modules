@@ -39,4 +39,4 @@ output
 *.html
 
 # Do not exclude anything from docs
-!*/docs/*
+!**/docs/*
