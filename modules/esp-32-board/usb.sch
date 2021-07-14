@@ -4,488 +4,508 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
-Date ""
-Rev ""
+Title "ESP-32-Board"
+Date "2021-07-14"
+Rev "1"
 Comp ""
 Comment1 ""
-Comment2 ""
-Comment3 ""
+Comment2 "Author: rafw87"
+Comment3 "ESP-32 development kit with Micro-USB port, DC Input and ESP-PROG interface."
 Comment4 ""
 $EndDescr
 $Comp
 L power:GND #PWR?
 U 1 1 5FFBA0F3
-P 5950 4450
+P 8100 3900
 AR Path="/5FFBA0F3" Ref="#PWR?"  Part="1" 
 AR Path="/5FF73D59/5FFBA0F3" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 5950 4200 50  0001 C CNN
-F 1 "GND" H 6000 4250 50  0000 C CNN
-F 2 "" H 5950 4450 50  0001 C CNN
-F 3 "" H 5950 4450 50  0001 C CNN
-	1    5950 4450
+F 0 "#PWR025" H 8100 3650 50  0001 C CNN
+F 1 "GND" H 8150 3700 50  0000 C CNN
+F 2 "" H 8100 3900 50  0001 C CNN
+F 3 "" H 8100 3900 50  0001 C CNN
+	1    8100 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 3000 7300 3000
-Text Label 7300 2800 2    50   ~ 0
+	9000 2450 9450 2450
+Text Label 9450 2250 2    50   ~ 0
 RTS
 $Comp
 L Device:R R?
 U 1 1 5FFBA107
-P 5050 3300
+P 6900 2750
 AR Path="/5FFBA107" Ref="R?"  Part="1" 
 AR Path="/5FF73D59/5FFBA107" Ref="R2"  Part="1" 
-F 0 "R2" V 5150 3350 50  0000 R CNN
-F 1 "2.2 kOhm" V 5250 3450 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4980 3300 50  0001 C CNN
-F 3 "~" H 5050 3300 50  0001 C CNN
-F 4 "avt.pl" H 5050 3300 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 5050 3300 50  0001 C CNN "VendorLink"
-	1    5050 3300
+F 0 "R2" V 7000 2800 50  0000 R CNN
+F 1 "2.2 kOhm" V 7100 2900 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6830 2750 50  0001 C CNN
+F 3 "~" H 6900 2750 50  0001 C CNN
+F 4 "avt.pl" H 6900 2750 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 6900 2750 50  0001 C CNN "VendorLink"
+	1    6900 2750
 	0    1    1    0   
 $EndComp
-Text Label 4650 2900 0    50   ~ 0
+Text Label 6800 2350 0    50   ~ 0
 USB_DP
-Text Label 4650 3000 0    50   ~ 0
+Text Label 6800 2450 0    50   ~ 0
 USB_DN
 $Comp
 L Connector:USB_B_Micro J?
 U 1 1 5FFC9948
-P 1550 2750
+P 1850 2200
 AR Path="/5FFC9948" Ref="J?"  Part="1" 
 AR Path="/5FF73D59/5FFC9948" Ref="J4"  Part="1" 
-F 0 "J4" H 1650 3250 50  0000 C CNN
-F 1 "USB_B_Micro" H 1650 3150 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal" H 1700 2700 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/224991b12752feb77f9b8261a1cec430/10118194-0001LF.pdf" H 1700 2700 50  0001 C CNN
-F 4 "tme.eu" H 1550 2750 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/10118194-0001lf_c/zlacza-usb-i-ieee1394/amphenol/10118194-0001lf/" H 1550 2750 50  0001 C CNN "VendorLink"
-	1    1550 2750
+F 0 "J4" H 1950 2700 50  0000 C CNN
+F 1 "USB_B_Micro" H 1950 2600 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal" H 2000 2150 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/224991b12752feb77f9b8261a1cec430/10118194-0001LF.pdf" H 2000 2150 50  0001 C CNN
+F 4 "tme.eu" H 1850 2200 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/10118194-0001lf_c/zlacza-usb-i-ieee1394/amphenol/10118194-0001lf/" H 1850 2200 50  0001 C CNN "VendorLink"
+	1    1850 2200
 	1    0    0    -1  
 $EndComp
-Text Label 3950 2900 2    50   ~ 0
+Text Label 4250 2350 2    50   ~ 0
 USB_DN
-Text Label 8800 2100 0    50   ~ 0
+Text Label 6150 5550 0    50   ~ 0
 DTR
-Text Label 8800 2650 0    50   ~ 0
+Text Label 6150 6100 0    50   ~ 0
 RTS
 Wire Wire Line
-	8800 2100 9100 2100
+	6150 5550 6450 5550
 Wire Wire Line
-	8800 2650 9150 2650
+	6150 6100 6500 6100
 Wire Wire Line
-	9150 2650 9150 2350
+	6500 6100 6500 5800
 Wire Wire Line
-	9150 2350 9950 2350
-Connection ~ 9150 2650
+	6500 5800 7300 5800
+Connection ~ 6500 6100
 Wire Wire Line
-	9150 2650 9550 2650
+	6500 6100 6900 6100
 Wire Wire Line
-	9950 2300 9950 2350
+	7300 5750 7300 5800
 Wire Wire Line
-	9950 2450 9950 2400
+	7300 5900 7300 5850
 Wire Wire Line
-	9950 2400 9100 2400
+	7300 5850 6450 5850
 Wire Wire Line
-	9100 2400 9100 2100
-Connection ~ 9100 2100
+	6450 5850 6450 5550
+Connection ~ 6450 5550
 Wire Wire Line
-	9100 2100 9550 2100
+	6450 5550 6900 5550
 Wire Wire Line
-	9950 2850 9950 2900
+	7300 6300 7300 6350
 Wire Wire Line
-	9950 2900 10600 2900
+	7300 6350 7950 6350
 Wire Wire Line
-	9950 1900 9950 1850
+	7300 5350 7300 5300
 Wire Wire Line
-	9950 1850 10600 1850
-Text Label 5550 1950 0    50   ~ 0
+	7300 5300 7950 5300
+Text Label 7700 1400 0    50   ~ 0
 VBUS
-Text HLabel 10600 1850 2    50   Output ~ 0
+Text HLabel 7950 5300 2    50   Output ~ 0
 EN
-Text HLabel 10600 2900 2    50   Output ~ 0
+Text HLabel 7950 6350 2    50   Output ~ 0
 IO0
-Text Label 7300 3000 2    50   ~ 0
+Text Label 9450 2450 2    50   ~ 0
 DTR
-Text Label 3950 2700 2    50   ~ 0
+Text Label 4250 2150 2    50   ~ 0
 USB_DP
 $Comp
 L Device:D_Schottky D?
 U 1 1 5FB2216A
-P 2700 2200
+P 3000 1650
 AR Path="/5FB2216A" Ref="D?"  Part="1" 
 AR Path="/5FF6344B/5FB2216A" Ref="D?"  Part="1" 
 AR Path="/5FF73D59/5FB2216A" Ref="D3"  Part="1" 
-F 0 "D3" H 2700 1950 50  0000 C CNN
-F 1 "STPS0520Z" H 2700 2050 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2700 2200 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stps0520z.pdf" H 2700 2200 50  0001 C CNN
-F 4 "tme.eu" H 2700 2200 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/stps0520z/diody-schottky-smd/stmicroelectronics/" H 2700 2200 50  0001 C CNN "VendorLink"
-	1    2700 2200
+F 0 "D3" H 3000 1400 50  0000 C CNN
+F 1 "STPS0520Z" H 3000 1500 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3000 1650 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stps0520z.pdf" H 3000 1650 50  0001 C CNN
+F 4 "tme.eu" H 3000 1650 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/stps0520z/diody-schottky-smd/stmicroelectronics/" H 3000 1650 50  0001 C CNN "VendorLink"
+	1    3000 1650
 	-1   0    0    1   
 $EndComp
-Text HLabel 3700 2200 2    50   UnSpc ~ 0
+Text HLabel 4000 1650 2    50   UnSpc ~ 0
 +5V
-Text Label 2550 2200 2    50   ~ 0
+Text Label 2850 1650 2    50   ~ 0
 VBUS
 $Comp
 L project_components:BCR129S Q1
 U 1 1 5FB53DE1
-P 9900 2100
-F 0 "Q1" H 10050 2150 50  0000 L CNN
-F 1 "BCR129S" H 10050 2050 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 9905 1660 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BCR129SERIES-DS-v01_01-en.pdf?fileId=db3a30431428a37301143f7ab7820287" H 9900 2100 50  0001 C CNN
-F 4 "tme.eu" H 9900 2100 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/bcr129sh6327/tranzystory-npn-smd/infineon-technologies/" H 9900 2100 50  0001 C CNN "VendorLink"
-	1    9900 2100
+P 7250 5550
+F 0 "Q1" H 7400 5600 50  0000 L CNN
+F 1 "BCR129S" H 7400 5500 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7255 5110 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-BCR129SERIES-DS-v01_01-en.pdf?fileId=db3a30431428a37301143f7ab7820287" H 7250 5550 50  0001 C CNN
+F 4 "tme.eu" H 7250 5550 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/bcr129sh6327/tranzystory-npn-smd/infineon-technologies/" H 7250 5550 50  0001 C CNN "VendorLink"
+	1    7250 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L project_components:BCR129S Q1
 U 2 1 5FB59A80
-P 9900 2650
-F 0 "Q1" H 10050 2600 50  0000 L CNN
-F 1 "BCR129S" H 10050 2700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 9905 2210 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BCR129SERIES-DS-v01_01-en.pdf?fileId=db3a30431428a37301143f7ab7820287" H 9900 2650 50  0001 C CNN
-F 4 "tme.eu" H 9900 2650 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/bcr129sh6327/tranzystory-npn-smd/infineon-technologies/" H 9900 2650 50  0001 C CNN "VendorLink"
-	2    9900 2650
+P 7250 6100
+F 0 "Q1" H 7400 6050 50  0000 L CNN
+F 1 "BCR129S" H 7400 6150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7255 5660 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-BCR129SERIES-DS-v01_01-en.pdf?fileId=db3a30431428a37301143f7ab7820287" H 7250 6100 50  0001 C CNN
+F 4 "tme.eu" H 7250 6100 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/bcr129sh6327/tranzystory-npn-smd/infineon-technologies/" H 7250 6100 50  0001 C CNN "VendorLink"
+	2    7250 6100
 	1    0    0    1   
 $EndComp
-Text Notes 1300 1650 0    100  ~ 20
+Text Notes 1750 1050 0    100  ~ 20
 USB port with ESD protection
-Text Notes 4950 1650 0    100  ~ 20
+Text Notes 7750 1050 0    100  ~ 20
 USB to UART
-Text Notes 8850 1650 0    100  ~ 20
+Text Notes 7300 5000 0    100  ~ 20
 Auto-reset circuit
 Wire Wire Line
-	1850 2550 1950 2550
+	2150 2000 2250 2000
 Wire Wire Line
-	1850 2950 1900 2950
+	2150 2400 2200 2400
 Wire Wire Line
-	1900 2950 1900 3250
+	2200 2400 2200 2700
 $Comp
 L Device:C C?
 U 1 1 5FBBB3E1
-P 1450 3400
+P 1750 2850
 AR Path="/5FBBB3E1" Ref="C?"  Part="1" 
 AR Path="/5FF6344B/5FBBB3E1" Ref="C?"  Part="1" 
 AR Path="/5FF73D59/5FBBB3E1" Ref="C10"  Part="1" 
-F 0 "C10" H 1500 3500 50  0000 L CNN
-F 1 "22uF" H 1500 3300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1488 3250 50  0001 C CNN
-F 3 "~" H 1450 3400 50  0001 C CNN
-F 4 "tme.eu" H 1450 3400 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/cl21a226mqqnnng/kondensatory-mlcc-smd-0805/samsung/" H 1450 3400 50  0001 C CNN "VendorLink"
-	1    1450 3400
+F 0 "C10" H 1800 2950 50  0000 L CNN
+F 1 "22uF" H 1800 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1788 2700 50  0001 C CNN
+F 3 "~" H 1750 2850 50  0001 C CNN
+F 4 "tme.eu" H 1750 2850 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/cl21a226mqqnnng/kondensatory-mlcc-smd-0805/samsung/" H 1750 2850 50  0001 C CNN "VendorLink"
+	1    1750 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 3150 1450 3250
+	1750 2600 1750 2700
 Wire Wire Line
-	1950 2200 1950 2550
+	2250 1650 2250 2000
 Wire Wire Line
-	1850 2750 2050 2750
+	2150 2200 2350 2200
 Wire Wire Line
-	2050 2750 2050 2350
+	2350 2200 2350 1800
 Wire Wire Line
-	2600 2350 2600 2400
+	2900 1800 2900 1850
 Wire Wire Line
-	2800 2400 2800 2350
+	3100 1850 3100 1800
 Wire Wire Line
-	3350 2350 3350 2700
+	3650 1800 3650 2150
 Wire Wire Line
-	3350 2700 3950 2700
+	3650 2150 4250 2150
 Wire Wire Line
-	1850 2850 2050 2850
+	2150 2300 2350 2300
 Wire Wire Line
-	2050 2850 2050 3250
+	2350 2300 2350 2700
 Wire Wire Line
-	2600 3250 2600 3200
+	2900 2700 2900 2650
 Wire Wire Line
-	2800 3200 2800 3250
+	3100 2650 3100 2700
 Wire Wire Line
-	3350 3250 3350 2900
+	3650 2700 3650 2350
 Wire Wire Line
-	3350 2900 3950 2900
+	3650 2350 4250 2350
 Wire Wire Line
-	3100 2800 3300 2800
+	3400 2250 3600 2250
 Wire Wire Line
-	1950 2200 2100 2200
+	2250 1650 2400 1650
 Wire Wire Line
-	2300 2800 2100 2800
+	2600 2250 2400 2250
 Wire Wire Line
-	2100 2800 2100 2200
-Connection ~ 2100 2200
+	2400 2250 2400 1650
+Connection ~ 2400 1650
 Wire Wire Line
-	2100 2200 2550 2200
+	2400 1650 2850 1650
 Wire Wire Line
-	1550 3150 1550 3250
+	1850 2600 1850 2700
 Wire Wire Line
-	1550 3250 1900 3250
-Connection ~ 1900 3250
+	1850 2700 2200 2700
+Connection ~ 2200 2700
 Wire Wire Line
-	2850 2200 3700 2200
+	3150 1650 4000 1650
 Wire Wire Line
-	2050 2350 2600 2350
+	2350 1800 2900 1800
 Wire Wire Line
-	2050 3250 2600 3250
+	2350 2700 2900 2700
 Wire Wire Line
-	5550 1950 6150 1950
-Text Label 4650 3300 0    50   ~ 0
+	7700 1400 8300 1400
+Text Label 6300 2750 0    50   ~ 0
 VBUS
 Wire Wire Line
-	4650 3300 4900 3300
+	6300 2750 6750 2750
 Wire Wire Line
-	5200 3300 5250 3300
+	7050 2750 7400 2750
 Wire Wire Line
-	4650 3000 5250 3000
+	6800 2450 7400 2450
 Wire Wire Line
-	5950 2150 5950 2300
+	8100 1600 8100 1750
 Wire Wire Line
-	6150 1950 6150 2300
+	8300 1400 8300 1750
 $Comp
 L Interface_USB:FT232RL U5
 U 1 1 5FE99968
-P 6050 3300
-F 0 "U5" H 6050 4500 50  0000 C CNN
-F 1 "FT232RL" H 6050 4400 50  0000 C CNN
-F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 7150 2400 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 6050 3300 50  0001 C CNN
-F 4 "tme.eu" H 6050 3300 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/ft232rl/uklady-scalone-interfejs-usb/ftdi/ft232rl-reel/" H 6050 3300 50  0001 C CNN "VendorLink"
-	1    6050 3300
+P 8200 2750
+F 0 "U5" H 8200 3950 50  0000 C CNN
+F 1 "FT232RL" H 8200 3850 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 9300 1850 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 8200 2750 50  0001 C CNN
+F 4 "tme.eu" H 8200 2750 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/ft232rl/uklady-scalone-interfejs-usb/ftdi/ft232rl-reel/" H 8200 2750 50  0001 C CNN "VendorLink"
+	1    8200 2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 2900 5250 2900
+	6800 2350 7400 2350
 Wire Wire Line
-	6850 2800 7300 2800
+	9000 2250 9450 2250
 Wire Wire Line
-	5850 4300 5850 4350
+	8000 3750 8000 3800
 Wire Wire Line
-	5850 4350 5950 4350
+	8000 3800 8100 3800
 Wire Wire Line
-	5950 4350 5950 4450
+	8100 3800 8100 3900
 Wire Wire Line
-	5950 4350 6050 4350
+	8100 3800 8200 3800
 Wire Wire Line
-	6050 4350 6050 4300
-Connection ~ 5950 4350
+	8200 3800 8200 3750
+Connection ~ 8100 3800
 Wire Wire Line
-	6050 4350 6150 4350
+	8200 3800 8300 3800
 Wire Wire Line
-	6150 4350 6150 4300
-Connection ~ 6050 4350
+	8300 3800 8300 3750
+Connection ~ 8200 3800
 Wire Wire Line
-	6150 4350 6250 4350
+	8300 3800 8400 3800
 Wire Wire Line
-	6250 4350 6250 4300
-Connection ~ 6150 4350
+	8400 3800 8400 3750
+Connection ~ 8300 3800
 Wire Wire Line
-	5250 4000 5150 4000
+	7400 3450 7300 3450
 Wire Wire Line
-	5150 4000 5150 4350
+	7300 3450 7300 3800
 Wire Wire Line
-	5150 4350 5850 4350
-Connection ~ 5850 4350
+	7300 3800 8000 3800
+Connection ~ 8000 3800
 $Comp
 L Device:C C11
 U 1 1 5FEE7EEB
-P 4350 2800
-F 0 "C11" H 4150 2900 50  0000 L CNN
-F 1 "0.1uF" H 4400 2900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4388 2650 50  0001 C CNN
-F 3 "~" H 4350 2800 50  0001 C CNN
-F 4 "avt.pl" H 4350 2800 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 4350 2800 50  0001 C CNN "VendorLink"
-	1    4350 2800
-	1    0    0    -1  
+P 6700 2050
+F 0 "C11" V 6600 1850 50  0000 L CNN
+F 1 "0.1uF" V 6600 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6738 1900 50  0001 C CNN
+F 3 "~" H 6700 2050 50  0001 C CNN
+F 4 "avt.pl" H 6700 2050 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html" H 6700 2050 50  0001 C CNN "VendorLink"
+	1    6700 2050
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5250 2600 5150 2600
+	7400 2050 7300 2050
 Wire Wire Line
-	4350 2600 4350 2650
-Wire Wire Line
-	4350 2950 4350 3050
+	6550 2050 6500 2050
 $Comp
 L power:GND #PWR?
 U 1 1 5FEFF60F
-P 4350 3050
+P 6500 2050
 AR Path="/5FEFF60F" Ref="#PWR?"  Part="1" 
 AR Path="/5FF73D59/5FEFF60F" Ref="#PWR024"  Part="1" 
-F 0 "#PWR024" H 4350 2800 50  0001 C CNN
-F 1 "GND" H 4400 2850 50  0000 C CNN
-F 2 "" H 4350 3050 50  0001 C CNN
-F 3 "" H 4350 3050 50  0001 C CNN
-	1    4350 3050
-	1    0    0    -1  
+F 0 "#PWR024" H 6500 1800 50  0001 C CNN
+F 1 "GND" V 6550 1850 50  0000 C CNN
+F 2 "" H 6500 2050 50  0001 C CNN
+F 3 "" H 6500 2050 50  0001 C CNN
+	1    6500 2050
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5150 2600 5150 2150
+	7300 2050 7300 1600
 Wire Wire Line
-	5150 2150 5950 2150
-Connection ~ 5150 2600
-Wire Wire Line
-	5150 2600 4350 2600
-NoConn ~ 6850 2900
-NoConn ~ 6850 3100
-NoConn ~ 6850 3200
-NoConn ~ 6850 3300
-NoConn ~ 6850 3800
-NoConn ~ 6850 3900
-NoConn ~ 6850 4000
-NoConn ~ 5250 3500
-NoConn ~ 5250 3700
-Text Label 7300 3700 2    50   ~ 0
+	7300 1600 8100 1600
+NoConn ~ 9000 2350
+NoConn ~ 9000 2550
+NoConn ~ 9000 2650
+NoConn ~ 9000 2750
+NoConn ~ 9000 3250
+NoConn ~ 9000 3350
+NoConn ~ 9000 3450
+NoConn ~ 7400 2950
+NoConn ~ 7400 3150
+Text Label 9450 3150 2    50   ~ 0
 ~RXLED
-Text Label 7300 3600 2    50   ~ 0
+Text Label 9450 3050 2    50   ~ 0
 ~TXLED
 Wire Wire Line
-	6850 3600 7300 3600
+	9000 3050 9450 3050
 Wire Wire Line
-	7300 3700 6850 3700
-$Comp
-L Device:LED D4
-U 1 1 5FFCB60F
-P 9100 3950
-F 0 "D4" V 9200 3800 50  0000 L CNN
-F 1 "RF-YUS150TS-AE" V 9100 3200 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9100 3950 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE.pdf" H 9100 3950 50  0001 C CNN
-F 4 "tme.eu" H 9100 3950 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/" H 9100 3950 50  0001 C CNN "VendorLink"
-	1    9100 3950
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:LED D5
-U 1 1 5FFCC087
-P 9600 3950
-F 0 "D5" V 9700 4050 50  0000 L CNN
-F 1 "RF-YUS150TS-AE" V 9600 4050 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9600 3950 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE.pdf" H 9600 3950 50  0001 C CNN
-F 4 "tme.eu" H 9600 3950 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/" H 9600 3950 50  0001 C CNN "VendorLink"
-	1    9600 3950
-	0    1    -1   0   
-$EndComp
-Text Label 9000 4650 2    50   ~ 0
-~TXLED
-Wire Wire Line
-	9000 4650 9100 4650
-Wire Wire Line
-	9100 4650 9100 4500
-Text Label 9700 4650 0    50   ~ 0
-~RXLED
-Wire Wire Line
-	9600 4500 9600 4650
-Wire Wire Line
-	9600 4650 9700 4650
-Wire Wire Line
-	9100 3800 9100 3700
-Wire Wire Line
-	9100 3700 9350 3700
-Wire Wire Line
-	9600 3700 9600 3800
-Wire Wire Line
-	9350 3700 9350 3500
-Connection ~ 9350 3700
-Wire Wire Line
-	9350 3700 9600 3700
-$Comp
-L Device:R R3
-U 1 1 5FFD83B8
-P 9100 4350
-F 0 "R3" H 8950 4400 50  0000 L CNN
-F 1 "220 Ohm" H 8700 4300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9030 4350 50  0001 C CNN
-F 3 "~" H 9100 4350 50  0001 C CNN
-F 4 "avt.pl" H 9100 4350 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 9100 4350 50  0001 C CNN "VendorLink"
-	1    9100 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5FFDD2E6
-P 9600 4350
-F 0 "R4" H 9700 4400 50  0000 L CNN
-F 1 "220 Ohm" H 9700 4300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9530 4350 50  0001 C CNN
-F 3 "~" H 9600 4350 50  0001 C CNN
-F 4 "avt.pl" H 9600 4350 50  0001 C CNN "Vendor"
-F 5 "https://sklep.avt.pl/avt701-805.html" H 9600 4350 50  0001 C CNN "VendorLink"
-	1    9600 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 4100 9100 4200
-Wire Wire Line
-	9600 4100 9600 4200
-Text Label 4850 2600 2    50   ~ 0
-USB_3V3
-Text Label 9300 3500 2    50   ~ 0
+	9450 3150 9000 3150
+Text Label 7250 2050 2    50   ~ 0
 USB_3V3
 Wire Wire Line
-	9350 3500 9300 3500
+	2200 2700 2200 3100
 Wire Wire Line
-	1900 3250 1900 3650
+	1750 3100 2200 3100
 Wire Wire Line
-	1450 3650 1900 3650
+	2200 3100 2900 3100
+Connection ~ 2900 3100
 Wire Wire Line
-	1900 3650 2600 3650
-Connection ~ 2600 3650
+	3600 2250 3600 3100
+Connection ~ 2200 3100
 Wire Wire Line
-	3300 2800 3300 3650
-Connection ~ 1900 3650
+	3600 3100 2900 3100
 Wire Wire Line
-	3300 3650 2600 3650
+	1750 3000 1750 3100
 Wire Wire Line
-	1450 3550 1450 3650
-Wire Wire Line
-	2600 3800 2600 3650
+	2900 3250 2900 3100
 $Comp
 L power:GND #PWR?
 U 1 1 5FFC9960
-P 2600 3800
+P 2900 3250
 AR Path="/5FFC9960" Ref="#PWR?"  Part="1" 
 AR Path="/5FF73D59/5FFC9960" Ref="#PWR023"  Part="1" 
-F 0 "#PWR023" H 2600 3550 50  0001 C CNN
-F 1 "GND" H 2650 3600 50  0000 C CNN
-F 2 "" H 2600 3800 50  0001 C CNN
-F 3 "" H 2600 3800 50  0001 C CNN
-	1    2600 3800
+F 0 "#PWR023" H 2900 3000 50  0001 C CNN
+F 1 "GND" H 2950 3050 50  0000 C CNN
+F 2 "" H 2900 3250 50  0001 C CNN
+F 3 "" H 2900 3250 50  0001 C CNN
+	1    2900 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Power_Protection:USBLC6-2SC6 U4
 U 1 1 601988F8
-P 2700 2800
-F 0 "U4" V 3050 3050 50  0000 C CNN
-F 1 "USBLC6-2SC6" V 2350 2400 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2700 2300 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 2900 3150 50  0001 C CNN
-F 4 "tme.eu" H 2700 2800 50  0001 C CNN "Vendor"
-F 5 "https://www.tme.eu/pl/details/usblc6-2sc6/diody-zabezpieczajace-drabinki/stmicroelectronics/" H 2700 2800 50  0001 C CNN "VendorLink"
-	1    2700 2800
+P 3000 2250
+F 0 "U4" V 3350 2500 50  0000 C CNN
+F 1 "USBLC6-2SC6" V 2650 1850 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3000 1750 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 3200 2600 50  0001 C CNN
+F 4 "tme.eu" H 3000 2250 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/usblc6-2sc6/diody-zabezpieczajace-drabinki/stmicroelectronics/" H 3000 2250 50  0001 C CNN "VendorLink"
+	1    3000 2250
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2800 2350 3350 2350
+	3100 1800 3650 1800
 Wire Wire Line
-	2800 3250 3350 3250
+	3100 2700 3650 2700
 Wire Wire Line
-	6850 2700 7350 2700
-Text HLabel 7350 2700 2    50   Input ~ 0
+	9000 2150 9500 2150
+Text HLabel 9500 2150 2    50   Input ~ 0
 RXD
 Wire Wire Line
-	6850 2600 7350 2600
-Text HLabel 7350 2600 2    50   Output ~ 0
+	9000 2050 9500 2050
+Text HLabel 9500 2050 2    50   Output ~ 0
 TXD
+Text Notes 2550 5050 0    100  ~ 20
+LEDs
+Wire Notes Line
+	11200 4500 500  4500
+Wire Notes Line
+	5500 500  5500 7800
+Wire Wire Line
+	2750 5300 2700 5300
+Text Label 2700 5300 2    50   ~ 0
+USB_3V3
+Wire Wire Line
+	2500 6000 2500 6200
+$Comp
+L Device:R R3
+U 1 1 5FFD83B8
+P 2500 6350
+F 0 "R3" H 2350 6400 50  0000 L CNN
+F 1 "220 Ohm" H 2100 6300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2430 6350 50  0001 C CNN
+F 3 "~" H 2500 6350 50  0001 C CNN
+F 4 "avt.pl" H 2500 6350 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 2500 6350 50  0001 C CNN "VendorLink"
+	1    2500 6350
+	1    0    0    -1  
+$EndComp
+Connection ~ 2750 5500
+Wire Wire Line
+	2750 5500 2750 5300
+Wire Wire Line
+	2500 5500 2750 5500
+Wire Wire Line
+	2500 5700 2500 5500
+Wire Wire Line
+	2500 7000 2500 6500
+Wire Wire Line
+	2400 7000 2500 7000
+Text Label 2400 7000 2    50   ~ 0
+~TXLED
+$Comp
+L Device:LED D4
+U 1 1 5FFCB60F
+P 2500 5850
+F 0 "D4" V 2600 5700 50  0000 L CNN
+F 1 "RF-YUS150TS-AE" V 2500 5100 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2500 5850 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE.pdf" H 2500 5850 50  0001 C CNN
+F 4 "tme.eu" H 2500 5850 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/" H 2500 5850 50  0001 C CNN "VendorLink"
+	1    2500 5850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3000 6000 3000 6200
+$Comp
+L Device:R R4
+U 1 1 5FFDD2E6
+P 3000 6350
+F 0 "R4" H 3100 6400 50  0000 L CNN
+F 1 "220 Ohm" H 3100 6300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2930 6350 50  0001 C CNN
+F 3 "~" H 3000 6350 50  0001 C CNN
+F 4 "avt.pl" H 3000 6350 50  0001 C CNN "Vendor"
+F 5 "https://sklep.avt.pl/avt701-805.html" H 3000 6350 50  0001 C CNN "VendorLink"
+	1    3000 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 5500 3000 5500
+Wire Wire Line
+	3000 5500 3000 5700
+Wire Wire Line
+	3000 7000 3100 7000
+Wire Wire Line
+	3000 6500 3000 7000
+Text Label 3100 7000 0    50   ~ 0
+~RXLED
+$Comp
+L Device:LED D5
+U 1 1 5FFCC087
+P 3000 5850
+F 0 "D5" V 3100 5950 50  0000 L CNN
+F 1 "RF-YUS150TS-AE" V 3000 5950 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3000 5850 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE.pdf" H 3000 5850 50  0001 C CNN
+F 4 "tme.eu" H 3000 5850 50  0001 C CNN "Vendor"
+F 5 "https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/" H 3000 5850 50  0001 C CNN "VendorLink"
+	1    3000 5850
+	0    1    -1   0   
+$EndComp
+Text Notes 7800 5850 0    50   ~ 0
+Source: https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch-20180607a.pdf
+Text Notes 5850 7050 0    50   ~ 0
+DTR RTS -> EN IO0\n 1    1       1   1\n 0    0       1   1\n 1    0       0   1\n 0    1       1   0
+Text Label 2500 6150 2    25   ~ 0
+~TXDLED'
+Text Label 3000 6150 2    25   ~ 0
+~RXDLED'
+Text Label 2650 1800 2    25   ~ 0
+USB_DP'
+Text Label 2650 2700 2    25   ~ 0
+USB_DN'
+Text Label 1750 2650 2    25   ~ 0
+USB_SHIELD
+Wire Wire Line
+	6850 2050 7300 2050
+Connection ~ 7300 2050
+Text Label 7350 2750 2    25   ~ 0
+USB_RESET
 $EndSCHEMATC
