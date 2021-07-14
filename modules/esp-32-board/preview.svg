@@ -1,0 +1,3579 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="preview.svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ff0000;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         id="path82512" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path82494" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path82491" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path82512-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path82512-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-8-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path82512-4-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-7-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path82512-5-7" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="328.87358"
+     inkscape:cy="468.01589"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     fill="red">
+    <image
+       sodipodi:absref="C:\git\personal\hardware\hardware-modules\hardware-modules\modules\esp-32-board\render.svg"
+       xlink:href="render.svg"
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="400"
+       width="165.55646"
+       height="202.40184"
+       id="image18967"
+       x="33.018433"
+       y="59.67165" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.05;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="5.5428052"
+       y="166.52905"
+       id="text82407"><tspan
+         sodipodi:role="line"
+         x="5.5428052"
+         y="166.52905"
+         style="font-size:4px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         id="tspan82423">ESP-WROOM-32</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="72.578262"
+       y="48.648792"
+       id="text82431-1"><tspan
+         sodipodi:role="line"
+         id="tspan82429-9"
+         x="72.578262"
+         y="48.648792"
+         style="font-size:4px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583">5V regulator</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="90.970604"
+       y="62.128349"
+       id="text82431-1-8"><tspan
+         sodipodi:role="line"
+         x="90.970604"
+         y="62.128349"
+         style="font-size:4px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         id="tspan82485">3.3V regulator</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 34.477769,164.9053 34.745039,-0.53454"
+       id="path82489"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-8)"
+       d="m 84.056266,50.246671 0.0048,22.908478"
+       id="path82489-5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-7)"
+       d="M 102.89877,63.342878 89.551174,102.64852"
+       id="path82489-0"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.05;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="79.609146"
+       y="252.39673"
+       id="text82407-3"><tspan
+         sodipodi:role="line"
+         x="79.609146"
+         y="252.39673"
+         style="font-size:4px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         id="tspan82423-0">ESP-PROG ports</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.05;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="159.79224"
+       y="244.37868"
+       id="text82407-3-0"><tspan
+         sodipodi:role="line"
+         x="159.79224"
+         y="244.37868"
+         style="font-size:4px;text-align:center;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         id="tspan82423-0-2">Boot mode button</tspan><tspan
+         sodipodi:role="line"
+         x="159.79224"
+         y="248.57867"
+         style="font-size:4px;text-align:center;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         id="tspan83523">(IO0 low)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.05;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="188.66612"
+       y="82.680611"
+       id="text82407-3-0-7"><tspan
+         sodipodi:role="line"
+         x="188.66612"
+         y="82.680611"
+         style="font-size:4px;text-align:center;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         id="tspan82423-0-2-9">Reset button</tspan><tspan
+         sodipodi:role="line"
+         x="188.66612"
+         y="86.880608"
+         style="font-size:4px;text-align:center;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         id="tspan83519">(EN low)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.05;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="127.71767"
+       y="64.506279"
+       id="text82407-3-0-7-7"><tspan
+         sodipodi:role="line"
+         x="127.71767"
+         y="64.506279"
+         style="font-size:4px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         id="tspan82423-0-2-9-4">Micro-USB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.05;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="44.062298"
+       y="55.419109"
+       id="text82407-3-0-7-7-0"><tspan
+         sodipodi:role="line"
+         x="44.062298"
+         y="55.419109"
+         style="font-size:4px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         id="tspan82423-0-2-9-4-8">DC Power Input</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.05;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="104.99975"
+       y="46.064674"
+       id="text82407-3-0-7-9-7"><tspan
+         sodipodi:role="line"
+         x="104.99975"
+         y="46.064674"
+         style="font-size:4px;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         id="tspan82423-0-2-9-1-7">LEDS - On, USB RX, USB TX</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="190.71555"
+       y="113.42753"
+       id="text82431-1-0"><tspan
+         sodipodi:role="line"
+         id="tspan82429-9-3"
+         x="190.71555"
+         y="113.42753"
+         style="font-size:4px;text-align:center;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke-width:0.264583">USB controller</tspan><tspan
+         sodipodi:role="line"
+         x="190.71555"
+         y="118.42753"
+         style="font-size:4px;text-align:center;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
+         id="tspan83521">FT232RL</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-8-4)"
+       d="m 179.25521,114.62128 -38.1369,0.0374"
+       id="path82489-5-5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-7-6)"
+       d="M 125.90918,47.243335 112.56159,86.54898"
+       id="path82489-0-1"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="22.150195"
+       inkscape:transform-center-y="5.6914338" />
+    <g
+       id="g14624"
+       transform="matrix(0.0073027,0,0,0.00658094,-333.38355,20.547679)">
+      <g
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g11802" />
+      <g
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:-0.000393701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g11804" />
+      <g
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g12062">
+        <path
+           d="M 55706,19407 V 29448"
+           id="path11806" />
+        <path
+           d="M 62793,19407 H 55706"
+           id="path11808" />
+        <path
+           d="M 62793,29448 V 27194"
+           id="path11810" />
+        <path
+           d="M 62793,29448 H 55706"
+           id="path11812" />
+        <path
+           d="M 62793,26801 V 19407"
+           id="path11814" />
+        <path
+           d="m 62596,26998 197,196"
+           id="path11816" />
+        <path
+           d="m 62793,26801 -197,197"
+           id="path11818" />
+        <circle
+           cx="70485.797"
+           cy="11235"
+           r="689.25702"
+           id="circle11820" />
+        <path
+           d="M 71666,12416 V 10053"
+           id="path11822" />
+        <path
+           d="m 69304,12416 h 2362"
+           id="path11824" />
+        <path
+           d="m 69304,10053 v 2363"
+           id="path11826" />
+        <path
+           d="M 71666,10053 H 69304"
+           id="path11828" />
+        <circle
+           cx="67205"
+           cy="32135.801"
+           r="689.25702"
+           id="circle11830" />
+        <path
+           d="m 66023,33316 h 2363"
+           id="path11832" />
+        <path
+           d="m 66023,30954 v 2362"
+           id="path11834" />
+        <path
+           d="M 68386,30954 H 66023"
+           id="path11836" />
+        <path
+           d="M 68386,33316 V 30954"
+           id="path11838" />
+        <path
+           d="m 62457,33551 v 393"
+           id="path11840" />
+        <path
+           d="M 63707,33551 H 62457"
+           id="path11842" />
+        <path
+           d="m 63707,32488 v 1063"
+           id="path11844" />
+        <path
+           d="m 59592,32488 h 4115"
+           id="path11846" />
+        <path
+           d="M 59592,33551 V 32488"
+           id="path11848" />
+        <path
+           d="M 60842,33551 H 59592"
+           id="path11850" />
+        <path
+           d="m 60842,33944 v -393"
+           id="path11852" />
+        <path
+           d="M 64100,33944 H 59592"
+           id="path11854" />
+        <path
+           d="m 64100,32094 v 1850"
+           id="path11856" />
+        <path
+           d="m 59199,32094 h 4901"
+           id="path11858" />
+        <path
+           d="M 59199,33551 V 32094"
+           id="path11860" />
+        <path
+           d="m 59592,33944 -393,-393"
+           id="path11862" />
+        <path
+           d="m 57657,33551 v 393"
+           id="path11864" />
+        <path
+           d="m 58407,33551 h -750"
+           id="path11866" />
+        <path
+           d="m 58407,32488 v 1063"
+           id="path11868" />
+        <path
+           d="m 55292,32488 h 3115"
+           id="path11870" />
+        <path
+           d="M 55292,33551 V 32488"
+           id="path11872" />
+        <path
+           d="m 56042,33551 h -750"
+           id="path11874" />
+        <path
+           d="m 56042,33944 v -393"
+           id="path11876" />
+        <path
+           d="M 58800,33944 H 55292"
+           id="path11878" />
+        <path
+           d="m 58800,32094 v 1850"
+           id="path11880" />
+        <path
+           d="m 54899,32094 h 3901"
+           id="path11882" />
+        <path
+           d="M 54899,33551 V 32094"
+           id="path11884" />
+        <path
+           d="m 55292,33944 -393,-393"
+           id="path11886" />
+        <path
+           d="M 55771,12500 V 7165"
+           id="path11888" />
+        <path
+           d="m 52228,12814 h 3248"
+           id="path11890" />
+        <path
+           d="m 52228,7165 v 5649"
+           id="path11892" />
+        <path
+           d="M 55771,7165 H 52228"
+           id="path11894" />
+        <path
+           d="M 55771,8366 H 52228"
+           id="path11896" />
+        <path
+           d="m 55773,12498 -297,316"
+           id="path11898" />
+        <path
+           d="M 51000,8500 V 34500"
+           id="path11900" />
+        <path
+           d="M 72000,8500 H 51000"
+           id="path11902" />
+        <path
+           d="M 72000,33901 V 8500"
+           id="path11904" />
+        <path
+           d="m 71401,34500 599,-599"
+           id="path11906" />
+        <path
+           d="m 52000,34500 1000,1000"
+           id="path11908" />
+        <path
+           d="m 51000,34500 h 1000"
+           id="path11910" />
+        <path
+           d="m 65901,35500 1000,-1000"
+           id="path11912" />
+        <path
+           d="M 53000,35500 H 65901"
+           id="path11914" />
+        <path
+           d="m 66901,34500 h 4500"
+           id="path11916" />
+        <path
+           d="m 51500,19500 h 750"
+           id="path11918" />
+        <path
+           d="m 52250,19500 250,250"
+           id="path11920" />
+        <path
+           d="M 52500,19750 V 33500"
+           id="path11922" />
+        <path
+           d="M 52500,33500 H 51500"
+           id="path11924" />
+        <path
+           d="M 51500,33500 V 19500"
+           id="path11926" />
+        <path
+           d="m 70500,16000 h 750"
+           id="path11928" />
+        <path
+           d="m 71250,16000 250,250"
+           id="path11930" />
+        <path
+           d="M 71500,16250 V 34000"
+           id="path11932" />
+        <path
+           d="M 71500,34000 H 70500"
+           id="path11934" />
+        <path
+           d="M 70500,34000 V 16000"
+           id="path11936" />
+        <path
+           d="m 62250,17250 v 750"
+           id="path11938" />
+        <path
+           d="m 62250,18000 -250,250"
+           id="path11940" />
+        <path
+           d="M 62000,18250 H 56250"
+           id="path11942" />
+        <path
+           d="M 56250,18250 V 17250"
+           id="path11944" />
+        <path
+           d="m 56250,17250 h 6000"
+           id="path11946" />
+        <path
+           d="m 68793,29353 v 493"
+           id="path11948" />
+        <path
+           d="m 68793,29846 h -787"
+           id="path11950" />
+        <path
+           d="m 68006,29846 v -493"
+           id="path11952" />
+        <path
+           d="m 68006,29353 h 787"
+           id="path11954" />
+        <path
+           d="M 64729,25039 H 63470"
+           id="path11956" />
+        <path
+           d="m 64729,24409 v 630"
+           id="path11958" />
+        <path
+           d="m 63470,24409 h 1259"
+           id="path11960" />
+        <path
+           d="m 63470,25039 v -630"
+           id="path11962" />
+        <path
+           d="m 67437,9816 -394,394"
+           id="path11964" />
+        <path
+           d="M 67437,8241 V 9816"
+           id="path11966" />
+        <path
+           d="m 64562,8241 h 2875"
+           id="path11968" />
+        <path
+           d="M 64562,10210 V 8241"
+           id="path11970" />
+        <path
+           d="M 67043,10210 H 64562"
+           id="path11972" />
+        <path
+           d="m 68800,30153 v 493"
+           id="path11974" />
+        <path
+           d="m 68800,30646 h -788"
+           id="path11976" />
+        <path
+           d="m 68012,30646 v -493"
+           id="path11978" />
+        <path
+           d="m 68012,30153 h 788"
+           id="path11980" />
+        <path
+           d="m 62503,14000 h 493"
+           id="path11982" />
+        <path
+           d="m 62996,14000 v 787"
+           id="path11984" />
+        <path
+           d="m 62996,14787 h -493"
+           id="path11986" />
+        <path
+           d="m 62503,14787 v -787"
+           id="path11988" />
+        <path
+           d="m 61503,14000 h 493"
+           id="path11990" />
+        <path
+           d="m 61996,14000 v 787"
+           id="path11992" />
+        <path
+           d="m 61996,14787 h -493"
+           id="path11994" />
+        <path
+           d="m 61503,14787 v -787"
+           id="path11996" />
+        <path
+           d="m 62435,11455 v 1103"
+           id="path11998" />
+        <path
+           d="m 62435,12558 157,157"
+           id="path12000" />
+        <path
+           d="m 62592,12715 h 472"
+           id="path12002" />
+        <path
+           d="M 63064,12715 V 11455"
+           id="path12004" />
+        <path
+           d="m 63064,11455 h -629"
+           id="path12006" />
+        <path
+           d="m 61435,11455 v 1103"
+           id="path12008" />
+        <path
+           d="m 61435,12558 157,157"
+           id="path12010" />
+        <path
+           d="m 61592,12715 h 472"
+           id="path12012" />
+        <path
+           d="M 62064,12715 V 11455"
+           id="path12014" />
+        <path
+           d="m 62064,11455 h -629"
+           id="path12016" />
+        <circle
+           cx="54100"
+           cy="15750"
+           r="984.25201"
+           id="circle12018" />
+        <path
+           d="M 53056,16793 V 14706"
+           id="path12020" />
+        <path
+           d="M 54749,16793 H 53056"
+           id="path12022" />
+        <path
+           d="M 54749,14706 H 53056"
+           id="path12024" />
+        <path
+           d="M 55143,16399 V 15100"
+           id="path12026" />
+        <path
+           d="m 55143,16399 -394,394"
+           id="path12028" />
+        <path
+           d="m 55143,15100 -394,-394"
+           id="path12030" />
+        <path
+           d="m 54900,16222 h -197"
+           id="path12032" />
+        <path
+           d="m 54802,16320 v -196"
+           id="path12034" />
+        <circle
+           cx="54100"
+           cy="18250"
+           r="984.25201"
+           id="circle12036" />
+        <path
+           d="M 53056,19293 V 17206"
+           id="path12038" />
+        <path
+           d="M 54749,19293 H 53056"
+           id="path12040" />
+        <path
+           d="M 54749,17206 H 53056"
+           id="path12042" />
+        <path
+           d="M 55143,18899 V 17600"
+           id="path12044" />
+        <path
+           d="m 55143,18899 -394,394"
+           id="path12046" />
+        <path
+           d="m 55143,17600 -394,-394"
+           id="path12048" />
+        <path
+           d="m 54900,18722 h -197"
+           id="path12050" />
+        <path
+           d="m 54802,18820 v -196"
+           id="path12052" />
+        <path
+           d="m 68496,14197 v 788"
+           id="path12054" />
+        <path
+           d="m 68003,14197 h 493"
+           id="path12056" />
+        <path
+           d="m 68003,14985 v -788"
+           id="path12058" />
+        <path
+           d="m 68496,14985 h -493"
+           id="path12060" />
+      </g>
+      <g
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:59.0551;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g12074">
+        <path
+           d="M 66232,16868 H 64539"
+           id="path12064" />
+        <path
+           d="M 64539,16868 V 12852"
+           id="path12066" />
+        <path
+           d="m 64539,12852 h 2086"
+           id="path12068" />
+        <path
+           d="m 66625,12852 v 3622"
+           id="path12070" />
+        <path
+           d="m 66625,16474 -393,394"
+           id="path12072" />
+      </g>
+      <g
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g12326">
+        <path
+           d="m 68003,9014 h 493"
+           id="path12076" />
+        <path
+           d="m 68496,9014 v 788"
+           id="path12078" />
+        <path
+           d="m 68496,9802 h -493"
+           id="path12080" />
+        <path
+           d="M 68003,9802 V 9014"
+           id="path12082" />
+        <path
+           d="m 58978,16175 -394,393"
+           id="path12084" />
+        <path
+           d="M 58978,16175 V 13931"
+           id="path12086" />
+        <path
+           d="M 58584,16568 H 57521"
+           id="path12088" />
+        <path
+           d="M 58978,13931 H 57521"
+           id="path12090" />
+        <path
+           d="M 57521,16568 V 13931"
+           id="path12092" />
+        <path
+           d="m 68639,15822 h -334"
+           id="path12094" />
+        <path
+           d="m 68108,16019 v 669"
+           id="path12096" />
+        <path
+           d="m 68639,15822 v 866"
+           id="path12098" />
+        <path
+           d="m 68639,16688 h -531"
+           id="path12100" />
+        <path
+           d="m 68305,15822 -197,197"
+           id="path12102" />
+        <path
+           d="m 57511,9824 394,-393"
+           id="path12104" />
+        <path
+           d="m 57511,9824 v 2244"
+           id="path12106" />
+        <path
+           d="m 57905,9431 h 1063"
+           id="path12108" />
+        <path
+           d="m 57511,12068 h 1457"
+           id="path12110" />
+        <path
+           d="m 58968,9431 v 2637"
+           id="path12112" />
+        <path
+           d="m 62848,9250 h 197"
+           id="path12114" />
+        <path
+           d="m 62848,9407 -236,-157"
+           id="path12116" />
+        <path
+           d="m 62848,9092 v 315"
+           id="path12118" />
+        <path
+           d="m 62612,9250 236,-158"
+           id="path12120" />
+        <path
+           d="m 62612,9250 v 216"
+           id="path12122" />
+        <path
+           d="M 62612,9250 V 9033"
+           id="path12124" />
+        <path
+           d="m 62454,9250 h 158"
+           id="path12126" />
+        <path
+           d="M 62198,9604 V 8895"
+           id="path12128" />
+        <path
+           d="M 63301,9604 H 62198"
+           id="path12130" />
+        <path
+           d="m 63301,8895 v 709"
+           id="path12132" />
+        <path
+           d="m 62198,8895 h 1103"
+           id="path12134" />
+        <path
+           d="m 52390,16010 v 1811"
+           id="path12136" />
+        <path
+           d="M 52390,17821 H 51209"
+           id="path12138" />
+        <path
+           d="m 51209,16010 h 1181"
+           id="path12140" />
+        <path
+           d="m 51209,16010 v 1811"
+           id="path12142" />
+        <path
+           d="m 51800,17171 v 355"
+           id="path12144" />
+        <path
+           d="m 51800,16718 v -393"
+           id="path12146" />
+        <path
+           d="m 51485,17171 h 630"
+           id="path12148" />
+        <path
+           d="m 52095,16718 h -610"
+           id="path12150" />
+        <path
+           d="m 51800,17171 295,-453"
+           id="path12152" />
+        <path
+           d="m 51800,17171 -315,-453"
+           id="path12154" />
+        <path
+           d="m 60503,14000 h 493"
+           id="path12156" />
+        <path
+           d="m 60996,14000 v 787"
+           id="path12158" />
+        <path
+           d="m 60996,14787 h -493"
+           id="path12160" />
+        <path
+           d="m 60503,14787 v -787"
+           id="path12162" />
+        <path
+           d="m 60435,11455 v 1103"
+           id="path12164" />
+        <path
+           d="m 60435,12558 157,157"
+           id="path12166" />
+        <path
+           d="m 60592,12715 h 472"
+           id="path12168" />
+        <path
+           d="M 61064,12715 V 11455"
+           id="path12170" />
+        <path
+           d="m 61064,11455 h -629"
+           id="path12172" />
+        <path
+           d="m 57264,13246 v -493"
+           id="path12174" />
+        <path
+           d="m 57264,12753 h 788"
+           id="path12176" />
+        <path
+           d="m 58052,12753 v 493"
+           id="path12178" />
+        <path
+           d="m 58052,13246 h -788"
+           id="path12180" />
+        <path
+           d="m 59735,12753 v 493"
+           id="path12182" />
+        <path
+           d="m 59735,13246 h -788"
+           id="path12184" />
+        <path
+           d="m 58947,13246 v -493"
+           id="path12186" />
+        <path
+           d="m 58947,12753 h 788"
+           id="path12188" />
+        <path
+           d="m 60503,9264 h 493"
+           id="path12190" />
+        <path
+           d="m 60996,9264 v 788"
+           id="path12192" />
+        <path
+           d="m 60996,10052 h -493"
+           id="path12194" />
+        <path
+           d="M 60503,10052 V 9264"
+           id="path12196" />
+        <path
+           d="m 65771,12171 -256,-256"
+           id="path12198" />
+        <path
+           d="m 65515,11462 v 453"
+           id="path12200" />
+        <path
+           d="m 65771,12171 h 965"
+           id="path12202" />
+        <path
+           d="m 66736,11462 v 709"
+           id="path12204" />
+        <path
+           d="m 65515,11462 h 1221"
+           id="path12206" />
+        <path
+           d="m 64246,12200 h -493"
+           id="path12208" />
+        <path
+           d="m 63753,12200 v -788"
+           id="path12210" />
+        <path
+           d="m 63753,11412 h 493"
+           id="path12212" />
+        <path
+           d="m 64246,11412 v 788"
+           id="path12214" />
+        <path
+           d="m 68503,11947 h 493"
+           id="path12216" />
+        <path
+           d="m 68996,11947 v 788"
+           id="path12218" />
+        <path
+           d="m 68996,12735 h -493"
+           id="path12220" />
+        <path
+           d="m 68503,12735 v -788"
+           id="path12222" />
+        <path
+           d="m 66393,30153 v 493"
+           id="path12224" />
+        <path
+           d="m 66393,30646 h -787"
+           id="path12226" />
+        <path
+           d="m 65606,30646 v -493"
+           id="path12228" />
+        <path
+           d="m 65606,30153 h 787"
+           id="path12230" />
+        <path
+           d="m 54003,19997 h 493"
+           id="path12232" />
+        <path
+           d="m 54496,19997 v 788"
+           id="path12234" />
+        <path
+           d="m 54496,20785 h -493"
+           id="path12236" />
+        <path
+           d="m 54003,20785 v -788"
+           id="path12238" />
+        <path
+           d="m 63353,25814 h 493"
+           id="path12240" />
+        <path
+           d="m 63846,25814 v 788"
+           id="path12242" />
+        <path
+           d="m 63846,26602 h -493"
+           id="path12244" />
+        <path
+           d="m 63353,26602 v -788"
+           id="path12246" />
+        <g
+           id="g12248" />
+        <g
+           id="g12250" />
+        <g
+           id="g12252" />
+        <g
+           id="g12254" />
+        <g
+           id="g12256" />
+        <g
+           id="g12258" />
+        <g
+           id="g12260" />
+        <g
+           id="g12262" />
+        <g
+           id="g12264" />
+        <g
+           id="g12266" />
+        <g
+           id="g12268" />
+        <g
+           id="g12270" />
+        <g
+           id="g12272" />
+        <g
+           id="g12274" />
+        <g
+           id="g12276" />
+        <g
+           id="g12278" />
+        <g
+           id="g12280" />
+        <g
+           id="g12282" />
+        <g
+           id="g12284" />
+        <g
+           id="g12286" />
+        <g
+           id="g12288" />
+        <g
+           id="g12290" />
+        <g
+           id="g12292" />
+        <g
+           id="g12294" />
+        <g
+           id="g12296" />
+        <g
+           id="g12298" />
+        <g
+           id="g12300" />
+        <g
+           id="g12302" />
+        <g
+           id="g12304" />
+        <g
+           id="g12306" />
+        <g
+           id="g12308" />
+        <g
+           id="g12310" />
+        <g
+           id="g12312" />
+        <g
+           id="g12314" />
+        <g
+           id="g12316" />
+        <g
+           id="g12318" />
+        <g
+           id="g12320" />
+        <g
+           id="g12322" />
+        <g
+           id="g12324" />
+      </g>
+      <g
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:39.3701;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g12328" />
+      <g
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:19.685;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g13676">
+        <text
+           x="59250"
+           y="29868.1"
+           textLength="3507.5901"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12330">ESP32-WROOM-32</text>
+        <path
+           d="m 57590,29733 h 79"
+           id="path12332" />
+        <path
+           d="m 57703,29856 h -113 v -236 h 113"
+           id="path12334" />
+        <path
+           d="m 57793,29845 34,11 h 56 l 22,-11 12,-11 11,-23 v -22 l -11,-23 -12,-11 -22,-11 -45,-11 -23,-12 -11,-11 -11,-22 v -23 l 11,-22 11,-12 23,-11 h 56 l 34,11"
+           id="path12336" />
+        <path
+           d="m 58029,29856 v -236 h 90 l 23,11 11,12 11,22 v 34 l -11,22 -11,12 -23,11 h -90"
+           id="path12338" />
+        <path
+           d="m 58243,29620 h 146 l -79,90 h 34 l 22,11 12,12 11,22 v 56 l -11,23 -12,11 -22,11 h -68 l -22,-11 -11,-11"
+           id="path12340" />
+        <path
+           d="m 58479,29643 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path12342" />
+        <path
+           d="m 58715,29766 h 180"
+           id="path12344" />
+        <path
+           d="m 58985,29620 56,236 45,-168 45,168 57,-236"
+           id="path12346" />
+        <path
+           d="m 59413,29856 -79,-112"
+           id="path12348" />
+        <path
+           d="m 59278,29856 v -236 h 90 l 22,11 11,12 12,22 v 34 l -12,22 -11,12 -22,11 h -90"
+           id="path12350" />
+        <path
+           d="m 59559,29620 h 45 l 22,11 23,23 11,45 v 79 l -11,45 -23,22 -22,11 h -45 l -23,-11 -22,-22 -11,-45 v -79 l 11,-45 22,-23 23,-11"
+           id="path12352" />
+        <path
+           d="m 59806,29620 h 45 l 23,11 22,23 12,45 v 79 l -12,45 -22,22 -23,11 h -45 l -22,-11 -23,-22 -11,-45 v -79 l 11,-45 23,-23 22,-11"
+           id="path12354" />
+        <path
+           d="m 60009,29856 v -236 l 79,169 78,-169 v 236"
+           id="path12356" />
+        <path
+           d="m 60279,29766 h 180"
+           id="path12358" />
+        <path
+           d="m 60549,29620 h 146 l -79,90 h 34 l 22,11 12,12 11,22 v 56 l -11,23 -12,11 -22,11 h -68 l -22,-11 -11,-11"
+           id="path12360" />
+        <path
+           d="m 60785,29643 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path12362" />
+        <text
+           x="59250"
+           y="23368.1"
+           textLength="498.03101"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12364">U1</text>
+        <path
+           d="m 59070,23120 v 191 l 11,23 11,11 23,11 h 45 l 22,-11 11,-11 12,-23 v -191"
+           id="path12366" />
+        <path
+           d="m 59441,23356 h -135"
+           id="path12368" />
+        <path
+           d="m 59373,23356 v -236 l -22,34 -23,22 -22,12"
+           id="path12370" />
+        <text
+           x="70500"
+           y="12868.1"
+           textLength="1555.4"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12372">SW_Push</text>
+        <path
+           d="m 69780,12845 33,11 h 57 l 22,-11 11,-11 12,-23 v -22 l -12,-23 -11,-11 -22,-11 -45,-11 -23,-12 -11,-11 -11,-22 v -23 l 11,-22 11,-12 23,-11 h 56 l 34,11"
+           id="path12374" />
+        <path
+           d="m 69993,12620 57,236 45,-168 45,168 56,-236"
+           id="path12376" />
+        <path
+           d="m 70230,12879 h 180"
+           id="path12378" />
+        <path
+           d="m 70466,12856 v -236 h 90 l 22,11 11,12 12,22 v 34 l -12,22 -11,12 -22,11 h -90"
+           id="path12380" />
+        <path
+           d="m 70803,12699 v 157"
+           id="path12382" />
+        <path
+           d="m 70702,12699 v 124 l 11,22 23,11 h 33 l 23,-11 11,-11"
+           id="path12384" />
+        <path
+           d="m 70904,12845 23,11 h 45 l 22,-11 12,-22 v -12 l -12,-22 -22,-11 h -34 l -22,-12 -12,-22 v -11 l 12,-23 22,-11 h 34 l 22,11"
+           id="path12386" />
+        <path
+           d="m 71107,12856 v -236"
+           id="path12388" />
+        <path
+           d="m 71208,12856 v -123 l -11,-23 -23,-11 h -33 l -23,11 -11,11"
+           id="path12390" />
+        <text
+           x="70485.797"
+           y="11418.1"
+           textLength="745.5"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12392">SW2</text>
+        <path
+           d="m 70170,11395 34,11 h 56 l 23,-11 11,-11 11,-23 v -22 l -11,-23 -11,-11 -23,-11 -45,-11 -22,-12 -11,-11 -12,-22 v -23 l 12,-22 11,-12 22,-11 h 57 l 33,11"
+           id="path12394" />
+        <path
+           d="m 70384,11170 56,236 45,-168 45,168 57,-236"
+           id="path12396" />
+        <path
+           d="m 70665,11193 12,-12 22,-11 h 56 l 23,11 11,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path12398" />
+        <text
+           x="67250"
+           y="33618.102"
+           textLength="1555.4"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12400">SW_Push</text>
+        <path
+           d="m 66530,33595 33,11 h 57 l 22,-11 11,-11 12,-23 v -22 l -12,-23 -11,-11 -22,-11 -45,-11 -23,-12 -11,-11 -11,-22 v -23 l 11,-22 11,-12 23,-11 h 56 l 34,11"
+           id="path12402" />
+        <path
+           d="m 66743,33370 57,236 45,-168 45,168 56,-236"
+           id="path12404" />
+        <path
+           d="m 66980,33629 h 180"
+           id="path12406" />
+        <path
+           d="m 67216,33606 v -236 h 90 l 22,11 11,12 12,22 v 34 l -12,22 -11,12 -22,11 h -90"
+           id="path12408" />
+        <path
+           d="m 67553,33449 v 157"
+           id="path12410" />
+        <path
+           d="m 67452,33449 v 124 l 11,22 23,11 h 33 l 23,-11 11,-11"
+           id="path12412" />
+        <path
+           d="m 67654,33595 23,11 h 45 l 22,-11 12,-22 v -12 l -12,-22 -22,-11 h -34 l -22,-12 -12,-22 v -11 l 12,-23 22,-11 h 34 l 22,11"
+           id="path12414" />
+        <path
+           d="m 67857,33606 v -236"
+           id="path12416" />
+        <path
+           d="m 67958,33606 v -123 l -11,-23 -23,-11 h -33 l -23,11 -11,11"
+           id="path12418" />
+        <g
+           transform="rotate(-90,67140,32135.8)"
+           id="g12422">
+          <text
+             x="67140"
+             y="32253.9"
+             textLength="745.5"
+             font-size="314.961px"
+             lengthAdjust="spacingAndGlyphs"
+             text-anchor="middle"
+             opacity="0"
+             id="text12420">SW1</text>
+        </g>
+        <path
+           d="m 67235,32450 11,-33 v -57 l -11,-22 -11,-11 -23,-12 h -22 l -23,12 -11,11 -11,22 -11,45 -12,23 -11,11 -22,11 h -23 l -22,-11 -12,-11 -11,-23 v -56 l 11,-34"
+           id="path12424" />
+        <path
+           d="m 67010,32237 236,-57 -168,-45 168,-45 -236,-56"
+           id="path12426" />
+        <path
+           d="m 67246,31820 v 135"
+           id="path12428" />
+        <path
+           d="m 67246,31888 h -236 l 34,22 22,23 12,22"
+           id="path12430" />
+        <text
+           x="61750"
+           y="34368.102"
+           textLength="3321.4299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12432">ESP-PROG-Debug</text>
+        <path
+           d="m 60158,34233 h 79"
+           id="path12434" />
+        <path
+           d="m 60270,34356 h -112 v -236 h 112"
+           id="path12436" />
+        <path
+           d="m 60360,34345 34,11 h 56 l 23,-11 11,-11 11,-23 v -22 l -11,-23 -11,-11 -23,-11 -45,-11 -22,-12 -11,-11 -12,-22 v -23 l 12,-22 11,-12 22,-11 h 57 l 33,11"
+           id="path12438" />
+        <path
+           d="m 60597,34356 v -236 h 90 l 22,11 11,12 12,22 v 34 l -12,22 -11,12 -22,11 h -90"
+           id="path12440" />
+        <path
+           d="m 60833,34266 h 180"
+           id="path12442" />
+        <path
+           d="m 61125,34356 v -236 h 90 l 23,11 11,12 11,22 v 34 l -11,22 -11,12 -23,11 h -90"
+           id="path12444" />
+        <path
+           d="m 61496,34356 -78,-112"
+           id="path12446" />
+        <path
+           d="m 61361,34356 v -236 h 90 l 23,11 11,12 11,22 v 34 l -11,22 -11,12 -23,11 h -90"
+           id="path12448" />
+        <path
+           d="m 61643,34120 h 45 l 22,11 23,23 11,45 v 79 l -11,45 -23,22 -22,11 h -45 l -23,-11 -22,-22 -12,-45 v -79 l 12,-45 22,-23 23,-11"
+           id="path12450" />
+        <path
+           d="m 61969,34131 -23,-11 h -33 l -34,11 -23,23 -11,22 -11,45 v 34 l 11,45 11,23 23,22 34,11 h 22 l 34,-11 11,-11 v -79 h -45"
+           id="path12452" />
+        <path
+           d="m 62081,34266 h 180"
+           id="path12454" />
+        <path
+           d="m 62374,34356 v -236 h 56 l 34,11 22,23 12,22 11,45 v 34 l -11,45 -12,23 -22,22 -34,11 h -56"
+           id="path12456" />
+        <path
+           d="m 62700,34345 -22,11 h -45 l -23,-11 -11,-22 v -90 l 11,-23 23,-11 h 45 l 22,11 11,23 v 22 l -112,23"
+           id="path12458" />
+        <path
+           d="m 62812,34356 v -236"
+           id="path12460" />
+        <path
+           d="m 62812,34210 23,-11 h 45 l 22,11 12,11 11,23 v 67 l -11,23 -12,11 -22,11 h -45 l -23,-11"
+           id="path12462" />
+        <path
+           d="m 63127,34199 v 157"
+           id="path12464" />
+        <path
+           d="m 63026,34199 v 124 l 11,22 23,11 h 34 l 22,-11 11,-11"
+           id="path12466" />
+        <path
+           d="m 63341,34199 v 191 l -11,23 -11,11 -23,11 h -34 l -22,-11"
+           id="path12468" />
+        <path
+           d="m 63341,34345 -22,11 h -45 l -23,-11 -11,-11 -11,-23 v -67 l 11,-23 11,-11 23,-11 h 45 l 22,11"
+           id="path12470" />
+        <text
+           x="61650"
+           y="33137.801"
+           textLength="430.54001"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12472">J7</text>
+        <path
+           d="m 61571,32890 v 169 l -11,33 -23,23 -34,11 h -22"
+           id="path12474" />
+        <path
+           d="m 61661,32890 h 157 l -101,236"
+           id="path12476" />
+        <text
+           x="56900"
+           y="34368.102"
+           textLength="3726.3799"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12478">ESP-PROG-Program</text>
+        <path
+           d="m 55105,34233 h 79"
+           id="path12480" />
+        <path
+           d="m 55218,34356 h -113 v -236 h 113"
+           id="path12482" />
+        <path
+           d="m 55308,34345 34,11 h 56 l 22,-11 12,-11 11,-23 v -22 l -11,-23 -12,-11 -22,-11 -45,-11 -23,-12 -11,-11 -11,-22 v -23 l 11,-22 11,-12 23,-11 h 56 l 34,11"
+           id="path12484" />
+        <path
+           d="m 55544,34356 v -236 h 90 l 23,11 11,12 11,22 v 34 l -11,22 -11,12 -23,11 h -90"
+           id="path12486" />
+        <path
+           d="m 55780,34266 h 180"
+           id="path12488" />
+        <path
+           d="m 56073,34356 v -236 h 90 l 22,11 11,12 12,22 v 34 l -12,22 -11,12 -22,11 h -90"
+           id="path12490" />
+        <path
+           d="m 56444,34356 -79,-112"
+           id="path12492" />
+        <path
+           d="m 56309,34356 v -236 h 90 l 22,11 12,12 11,22 v 34 l -11,22 -12,12 -22,11 h -90"
+           id="path12494" />
+        <path
+           d="m 56590,34120 h 45 l 23,11 22,23 11,45 v 79 l -11,45 -22,22 -23,11 h -45 l -22,-11 -23,-22 -11,-45 v -79 l 11,-45 23,-23 22,-11"
+           id="path12496" />
+        <path
+           d="m 56916,34131 -22,-11 h -34 l -34,11 -22,23 -11,22 -12,45 v 34 l 12,45 11,23 22,22 34,11 h 23 l 33,-11 12,-11 v -79 h -45"
+           id="path12498" />
+        <path
+           d="m 57029,34266 h 180"
+           id="path12500" />
+        <path
+           d="m 57321,34356 v -236 h 90 l 23,11 11,12 11,22 v 34 l -11,22 -11,12 -23,11 h -90"
+           id="path12502" />
+        <path
+           d="m 57558,34356 v -157"
+           id="path12504" />
+        <path
+           d="m 57558,34244 11,-23 11,-11 23,-11 h 22"
+           id="path12506" />
+        <path
+           d="m 57738,34356 -23,-11 -11,-11 -11,-23 v -67 l 11,-23 11,-11 23,-11 h 33 l 23,11 11,11 11,23 v 67 l -11,23 -11,11 -23,11 h -33"
+           id="path12508" />
+        <path
+           d="m 58019,34199 v 191 l -12,23 -11,11 -22,11 h -34 l -23,-11"
+           id="path12510" />
+        <path
+           d="m 58019,34345 -23,11 h -45 l -22,-11 -12,-11 -11,-23 v -67 l 11,-23 12,-11 22,-11 h 45 l 23,11"
+           id="path12512" />
+        <path
+           d="m 58131,34356 v -157"
+           id="path12514" />
+        <path
+           d="m 58131,34244 11,-23 12,-11 22,-11 h 23"
+           id="path12516" />
+        <path
+           d="m 58379,34356 v -123 l -12,-23 -22,-11 h -45 l -23,11"
+           id="path12518" />
+        <path
+           d="m 58379,34345 -23,11 h -56 l -23,-11 -11,-22 v -23 l 11,-22 23,-12 h 56 l 23,-11"
+           id="path12520" />
+        <path
+           d="m 58491,34356 v -157"
+           id="path12522" />
+        <path
+           d="m 58491,34221 11,-11 23,-11 h 34 l 22,11 11,23 v 123"
+           id="path12524" />
+        <path
+           d="m 58592,34233 12,-23 22,-11 h 34 l 22,11 12,23 v 123"
+           id="path12526" />
+        <text
+           x="56750"
+           y="33137.801"
+           textLength="430.54001"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12528">J6</text>
+        <path
+           d="m 56671,32890 v 169 l -11,33 -23,23 -34,11 h -22"
+           id="path12530" />
+        <path
+           d="m 56884,32890 h -45 l -22,11 -11,11 -23,34 -11,45 v 90 l 11,23 11,11 23,11 h 45 l 22,-11 12,-11 11,-23 v -56 l -11,-23 -12,-11 -22,-11 h -45 l -23,11 -11,11 -11,23"
+           id="path12532" />
+        <text
+           x="54000"
+           y="13368.1"
+           textLength="4390.04"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12534">Barrel_Jack_MountingPin</text>
+        <path
+           d="m 51952,13233 34,11 11,11 11,23 v 33 l -11,23 -11,11 -22,11 h -90 v -236 h 78 l 23,11 11,12 11,22 v 23 l -11,22 -11,11 -23,12 h -78"
+           id="path12536" />
+        <path
+           d="m 52211,13356 v -123 l -11,-23 -23,-11 h -45 l -22,11"
+           id="path12538" />
+        <path
+           d="m 52211,13345 -23,11 h -56 l -22,-11 -12,-22 v -23 l 12,-22 22,-12 h 56 l 23,-11"
+           id="path12540" />
+        <path
+           d="m 52323,13356 v -157"
+           id="path12542" />
+        <path
+           d="m 52323,13244 12,-23 11,-11 22,-11 h 23"
+           id="path12544" />
+        <path
+           d="m 52470,13356 v -157"
+           id="path12546" />
+        <path
+           d="m 52470,13244 11,-23 11,-11 23,-11 h 22"
+           id="path12548" />
+        <path
+           d="m 52706,13345 -23,11 h -45 l -22,-11 -11,-22 v -90 l 11,-23 22,-11 h 45 l 23,11 11,23 v 22 l -112,23"
+           id="path12550" />
+        <path
+           d="m 52852,13356 -22,-11 -12,-22 v -203"
+           id="path12552" />
+        <path
+           d="m 52886,13379 h 180"
+           id="path12554" />
+        <path
+           d="m 53190,13120 v 169 l -12,34 -22,22 -34,11 h -22"
+           id="path12556" />
+        <path
+           d="m 53403,13356 v -123 l -11,-23 -22,-11 h -45 l -23,11"
+           id="path12558" />
+        <path
+           d="m 53403,13345 -22,11 h -56 l -23,-11 -11,-22 v -23 l 11,-22 23,-12 h 56 l 22,-11"
+           id="path12560" />
+        <path
+           d="m 53617,13345 -22,11 h -45 l -23,-11 -11,-11 -11,-23 v -67 l 11,-23 11,-11 23,-11 h 45 l 22,11"
+           id="path12562" />
+        <path
+           d="m 53718,13356 v -236"
+           id="path12564" />
+        <path
+           d="m 53741,13266 67,90"
+           id="path12566" />
+        <path
+           d="m 53808,13199 -90,90"
+           id="path12568" />
+        <path
+           d="m 53853,13379 h 180"
+           id="path12570" />
+        <path
+           d="m 54089,13356 v -236 l 79,169 79,-169 v 236"
+           id="path12572" />
+        <path
+           d="m 54393,13356 -22,-11 -12,-11 -11,-23 v -67 l 11,-23 12,-11 22,-11 h 34 l 22,11 12,11 11,23 v 67 l -11,23 -12,11 -22,11 h -34"
+           id="path12574" />
+        <path
+           d="m 54674,13199 v 157"
+           id="path12576" />
+        <path
+           d="m 54573,13199 v 124 l 11,22 23,11 h 34 l 22,-11 11,-11"
+           id="path12578" />
+        <path
+           d="m 54787,13199 v 157"
+           id="path12580" />
+        <path
+           d="m 54787,13221 11,-11 23,-11 h 33 l 23,11 11,23 v 123"
+           id="path12582" />
+        <path
+           d="m 54967,13199 h 90"
+           id="path12584" />
+        <path
+           d="m 55001,13120 v 203 l 11,22 22,11 h 23"
+           id="path12586" />
+        <path
+           d="m 55136,13356 v -157"
+           id="path12588" />
+        <path
+           d="m 55136,13120 -12,11 12,12 11,-12 -11,-11 v 23"
+           id="path12590" />
+        <path
+           d="m 55248,13199 v 157"
+           id="path12592" />
+        <path
+           d="m 55248,13221 11,-11 23,-11 h 34 l 22,11 11,23 v 123"
+           id="path12594" />
+        <path
+           d="m 55563,13199 v 191 l -11,23 -11,11 -23,11 h -34 l -22,-11"
+           id="path12596" />
+        <path
+           d="m 55563,13345 -22,11 h -45 l -23,-11 -11,-11 -11,-23 v -67 l 11,-23 11,-11 23,-11 h 45 l 22,11"
+           id="path12598" />
+        <path
+           d="m 55676,13356 v -236 h 90 l 22,11 11,12 12,22 v 34 l -12,22 -11,12 -22,11 h -90"
+           id="path12600" />
+        <path
+           d="m 55912,13356 v -157"
+           id="path12602" />
+        <path
+           d="m 55912,13120 -11,11 11,12 11,-12 -11,-11 v 23"
+           id="path12604" />
+        <path
+           d="m 56024,13199 v 157"
+           id="path12606" />
+        <path
+           d="m 56024,13221 11,-11 23,-11 h 34 l 22,11 11,23 v 123"
+           id="path12608" />
+        <text
+           x="54000"
+           y="10618.1"
+           textLength="430.54001"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12610">J5</text>
+        <path
+           d="m 53921,10370 v 169 l -11,34 -23,22 -34,11 h -22"
+           id="path12612" />
+        <path
+           d="m 54146,10370 h -113 l -11,113 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 56 l -11,23 -12,11 -22,11 h -56 l -23,-11 -11,-11"
+           id="path12614" />
+        <text
+           x="52000"
+           y="33868.102"
+           textLength="3613.8899"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12616">Conn_01x14_Female</text>
+        <path
+           d="m 50397,33834 -12,11 -33,11 h -23 l -34,-11 -22,-22 -11,-23 -12,-45 v -34 l 12,-45 11,-22 22,-23 34,-11 h 23 l 33,11 12,12"
+           id="path12618" />
+        <path
+           d="m 50532,33856 -23,-11 -11,-11 -11,-23 v -67 l 11,-23 11,-11 23,-11 h 33 l 23,11 11,11 11,23 v 67 l -11,23 -11,11 -23,11 h -33"
+           id="path12620" />
+        <path
+           d="m 50712,33699 v 157"
+           id="path12622" />
+        <path
+           d="m 50712,33721 11,-11 22,-11 h 34 l 23,11 11,23 v 123"
+           id="path12624" />
+        <path
+           d="m 50925,33699 v 157"
+           id="path12626" />
+        <path
+           d="m 50925,33721 12,-11 22,-11 h 34 l 22,11 11,23 v 123"
+           id="path12628" />
+        <path
+           d="m 51083,33879 h 180"
+           id="path12630" />
+        <path
+           d="m 51364,33620 h 22 l 23,11 11,12 11,22 12,45 v 56 l -12,45 -11,23 -11,11 -23,11 h -22 l -23,-11 -11,-11 -11,-23 -11,-45 v -56 l 11,-45 11,-22 11,-12 23,-11"
+           id="path12632" />
+        <path
+           d="m 51668,33856 h -135"
+           id="path12634" />
+        <path
+           d="m 51600,33856 v -236 l -22,34 -23,22 -22,12"
+           id="path12636" />
+        <path
+           d="m 51746,33856 124,-157"
+           id="path12638" />
+        <path
+           d="m 51746,33699 124,157"
+           id="path12640" />
+        <path
+           d="m 52084,33856 h -135"
+           id="path12642" />
+        <path
+           d="m 52016,33856 v -236 l -22,34 -23,22 -22,12"
+           id="path12644" />
+        <path
+           d="m 52286,33699 v 157"
+           id="path12646" />
+        <path
+           d="m 52230,33609 -56,169 h 146"
+           id="path12648" />
+        <path
+           d="m 52354,33879 h 180"
+           id="path12650" />
+        <path
+           d="m 52669,33733 h -79"
+           id="path12652" />
+        <path
+           d="m 52590,33856 v -236 h 113"
+           id="path12654" />
+        <path
+           d="m 52883,33845 -23,11 h -45 l -22,-11 -12,-22 v -90 l 12,-23 22,-11 h 45 l 23,11 11,23 v 22 l -113,23"
+           id="path12656" />
+        <path
+           d="m 52995,33856 v -157"
+           id="path12658" />
+        <path
+           d="m 52995,33721 11,-11 23,-11 h 33 l 23,11 11,23 v 123"
+           id="path12660" />
+        <path
+           d="m 53096,33733 11,-23 23,-11 h 34 l 22,11 11,23 v 123"
+           id="path12662" />
+        <path
+           d="m 53411,33856 v -123 l -11,-23 -23,-11 h -45 l -22,11"
+           id="path12664" />
+        <path
+           d="m 53411,33845 -22,11 h -57 l -22,-11 -11,-22 v -23 l 11,-22 22,-12 h 57 l 22,-11"
+           id="path12666" />
+        <path
+           d="m 53557,33856 -22,-11 -11,-22 v -203"
+           id="path12668" />
+        <path
+           d="m 53737,33845 -22,11 h -45 l -23,-11 -11,-22 v -90 l 11,-23 23,-11 h 45 l 22,11 12,23 v 22 l -113,23"
+           id="path12670" />
+        <text
+           x="52000"
+           y="26618.1"
+           textLength="430.54001"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12672">J1</text>
+        <path
+           d="m 51921,26370 v 169 l -11,34 -23,22 -34,11 h -22"
+           id="path12674" />
+        <path
+           d="m 52157,26606 h -135"
+           id="path12676" />
+        <path
+           d="m 52089,26606 v -236 l -22,34 -23,22 -22,12"
+           id="path12678" />
+        <text
+           x="71000"
+           y="34818.102"
+           textLength="3613.8899"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12680">Conn_01x18_Female</text>
+        <path
+           d="m 69397,34784 -12,11 -33,11 h -23 l -34,-11 -22,-22 -11,-23 -12,-45 v -34 l 12,-45 11,-22 22,-23 34,-11 h 23 l 33,11 12,12"
+           id="path12682" />
+        <path
+           d="m 69532,34806 -23,-11 -11,-11 -11,-23 v -67 l 11,-23 11,-11 23,-11 h 33 l 23,11 11,11 11,23 v 67 l -11,23 -11,11 -23,11 h -33"
+           id="path12684" />
+        <path
+           d="m 69712,34649 v 157"
+           id="path12686" />
+        <path
+           d="m 69712,34671 11,-11 22,-11 h 34 l 23,11 11,23 v 123"
+           id="path12688" />
+        <path
+           d="m 69925,34649 v 157"
+           id="path12690" />
+        <path
+           d="m 69925,34671 12,-11 22,-11 h 34 l 22,11 11,23 v 123"
+           id="path12692" />
+        <path
+           d="m 70083,34829 h 180"
+           id="path12694" />
+        <path
+           d="m 70364,34570 h 22 l 23,11 11,12 11,22 12,45 v 56 l -12,45 -11,23 -11,11 -23,11 h -22 l -23,-11 -11,-11 -11,-23 -11,-45 v -56 l 11,-45 11,-22 11,-12 23,-11"
+           id="path12696" />
+        <path
+           d="m 70668,34806 h -135"
+           id="path12698" />
+        <path
+           d="m 70600,34806 v -236 l -22,34 -23,22 -22,12"
+           id="path12700" />
+        <path
+           d="m 70746,34806 124,-157"
+           id="path12702" />
+        <path
+           d="m 70746,34649 124,157"
+           id="path12704" />
+        <path
+           d="m 71084,34806 h -135"
+           id="path12706" />
+        <path
+           d="m 71016,34806 v -236 l -22,34 -23,22 -22,12"
+           id="path12708" />
+        <path
+           d="m 71219,34671 -23,-11 -11,-11 -11,-23 v -11 l 11,-22 11,-12 23,-11 h 45 l 22,11 12,12 11,22 v 11 l -11,23 -12,11 -22,11 h -45 l -23,12 -11,11 -11,22 v 45 l 11,23 11,11 23,11 h 45 l 22,-11 12,-11 11,-23 v -45 l -11,-22 -12,-11 -22,-12"
+           id="path12710" />
+        <path
+           d="m 71354,34829 h 180"
+           id="path12712" />
+        <path
+           d="m 71669,34683 h -79"
+           id="path12714" />
+        <path
+           d="m 71590,34806 v -236 h 113"
+           id="path12716" />
+        <path
+           d="m 71883,34795 -23,11 h -45 l -22,-11 -12,-22 v -90 l 12,-23 22,-11 h 45 l 23,11 11,23 v 22 l -113,23"
+           id="path12718" />
+        <path
+           d="m 71995,34806 v -157"
+           id="path12720" />
+        <path
+           d="m 71995,34671 11,-11 23,-11 h 33 l 23,11 11,23 v 123"
+           id="path12722" />
+        <path
+           d="m 72096,34683 11,-23 23,-11 h 34 l 22,11 11,23 v 123"
+           id="path12724" />
+        <path
+           d="m 72411,34806 v -123 l -11,-23 -23,-11 h -45 l -22,11"
+           id="path12726" />
+        <path
+           d="m 72411,34795 -22,11 h -57 l -22,-11 -11,-22 v -23 l 11,-22 22,-12 h 57 l 22,-11"
+           id="path12728" />
+        <path
+           d="m 72557,34806 -22,-11 -11,-22 v -203"
+           id="path12730" />
+        <path
+           d="m 72737,34795 -22,11 h -45 l -23,-11 -11,-22 v -90 l 11,-23 23,-11 h 45 l 22,11 12,23 v 22 l -113,23"
+           id="path12732" />
+        <text
+           x="71000"
+           y="25118.1"
+           textLength="430.54001"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12734">J2</text>
+        <path
+           d="m 70921,24870 v 169 l -11,34 -23,22 -34,11 h -22"
+           id="path12736" />
+        <path
+           d="m 71022,24893 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path12738" />
+        <text
+           x="59250"
+           y="18618.1"
+           textLength="2174.0701"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12740">Conn_01x06</text>
+        <path
+           d="m 58366,18584 -11,11 -34,11 h -22 l -34,-11 -22,-22 -11,-23 -12,-45 v -34 l 12,-45 11,-22 22,-23 34,-11 h 22 l 34,11 11,12"
+           id="path12742" />
+        <path
+           d="m 58501,18606 -22,-11 -11,-11 -12,-23 v -67 l 12,-23 11,-11 22,-11 h 34 l 23,11 11,11 11,23 v 67 l -11,23 -11,11 -23,11 h -34"
+           id="path12744" />
+        <path
+           d="m 58681,18449 v 157"
+           id="path12746" />
+        <path
+           d="m 58681,18471 12,-11 22,-11 h 34 l 22,11 12,23 v 123"
+           id="path12748" />
+        <path
+           d="m 58895,18449 v 157"
+           id="path12750" />
+        <path
+           d="m 58895,18471 11,-11 23,-11 h 34 l 22,11 11,23 v 123"
+           id="path12752" />
+        <path
+           d="m 59053,18629 h 180"
+           id="path12754" />
+        <path
+           d="m 59334,18370 h 22 l 23,11 11,12 11,22 12,45 v 56 l -12,45 -11,23 -11,11 -23,11 h -22 l -23,-11 -11,-11 -11,-23 -11,-45 v -56 l 11,-45 11,-22 11,-12 23,-11"
+           id="path12756" />
+        <path
+           d="m 59638,18606 h -135"
+           id="path12758" />
+        <path
+           d="m 59570,18606 v -236 l -22,34 -23,22 -22,12"
+           id="path12760" />
+        <path
+           d="m 59716,18606 124,-157"
+           id="path12762" />
+        <path
+           d="m 59716,18449 124,157"
+           id="path12764" />
+        <path
+           d="m 59975,18370 h 23 l 22,11 11,12 12,22 11,45 v 56 l -11,45 -12,23 -11,11 -22,11 h -23 l -22,-11 -12,-11 -11,-23 -11,-45 v -56 l 11,-45 11,-22 12,-12 22,-11"
+           id="path12766" />
+        <path
+           d="m 60256,18370 h -45 l -22,11 -11,12 -23,33 -11,45 v 90 l 11,23 11,11 23,11 h 45 l 22,-11 11,-11 12,-23 v -56 l -12,-22 -11,-12 -22,-11 h -45 l -23,11 -11,12 -11,22"
+           id="path12768" />
+        <text
+           x="59250"
+           y="17868.1"
+           textLength="430.54001"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12770">J3</text>
+        <path
+           d="m 59171,17620 v 169 l -11,34 -23,22 -34,11 h -22"
+           id="path12772" />
+        <path
+           d="m 59261,17620 h 146 l -79,90 h 34 l 22,11 12,12 11,22 v 56 l -11,23 -12,11 -22,11 h -68 l -22,-11 -11,-11"
+           id="path12774" />
+        <text
+           x="69650"
+           y="29718.1"
+           textLength="1622.89"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12776">10 kOhm</text>
+        <path
+           d="m 69031,29706 h -135"
+           id="path12778" />
+        <path
+           d="m 68963,29706 v -236 l -22,34 -23,22 -22,12"
+           id="path12780" />
+        <path
+           d="m 69177,29470 h 23 l 22,11 11,12 12,22 11,45 v 56 l -11,45 -12,23 -11,11 -22,11 h -23 l -22,-11 -12,-11 -11,-23 -11,-45 v -56 l 11,-45 11,-22 12,-12 22,-11"
+           id="path12782" />
+        <path
+           d="m 69537,29706 v -236"
+           id="path12784" />
+        <path
+           d="m 69560,29616 67,90"
+           id="path12786" />
+        <path
+           d="m 69627,29549 -90,90"
+           id="path12788" />
+        <path
+           d="m 69773,29470 h 45 l 23,11 22,23 11,45 v 79 l -11,45 -22,22 -23,11 h -45 l -22,-11 -23,-22 -11,-45 v -79 l 11,-45 23,-23 22,-11"
+           id="path12790" />
+        <path
+           d="m 69976,29706 v -236"
+           id="path12792" />
+        <path
+           d="m 70077,29706 v -123 l -11,-23 -23,-11 h -34 l -22,11 -11,11"
+           id="path12794" />
+        <path
+           d="m 70189,29706 v -157"
+           id="path12796" />
+        <path
+           d="m 70189,29571 12,-11 22,-11 h 34 l 22,11 12,23 v 123"
+           id="path12798" />
+        <path
+           d="m 70291,29583 11,-23 22,-11 h 34 l 23,11 11,23 v 123"
+           id="path12800" />
+        <text
+           x="68400"
+           y="29718.1"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12802">R6</text>
+        <path
+           d="m 68360,29706 -79,-112"
+           id="path12804" />
+        <path
+           d="m 68225,29706 v -236 h 90 l 23,11 11,12 11,22 v 34 l -11,22 -11,12 -23,11 h -90"
+           id="path12806" />
+        <path
+           d="m 68563,29470 h -45 l -23,11 -11,12 -23,33 -11,45 v 90 l 11,23 12,11 22,11 h 45 l 23,-11 11,-11 11,-23 v -56 l -11,-22 -11,-12 -23,-11 h -45 l -22,11 -12,12 -11,22"
+           id="path12808" />
+        <text
+           x="64100"
+           y="25368.1"
+           textLength="1656.64"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12810">100 Ohm</text>
+        <path
+           d="m 63464,25356 h -135"
+           id="path12812" />
+        <path
+           d="m 63396,25356 v -236 l -22,34 -23,22 -22,12"
+           id="path12814" />
+        <path
+           d="m 63610,25120 h 23 l 22,11 11,12 12,22 11,45 v 56 l -11,45 -12,23 -11,11 -22,11 h -23 l -22,-11 -12,-11 -11,-23 -11,-45 v -56 l 11,-45 11,-22 12,-12 22,-11"
+           id="path12816" />
+        <path
+           d="m 63835,25120 h 23 l 22,11 11,12 12,22 11,45 v 56 l -11,45 -12,23 -11,11 -22,11 h -23 l -22,-11 -12,-11 -11,-23 -11,-45 v -56 l 11,-45 11,-22 12,-12 22,-11"
+           id="path12818" />
+        <path
+           d="m 64240,25120 h 45 l 23,11 22,23 11,45 v 79 l -11,45 -22,22 -23,11 h -45 l -22,-11 -23,-22 -11,-45 v -79 l 11,-45 23,-23 22,-11"
+           id="path12820" />
+        <path
+           d="m 64443,25356 v -236"
+           id="path12822" />
+        <path
+           d="m 64544,25356 v -123 l -11,-23 -23,-11 h -34 l -22,11 -11,11"
+           id="path12824" />
+        <path
+           d="m 64656,25356 v -157"
+           id="path12826" />
+        <path
+           d="m 64656,25221 12,-11 22,-11 h 34 l 22,11 12,23 v 123"
+           id="path12828" />
+        <path
+           d="m 64758,25233 11,-23 22,-11 h 34 l 23,11 11,23 v 123"
+           id="path12830" />
+        <text
+           x="64100"
+           y="24842.5"
+           textLength="734.25201"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12832">RN1</text>
+        <path
+           d="m 63936,24831 -78,-113"
+           id="path12834" />
+        <path
+           d="m 63801,24831 v -236 h 90 l 23,11 11,11 11,23 v 33 l -11,23 -11,11 -23,11 h -90"
+           id="path12836" />
+        <path
+           d="m 64038,24831 v -236 l 135,236 v -236"
+           id="path12838" />
+        <path
+           d="m 64409,24831 h -135"
+           id="path12840" />
+        <path
+           d="m 64341,24831 v -236 l -22,33 -23,23 -22,11"
+           id="path12842" />
+        <text
+           x="66000"
+           y="10618.1"
+           textLength="2275.3101"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12844">USB_B_Micro</text>
+        <path
+           d="m 64931,10370 v 191 l 11,23 11,11 23,11 h 45 l 22,-11 12,-11 11,-23 v -191"
+           id="path12846" />
+        <path
+           d="m 65167,10595 34,11 h 56 l 23,-11 11,-11 11,-23 v -22 l -11,-23 -11,-11 -23,-11 -45,-11 -22,-12 -12,-11 -11,-22 v -23 l 11,-22 12,-12 22,-11 h 56 l 34,11"
+           id="path12848" />
+        <path
+           d="m 65482,10483 34,11 11,11 11,23 v 33 l -11,23 -11,11 -23,11 h -90 v -236 h 79 l 23,11 11,12 11,22 v 23 l -11,22 -11,11 -23,12 h -79"
+           id="path12850" />
+        <path
+           d="m 65583,10629 h 180"
+           id="path12852" />
+        <path
+           d="m 65898,10483 34,11 11,11 12,23 v 33 l -12,23 -11,11 -22,11 h -90 v -236 h 78 l 23,11 11,12 11,22 v 23 l -11,22 -11,11 -23,12 h -78"
+           id="path12854" />
+        <path
+           d="m 66000,10629 h 179"
+           id="path12856" />
+        <path
+           d="m 66236,10606 v -236 l 78,169 79,-169 v 236"
+           id="path12858" />
+        <path
+           d="m 66506,10606 v -157"
+           id="path12860" />
+        <path
+           d="m 66506,10370 -12,11 12,12 11,-12 -11,-11 v 23"
+           id="path12862" />
+        <path
+           d="m 66719,10595 -22,11 h -45 l -23,-11 -11,-11 -11,-23 v -67 l 11,-23 11,-11 23,-11 h 45 l 22,11"
+           id="path12864" />
+        <path
+           d="m 66821,10606 v -157"
+           id="path12866" />
+        <path
+           d="m 66821,10494 11,-23 11,-11 23,-11 h 22"
+           id="path12868" />
+        <path
+           d="m 67001,10606 -23,-11 -11,-11 -11,-23 v -67 l 11,-23 11,-11 23,-11 h 33 l 23,11 11,11 11,23 v 67 l -11,23 -11,11 -23,11 h -33"
+           id="path12870" />
+        <text
+           x="66000"
+           y="9368.1104"
+           textLength="430.54001"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12872">J4</text>
+        <path
+           d="m 65921,9120 v 169 l -11,34 -23,22 -34,11 h -22"
+           id="path12874" />
+        <path
+           d="m 66134,9199 v 157"
+           id="path12876" />
+        <path
+           d="m 66078,9109 -56,169 h 146"
+           id="path12878" />
+        <text
+           x="69650"
+           y="30518.1"
+           textLength="1622.89"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12880">10 kOhm</text>
+        <path
+           d="m 69031,30506 h -135"
+           id="path12882" />
+        <path
+           d="m 68963,30506 v -236 l -22,34 -23,22 -22,12"
+           id="path12884" />
+        <path
+           d="m 69177,30270 h 23 l 22,11 11,12 12,22 11,45 v 56 l -11,45 -12,23 -11,11 -22,11 h -23 l -22,-11 -12,-11 -11,-23 -11,-45 v -56 l 11,-45 11,-22 12,-12 22,-11"
+           id="path12886" />
+        <path
+           d="m 69537,30506 v -236"
+           id="path12888" />
+        <path
+           d="m 69560,30416 67,90"
+           id="path12890" />
+        <path
+           d="m 69627,30349 -90,90"
+           id="path12892" />
+        <path
+           d="m 69773,30270 h 45 l 23,11 22,23 11,45 v 79 l -11,45 -22,22 -23,11 h -45 l -22,-11 -23,-22 -11,-45 v -79 l 11,-45 23,-23 22,-11"
+           id="path12894" />
+        <path
+           d="m 69976,30506 v -236"
+           id="path12896" />
+        <path
+           d="m 70077,30506 v -123 l -11,-23 -23,-11 h -34 l -22,11 -11,11"
+           id="path12898" />
+        <path
+           d="m 70189,30506 v -157"
+           id="path12900" />
+        <path
+           d="m 70189,30371 12,-11 22,-11 h 34 l 22,11 12,23 v 123"
+           id="path12902" />
+        <path
+           d="m 70291,30383 11,-23 22,-11 h 34 l 23,11 11,23 v 123"
+           id="path12904" />
+        <text
+           x="68406.297"
+           y="30518.1"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12906">R5</text>
+        <path
+           d="m 68366,30506 -78,-112"
+           id="path12908" />
+        <path
+           d="m 68231,30506 v -236 h 90 l 23,11 11,12 11,22 v 34 l -11,22 -11,12 -23,11 h -90"
+           id="path12910" />
+        <path
+           d="m 68580,30270 h -112 l -12,113 12,-12 22,-11 h 56 l 23,11 11,12 11,22 v 56 l -11,23 -11,11 -23,11 h -56 l -22,-11 -12,-11"
+           id="path12912" />
+        <text
+           x="63600"
+           y="15168.1"
+           textLength="1656.64"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12914">220 Ohm</text>
+        <path
+           d="m 62829,14943 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path12916" />
+        <path
+           d="m 63054,14943 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path12918" />
+        <path
+           d="m 63335,14920 h 23 l 22,11 11,12 12,22 11,45 v 56 l -11,45 -12,23 -11,11 -22,11 h -23 l -22,-11 -12,-11 -11,-23 -11,-45 v -56 l 11,-45 11,-22 12,-12 22,-11"
+           id="path12920" />
+        <path
+           d="m 63740,14920 h 45 l 23,11 22,23 11,45 v 79 l -11,45 -22,22 -23,11 h -45 l -22,-11 -23,-22 -11,-45 v -79 l 11,-45 23,-23 22,-11"
+           id="path12922" />
+        <path
+           d="m 63943,15156 v -236"
+           id="path12924" />
+        <path
+           d="m 64044,15156 v -123 l -11,-23 -23,-11 h -34 l -22,11 -11,11"
+           id="path12926" />
+        <path
+           d="m 64156,15156 v -157"
+           id="path12928" />
+        <path
+           d="m 64156,15021 12,-11 22,-11 h 34 l 22,11 12,23 v 123"
+           id="path12930" />
+        <path
+           d="m 64258,15033 11,-23 22,-11 h 34 l 23,11 11,23 v 123"
+           id="path12932" />
+        <text
+           x="62750"
+           y="14511.8"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12934">R4</text>
+        <path
+           d="m 62710,14500 -79,-112"
+           id="path12936" />
+        <path
+           d="m 62575,14500 v -236 h 90 l 23,11 11,11 11,23 v 34 l -11,22 -11,11 -23,12 h -90"
+           id="path12938" />
+        <path
+           d="m 62913,14343 v 157"
+           id="path12940" />
+        <path
+           d="m 62856,14253 -56,168 h 146"
+           id="path12942" />
+        <text
+           x="61750"
+           y="15168.1"
+           textLength="1656.64"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12944">220 Ohm</text>
+        <path
+           d="m 60979,14943 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path12946" />
+        <path
+           d="m 61204,14943 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path12948" />
+        <path
+           d="m 61485,14920 h 23 l 22,11 11,12 12,22 11,45 v 56 l -11,45 -12,23 -11,11 -22,11 h -23 l -22,-11 -12,-11 -11,-23 -11,-45 v -56 l 11,-45 11,-22 12,-12 22,-11"
+           id="path12950" />
+        <path
+           d="m 61890,14920 h 45 l 23,11 22,23 11,45 v 79 l -11,45 -22,22 -23,11 h -45 l -22,-11 -23,-22 -11,-45 v -79 l 11,-45 23,-23 22,-11"
+           id="path12952" />
+        <path
+           d="m 62093,15156 v -236"
+           id="path12954" />
+        <path
+           d="m 62194,15156 v -123 l -11,-23 -23,-11 h -34 l -22,11 -11,11"
+           id="path12956" />
+        <path
+           d="m 62306,15156 v -157"
+           id="path12958" />
+        <path
+           d="m 62306,15021 12,-11 22,-11 h 34 l 22,11 12,23 v 123"
+           id="path12960" />
+        <path
+           d="m 62408,15033 11,-23 22,-11 h 34 l 23,11 11,23 v 123"
+           id="path12962" />
+        <text
+           x="61750"
+           y="14511.8"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text12964">R3</text>
+        <path
+           d="m 61710,14500 -79,-112"
+           id="path12966" />
+        <path
+           d="m 61575,14500 v -236 h 90 l 23,11 11,11 11,23 v 34 l -11,22 -11,11 -23,12 h -90"
+           id="path12968" />
+        <path
+           d="m 61789,14264 h 146 l -79,90 h 34 l 23,11 11,11 11,23 v 56 l -11,23 -11,11 -23,11 h -67 l -23,-11 -11,-11"
+           id="path12970" />
+        <g
+           transform="rotate(-90,63250,12250)"
+           id="g12974">
+          <text
+             x="63250"
+             y="12368.1"
+             textLength="3220.1899"
+             font-size="314.961px"
+             lengthAdjust="spacingAndGlyphs"
+             text-anchor="middle"
+             opacity="0"
+             id="text12972">RF-YUS150TS-AE</text>
+        </g>
+        <path
+           d="m 63356,13656 -112,78"
+           id="path12976" />
+        <path
+           d="m 63356,13791 h -236 v -90 l 11,-23 12,-11 22,-11 h 34 l 22,11 12,11 11,23 v 90"
+           id="path12978" />
+        <path
+           d="m 63233,13476 v 78"
+           id="path12980" />
+        <path
+           d="m 63356,13554 h -236 v -112"
+           id="path12982" />
+        <path
+           d="m 63266,13352 v -180"
+           id="path12984" />
+        <path
+           d="m 63244,13014 h 112"
+           id="path12986" />
+        <path
+           d="m 63120,13093 124,-79 -124,-78"
+           id="path12988" />
+        <path
+           d="m 63120,12857 h 191 l 23,-11 11,-12 11,-22 v -45 l -11,-23 -11,-11 -23,-11 h -191"
+           id="path12990" />
+        <path
+           d="m 63345,12621 11,-34 v -56 l -11,-23 -11,-11 -23,-11 h -22 l -23,11 -11,11 -11,23 -11,45 -12,22 -11,11 -22,12 h -23 l -22,-12 -12,-11 -11,-22 v -57 l 11,-33"
+           id="path12992" />
+        <path
+           d="m 63356,12261 v 135"
+           id="path12994" />
+        <path
+           d="m 63356,12328 h -236 l 34,23 22,22 12,23"
+           id="path12996" />
+        <path
+           d="m 63120,12047 v 113 l 113,11 -12,-11 -11,-23 v -56 l 11,-23 12,-11 22,-11 h 56 l 23,11 11,11 11,23 v 56 l -11,23 -11,11"
+           id="path12998" />
+        <path
+           d="m 63120,11890 v -23 l 11,-22 12,-12 22,-11 45,-11 h 56 l 45,11 23,11 11,12 11,22 v 23 l -11,22 -11,11 -23,12 -45,11 h -56 l -45,-11 -22,-12 -12,-11 -11,-22"
+           id="path13000" />
+        <path
+           d="m 63120,11743 v -135"
+           id="path13002" />
+        <path
+           d="m 63356,11676 h -236"
+           id="path13004" />
+        <path
+           d="m 63345,11541 11,-34 v -56 l -11,-23 -11,-11 -23,-11 h -22 l -23,11 -11,11 -11,23 -11,45 -12,22 -11,12 -22,11 h -23 l -22,-11 -12,-12 -11,-22 v -56 l 11,-34"
+           id="path13006" />
+        <path
+           d="m 63266,11305 v -180"
+           id="path13008" />
+        <path
+           d="m 63289,11023 v -112"
+           id="path13010" />
+        <path
+           d="m 63356,11046 -236,-79 236,-79"
+           id="path13012" />
+        <path
+           d="m 63233,10810 v -79"
+           id="path13014" />
+        <path
+           d="m 63356,10697 v 113 h -236 v -113"
+           id="path13016" />
+        <text
+           x="62750"
+           y="12203.7"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13018">D5</text>
+        <path
+           d="m 62575,12192 v -236 h 56 l 34,11 23,23 11,22 11,45 v 34 l -11,45 -11,22 -23,23 -34,11 h -56"
+           id="path13020" />
+        <path
+           d="m 62924,11956 h -113 l -11,112 11,-11 23,-11 h 56 l 23,11 11,11 11,23 v 56 l -11,22 -11,12 -23,11 h -56 l -23,-11 -11,-12"
+           id="path13022" />
+        <g
+           transform="rotate(-90,62250,12250)"
+           id="g13026">
+          <text
+             x="62250"
+             y="12368.1"
+             textLength="3220.1899"
+             font-size="314.961px"
+             lengthAdjust="spacingAndGlyphs"
+             text-anchor="middle"
+             opacity="0"
+             id="text13024">RF-YUS150TS-AE</text>
+        </g>
+        <path
+           d="m 62356,13656 -112,78"
+           id="path13028" />
+        <path
+           d="m 62356,13791 h -236 v -90 l 11,-23 12,-11 22,-11 h 34 l 22,11 12,11 11,23 v 90"
+           id="path13030" />
+        <path
+           d="m 62233,13476 v 78"
+           id="path13032" />
+        <path
+           d="m 62356,13554 h -236 v -112"
+           id="path13034" />
+        <path
+           d="m 62266,13352 v -180"
+           id="path13036" />
+        <path
+           d="m 62244,13014 h 112"
+           id="path13038" />
+        <path
+           d="m 62120,13093 124,-79 -124,-78"
+           id="path13040" />
+        <path
+           d="m 62120,12857 h 191 l 23,-11 11,-12 11,-22 v -45 l -11,-23 -11,-11 -23,-11 h -191"
+           id="path13042" />
+        <path
+           d="m 62345,12621 11,-34 v -56 l -11,-23 -11,-11 -23,-11 h -22 l -23,11 -11,11 -11,23 -11,45 -12,22 -11,11 -22,12 h -23 l -22,-12 -12,-11 -11,-22 v -57 l 11,-33"
+           id="path13044" />
+        <path
+           d="m 62356,12261 v 135"
+           id="path13046" />
+        <path
+           d="m 62356,12328 h -236 l 34,23 22,22 12,23"
+           id="path13048" />
+        <path
+           d="m 62120,12047 v 113 l 113,11 -12,-11 -11,-23 v -56 l 11,-23 12,-11 22,-11 h 56 l 23,11 11,11 11,23 v 56 l -11,23 -11,11"
+           id="path13050" />
+        <path
+           d="m 62120,11890 v -23 l 11,-22 12,-12 22,-11 45,-11 h 56 l 45,11 23,11 11,12 11,22 v 23 l -11,22 -11,11 -23,12 -45,11 h -56 l -45,-11 -22,-12 -12,-11 -11,-22"
+           id="path13052" />
+        <path
+           d="m 62120,11743 v -135"
+           id="path13054" />
+        <path
+           d="m 62356,11676 h -236"
+           id="path13056" />
+        <path
+           d="m 62345,11541 11,-34 v -56 l -11,-23 -11,-11 -23,-11 h -22 l -23,11 -11,11 -11,23 -11,45 -12,22 -11,12 -22,11 h -23 l -22,-11 -12,-12 -11,-22 v -56 l 11,-34"
+           id="path13058" />
+        <path
+           d="m 62266,11305 v -180"
+           id="path13060" />
+        <path
+           d="m 62289,11023 v -112"
+           id="path13062" />
+        <path
+           d="m 62356,11046 -236,-79 236,-79"
+           id="path13064" />
+        <path
+           d="m 62233,10810 v -79"
+           id="path13066" />
+        <path
+           d="m 62356,10697 v 113 h -236 v -113"
+           id="path13068" />
+        <text
+           x="61750"
+           y="12203.7"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13070">D4</text>
+        <path
+           d="m 61575,12192 v -236 h 56 l 34,11 23,23 11,22 11,45 v 34 l -11,45 -11,22 -23,23 -34,11 h -56"
+           id="path13072" />
+        <path
+           d="m 61913,12035 v 157"
+           id="path13074" />
+        <path
+           d="m 61856,11945 -56,168 h 146"
+           id="path13076" />
+        <text
+           x="55600"
+           y="16618.1"
+           textLength="891.73199"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13078">47uF</text>
+        <path
+           d="m 55324,16449 v 157"
+           id="path13080" />
+        <path
+           d="m 55268,16359 -57,169 h 147"
+           id="path13082" />
+        <path
+           d="m 55425,16370 h 158 l -102,236"
+           id="path13084" />
+        <path
+           d="m 55774,16449 v 157"
+           id="path13086" />
+        <path
+           d="m 55673,16449 v 124 l 11,22 22,11 h 34 l 23,-11 11,-11"
+           id="path13088" />
+        <path
+           d="m 55965,16483 h -79"
+           id="path13090" />
+        <path
+           d="m 55886,16606 v -236 h 113"
+           id="path13092" />
+        <text
+           x="54100"
+           y="15868.1"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13094">C8</text>
+        <path
+           d="m 54060,15834 -11,11 -34,11 h -22 l -34,-11 -23,-22 -11,-23 -11,-45 v -34 l 11,-45 11,-22 23,-23 34,-11 h 22 l 34,11 11,12"
+           id="path13096" />
+        <path
+           d="m 54195,15721 -22,-11 -12,-11 -11,-23 v -11 l 11,-22 12,-12 22,-11 h 45 l 23,11 11,12 11,22 v 11 l -11,23 -11,11 -23,11 h -45 l -22,12 -12,11 -11,22 v 45 l 11,23 12,11 22,11 h 45 l 23,-11 11,-11 11,-23 v -45 l -11,-22 -11,-11 -23,-12"
+           id="path13098" />
+        <text
+           x="55650"
+           y="19068.1"
+           textLength="891.73199"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13100">47uF</text>
+        <path
+           d="m 55374,18899 v 157"
+           id="path13102" />
+        <path
+           d="m 55318,18809 -57,169 h 147"
+           id="path13104" />
+        <path
+           d="m 55475,18820 h 158 l -102,236"
+           id="path13106" />
+        <path
+           d="m 55824,18899 v 157"
+           id="path13108" />
+        <path
+           d="m 55723,18899 v 124 l 11,22 22,11 h 34 l 23,-11 11,-11"
+           id="path13110" />
+        <path
+           d="m 56015,18933 h -79"
+           id="path13112" />
+        <path
+           d="m 55936,19056 v -236 h 113"
+           id="path13114" />
+        <text
+           x="54100"
+           y="18368.1"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13116">C7</text>
+        <path
+           d="m 54060,18334 -11,11 -34,11 h -22 l -34,-11 -23,-22 -11,-23 -11,-45 v -34 l 11,-45 11,-22 23,-23 34,-11 h 22 l 34,11 11,12"
+           id="path13118" />
+        <path
+           d="m 54139,18120 h 157 l -101,236"
+           id="path13120" />
+        <text
+           x="68250"
+           y="15368.1"
+           textLength="1004.22"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13122">0.1uF</text>
+        <path
+           d="m 67861,15120 h 23 l 22,11 12,12 11,22 11,45 v 56 l -11,45 -11,23 -12,11 -22,11 h -23 l -22,-11 -11,-11 -12,-23 -11,-45 v -56 l 11,-45 12,-22 11,-12 22,-11"
+           id="path13124" />
+        <path
+           d="m 68041,15334 12,11 -12,11 -11,-11 11,-11 v 22"
+           id="path13126" />
+        <path
+           d="m 68278,15356 h -135"
+           id="path13128" />
+        <path
+           d="m 68210,15356 v -236 l -22,34 -23,22 -22,12"
+           id="path13130" />
+        <path
+           d="m 68480,15199 v 157"
+           id="path13132" />
+        <path
+           d="m 68379,15199 v 124 l 11,22 23,11 h 33 l 23,-11 11,-11"
+           id="path13134" />
+        <path
+           d="m 68671,15233 h -78"
+           id="path13136" />
+        <path
+           d="m 68593,15356 v -236 h 112"
+           id="path13138" />
+        <g
+           transform="rotate(-90,68250,14591.5)"
+           id="g13142">
+          <text
+             x="68250"
+             y="14709.6"
+             textLength="711.755"
+             font-size="314.961px"
+             lengthAdjust="spacingAndGlyphs"
+             text-anchor="middle"
+             opacity="0"
+             id="text13140">C11</text>
+        </g>
+        <path
+           d="m 68334,14743 11,11 11,34 v 22 l -11,34 -22,23 -23,11 -45,11 h -34 l -45,-11 -22,-11 -23,-23 -11,-34 v -22 l 11,-34 12,-11"
+           id="path13144" />
+        <path
+           d="m 68356,14518 v 135"
+           id="path13146" />
+        <path
+           d="m 68356,14585 h -236 l 34,23 22,22 12,23"
+           id="path13148" />
+        <path
+           d="m 68356,14293 v 135"
+           id="path13150" />
+        <path
+           d="m 68356,14360 h -236 l 34,23 22,22 12,23"
+           id="path13152" />
+        <text
+           x="65600"
+           y="17268.1"
+           textLength="1510.41"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13154">FT232RL</text>
+        <path
+           d="m 64992,17133 h -79"
+           id="path13156" />
+        <path
+           d="m 64913,17256 v -236 h 113"
+           id="path13158" />
+        <path
+           d="m 65082,17020 h 135"
+           id="path13160" />
+        <path
+           d="m 65150,17256 v -236"
+           id="path13162" />
+        <path
+           d="m 65285,17043 11,-12 22,-11 h 57 l 22,11 11,12 12,22 v 23 l -12,33 -135,135 h 147"
+           id="path13164" />
+        <path
+           d="m 65498,17020 h 146 l -78,90 h 34 l 22,11 11,12 11,22 v 56 l -11,23 -11,11 -22,11 h -68 l -22,-11 -12,-11"
+           id="path13166" />
+        <path
+           d="m 65734,17043 12,-12 22,-11 h 56 l 23,11 11,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13168" />
+        <path
+           d="m 66106,17256 -79,-112"
+           id="path13170" />
+        <path
+           d="m 65971,17256 v -236 h 90 l 22,11 11,12 12,22 v 34 l -12,22 -11,12 -22,11 h -90"
+           id="path13172" />
+        <path
+           d="m 66319,17256 h -112 v -236"
+           id="path13174" />
+        <text
+           x="65582.703"
+           y="14978.3"
+           textLength="498.03101"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13176">U5</text>
+        <path
+           d="m 65402,14730 v 192 l 11,22 12,11 22,12 h 45 l 23,-12 11,-11 11,-22 v -192"
+           id="path13178" />
+        <path
+           d="m 65762,14730 h -112 l -12,113 12,-11 22,-12 h 56 l 23,12 11,11 11,22 v 57 l -11,22 -11,11 -23,12 h -56 l -22,-12 -12,-11"
+           id="path13180" />
+        <text
+           x="68250"
+           y="10118.1"
+           textLength="891.73199"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13182">22uF</text>
+        <path
+           d="m 67861,9893 12,-12 22,-11 h 56 l 23,11 11,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13184" />
+        <path
+           d="m 68086,9893 12,-12 22,-11 h 56 l 23,11 11,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13186" />
+        <path
+           d="m 68424,9949 v 157"
+           id="path13188" />
+        <path
+           d="m 68323,9949 v 124 l 11,22 22,11 h 34 l 23,-11 11,-11"
+           id="path13190" />
+        <path
+           d="m 68615,9983 h -79"
+           id="path13192" />
+        <path
+           d="m 68536,10106 v -236 h 113"
+           id="path13194" />
+        <g
+           transform="rotate(-90,68250,9408.46)"
+           id="g13198">
+          <text
+             x="68250"
+             y="9526.5703"
+             textLength="711.755"
+             font-size="314.961px"
+             lengthAdjust="spacingAndGlyphs"
+             text-anchor="middle"
+             opacity="0"
+             id="text13196">C10</text>
+        </g>
+        <path
+           d="m 68334,9560 11,11 11,34 v 22 l -11,34 -22,23 -23,11 -45,11 h -34 l -45,-11 -22,-11 -23,-23 -11,-34 v -22 l 11,-34 12,-11"
+           id="path13200" />
+        <path
+           d="m 68356,9335 v 135"
+           id="path13202" />
+        <path
+           d="m 68356,9402 h -236 l 34,23 22,22 12,23"
+           id="path13204" />
+        <path
+           d="m 68120,9189 v -23 l 11,-22 12,-12 22,-11 45,-11 h 56 l 45,11 23,11 11,12 11,22 v 23 l -11,22 -11,11 -23,12 -45,11 h -56 l -45,-11 -22,-12 -12,-11 -11,-22"
+           id="path13206" />
+        <text
+           x="58250"
+           y="16918.1"
+           textLength="2500.28"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13208">NCP1117-3.3</text>
+        <path
+           d="m 57068,16906 v -236 l 135,236 v -236"
+           id="path13210" />
+        <path
+           d="m 57451,16884 -11,11 -34,11 h -23 l -33,-11 -23,-22 -11,-23 -11,-45 v -34 l 11,-45 11,-22 23,-23 33,-11 h 23 l 34,11 11,12"
+           id="path13212" />
+        <path
+           d="m 57552,16906 v -236 h 90 l 23,11 11,12 11,22 v 34 l -11,22 -11,12 -23,11 h -90"
+           id="path13214" />
+        <path
+           d="m 57912,16906 h -135"
+           id="path13216" />
+        <path
+           d="m 57845,16906 v -236 l -23,34 -22,22 -23,12"
+           id="path13218" />
+        <path
+           d="m 58137,16906 h -135"
+           id="path13220" />
+        <path
+           d="m 58070,16906 v -236 l -23,34 -22,22 -23,12"
+           id="path13222" />
+        <path
+           d="m 58362,16906 h -135"
+           id="path13224" />
+        <path
+           d="m 58294,16906 v -236 l -22,34 -22,22 -23,12"
+           id="path13226" />
+        <path
+           d="m 58441,16670 h 157 l -101,236"
+           id="path13228" />
+        <path
+           d="m 58688,16816 h 180"
+           id="path13230" />
+        <path
+           d="m 58958,16670 h 146 l -78,90 h 33 l 23,11 11,12 11,22 v 56 l -11,23 -11,11 -23,11 h -67 l -23,-11 -11,-11"
+           id="path13232" />
+        <path
+           d="m 59206,16884 11,11 -11,11 -12,-11 12,-11 v 22"
+           id="path13234" />
+        <path
+           d="m 59296,16670 h 146 l -79,90 h 34 l 22,11 12,12 11,22 v 56 l -11,23 -12,11 -22,11 h -68 l -22,-11 -11,-11"
+           id="path13236" />
+        <text
+           x="58240.199"
+           y="15368.1"
+           textLength="498.03101"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13238">U2</text>
+        <path
+           d="m 58060,15120 v 191 l 11,23 11,11 23,11 h 45 l 22,-11 11,-11 12,-23 v -191"
+           id="path13240" />
+        <path
+           d="m 58296,15143 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13242" />
+        <text
+           x="68350"
+           y="17118.1"
+           textLength="1634.14"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13244">BCR129S</text>
+        <path
+           d="m 67680,16983 34,11 11,11 11,23 v 33 l -11,23 -11,11 -23,11 h -90 v -236 h 79 l 23,11 11,12 11,22 v 23 l -11,22 -11,11 -23,12 h -79"
+           id="path13246" />
+        <path
+           d="m 67973,17084 -12,11 -33,11 h -23 l -34,-11 -22,-22 -11,-23 -12,-45 v -34 l 12,-45 11,-22 22,-23 34,-11 h 23 l 33,11 12,12"
+           id="path13248" />
+        <path
+           d="m 68209,17106 -79,-112"
+           id="path13250" />
+        <path
+           d="m 68074,17106 v -236 h 90 l 22,11 12,12 11,22 v 34 l -11,22 -12,12 -22,11 h -90"
+           id="path13252" />
+        <path
+           d="m 68434,17106 h -135"
+           id="path13254" />
+        <path
+           d="m 68366,17106 v -236 l -22,34 -23,22 -22,12"
+           id="path13256" />
+        <path
+           d="m 68524,16893 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13258" />
+        <path
+           d="m 68771,17106 h 45 l 23,-11 11,-11 23,-34 11,-45 v -90 l -11,-22 -12,-12 -22,-11 h -45 l -23,11 -11,12 -11,22 v 56 l 11,23 11,11 23,11 h 45 l 22,-11 12,-11 11,-23"
+           id="path13260" />
+        <path
+           d="m 68974,17095 34,11 h 56 l 22,-11 12,-11 11,-23 v -22 l -11,-23 -12,-11 -22,-11 -45,-11 -23,-12 -11,-11 -11,-22 v -23 l 11,-22 11,-12 23,-11 h 56 l 34,11"
+           id="path13262" />
+        <text
+           x="68374"
+           y="16374"
+           textLength="498.03101"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13264">Q1</text>
+        <path
+           d="m 68351,16385 -22,-11 -23,-23 -34,-34 -22,-11 h -23"
+           id="path13266" />
+        <path
+           d="m 68239,16362 -23,-11 -22,-22 -12,-45 v -79 l 12,-45 22,-23 23,-11 h 45 l 22,11 23,23 11,45 v 79 l -11,45 -23,22 -22,11 h -45"
+           id="path13268" />
+        <path
+           d="m 68565,16362 h -135"
+           id="path13270" />
+        <path
+           d="m 68497,16362 v -236 l -22,34 -23,22 -22,12"
+           id="path13272" />
+        <text
+           x="58250"
+           y="12368.1"
+           textLength="3141.45"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13274">NCP1117ST50T3G</text>
+        <path
+           d="m 56748,12356 v -236 l 135,236 v -236"
+           id="path13276" />
+        <path
+           d="m 57130,12334 -11,11 -34,11 h -22 l -34,-11 -22,-22 -12,-23 -11,-45 v -34 l 11,-45 12,-22 22,-23 34,-11 h 22 l 34,11 11,12"
+           id="path13278" />
+        <path
+           d="m 57232,12356 v -236 h 89 l 23,11 11,12 11,22 v 34 l -11,22 -11,12 -23,11 h -89"
+           id="path13280" />
+        <path
+           d="m 57591,12356 h -135"
+           id="path13282" />
+        <path
+           d="m 57524,12356 v -236 l -23,34 -22,22 -23,12"
+           id="path13284" />
+        <path
+           d="m 57816,12356 h -135"
+           id="path13286" />
+        <path
+           d="m 57749,12356 v -236 l -23,34 -22,22 -23,12"
+           id="path13288" />
+        <path
+           d="m 58041,12356 h -135"
+           id="path13290" />
+        <path
+           d="m 57974,12356 v -236 l -23,34 -22,22 -23,12"
+           id="path13292" />
+        <path
+           d="m 58120,12120 h 158 l -102,236"
+           id="path13294" />
+        <path
+           d="m 58356,12345 34,11 h 56 l 23,-11 11,-11 11,-23 v -22 l -11,-23 -11,-11 -23,-11 -45,-11 -22,-12 -11,-11 -12,-22 v -23 l 12,-22 11,-12 22,-11 h 57 l 33,11"
+           id="path13296" />
+        <path
+           d="m 58559,12120 h 135"
+           id="path13298" />
+        <path
+           d="m 58626,12356 v -236"
+           id="path13300" />
+        <path
+           d="m 58885,12120 h -112 l -12,113 12,-12 22,-11 h 56 l 23,11 11,12 11,22 v 56 l -11,23 -11,11 -23,11 h -56 l -22,-11 -12,-11"
+           id="path13302" />
+        <path
+           d="m 59043,12120 h 22 l 23,11 11,12 11,22 11,45 v 56 l -11,45 -11,23 -11,11 -23,11 h -22 l -23,-11 -11,-11 -11,-23 -12,-45 v -56 l 12,-45 11,-22 11,-12 23,-11"
+           id="path13304" />
+        <path
+           d="m 59189,12120 h 135"
+           id="path13306" />
+        <path
+           d="m 59256,12356 v -236"
+           id="path13308" />
+        <path
+           d="m 59380,12120 h 146 l -79,90 h 34 l 23,11 11,12 11,22 v 56 l -11,23 -11,11 -23,11 h -67 l -23,-11 -11,-11"
+           id="path13310" />
+        <path
+           d="m 59751,12131 -22,-11 h -34 l -34,11 -22,23 -12,22 -11,45 v 34 l 11,45 12,23 22,22 34,11 h 22 l 34,-11 11,-11 v -79 h -45"
+           id="path13312" />
+        <g
+           transform="rotate(-90,58330.3,10750)"
+           id="g13316">
+          <text
+             x="58330.301"
+             y="10868.1"
+             textLength="498.03101"
+             font-size="314.961px"
+             lengthAdjust="spacingAndGlyphs"
+             text-anchor="middle"
+             opacity="0"
+             id="text13314">U3</text>
+        </g>
+        <path
+           d="m 58200,10929 h 192 l 22,-11 11,-11 12,-23 v -45 l -12,-22 -11,-11 -22,-12 h -192"
+           id="path13318" />
+        <path
+           d="m 58200,10705 v -147 l 90,79 v -34 l 12,-22 11,-11 22,-12 h 57 l 22,12 11,11 12,22 v 68 l -12,22 -11,12"
+           id="path13320" />
+        <text
+           x="62750"
+           y="9968.1104"
+           textLength="2016.59"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13322">STPS0520Z</text>
+        <path
+           d="m 61799,9945 34,11 h 56 l 22,-11 12,-11 11,-23 v -22 l -11,-23 -12,-11 -22,-11 -45,-11 -23,-12 -11,-11 -11,-22 v -23 l 11,-22 11,-12 23,-11 h 56 l 34,11"
+           id="path13324" />
+        <path
+           d="m 62001,9720 h 135"
+           id="path13326" />
+        <path
+           d="M 62069,9956 V 9720"
+           id="path13328" />
+        <path
+           d="m 62215,9956 v -236 h 90 l 23,11 11,12 11,22 v 34 l -11,22 -11,12 -23,11 h -90"
+           id="path13330" />
+        <path
+           d="m 62440,9945 34,11 h 56 l 23,-11 11,-11 11,-23 v -22 l -11,-23 -11,-11 -23,-11 -45,-11 -22,-12 -12,-11 -11,-22 v -23 l 11,-22 12,-12 22,-11 h 56 l 34,11"
+           id="path13332" />
+        <path
+           d="m 62721,9720 h 23 l 22,11 12,12 11,22 11,45 v 56 l -11,45 -11,23 -12,11 -22,11 h -23 l -22,-11 -11,-11 -12,-23 -11,-45 v -56 l 11,-45 12,-22 11,-12 22,-11"
+           id="path13334" />
+        <path
+           d="m 63014,9720 h -113 l -11,113 11,-12 23,-11 h 56 l 23,11 11,12 11,22 v 56 l -11,23 -11,11 -23,11 h -56 l -23,-11 -11,-11"
+           id="path13336" />
+        <path
+           d="m 63115,9743 11,-12 23,-11 h 56 l 23,11 11,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13338" />
+        <path
+           d="m 63396,9720 h 23 l 22,11 12,12 11,22 11,45 v 56 l -11,45 -11,23 -12,11 -22,11 h -23 l -22,-11 -11,-11 -12,-23 -11,-45 v -56 l 11,-45 12,-22 11,-12 22,-11"
+           id="path13340" />
+        <path
+           d="m 63554,9720 h 157 l -157,236 h 157"
+           id="path13342" />
+        <text
+           x="62800"
+           y="8718.1104"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13344">D3</text>
+        <path
+           d="m 62625,8706 v -236 h 56 l 34,11 23,23 11,22 11,45 v 34 l -11,45 -11,23 -23,22 -34,11 h -56"
+           id="path13346" />
+        <path
+           d="m 62839,8470 h 146 l -79,90 h 34 l 23,11 11,12 11,22 v 56 l -11,23 -11,11 -23,11 h -67 l -23,-11 -11,-11"
+           id="path13348" />
+        <text
+           x="51800"
+           y="18218.1"
+           textLength="520.52899"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13350">M7</text>
+        <path
+           d="m 51608,18206 v -236 l 79,169 79,-169 v 236"
+           id="path13352" />
+        <path
+           d="m 51856,17970 h 157 l -101,236"
+           id="path13354" />
+        <text
+           x="51800"
+           y="15868.1"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13356">D2</text>
+        <path
+           d="m 51625,15856 v -236 h 56 l 34,11 23,23 11,22 11,45 v 34 l -11,45 -11,23 -23,22 -34,11 h -56"
+           id="path13358" />
+        <path
+           d="m 51850,15643 11,-12 23,-11 h 56 l 23,11 11,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13360" />
+        <text
+           x="59850"
+           y="15168.1"
+           textLength="1656.64"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13362">220 Ohm</text>
+        <path
+           d="m 59079,14943 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13364" />
+        <path
+           d="m 59304,14943 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13366" />
+        <path
+           d="m 59585,14920 h 23 l 22,11 11,12 12,22 11,45 v 56 l -11,45 -12,23 -11,11 -22,11 h -23 l -22,-11 -12,-11 -11,-23 -11,-45 v -56 l 11,-45 11,-22 12,-12 22,-11"
+           id="path13368" />
+        <path
+           d="m 59990,14920 h 45 l 23,11 22,23 11,45 v 79 l -11,45 -22,22 -23,11 h -45 l -22,-11 -23,-22 -11,-45 v -79 l 11,-45 23,-23 22,-11"
+           id="path13370" />
+        <path
+           d="m 60193,15156 v -236"
+           id="path13372" />
+        <path
+           d="m 60294,15156 v -123 l -11,-23 -23,-11 h -34 l -22,11 -11,11"
+           id="path13374" />
+        <path
+           d="m 60406,15156 v -157"
+           id="path13376" />
+        <path
+           d="m 60406,15021 12,-11 22,-11 h 34 l 22,11 12,23 v 123"
+           id="path13378" />
+        <path
+           d="m 60508,15033 11,-23 22,-11 h 34 l 23,11 11,23 v 123"
+           id="path13380" />
+        <text
+           x="60750"
+           y="14511.8"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13382">R1</text>
+        <path
+           d="m 60710,14500 -79,-112"
+           id="path13384" />
+        <path
+           d="m 60575,14500 v -236 h 90 l 23,11 11,11 11,23 v 34 l -11,22 -11,11 -23,12 h -90"
+           id="path13386" />
+        <path
+           d="m 60935,14500 h -135"
+           id="path13388" />
+        <path
+           d="m 60868,14500 v -236 l -23,34 -22,22 -23,11"
+           id="path13390" />
+        <g
+           transform="rotate(-90,61250,12250)"
+           id="g13394">
+          <text
+             x="61250"
+             y="12368.1"
+             textLength="3287.6799"
+             font-size="314.961px"
+             lengthAdjust="spacingAndGlyphs"
+             text-anchor="middle"
+             opacity="0"
+             id="text13392">RF-GSS150TS-BC</text>
+        </g>
+        <path
+           d="m 61356,13689 -112,79"
+           id="path13396" />
+        <path
+           d="m 61356,13824 h -236 v -90 l 11,-22 12,-11 22,-12 h 34 l 22,12 12,11 11,22 v 90"
+           id="path13398" />
+        <path
+           d="m 61233,13509 v 79"
+           id="path13400" />
+        <path
+           d="m 61356,13588 h -236 v -112"
+           id="path13402" />
+        <path
+           d="m 61266,13386 v -180"
+           id="path13404" />
+        <path
+           d="m 61131,12969 -11,23 v 34 l 11,33 23,23 22,11 45,11 h 34 l 45,-11 23,-11 22,-23 11,-33 v -23 l -11,-34 -11,-11 h -79 v 45"
+           id="path13406" />
+        <path
+           d="m 61345,12868 11,-34 v -56 l -11,-22 -11,-12 -23,-11 h -22 l -23,11 -11,12 -11,22 -11,45 -12,23 -11,11 -22,11 h -23 l -22,-11 -12,-11 -11,-23 v -56 l 11,-34"
+           id="path13408" />
+        <path
+           d="m 61345,12643 11,-34 v -56 l -11,-22 -11,-12 -23,-11 h -22 l -23,11 -11,12 -11,22 -11,45 -12,23 -11,11 -22,11 h -23 l -22,-11 -12,-11 -11,-23 v -56 l 11,-34"
+           id="path13410" />
+        <path
+           d="m 61356,12283 v 135"
+           id="path13412" />
+        <path
+           d="m 61356,12351 h -236 l 34,22 22,23 12,22"
+           id="path13414" />
+        <path
+           d="m 61120,12070 v 112 l 113,11 -12,-11 -11,-22 v -57 l 11,-22 12,-11 22,-12 h 56 l 23,12 11,11 11,22 v 57 l -11,22 -11,11"
+           id="path13416" />
+        <path
+           d="m 61120,11912 v -22 l 11,-23 12,-11 22,-11 45,-12 h 56 l 45,12 23,11 11,11 11,23 v 22 l -11,23 -11,11 -23,11 -45,11 h -56 l -45,-11 -22,-11 -12,-11 -11,-23"
+           id="path13418" />
+        <path
+           d="m 61120,11766 v -135"
+           id="path13420" />
+        <path
+           d="m 61356,11698 h -236"
+           id="path13422" />
+        <path
+           d="m 61345,11563 11,-33 v -57 l -11,-22 -11,-11 -23,-12 h -22 l -23,12 -11,11 -11,22 -11,45 -12,23 -11,11 -22,11 h -23 l -22,-11 -12,-11 -11,-23 v -56 l 11,-34"
+           id="path13424" />
+        <path
+           d="m 61266,11327 v -180"
+           id="path13426" />
+        <path
+           d="m 61233,10956 11,-34 11,-11 23,-11 h 33 l 23,11 11,11 11,23 v 90 h -236 v -79 l 11,-23 12,-11 22,-11 h 23 l 22,11 11,11 12,23 v 79"
+           id="path13428" />
+        <path
+           d="m 61334,10663 11,12 11,33 v 23 l -11,34 -22,22 -23,11 -45,12 h -34 l -45,-12 -22,-11 -23,-22 -11,-34 v -23 l 11,-33 12,-12"
+           id="path13430" />
+        <text
+           x="60750"
+           y="12203.7"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13432">D1</text>
+        <path
+           d="m 60575,12192 v -236 h 56 l 34,11 23,23 11,22 11,45 v 34 l -11,45 -11,22 -23,23 -34,11 h -56"
+           id="path13434" />
+        <path
+           d="m 60935,12192 h -135"
+           id="path13436" />
+        <path
+           d="m 60868,12192 v -236 l -23,34 -22,22 -23,11"
+           id="path13438" />
+        <text
+           x="57666.898"
+           y="13618.1"
+           textLength="891.73199"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13440">22uF</text>
+        <path
+           d="m 57278,13393 12,-12 22,-11 h 56 l 23,11 11,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13442" />
+        <path
+           d="m 57503,13393 12,-12 22,-11 h 56 l 23,11 11,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13444" />
+        <path
+           d="m 57841,13449 v 157"
+           id="path13446" />
+        <path
+           d="m 57740,13449 v 124 l 11,22 22,11 h 34 l 23,-11 11,-11"
+           id="path13448" />
+        <path
+           d="m 58032,13483 h -79"
+           id="path13450" />
+        <path
+           d="m 57953,13606 v -236 h 113"
+           id="path13452" />
+        <text
+           x="57658.5"
+           y="13118.1"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13454">C6</text>
+        <path
+           d="m 57619,13084 -12,11 -33,11 h -23 l -34,-11 -22,-22 -11,-23 -12,-45 v -34 l 12,-45 11,-22 22,-23 34,-11 h 23 l 33,11 12,12"
+           id="path13456" />
+        <path
+           d="m 57821,12870 h -45 l -22,11 -12,12 -22,33 -11,45 v 90 l 11,23 11,11 23,11 h 45 l 22,-11 11,-11 12,-23 v -56 l -12,-22 -11,-12 -22,-11 h -45 l -23,11 -11,12 -11,22"
+           id="path13458" />
+        <text
+           x="59500"
+           y="13618.1"
+           textLength="891.73199"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13460">22uF</text>
+        <path
+           d="m 59111,13393 12,-12 22,-11 h 56 l 23,11 11,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13462" />
+        <path
+           d="m 59336,13393 12,-12 22,-11 h 56 l 23,11 11,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13464" />
+        <path
+           d="m 59674,13449 v 157"
+           id="path13466" />
+        <path
+           d="m 59573,13449 v 124 l 11,22 22,11 h 34 l 23,-11 11,-11"
+           id="path13468" />
+        <path
+           d="m 59865,13483 h -79"
+           id="path13470" />
+        <path
+           d="m 59786,13606 v -236 h 113"
+           id="path13472" />
+        <text
+           x="59341.5"
+           y="13118.1"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13474">C5</text>
+        <path
+           d="m 59302,13084 -12,11 -33,11 h -23 l -34,-11 -22,-22 -11,-23 -12,-45 v -34 l 12,-45 11,-22 22,-23 34,-11 h 23 l 33,11 12,12"
+           id="path13476" />
+        <path
+           d="m 59515,12870 h -112 l -11,113 11,-12 22,-11 h 57 l 22,11 11,12 12,22 v 56 l -12,23 -11,11 -22,11 h -57 l -22,-11 -11,-11"
+           id="path13478" />
+        <text
+           x="60750"
+           y="10368.1"
+           textLength="1004.22"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13480">0.1uF</text>
+        <path
+           d="m 60361,10120 h 23 l 22,11 12,12 11,22 11,45 v 56 l -11,45 -11,23 -12,11 -22,11 h -23 l -22,-11 -11,-11 -12,-23 -11,-45 v -56 l 11,-45 12,-22 11,-12 22,-11"
+           id="path13482" />
+        <path
+           d="m 60541,10334 12,11 -12,11 -11,-11 11,-11 v 22"
+           id="path13484" />
+        <path
+           d="m 60778,10356 h -135"
+           id="path13486" />
+        <path
+           d="m 60710,10356 v -236 l -22,34 -23,22 -22,12"
+           id="path13488" />
+        <path
+           d="m 60980,10199 v 157"
+           id="path13490" />
+        <path
+           d="m 60879,10199 v 124 l 11,22 23,11 h 33 l 23,-11 11,-11"
+           id="path13492" />
+        <path
+           d="m 61171,10233 h -78"
+           id="path13494" />
+        <path
+           d="m 61093,10356 v -236 h 112"
+           id="path13496" />
+        <text
+           x="60750"
+           y="9776.5703"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13498">C9</text>
+        <path
+           d="m 60710,9742 -11,12 -34,11 h -22 l -34,-11 -23,-23 -11,-22 -11,-45 v -34 l 11,-45 11,-23 23,-22 34,-11 h 22 l 34,11 11,11"
+           id="path13500" />
+        <path
+           d="m 60823,9765 h 45 l 22,-11 11,-12 23,-33 11,-45 v -90 l -11,-23 -11,-11 -23,-11 h -45 l -22,11 -12,11 -11,23 v 56 l 11,22 12,12 22,11 h 45 l 23,-11 11,-12 11,-22"
+           id="path13502" />
+        <text
+           x="66900"
+           y="12618.1"
+           textLength="2590.27"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13504">USBLC6-2SC6</text>
+        <path
+           d="m 65673,12370 v 191 l 12,23 11,11 22,11 h 45 l 23,-11 11,-11 11,-23 v -191"
+           id="path13506" />
+        <path
+           d="m 65910,12595 33,11 h 57 l 22,-11 11,-11 12,-23 v -22 l -12,-23 -11,-11 -22,-11 -45,-11 -23,-12 -11,-11 -11,-22 v -23 l 11,-22 11,-12 23,-11 h 56 l 34,11"
+           id="path13508" />
+        <path
+           d="m 66225,12483 33,11 12,11 11,23 v 33 l -11,23 -12,11 -22,11 h -90 v -236 h 79 l 22,11 11,12 12,22 v 23 l -12,22 -11,11 -22,12 h -79"
+           id="path13510" />
+        <path
+           d="m 66495,12606 h -113 v -236"
+           id="path13512" />
+        <path
+           d="m 66708,12584 -11,11 -34,11 h -22 l -34,-11 -22,-22 -12,-23 -11,-45 v -34 l 11,-45 12,-22 22,-23 34,-11 h 22 l 34,11 11,12"
+           id="path13514" />
+        <path
+           d="m 66911,12370 h -45 l -23,11 -11,12 -22,33 -12,45 v 90 l 12,23 11,11 22,11 h 45 l 23,-11 11,-11 11,-23 v -56 l -11,-22 -11,-12 -23,-11 h -45 l -22,11 -11,12 -12,22"
+           id="path13516" />
+        <path
+           d="m 67034,12516 h 180"
+           id="path13518" />
+        <path
+           d="m 67316,12393 11,-12 22,-11 h 57 l 22,11 11,12 12,22 v 23 l -12,33 -135,135 h 147"
+           id="path13520" />
+        <path
+           d="m 67541,12595 33,11 h 57 l 22,-11 11,-11 12,-23 v -22 l -12,-23 -11,-11 -22,-11 -45,-11 -23,-12 -11,-11 -11,-22 v -23 l 11,-22 11,-12 23,-11 h 56 l 34,11"
+           id="path13522" />
+        <path
+           d="m 67912,12584 -11,11 -34,11 h -23 l -33,-11 -23,-22 -11,-23 -11,-45 v -34 l 11,-45 11,-22 23,-23 33,-11 h 23 l 34,11 11,12"
+           id="path13524" />
+        <path
+           d="m 68114,12370 h -45 l -22,11 -11,12 -23,33 -11,45 v 90 l 11,23 11,11 23,11 h 45 l 22,-11 12,-11 11,-23 v -56 l -11,-22 -12,-12 -22,-11 h -45 l -23,11 -11,12 -11,22"
+           id="path13526" />
+        <g
+           transform="rotate(-90,66126,11816.9)"
+           id="g13530">
+          <text
+             x="66126"
+             y="11935"
+             textLength="498.03101"
+             font-size="314.961px"
+             lengthAdjust="spacingAndGlyphs"
+             text-anchor="middle"
+             opacity="0"
+             id="text13528">U4</text>
+        </g>
+        <path
+           d="m 65996,11996 h 191 l 23,-11 11,-11 11,-23 v -45 l -11,-22 -11,-11 -23,-12 h -191"
+           id="path13532" />
+        <path
+           d="m 66075,11648 h 157"
+           id="path13534" />
+        <path
+           d="m 65985,11704 169,56 v -146"
+           id="path13536" />
+        <text
+           x="65350"
+           y="12618.1"
+           textLength="1735.38"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="end"
+           opacity="0"
+           id="text13538">2.2 kOhm</text>
+        <path
+           d="m 63672,12393 11,-12 23,-11 h 56 l 22,11 12,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13540" />
+        <path
+           d="m 63908,12584 11,11 -11,11 -11,-11 11,-11 v 22"
+           id="path13542" />
+        <path
+           d="m 64009,12393 12,-12 22,-11 h 56 l 23,11 11,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13544" />
+        <path
+           d="m 64426,12606 v -236"
+           id="path13546" />
+        <path
+           d="m 64448,12516 68,90"
+           id="path13548" />
+        <path
+           d="m 64516,12449 -90,90"
+           id="path13550" />
+        <path
+           d="m 64662,12370 h 45 l 22,11 23,23 11,45 v 79 l -11,45 -23,22 -22,11 h -45 l -23,-11 -22,-22 -11,-45 v -79 l 11,-45 22,-23 23,-11"
+           id="path13552" />
+        <path
+           d="m 64864,12606 v -236"
+           id="path13554" />
+        <path
+           d="m 64966,12606 v -123 l -12,-23 -22,-11 h -34 l -22,11 -12,11"
+           id="path13556" />
+        <path
+           d="m 65078,12606 v -157"
+           id="path13558" />
+        <path
+           d="m 65078,12471 11,-11 23,-11 h 33 l 23,11 11,23 v 123"
+           id="path13560" />
+        <path
+           d="m 65179,12483 11,-23 23,-11 h 34 l 22,11 11,23 v 123"
+           id="path13562" />
+        <text
+           x="64000"
+           y="11924.4"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13564">R2</text>
+        <path
+           d="m 63960,11913 -79,-113"
+           id="path13566" />
+        <path
+           d="m 63825,11913 v -237 h 90 l 23,12 11,11 11,22 v 34 l -11,23 -11,11 -23,11 h -90"
+           id="path13568" />
+        <path
+           d="m 64050,11699 11,-11 23,-12 h 56 l 23,12 11,11 11,22 v 23 l -11,34 -135,135 h 146"
+           id="path13570" />
+        <text
+           x="68750"
+           y="13118.1"
+           textLength="1004.22"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13572">0.1uF</text>
+        <path
+           d="m 68361,12870 h 23 l 22,11 12,12 11,22 11,45 v 56 l -11,45 -11,23 -12,11 -22,11 h -23 l -22,-11 -11,-11 -12,-23 -11,-45 v -56 l 11,-45 12,-22 11,-12 22,-11"
+           id="path13574" />
+        <path
+           d="m 68541,13084 12,11 -12,11 -11,-11 11,-11 v 22"
+           id="path13576" />
+        <path
+           d="m 68778,13106 h -135"
+           id="path13578" />
+        <path
+           d="m 68710,13106 v -236 l -22,34 -23,22 -22,12"
+           id="path13580" />
+        <path
+           d="m 68980,12949 v 157"
+           id="path13582" />
+        <path
+           d="m 68879,12949 v 124 l 11,22 23,11 h 33 l 23,-11 11,-11"
+           id="path13584" />
+        <path
+           d="m 69171,12983 h -78"
+           id="path13586" />
+        <path
+           d="m 69093,13106 v -236 h 112"
+           id="path13588" />
+        <g
+           transform="rotate(-90,68750,12341.5)"
+           id="g13592">
+          <text
+             x="68750"
+             y="12459.6"
+             textLength="486.78299"
+             font-size="314.961px"
+             lengthAdjust="spacingAndGlyphs"
+             text-anchor="middle"
+             opacity="0"
+             id="text13590">C3</text>
+        </g>
+        <path
+           d="m 68834,12380 11,12 11,33 v 23 l -11,34 -22,22 -23,11 -45,12 h -34 l -45,-12 -22,-11 -23,-22 -11,-34 v -23 l 11,-33 12,-12"
+           id="path13594" />
+        <path
+           d="m 68620,12302 v -147 l 90,79 v -34 l 11,-22 12,-11 22,-12 h 56 l 23,12 11,11 11,22 v 68 l -11,22 -11,12"
+           id="path13596" />
+        <text
+           x="66000"
+           y="30968.1"
+           textLength="1004.22"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="end"
+           opacity="0"
+           id="text13598">0.1uF</text>
+        <path
+           d="m 65109,30720 h 23 l 22,11 12,12 11,22 11,45 v 56 l -11,45 -11,23 -12,11 -22,11 h -23 l -22,-11 -11,-11 -12,-23 -11,-45 v -56 l 11,-45 12,-22 11,-12 22,-11"
+           id="path13600" />
+        <path
+           d="m 65289,30934 12,11 -12,11 -11,-11 11,-11 v 22"
+           id="path13602" />
+        <path
+           d="m 65526,30956 h -135"
+           id="path13604" />
+        <path
+           d="m 65458,30956 v -236 l -22,34 -23,22 -22,12"
+           id="path13606" />
+        <path
+           d="m 65728,30799 v 157"
+           id="path13608" />
+        <path
+           d="m 65627,30799 v 124 l 11,22 22,11 h 34 l 23,-11 11,-11"
+           id="path13610" />
+        <path
+           d="m 65919,30833 h -79"
+           id="path13612" />
+        <path
+           d="m 65840,30956 v -236 h 113"
+           id="path13614" />
+        <text
+           x="66000"
+           y="30518.1"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13616">C2</text>
+        <path
+           d="m 65960,30484 -11,11 -34,11 h -22 l -34,-11 -23,-22 -11,-23 -11,-45 v -34 l 11,-45 11,-22 23,-23 34,-11 h 22 l 34,11 11,12"
+           id="path13618" />
+        <path
+           d="m 66050,30293 11,-12 23,-11 h 56 l 23,11 11,12 11,22 v 23 l -11,33 -135,135 h 146"
+           id="path13620" />
+        <text
+           x="54250"
+           y="21368.1"
+           textLength="1004.22"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13622">0.1uF</text>
+        <path
+           d="m 53861,21120 h 23 l 22,11 12,12 11,22 11,45 v 56 l -11,45 -11,23 -12,11 -22,11 h -23 l -22,-11 -11,-11 -12,-23 -11,-45 v -56 l 11,-45 12,-22 11,-12 22,-11"
+           id="path13624" />
+        <path
+           d="m 54041,21334 12,11 -12,11 -11,-11 11,-11 v 22"
+           id="path13626" />
+        <path
+           d="m 54278,21356 h -135"
+           id="path13628" />
+        <path
+           d="m 54210,21356 v -236 l -22,34 -23,22 -22,12"
+           id="path13630" />
+        <path
+           d="m 54480,21199 v 157"
+           id="path13632" />
+        <path
+           d="m 54379,21199 v 124 l 11,22 23,11 h 33 l 23,-11 11,-11"
+           id="path13634" />
+        <path
+           d="m 54671,21233 h -78"
+           id="path13636" />
+        <path
+           d="m 54593,21356 v -236 h 112"
+           id="path13638" />
+        <text
+           x="54250"
+           y="20509.6"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13640">C4</text>
+        <path
+           d="m 54210,20475 -11,12 -34,11 h -22 l -34,-11 -23,-23 -11,-22 -11,-45 v -34 l 11,-45 11,-23 23,-22 34,-11 h 22 l 34,11 11,11"
+           id="path13642" />
+        <path
+           d="m 54413,20340 v 158"
+           id="path13644" />
+        <path
+           d="m 54356,20250 -56,169 h 146"
+           id="path13646" />
+        <text
+           x="63600"
+           y="26918.1"
+           textLength="1004.22"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13648">4.7uF</text>
+        <path
+           d="m 63268,26749 v 157"
+           id="path13650" />
+        <path
+           d="m 63211,26659 -56,169 h 146"
+           id="path13652" />
+        <path
+           d="m 63391,26884 12,11 -12,11 -11,-11 11,-11 v 22"
+           id="path13654" />
+        <path
+           d="m 63481,26670 h 158 l -101,236"
+           id="path13656" />
+        <path
+           d="m 63830,26749 v 157"
+           id="path13658" />
+        <path
+           d="m 63729,26749 v 124 l 11,22 23,11 h 33 l 23,-11 11,-11"
+           id="path13660" />
+        <path
+           d="m 64021,26783 h -78"
+           id="path13662" />
+        <path
+           d="m 63943,26906 v -236 h 112"
+           id="path13664" />
+        <text
+           x="63600"
+           y="26326.6"
+           textLength="486.78299"
+           font-size="314.961px"
+           lengthAdjust="spacingAndGlyphs"
+           text-anchor="middle"
+           opacity="0"
+           id="text13666">C1</text>
+        <path
+           d="m 63560,26292 -11,12 -34,11 h -22 l -34,-11 -23,-23 -11,-22 -11,-45 v -34 l 11,-45 11,-23 23,-22 34,-11 h 22 l 34,11 11,11"
+           id="path13668" />
+        <path
+           d="m 63785,26315 h -135"
+           id="path13670" />
+        <path
+           d="m 63718,26315 v -236 l -23,33 -22,23 -23,11"
+           id="path13672" />
+        <g
+           id="g13674" />
+      </g>
+    </g>
+  </g>
+</svg>
