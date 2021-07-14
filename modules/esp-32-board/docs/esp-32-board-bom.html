@@ -1,0 +1,583 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Bill of Materials</title>
+<style>
+ .cell-title { vertical-align: bottom; }
+ .cell-info { vertical-align: top; padding: 1em;}
+ .cell-stats { vertical-align: top; padding: 1em;}
+ .title { font-size:2.5em; font-weight: bold; }
+ .subtitle { font-size:1.5em; font-weight: bold; }
+ .h2 { font-size:1.5em; font-weight: bold; }
+ .td-empty0 { text-align: center; background-color: #F57676;}
+ .td-gen0 { text-align: center; background-color: #DCF5E4;}
+ .td-kicad0 { text-align: center; background-color: #F5DCA9;}
+ .td-user0 { text-align: center; background-color: #DCEFF5;}
+ .td-empty1 { text-align: center; background-color: #FF8080;}
+ .td-gen1 { text-align: center; background-color: #E6FFEE;}
+ .td-kicad1 { text-align: center; background-color: #FFE6B3;}
+ .td-user1 { text-align: center; background-color: #E6F9FF;}
+ .color-ref { margin: 25px 0; }
+ .color-ref th { text-align: left }
+ .color-ref td { padding: 5px 20px; }
+ .head-table { margin-bottom: 2em; }
+ .tg-sort-header::-moz-selection{background:0 0}
+ .tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}
+ .tg-sort-header:after{content:'';float:right;border-width:0 5px 5px;border-style:solid;
+                       border-color:#ffffff transparent;visibility:hidden;opacity:.6}
+ .tg-sort-header:hover:after{visibility:visible}
+ .tg-sort-asc:after,.tg-sort-asc:hover:after,.tg-sort-desc:after{visibility:visible;opacity:1}
+ .tg-sort-desc:after{border-bottom:none;border-width:5px 5px 0}
+
+ .content-table {
+   border-collapse:
+   collapse;
+   margin-top: 5px;
+   margin-bottom: 4em;
+   font-size: 0.9em;
+   font-family: sans-serif;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .content-table thead tr { background-color: #0e4e8e; color: #ffffff; text-align: left; }
+ .content-table th, .content-table td { padding: 12px 15px; }
+ .content-table tbody tr { border-bottom: 1px solid #dddddd; }
+ .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+ .content-table tbody tr:last-of-type { border-bottom: 2px solid #0e4e8e; }
+ .content-table * tr:hover > td { background-color: @bgl@ !important }
+
+ .content-table {
+   border-collapse:
+   collapse;
+   margin-top: 5px;
+   margin-bottom: 4em;
+   font-size: 0.9em;
+   font-family: sans-serif;
+   min-width: 400px;
+   border-radius: 5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+ }
+ .content-table thead tr { background-color: @bg@; color: #ffffff; text-align: left; }
+ .content-table th, .content-table td { padding: 12px 15px; }
+ .content-table tbody tr { border-bottom: 1px solid #dddddd; }
+ .content-table tbody tr:nth-of-type(even) { background-color: #f3f3f3; }
+ .content-table tbody tr:last-of-type { border-bottom: 2px solid @bg@; }
+ .content-table * tr:hover > td { background-color: #3e7ebe !important }
+</style>
+</head>
+<body>
+<table class="head-table">
+<tr>
+ <td rowspan="2">
+ </td>
+ <td colspan="2" class="cell-title">
+  <div class="title">Bill of Materials</div>
+ </td>
+</tr>
+<tr>
+ <td class="cell-info">
+   <b>Schematic</b>: esp-32-board<br>
+   <b>Variant</b>: default<br>
+   <b>Revision</b>: 1<br>
+   <b>Date</b>: 2021-07-14<br>
+   <b>KiCad Version</b>: 5.1.9+dfsg1-1~bpo10+1<br>
+ </td>
+ <td class="cell-stats">
+   <b>Component Groups</b>: 27<br>
+   <b>Component Count</b>: 39 (per PCB)<br>
+
+   <b>Fitted Components</b>: 39 (per PCB)<br>
+   <b>Number of PCBs</b>: 1<br>
+   <b>Total Components</b>: 39 (for 1 PCBs)<br>
+ </td>
+</tr>
+</table>
+<h2>Component Groups</h2>
+<table class="content-table">
+ <thead>
+  <tr>
+   <th>Row</th>
+   <th>Description</th>
+   <th>Part</th>
+   <th>References</th>
+   <th>Value</th>
+   <th>Footprint</th>
+   <th>Quantity Per PCB</th>
+   <th>Status</th>
+   <th>Datasheet</th>
+   <th>Vendor</th>
+   <th>VendorLink</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr id="0">
+   <td>1</td>
+   <td>Unpolarized capacitor</td>
+   <td>C</td>
+   <td><div id="C11"></div><div id="C9"></div><div id="C4"></div><div id="C3"></div><div id="C2"></div>C2 C3 C4 C9 C11</td>
+   <td>0.1uF</td>
+   <td>C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td>
+   <td>5</td>
+   <td> </td>
+   <td>~</td>
+   <td>avt.pl</td>
+   <td><a href="https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html">https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html</a></td>
+  </tr>
+  <tr id="1">
+   <td>2</td>
+   <td>Unpolarized capacitor</td>
+   <td>C</td>
+   <td><div id="C1"></div>C1</td>
+   <td>4.7uF</td>
+   <td>C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td>
+   <td>1</td>
+   <td> </td>
+   <td>~</td>
+   <td>avt.pl</td>
+   <td><a href="https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html">https://sklep.avt.pl/zestaw-kondensatorow-smd-0805-720-sztuk.html</a></td>
+  </tr>
+  <tr id="2">
+   <td>3</td>
+   <td>Unpolarized capacitor</td>
+   <td>C</td>
+   <td><div id="C10"></div><div id="C6"></div><div id="C5"></div>C5 C6 C10</td>
+   <td>22uF</td>
+   <td>C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</td>
+   <td>3</td>
+   <td> </td>
+   <td>~</td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/cl21a226mqqnnng/kondensatory-mlcc-smd-0805/samsung/">https://www.tme.eu/pl/details/cl21a226mqqnnng/kondensatory-mlcc-smd-0805/samsung/</a></td>
+  </tr>
+  <tr id="3">
+   <td>4</td>
+   <td>Polarized capacitor</td>
+   <td>CP</td>
+   <td><div id="C8"></div><div id="C7"></div>C7 C8</td>
+   <td>47uF</td>
+   <td>CP_Elec_5x5.9</td>
+   <td>2</td>
+   <td> </td>
+   <td>~</td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/ck1c476m05005vr/kondensatory-elektrolityczne-smd-105degc/samwha/">https://www.tme.eu/pl/details/ck1c476m05005vr/kondensatory-elektrolityczne-smd-105degc/samwha/</a></td>
+  </tr>
+  <tr id="4">
+   <td>5</td>
+   <td>Diode</td>
+   <td>D</td>
+   <td><div id="D2"></div>D2</td>
+   <td>M7</td>
+   <td>D_SMA_Handsoldering</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="https://www.tme.eu/Document/4a413fd76a83438d5e8f54eb6b2d20d6/m1.pdf">https://www.tme.eu/Document/4a413fd76a83438d5e8f54eb6b2d20d6/m1.pdf</a></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/m7-dio/diody-uniwersalne-smd/diotec-semiconductor/m7/">https://www.tme.eu/pl/details/m7-dio/diody-uniwersalne-smd/diotec-semiconductor/m7/</a></td>
+  </tr>
+  <tr id="5">
+   <td>6</td>
+   <td>Light emitting diode</td>
+   <td>LED</td>
+   <td><div id="D1"></div>D1</td>
+   <td>RF-GSS150TS-BC</td>
+   <td>LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="https://www.tme.eu/Document/297bac1c849d293b517ecf72110c4a89/catalouge-REFOND.pdf">https://www.tme.eu/Document/297bac1c849d293b517ecf72110c4a89/catalouge-REFOND.pdf</a></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/rf-gss150ts-bc/diody-led-smd-kolorowe/refond/">https://www.tme.eu/pl/details/rf-gss150ts-bc/diody-led-smd-kolorowe/refond/</a></td>
+  </tr>
+  <tr id="6">
+   <td>7</td>
+   <td>Light emitting diode</td>
+   <td>LED</td>
+   <td><div id="D5"></div><div id="D4"></div>D4 D5</td>
+   <td>RF-YUS150TS-AE</td>
+   <td>LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</td>
+   <td>2</td>
+   <td> </td>
+   <td><a href="https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE.pdf">https://www.tme.eu/Document/4237cf95222820e492ff101ceed40a8c/RF-YUS150TS-AE.pdf</a></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/">https://www.tme.eu/pl/details/rf-yus150ts-ae/diody-led-smd-kolorowe/refond/</a></td>
+  </tr>
+  <tr id="7">
+   <td>8</td>
+   <td>Schottky diode</td>
+   <td>D_Schottky</td>
+   <td><div id="D3"></div>D3</td>
+   <td>STPS0520Z</td>
+   <td>D_SOD-123</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="https://www.st.com/resource/en/datasheet/stps0520z.pdf">https://www.st.com/resource/en/datasheet/stps0520z.pdf</a></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/stps0520z/diody-schottky-smd/stmicroelectronics/">https://www.tme.eu/pl/details/stps0520z/diody-schottky-smd/stmicroelectronics/</a></td>
+  </tr>
+  <tr id="8">
+   <td>9</td>
+   <td>DC Barrel Jack with an internal switch</td>
+   <td>Barrel_Jack_Switch</td>
+   <td><div id="J5"></div>J5</td>
+   <td>Barrel_Jack_MountingPin</td>
+   <td>BarrelJack_CLIFF_FC68148_Horizontal</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="https://www.tme.eu/Document/3d585bc2823a1d150d9d924b483e2fef/1613-21.pdf">https://www.tme.eu/Document/3d585bc2823a1d150d9d924b483e2fef/1613-21.pdf</a></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/1613-21/zlacza-dc/lumberg/1613-21/">https://www.tme.eu/pl/details/1613-21/zlacza-dc/lumberg/1613-21/</a></td>
+  </tr>
+  <tr id="9">
+   <td>10</td>
+   <td>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
+   <td>Conn_01x06</td>
+   <td><div id="J3"></div>J3</td>
+   <td>Conn_01x06</td>
+   <td>PinSocket_1x06_P2.54mm_Vertical</td>
+   <td>1</td>
+   <td> </td>
+   <td>~</td>
+   <td>N/A</td>
+   <td><a href="https://www.tme.eu/pl/details/zl262-6sg/listwy-i-gniazda-kolkowe/connfly/ds1023-1-6s21/">https://www.tme.eu/pl/details/zl262-6sg/listwy-i-gniazda-kolkowe/connfly/ds1023-1-6s21/</a></td>
+  </tr>
+  <tr id="10">
+   <td>11</td>
+   <td>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
+   <td>Conn_01x14_Female</td>
+   <td><div id="J1"></div>J1</td>
+   <td>Conn_01x14_Female</td>
+   <td>PinSocket_1x14_P2.54mm_Vertical</td>
+   <td>1</td>
+   <td> </td>
+   <td>~</td>
+   <td></td>
+   <td></td>
+  </tr>
+  <tr id="11">
+   <td>12</td>
+   <td>Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)</td>
+   <td>Conn_01x18_Female</td>
+   <td><div id="J2"></div>J2</td>
+   <td>Conn_01x18_Female</td>
+   <td>PinSocket_1x18_P2.54mm_Vertical</td>
+   <td>1</td>
+   <td> </td>
+   <td>~</td>
+   <td></td>
+   <td></td>
+  </tr>
+  <tr id="12">
+   <td>13</td>
+   <td></td>
+   <td>ESP-PROG-Debug</td>
+   <td><div id="J7"></div>J7</td>
+   <td>ESP-PROG-Debug</td>
+   <td>IDC-Header_2x05_P1.27mm_Vertical_SMD</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md">https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md</a></td>
+   <td></td>
+   <td><a href="https://www.ebay.com/itm/5Pcs-1-27mm-Pitch-2x5-Pin-10-Pin-SMT-SMD-Male-Shrouded-Box-Header-IDC-Connector/172311876086?hash=item281e9691f6:g:eHIAAOSwu6taWHc7">https://www.ebay.com/itm/5Pcs-1-27mm-Pitch-2x5-Pin-10-Pin-SMT-SMD-Male-Shrouded-Box-Header-IDC-Connector/172311876086?hash=item281e9691f6:g:eHIAAOSwu6taWHc7</a></td>
+  </tr>
+  <tr id="13">
+   <td>14</td>
+   <td></td>
+   <td>ESP-PROG-Program</td>
+   <td><div id="J6"></div>J6</td>
+   <td>ESP-PROG-Program</td>
+   <td>IDC-Header_2x03_P1.27mm_Vertical_SMD</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md">https://github.com/espressif/esp-iot-solution/blob/master/documents/evaluation_boards/ESP-Prog_guide_en.md</a></td>
+   <td></td>
+   <td><a href="https://www.ebay.com/itm/10Pcs-1-27mm-Pitch-2x3-Pin-6-Pin-SMT-SMD-Male-Shrouded-Box-Header-IDC-Connector/183523538792?hash=item2abadaf768:g:-H4AAOSwm-Fb4s52">https://www.ebay.com/itm/10Pcs-1-27mm-Pitch-2x3-Pin-6-Pin-SMT-SMD-Male-Shrouded-Box-Header-IDC-Connector/183523538792?hash=item2abadaf768:g:-H4AAOSwm-Fb4s52</a></td>
+  </tr>
+  <tr id="14">
+   <td>15</td>
+   <td>USB Micro Type B connector</td>
+   <td>USB_B_Micro</td>
+   <td><div id="J4"></div>J4</td>
+   <td>USB_B_Micro</td>
+   <td>USB_Micro-B_Amphenol_10118194_Horizontal</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="https://www.tme.eu/Document/224991b12752feb77f9b8261a1cec430/10118194-0001LF.pdf">https://www.tme.eu/Document/224991b12752feb77f9b8261a1cec430/10118194-0001LF.pdf</a></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/10118194-0001lf_c/zlacza-usb-i-ieee1394/amphenol/10118194-0001lf/">https://www.tme.eu/pl/details/10118194-0001lf_c/zlacza-usb-i-ieee1394/amphenol/10118194-0001lf/</a></td>
+  </tr>
+  <tr id="15">
+   <td>16</td>
+   <td>Housing</td>
+   <td>Housing</td>
+   <td><div id="N1"></div>N1</td>
+   <td>Arduino Footprint</td>
+   <td>ArduinoFootprint</td>
+   <td>1</td>
+   <td> </td>
+   <td>~</td>
+   <td>N/A</td>
+   <td></td>
+  </tr>
+  <tr id="16">
+   <td>17</td>
+   <td></td>
+   <td>BCR129S</td>
+   <td><div id="Q1"></div>Q1</td>
+   <td>BCR129S</td>
+   <td>SOT-363_SC-70-6</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="https://www.infineon.com/dgdl/Infineon-BCR129SERIES-DS-v01_01-en.pdf?fileId=db3a30431428a37301143f7ab7820287">https://www.infineon.com/dgdl/Infineon-BCR129SERIES-DS-v01_01-en.pdf?fileId=db3a30431428a37301143f7ab7820287</a></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/bcr129sh6327/tranzystory-npn-smd/infineon-technologies/">https://www.tme.eu/pl/details/bcr129sh6327/tranzystory-npn-smd/infineon-technologies/</a></td>
+  </tr>
+  <tr id="17">
+   <td>18</td>
+   <td>Resistor</td>
+   <td>R</td>
+   <td><div id="R4"></div><div id="R3"></div><div id="R1"></div>R1 R3 R4</td>
+   <td>220 Ohm</td>
+   <td>R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td>
+   <td>3</td>
+   <td> </td>
+   <td>~</td>
+   <td>avt.pl</td>
+   <td><a href="https://sklep.avt.pl/avt701-805.html">https://sklep.avt.pl/avt701-805.html</a></td>
+  </tr>
+  <tr id="18">
+   <td>19</td>
+   <td>Resistor</td>
+   <td>R</td>
+   <td><div id="R2"></div>R2</td>
+   <td>2.2 kOhm</td>
+   <td>R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td>
+   <td>1</td>
+   <td> </td>
+   <td>~</td>
+   <td>avt.pl</td>
+   <td><a href="https://sklep.avt.pl/avt701-805.html">https://sklep.avt.pl/avt701-805.html</a></td>
+  </tr>
+  <tr id="19">
+   <td>20</td>
+   <td>Resistor</td>
+   <td>R</td>
+   <td><div id="R6"></div><div id="R5"></div>R5 R6</td>
+   <td>10 kOhm</td>
+   <td>R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td>
+   <td>2</td>
+   <td> </td>
+   <td>~</td>
+   <td>avt.pl</td>
+   <td><a href="https://sklep.avt.pl/avt701-805.html">https://sklep.avt.pl/avt701-805.html</a></td>
+  </tr>
+  <tr id="20">
+   <td>21</td>
+   <td>4 resistor network, parallel topology, split</td>
+   <td>R_Pack04_Split</td>
+   <td><div id="RN1"></div>RN1</td>
+   <td>100 Ohm</td>
+   <td>R_Array_Convex_4x0612</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="https://www.tme.eu/Document/06db5b489d2b0c3473dd3a4d90f1faf2/ROYALOHM-xDx.pdf">https://www.tme.eu/Document/06db5b489d2b0c3473dd3a4d90f1faf2/ROYALOHM-xDx.pdf</a></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/en/details/dr0804-100r-4_8/smd-resistor-networks/royal-ohm/4d02wgj0101t/">https://www.tme.eu/pl/en/details/dr0804-100r-4_8/smd-resistor-networks/royal-ohm/4d02wgj0101t/</a></td>
+  </tr>
+  <tr id="21">
+   <td>22</td>
+   <td>Push button switch, generic, two pins</td>
+   <td>SW_Push</td>
+   <td><div id="SW2"></div><div id="SW1"></div>SW1 SW2</td>
+   <td>SW_Push</td>
+   <td>SW_Push_1P1T_NO_6x6mm_H4.3mm</td>
+   <td>2</td>
+   <td> </td>
+   <td></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/b3s-1000/mikroprzelaczniki-tact/omron-ocb/">https://www.tme.eu/pl/details/b3s-1000/mikroprzelaczniki-tact/omron-ocb/</a></td>
+  </tr>
+  <tr id="22">
+   <td>23</td>
+   <td>RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD</td>
+   <td>ESP32-WROOM-32</td>
+   <td><div id="U1"></div>U1</td>
+   <td>ESP32-WROOM-32</td>
+   <td>ESP32-WROOM-32-ThermalVias</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</a></td>
+   <td></td>
+   <td></td>
+  </tr>
+  <tr id="23">
+   <td>24</td>
+   <td>USB to Serial Interface, SSOP-28</td>
+   <td>FT232RL</td>
+   <td><div id="U5"></div>U5</td>
+   <td>FT232RL</td>
+   <td>SSOP-28_5.3x10.2mm_P0.65mm</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf">https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf</a></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/ft232rl/uklady-scalone-interfejs-usb/ftdi/ft232rl-reel/">https://www.tme.eu/pl/details/ft232rl/uklady-scalone-interfejs-usb/ftdi/ft232rl-reel/</a></td>
+  </tr>
+  <tr id="24">
+   <td>25</td>
+   <td>1A Low drop-out regulator, Fixed Output 3.3V, SOT-223</td>
+   <td>NCP1117-3.3_SOT223</td>
+   <td><div id="U2"></div>U2</td>
+   <td>NCP1117-3.3</td>
+   <td>SOT-223-3_TabPin2</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="http://www.advanced-monolithic.com/pdf/ds1117.pdf">http://www.advanced-monolithic.com/pdf/ds1117.pdf</a></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/ncp1117st33t3g/stabilizatory-napiecia-nieregulowane-ldo/on-semiconductor/">https://www.tme.eu/pl/details/ncp1117st33t3g/stabilizatory-napiecia-nieregulowane-ldo/on-semiconductor/</a></td>
+  </tr>
+  <tr id="25">
+   <td>26</td>
+   <td>1A Low drop-out regulator, Fixed Output 5V, SOT-223</td>
+   <td>NCP1117-5.0_SOT223</td>
+   <td><div id="U3"></div>U3</td>
+   <td>NCP1117ST50T3G</td>
+   <td>SOT-223-3_TabPin2</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF">http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</a></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/ncp1117st50t3g/stabilizatory-napiecia-nieregulowane-ldo/on-semiconductor/">https://www.tme.eu/pl/details/ncp1117st50t3g/stabilizatory-napiecia-nieregulowane-ldo/on-semiconductor/</a></td>
+  </tr>
+  <tr id="26">
+   <td>27</td>
+   <td>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</td>
+   <td>USBLC6-2SC6</td>
+   <td><div id="U4"></div>U4</td>
+   <td>USBLC6-2SC6</td>
+   <td>SOT-23-6</td>
+   <td>1</td>
+   <td> </td>
+   <td><a href="https://www.st.com/resource/en/datasheet/usblc6-2.pdf">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</a></td>
+   <td>tme.eu</td>
+   <td><a href="https://www.tme.eu/pl/details/usblc6-2sc6/diody-zabezpieczajace-drabinki/stmicroelectronics/">https://www.tme.eu/pl/details/usblc6-2sc6/diody-zabezpieczajace-drabinki/stmicroelectronics/</a></td>
+  </tr>
+ </tbody>
+</table>
+<script charset="utf-8">
+  var TGSort = window.TGSort || function(n) {
+    "use strict";
+    function r(n) { return n ? n.length : 0 }
+    function t(n, t, e, o = 0) { for (e = r(n); o < e; ++o) t(n[o], o) }
+    function e(n) { return n.split("").reverse().join("") }
+    function o(n) {
+      var e = n[0];
+      return t(n, function(n) {
+        for (; !n.startsWith(e);) e = e.substring(0, r(e) - 1)
+      }), r(e)
+    }
+    function u(n, r, e = []) {
+      return t(n, function(n) {
+        r(n) && e.push(n)
+      }), e
+    }
+    var a = parseFloat;
+    function i(n, r) {
+      return function(t) {
+        var e = "";
+        return t.replace(n, function(n, t, o) {
+          return e = t.replace(r, "") + "." + (o || "").substring(1)
+        }), a(e)
+      }
+    }
+    var s = i(/^(?:\s*)([+-]?(?:\d+)(?:,\d{3})*)(\.\d*)?$/g, /,/g),
+      c = i(/^(?:\s*)([+-]?(?:\d+)(?:\.\d{3})*)(,\d*)?$/g, /\./g);
+    function f(n) {
+      var t = a(n);
+      return !isNaN(t) && r("" + t) + 1 >= r(n) ? t : NaN
+    }
+    function d(n) {
+      var e = [],
+        o = n;
+      return t([f, s, c], function(u) {
+        var a = [],
+          i = [];
+        t(n, function(n, r) {
+          r = u(n), a.push(r), r || i.push(n)
+        }), r(i) < r(o) && (o = i, e = a)
+      }), r(u(o, function(n) {
+        return n == o[0]
+      })) == r(o) ? e : []
+    }
+    function v(n) {
+      if ("TABLE" == n.nodeName) {
+        for (var a = function(r) {
+            var e, o, u = [],
+              a = [];
+            return function n(r, e) {
+              e(r), t(r.childNodes, function(r) {
+                n(r, e)
+              })
+            }(n, function(n) {
+              "TR" == (o = n.nodeName) ? (e = [], u.push(e), a.push(n)) : "TD" != o && "TH" != o || e.push(n)
+            }), [u, a]
+          }(), i = a[0], s = a[1], c = r(i), f = c > 1 && r(i[0]) < r(i[1]) ? 1 : 0, v = f + 1, p = i[f], h = r(p), l = [], g = [], N = [], m = v; m < c; ++m) {
+          for (var T = 0; T < h; ++T) {
+            r(g) < h && g.push([]);
+            var C = i[m][T],
+              L = C.textContent || C.innerText || "";
+            g[T].push(L.trim())
+          }
+          N.push(m - v)
+        }
+        t(p, function(n, t) {
+          l[t] = 0;
+          var a = n.classList;
+          a.add("tg-sort-header"), n.addEventListener("click", function() {
+            var n = l[t];
+            ! function() {
+              for (var n = 0; n < h; ++n) {
+                var r = p[n].classList;
+                r.remove("tg-sort-asc"), r.remove("tg-sort-desc"), l[n] = 0
+              }
+            }(), (n = 1 == n ? -1 : +!n) && a.add(n > 0 ? "tg-sort-asc" : "tg-sort-desc"), l[t] = n;
+            var i, f = g[t],
+              m = function(r, t) {
+                return n * f[r].localeCompare(f[t]) || n * (r - t)
+              },
+              T = function(n) {
+                var t = d(n);
+                if (!r(t)) {
+                  var u = o(n),
+                    a = o(n.map(e));
+                  t = d(n.map(function(n) {
+                    return n.substring(u, r(n) - a)
+                  }))
+                }
+                return t
+              }(f);
+            (r(T) || r(T = r(u(i = f.map(Date.parse), isNaN)) ? [] : i)) && (m = function(r, t) {
+              var e = T[r],
+                o = T[t],
+                u = isNaN(e),
+                a = isNaN(o);
+              return u && a ? 0 : u ? -n : a ? n : e > o ? n : e < o ? -n : n * (r - t)
+            });
+            var C, L = N.slice();
+            L.sort(m);
+            for (var E = v; E < c; ++E)(C = s[E].parentNode).removeChild(s[E]);
+            for (E = v; E < c; ++E) C.appendChild(s[v + L[E - v]])
+          })
+        })
+      }
+    }
+    n.addEventListener("DOMContentLoaded", function() {
+      for (var t = n.getElementsByClassName("content-table"), e = 0; e < r(t); ++e) try {
+        v(t[e])
+      } catch (n) {}
+    })
+  }(document)
+</script>
+</body></html>
