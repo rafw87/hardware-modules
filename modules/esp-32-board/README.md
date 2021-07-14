@@ -1,6 +1,6 @@
 # ESP-32 board on Arduino footprint
 
-ESP-32 development kit with Micro-USB port, DC Input and ESP-PROG interface.
+ESP-WROOM-32 (or ESP32-SOLO-1) development kit with Micro-USB port, DC Input and ESP-PROG interface.
 
 Based on Arduino Uno/Leonardo footprint, so (apart from interesting appearance)
 allows to use stands and (partially) enclosures from original Arduino.
