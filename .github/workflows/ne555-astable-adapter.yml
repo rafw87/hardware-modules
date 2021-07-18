@@ -1,0 +1,45 @@
+name: ne555-astable-adapter
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+    - 'modules/ne555-astable-adapter/**'
+  pull_request:
+    branches:
+      - master
+    paths:
+    - 'modules/ne555-astable-adapter/**'
+
+jobs:
+  kibot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - uses: INTI-CMNB/KiBot@v1
+      with:
+        config: modules/ne555-astable-adapter/config.kibot.yaml
+        dir: modules/ne555-astable-adapter
+        schema: 'modules/ne555-astable-adapter/ne555-astable-adapter.sch'
+        board: 'modules/ne555-astable-adapter/ne555-astable-adapter.kicad_pcb'
+
+    - name: upload docs
+      uses: actions/upload-artifact@v2
+      with:
+        name: ne555-astable-adapter-docs
+        path: modules/ne555-astable-adapter/output/docs/
+
+    - name: upload renders
+      uses: actions/upload-artifact@v2
+      with:
+        name: ne555-astable-adapter-renders
+        path: modules/ne555-astable-adapter/output/renders/
+
+    - name: upload gerbers
+      uses: actions/upload-artifact@v2
+      with:
+        name: ne555-astable-adapter-gerbers
+        path: modules/ne555-astable-adapter/output/gerbers/*.zip
