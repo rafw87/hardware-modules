@@ -3,6 +3,7 @@
 ## Story
 OK, so you want to build a timer, emiting pulses with given interval on breadboard using NE555. Easy, right?
 All you need is to put your NE555 in the middle and implement astable circuit around it, like this:
+
 ![NE555 Astable Circuit](docs/ne555-astable.svg)
 
 Looks easy? Only on the schematic :wink:
