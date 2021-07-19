@@ -46,6 +46,7 @@ Adapter from top:
 ## Resources
 - [Schematic](docs/ne555-astable-adapter-schematic.pdf?raw=true)
 - [BOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/rafw87/hardware-modules/master/modules/ne555-astable-adapter/docs/ne555-astable-adapter-bom.html)
+- [Project on PCBWay](https://www.pcbway.com/project/shareproject/NE555_Astable_Circuit_Breadboard_Adapter.html)
 - Gerbers
   - [PCBWay](docs/gerbers/ne555-astable-adapter-PCBWay.zip?raw=true)
 
