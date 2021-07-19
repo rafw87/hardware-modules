@@ -20,6 +20,7 @@ Functionally it's evaluation board like ESP32-DevKitC.
 ## Resources
 - [Schematic](docs/esp-32-board-schematic.pdf?raw=true)
 - [BOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/rafw87/hardware-modules/master/modules/esp-32-board/docs/esp-32-board-bom.html)
+- [Project on PCBWay](https://www.pcbway.com/project/shareproject/ESP_32_board_on_Arduino_footprint.html)
 - Gerbers
   - [PCBWay](docs/gerbers/esp-32-board-PCBWay.zip?raw=true)
 
