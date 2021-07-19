@@ -39,7 +39,7 @@ Comparison:
 Adapter from top:
 <a target="_blank" rel="noopener noreferrer" href="docs/ne555-astable-adapter-top.svg" class="rich-diff-level-one"><img src="docs/ne555-astable-adapter-top.svg" alt="Top view" width="100%"></a>
 
-<a target="_blank" rel="noopener noreferrer" href="docs/ne555-astable-adapter-F_Fab.svg" class="rich-diff-level-one"><img src="docs/ne555-astable-adapter-F_Fab.svg" alt="FAB Layer" width="100%"></a>
+<a target="_blank" rel="noopener noreferrer" href="docs/ne555-astable-adapter-F_Fab.svg" class="rich-diff-level-one"><img src="docs/ne555-astable-adapter-F_Fab.svg" alt="FAB Layer" width="33%" style="text-align: center"></a>
 
 
 ## Resources
