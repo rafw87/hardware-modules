@@ -50,8 +50,8 @@ $Comp
 L Device:C C2
 U 1 1 608E029A
 P 4400 4900
-F 0 "C2" V 4350 4750 50  0000 L CNN
-F 1 "1uF" V 4350 4950 50  0000 L CNN
+F 0 "C2" V 4450 4850 50  0000 R CNN
+F 1 "1uF" V 4450 4950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4438 4750 50  0001 C CNN
 F 3 "~" H 4400 4900 50  0001 C CNN
 	1    4400 4900
@@ -209,7 +209,7 @@ L power:GND #PWR0104
 U 1 1 6096C4DE
 P 4700 7400
 F 0 "#PWR0104" H 4700 7150 50  0001 C CNN
-F 1 "GND" H 4800 7300 50  0000 C CNN
+F 1 "GND" H 4850 7350 50  0000 C CNN
 F 2 "" H 4700 7400 50  0001 C CNN
 F 3 "" H 4700 7400 50  0001 C CNN
 	1    4700 7400
@@ -258,7 +258,6 @@ F 3 "" H 1000 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4950 5000
-NoConn ~ 4950 6300
 Wire Wire Line
 	4950 5300 4650 5300
 NoConn ~ 4950 5100
@@ -747,7 +746,7 @@ Wire Wire Line
 	4250 6200 3650 6200
 Connection ~ 3650 6200
 Wire Wire Line
-	3650 6200 3650 6400
+	3650 6200 3650 6300
 Wire Wire Line
 	4250 6800 3650 6800
 Connection ~ 3650 6800
@@ -960,4 +959,43 @@ Text Label 4650 6600 0    50   ~ 0
 VSL
 Text Label 4650 6800 0    50   ~ 0
 VCOM
+NoConn ~ 4950 4500
+$Comp
+L Device:C C16
+U 1 1 61AA5909
+P 4000 4800
+F 0 "C16" V 4050 4750 50  0000 R CNN
+F 1 "1uF" V 4050 4850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4038 4650 50  0001 C CNN
+F 3 "~" H 4000 4800 50  0001 C CNN
+	1    4000 4800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4150 4800 4950 4800
+Wire Wire Line
+	3850 4800 3650 4800
+Wire Wire Line
+	3650 4800 3650 4900
+Connection ~ 3650 4900
+$Comp
+L Device:C C15
+U 1 1 61AB06F0
+P 3950 6300
+F 0 "C15" V 3900 6250 50  0000 R CNN
+F 1 "1uF" V 3900 6350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3988 6150 50  0001 C CNN
+F 3 "~" H 3950 6300 50  0001 C CNN
+	1    3950 6300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3650 6300 3800 6300
+Connection ~ 3650 6300
+Wire Wire Line
+	3650 6300 3650 6400
+Wire Wire Line
+	4100 6300 4950 6300
+Text Notes 3050 7700 0    50   ~ 0
+Capacitors for VPP and NC (pin 21) based on:\nhttps://www.waveshare.com/w/upload/5/5b/1.54inch_e-Paper_Schematic.pdf
 $EndSCHEMATC
