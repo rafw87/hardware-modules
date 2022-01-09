@@ -1,0 +1,63 @@
+kibot:
+  version: 1
+
+outputs:
+  - name: Aisler_gerbers
+    comment: Gerbers compatible with Aisler
+    type: gerber
+    dir: output/gerbers/Aisler
+    options: &gerber_options
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      use_protel_extensions: true
+      create_gerber_job_file: false
+      output: "%f.%i.ger"
+      gerber_precision: 4.6
+      use_gerber_x2_attributes: false
+      use_gerber_net_attributes: false
+      disable_aperture_macros: true
+      line_width: 0.1
+      subtract_mask_from_silk: false
+      inner_extension_pattern: '.ger'
+    layers:
+      - copper
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+      - F.Paste
+      - B.Paste
+      - Edge.Cuts
+
+  - name: Aisler_drill
+    comment: Drill files compatible with Aisler
+    type: excellon
+    dir: output/gerbers/Aisler
+    options:
+      metric_units: false
+      minimal_header: true
+      zeros_format: SUPPRESS_LEADING
+      left_digits: 2
+      right_digits: 4
+      pth_and_npth_single_file: false
+      pth_id: '.holes_pth'
+      npth_id: '.holes_npth'
+      output: "%f%i.xln"
+
+  - name: Aisler
+    comment: ZIP file for Aisler
+    type: compress
+    dir: output/gerbers
+    options:
+      format: ZIP
+      files:
+        - from_output: Aisler_gerbers
+          dest: /
+        - from_output: Aisler_drill
+          dest: /
+

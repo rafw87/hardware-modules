@@ -30,3 +30,6 @@ outputs:
     comment: 3D model of PCB
     type: step
     dir: output/renders
+    options:
+        download: true
+        min_distance: 0.1
