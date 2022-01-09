@@ -1,16 +1,16 @@
-name: epaper-module
+name: epaper-wsh-12561-module
 
 on:
   push:
     branches:
       - master
     paths:
-    - 'modules/epaper-module/**'
+    - 'modules/epaper-module/wsh-12561-module/**'
   pull_request:
     branches:
       - master
     paths:
-    - 'modules/epaper-module/**'
+    - 'modules/epaper-module/wsh-12561-module/**'
 
 jobs:
   kibot:
@@ -21,25 +21,25 @@ jobs:
         submodules: recursive
     - uses: INTI-CMNB/KiBot@v1
       with:
-        config: modules/epaper-module/config.kibot.yaml
-        dir: modules/epaper-module
-        schema: 'modules/epaper-module/epaper-module.sch'
-        board: 'modules/epaper-module/epaper-module.kicad_pcb'
+        config: modules/epaper-module/wsh-12561-module/config.kibot.yaml
+        dir: modules/epaper-module/wsh-12561-module
+        schema: 'modules/epaper-module/wsh-12561-module/epaper-module.sch'
+        board: 'modules/epaper-module/wsh-12561-module/epaper-module.kicad_pcb'
 
     - name: upload docs
       uses: actions/upload-artifact@v2
       with:
         name: epaper-module-docs
-        path: modules/epaper-module/output/docs/
+        path: modules/epaper-module/wsh-12561-module/output/docs/
 
     - name: upload renders
       uses: actions/upload-artifact@v2
       with:
         name: epaper-module-renders
-        path: modules/epaper-module/output/renders/
+        path: modules/epaper-module/wsh-12561-module/output/renders/
 
     - name: upload gerbers
       uses: actions/upload-artifact@v2
       with:
         name: epaper-module-gerbers
-        path: modules/epaper-module/output/gerbers/*.zip
+        path: modules/epaper-module/wsh-12561-module/output/gerbers/*.zip
