@@ -23,8 +23,8 @@ jobs:
       with:
         config: modules/epaper-module/wsh-12561-module/config.kibot.yaml
         dir: modules/epaper-module/wsh-12561-module
-        schema: 'modules/epaper-module/wsh-12561-module/epaper-module.sch'
-        board: 'modules/epaper-module/wsh-12561-module/epaper-module.kicad_pcb'
+        schema: 'modules/epaper-module/wsh-12561-module/wsh-12561-module.sch'
+        board: 'modules/epaper-module/wsh-12561-module/wsh-12561-module.kicad_pcb'
 
     - name: upload docs
       uses: actions/upload-artifact@v2
