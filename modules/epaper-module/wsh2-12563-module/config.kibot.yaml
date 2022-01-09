@@ -1,0 +1,15 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: true
+  update_xml: true
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+
+import:
+  - ../../config/docs.kibot.yaml
+  - ../../config/renders.kibot.yaml
+  - ../../config/manufacturers/PCBWay.kibot.yaml
+  - ../../config/manufacturers/Aisler.kibot.yaml
