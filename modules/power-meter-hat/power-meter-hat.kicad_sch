@@ -2721,7 +2721,7 @@
     (uuid de2dd575-4cac-4804-82f4-2312f850f454)
     (property "Reference" "J2" (id 0) (at 110.49 95.25 0))
     (property "Value" "Barrel_Jack_Switch" (id 1) (at 110.49 97.79 0))
-    (property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" (id 2) (at 111.76 105.156 0)
+    (property "Footprint" "shared_components:BarrelJack_CLIFF_FC68148_Horizontal" (id 2) (at 111.76 105.156 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 111.76 105.156 0)
@@ -3020,7 +3020,7 @@
       (reference "J1") (unit 1) (value "GPIO") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical")
     )
     (path "/de2dd575-4cac-4804-82f4-2312f850f454"
-      (reference "J2") (unit 1) (value "Barrel_Jack_Switch") (footprint "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002")
+      (reference "J2") (unit 1) (value "Barrel_Jack_Switch") (footprint "shared_components:BarrelJack_CLIFF_FC68148_Horizontal")
     )
     (path "/7acdcd65-592b-4fae-a99e-c444a4b4e6be/46b0c645-722d-4926-99b1-9a78036c1a17"
       (reference "J3") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal")
