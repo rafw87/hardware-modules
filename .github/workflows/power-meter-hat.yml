@@ -23,7 +23,7 @@ jobs:
       with:
         config: modules/power-meter-hat/config.kibot.yaml
         dir: modules/power-meter-hat
-        schema: 'modules/power-meter-hat/power-meter-hat.sch'
+        schema: 'modules/power-meter-hat/power-meter-hat.kicad_sch'
         board: 'modules/power-meter-hat/power-meter-hat.kicad_pcb'
 
     - name: upload docs
