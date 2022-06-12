@@ -379,8 +379,9 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "+3V3",
+          "+3.3VP",
           "+5V",
+          "+5VP",
           "/PowerChannel 1/IN_VCC",
           "/PowerChannel 1/OUT_GND",
           "/PowerChannel 1/OUT_VCC",
