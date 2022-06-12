@@ -8,7 +8,7 @@ preflight:
   check_zone_fills: true
   ignore_unconnected: false
 filters:
-- filter: 'Ignore silk over NPTH'
+- name: 'Ignore silk over NPTH'
   error: 'silk_over_copper'
   regex:  'NPTH'
 
