@@ -19,7 +19,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         submodules: recursive
-    - uses: INTI-CMNB/KiBot@v1
+    - uses: INTI-CMNB/KiBot@v2_k6
       with:
         config: modules/power-meter-hat/config.kibot.yaml
         dir: modules/power-meter-hat
