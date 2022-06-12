@@ -7,10 +7,10 @@ preflight:
   run_drc: true
   check_zone_fills: true
   ignore_unconnected: false
-filters:
-- name: 'Ignore silk over NPTH'
-  error: 'silk_over_copper'
-  regex:  'NPTH'
+  filters:
+  - filter: 'Ignore silk over NPTH'
+    error: 'silk_over_copper'
+    regex:  'NPTH'
 
 import:
   - ../../config/docs.kibot.yaml
