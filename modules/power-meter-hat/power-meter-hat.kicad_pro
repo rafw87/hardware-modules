@@ -56,7 +56,7 @@
         }
       ],
       "drc_exclusions": [
-        "silk_over_copper|162865000|96500000|7fb6ad90-dc16-4bb7-b786-815b2cf00612|a4dff433-614f-417e-8948-3a38ac707f3b"
+        "silk_over_copper|162865000|96500000|7fb6ad90-dc16-4bb7-b786-815b2cf00612|4c5587c3-b3e7-413a-bd44-a189b5ad106e"
       ],
       "meta": {
         "version": 2
@@ -393,7 +393,10 @@
           "/PowerChannel 3/IN_VCC",
           "/PowerChannel 3/OUT_GND",
           "/PowerChannel 3/OUT_VCC",
-          "/PowerChannel 3/PWR"
+          "/PowerChannel 3/PWR",
+          "/Vfused",
+          "/Vpsu",
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
