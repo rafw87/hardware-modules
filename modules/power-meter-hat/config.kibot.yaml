@@ -10,7 +10,7 @@ preflight:
   filters:
   - filter: 'Ignore silk over NPTH'
     error: 'silk_over_copper'
-    regex:  'NPTH'
+    regex:  'Through hole pad'
 
 import:
   - ../../config/docs.kibot.yaml
