@@ -7,10 +7,6 @@ preflight:
   run_drc: true
   check_zone_fills: true
   ignore_unconnected: false
-  filters:
-  - filter: 'Ignore silk over NPTH'
-    error: 'silk_over_copper'
-    regex:  'Through hole pad'
 
 import:
   - ../../config/docs.kibot.yaml
