@@ -1,0 +1,45 @@
+name: power-monitor-hat
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+    - 'modules/power-monitor-hat/**'
+  pull_request:
+    branches:
+      - master
+    paths:
+    - 'modules/power-monitor-hat/**'
+
+jobs:
+  kibot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        config: modules/power-monitor-hat/config.kibot.yaml
+        dir: modules/power-monitor-hat
+        schema: 'modules/power-monitor-hat/power-monitor-hat.kicad_sch'
+        board: 'modules/power-monitor-hat/power-monitor-hat.kicad_pcb'
+
+    - name: upload docs
+      uses: actions/upload-artifact@v2
+      with:
+        name: power-monitor-hat-docs
+        path: modules/power-monitor-hat/output/docs/
+
+    - name: upload renders
+      uses: actions/upload-artifact@v2
+      with:
+        name: power-monitor-hat-renders
+        path: modules/power-monitor-hat/output/renders/
+
+    - name: upload gerbers
+      uses: actions/upload-artifact@v2
+      with:
+        name: power-monitor-hat-gerbers
+        path: modules/power-monitor-hat/output/gerbers/*.zip
