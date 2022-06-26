@@ -948,7 +948,7 @@
     (property "Reference" "R9" (id 0) (at 115.57 74.9299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R" (id 1) (at 115.57 77.4699 0)
+    (property "Value" "0R5" (id 1) (at 115.57 77.4699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder" (id 2) (at 111.887 76.2 90)
