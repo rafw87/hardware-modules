@@ -3693,22 +3693,22 @@
       (reference "JP2") (unit 1) (value "ID_WP") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/7acdcd65-592b-4fae-a99e-c444a4b4e6be/0b70b45d-ad91-4610-a9a1-ef205cba757f"
-      (reference "JP3") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "JP3") (unit 1) (value "Jumper") (footprint "shared_components:PinHeader_1x03_P2.54mm_Vertical_NoFP")
     )
     (path "/7acdcd65-592b-4fae-a99e-c444a4b4e6be/77078173-f864-4652-b392-5d955a322546"
-      (reference "JP4") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "JP4") (unit 1) (value "Jumper") (footprint "shared_components:PinHeader_1x03_P2.54mm_Vertical_NoFP")
     )
     (path "/5773e18f-350c-4982-8a03-ea7374ba7702/0b70b45d-ad91-4610-a9a1-ef205cba757f"
-      (reference "JP5") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "JP5") (unit 1) (value "Jumper") (footprint "shared_components:PinHeader_1x03_P2.54mm_Vertical_NoFP")
     )
     (path "/5773e18f-350c-4982-8a03-ea7374ba7702/77078173-f864-4652-b392-5d955a322546"
-      (reference "JP6") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "JP6") (unit 1) (value "Jumper") (footprint "shared_components:PinHeader_1x03_P2.54mm_Vertical_NoFP")
     )
     (path "/19fa45c1-8471-4c12-ac70-3f183c159f90/0b70b45d-ad91-4610-a9a1-ef205cba757f"
-      (reference "JP7") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "JP7") (unit 1) (value "Jumper") (footprint "shared_components:PinHeader_1x03_P2.54mm_Vertical_NoFP")
     )
     (path "/19fa45c1-8471-4c12-ac70-3f183c159f90/77078173-f864-4652-b392-5d955a322546"
-      (reference "JP8") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "JP8") (unit 1) (value "Jumper") (footprint "shared_components:PinHeader_1x03_P2.54mm_Vertical_NoFP")
     )
     (path "/61296499-a85e-4b63-951f-443d32fe7d38"
       (reference "Q1") (unit 1) (value "BC856BDW1") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
