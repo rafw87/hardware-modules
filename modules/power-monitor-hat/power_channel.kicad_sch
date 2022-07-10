@@ -990,7 +990,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3328ecae-0710-4f87-b7ab-e1ff877ecfd0)
     (property "Reference" "R10" (id 0) (at 177.8 52.07 90))
-    (property "Value" "220R" (id 1) (at 180.34 52.07 90))
+    (property "Value" "470R" (id 1) (at 180.34 52.07 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 185.928 52.07 90)
       (effects (font (size 1.27 1.27)) hide)
     )

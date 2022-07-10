@@ -2623,7 +2623,7 @@
     (property "Reference" "C2" (id 0) (at 137.16 132.7149 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22u" (id 1) (at 137.16 135.2549 0)
+    (property "Value" "10u" (id 1) (at 137.16 135.2549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 134.3152 137.795 0)
@@ -2654,7 +2654,7 @@
     (property "Reference" "C3" (id 0) (at 162.56 132.7149 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22u" (id 1) (at 162.56 135.2549 0)
+    (property "Value" "10u" (id 1) (at 162.56 135.2549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 159.7152 137.795 0)
@@ -2885,7 +2885,7 @@
     (property "Value" "TestPoint" (id 1) (at 135.255 170.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (id 2) (at 144.78 177.8 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" (id 2) (at 144.78 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 144.78 177.8 0)
@@ -2916,7 +2916,7 @@
     (in_bom yes) (on_board yes)
     (uuid 3ebe71a8-33cd-4a83-abc8-b064b502ad7a)
     (property "Reference" "R4" (id 0) (at 141.224 50.038 0))
-    (property "Value" "220R" (id 1) (at 141.224 52.578 0))
+    (property "Value" "470R" (id 1) (at 141.224 52.578 0))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 146.812 50.038 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3214,7 +3214,7 @@
     (property "Value" "TestPoint" (id 1) (at 147.955 170.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (id 2) (at 157.48 177.8 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" (id 2) (at 157.48 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 157.48 177.8 0)
@@ -3323,7 +3323,7 @@
     (property "Value" "TestPoint" (id 1) (at 122.555 170.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (id 2) (at 132.08 177.8 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" (id 2) (at 132.08 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 132.08 177.8 0)
@@ -3385,7 +3385,7 @@
     (in_bom yes) (on_board yes)
     (uuid fb8a5447-fc31-4f17-800d-6b1f88a9811b)
     (property "Reference" "R3" (id 0) (at 128.27 48.895 0))
-    (property "Value" "220R" (id 1) (at 127.635 51.435 0))
+    (property "Value" "470R" (id 1) (at 127.635 51.435 0))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 133.858 49.53 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3639,10 +3639,10 @@
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/03e6e53e-2294-4c17-8562-f1d13ac7052a"
-      (reference "C2") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C2") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/0defe58a-c9b1-4a12-9196-1eca934131ff"
-      (reference "C3") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C3") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/7acdcd65-592b-4fae-a99e-c444a4b4e6be/1763cfc1-ab16-4cc7-8cff-020d06797821"
       (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -3726,10 +3726,10 @@
       (reference "R2") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/fb8a5447-fc31-4f17-800d-6b1f88a9811b"
-      (reference "R3") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R3") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/3ebe71a8-33cd-4a83-abc8-b064b502ad7a"
-      (reference "R4") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R4") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/510c400a-2410-46b0-a7fb-1072fc4f848b"
       (reference "R5") (unit 1) (value "3.9k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -3747,28 +3747,28 @@
       (reference "R9") (unit 1) (value "0R5") (footprint "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder")
     )
     (path "/7acdcd65-592b-4fae-a99e-c444a4b4e6be/3328ecae-0710-4f87-b7ab-e1ff877ecfd0"
-      (reference "R10") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R10") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/5773e18f-350c-4982-8a03-ea7374ba7702/1e56e336-29d0-480b-b322-a3d599057f32"
       (reference "R11") (unit 1) (value "0R5") (footprint "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder")
     )
     (path "/5773e18f-350c-4982-8a03-ea7374ba7702/3328ecae-0710-4f87-b7ab-e1ff877ecfd0"
-      (reference "R12") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R12") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/19fa45c1-8471-4c12-ac70-3f183c159f90/1e56e336-29d0-480b-b322-a3d599057f32"
       (reference "R13") (unit 1) (value "0R5") (footprint "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder")
     )
     (path "/19fa45c1-8471-4c12-ac70-3f183c159f90/3328ecae-0710-4f87-b7ab-e1ff877ecfd0"
-      (reference "R14") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R14") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/ea0ee2c9-885b-4c4e-992a-86782e1a690a"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded")
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
     )
     (path "/359d4095-7e08-4e54-945e-63f380a9ecd6"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded")
+      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
     )
     (path "/b9e161cf-bac5-49df-96d6-921605a35e99"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded")
+      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
     )
     (path "/019b9904-3bfd-4fd4-9d41-96b38c16849e"
       (reference "U1") (unit 1) (value "NCP1117-3.3_SOT223") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
