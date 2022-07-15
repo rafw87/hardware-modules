@@ -330,7 +330,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -499,5 +499,9 @@
       "PowerChannel 3"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "DISPLAY_NAME": "Power Monitor HAT",
+    "URL": "https://rafw87.github.io/power-monitor-hat",
+    "VERSION": "1.0"
+  }
 }

@@ -5,7 +5,10 @@
   (paper "A4")
 
   (title_block
+    (title "${DISPLAY_NAME}")
     (date "15 nov 2012")
+    (rev "v${VERSION}")
+    (comment 1 "URL: ${URL}")
   )
 
   (lib_symbols
@@ -2349,10 +2352,6 @@
     (uuid fc86abe0-4a38-4587-a2bc-3dc6520b3e63)
   )
 
-  (text "Additional pin functions:\nhttps://pinout.xyz/" (at 179.07 180.34 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 36e2c557-2c2a-4fba-9b6f-1167ab8ec281)
-  )
   (text "+5V power circuit" (at 59.69 115.57 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 425c92cf-acc4-4249-9984-a38f97516870)
