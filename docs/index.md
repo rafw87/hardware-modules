@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## Various hardware modules
 
-You can use the [editor on GitHub](https://github.com/rafw87/hardware-modules/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### [esp-prog-adapter](esp-prog-adapter)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Simple adapter allowing to connect [ESP-PROG board](https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html)
+to breadboard, using provided IDC cables (1.27mm pitch).
 
-### Markdown
+![esp-prog-adapter](esp-prog-adapter/docs/picture1.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### [ESP-32 board on Arduino footprint](modules/esp-32-board)
 
-# Header 1
-## Header 2
-### Header 3
+ESP-WROOM-32 (or ESP32-SOLO-1) development kit with Micro-USB port, DC Input and ESP-PROG interface,
+based on Arduino footprint.
 
-- Bulleted
-- List
+![ESP-32 board on Arduino footprint](modules/esp-32-board/docs/picture1.jpg)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### [NE555 Astable Circuit Breadboard Adapter](modules/ne555-astable-adapter)
 
-[Link](url) and ![Image](src)
-```
+This adapter implements common wiring for NE555 astable circuit, exposing pins for external R1, R2 and C1, and of course for VCC, GND and output.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rafw87/hardware-modules/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<a target="_blank" rel="noopener noreferrer" href="modules/ne555-astable-adapter/docs/ne555-astable-adapter-top.svg" class="rich-diff-level-one"><img src="modules/ne555-astable-adapter/docs/ne555-astable-adapter-top.svg" alt="NE555 Astable Circuit Breadboard Adapter" width="100%"></a>
