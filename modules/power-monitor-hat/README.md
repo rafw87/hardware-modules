@@ -10,10 +10,10 @@ Turns your Raspberry PI into 3-channel power monitor.
  - DC input for internal 5V source, it may be shorted with Raspberry's 5V or kept as separate circuit.
    There is a fuse and an "ideal diode" circuit protecting DC source when shorted.
  - LDO regulator for internal 3.3V source.
- - 5 LEDs:
+ - 4 LEDs:
    - PWR (connected to 5V bus)
-   - one programmable LED next to PWR (connected to GPIO23)
-   - 3 programmable LEDs, one for each channel (connected to GPIO17, GPIO27 and GPIO22 respectively)
+   - 3 LEDs, one for each channel, connected to channel's VIN
+ - Header for UART - to communicate with measured device
  - Test points for I2C
  
 ## Devices list
@@ -25,13 +25,6 @@ Turns your Raspberry PI into 3-channel power monitor.
 |  0x41  |  INA219  | Channel 2  
 |  0x42  |  INA219  | Channel 3  
 
-### GPIO
-   Pin     | Description 
-:---------:|:-----------:
-|  GPIO23  |  Board LED (may indicate for example that measurement is active)
-|  GPIO17  |  Channel 1 LED (may indicate for example the current flow on given channel, or overflow)
-|  GPIO27  |  Channel 2 LED
-|  GPIO22  |  Channel 3 LED
 
 ## Shunt resistor selection
 
@@ -49,7 +42,7 @@ $R_{shunt}$ | Absolute maximum current* | Maximum measurable current** | Maximum
 \* Maximum allowed current for (respecively) 0.75W and 1W rated resistor of given resistance. Remember to include some margin for safety purpose. Equation:
   $$I = \sqrt{P_{max} \over R_{shunt}}$$
 
-\** Maximum measurable ($PGA = /8$, $V_{pga} = \pm 320mV$) and recommended ($PGA = 1$, $V_{pga} = \pm 40mV$) current for given resistor. Equation:
+\** Maximum measurable ( $PGA = /8$, $V_{pga} = \pm 320mV$ ) and recommended ( $PGA = 1$, $V_{pga} = \pm 40mV$ ) current for given resistor. Equation:
   $$I = {V_{pga} \over R_{shunt}}$$
 
 
