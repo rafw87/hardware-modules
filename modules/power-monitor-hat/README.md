@@ -1,20 +1,21 @@
 # Power monitor HAT
 
-Turns your Raspberry PI into 3-channel power monitor.
+Turns your Raspberry PI into 3-channel voltage and current monitor for other devices.
 
 ## Features
  - 3 separate channels, each with own INA219 chip and shunt resistor (see below for resistor selection)
  - Different possible power sources (controlled by jumpers):
-   - external (separate input for each channel)
-   - internal 5V or 3.3V, powered from common DC input (5V) or optionally from Raspberry's 5V.
- - DC input for internal 5V source, it may be shorted with Raspberry's 5V or kept as separate circuit.
-   There is a fuse and an "ideal diode" circuit protecting DC source when shorted.
- - LDO regulator for internal 3.3V source.
+   - external (separate input for each channel), provided on screw terminal,
+   - internal 5V from common DC input
+     - may be shorted to Raspberry's 5V pin using solderjumper on the bottom or left as separate circuit,
+   - internal 3.3V - powered from 5V using internal LDO regulator
+ - Fuse and an "ideal diode" circuit protecting DC source when shorted.
  - 4 LEDs:
    - PWR (connected to 5V bus)
-   - 3 LEDs, one for each channel, connected to channel's VIN
+   - 3 LEDs, one for each channel, connected to selected channel's power source
  - Header for UART - to communicate with measured device
  - Test points for I2C
+ - Standard ID EEPROM from [hat specification](https://github.com/raspberrypi/hats)
  
 ## Devices list
 
@@ -48,7 +49,7 @@ $R_{shunt}$ | Absolute maximum current* | Maximum measurable current** | Maximum
 
 ### Voltage drop
 
-$R_{shunt}$ / $I$ | 0.1A  | 0.2A  | 0.5A  | 1A     | 2A
+$R_{shunt}$       | 0.1A  | 0.2A  | 0.5A  | 1A     | 2A
 :----------------:|:-----:|:-----:|:-----:|:------:|:----:
 |  0.1Ω           | 0.01V | 0.02V | 0.05V | 0.10V  | 0.20V
 |  0.2Ω           | 0.02V | 0.04V | 0.10V | 0.20V  | 0.40V
